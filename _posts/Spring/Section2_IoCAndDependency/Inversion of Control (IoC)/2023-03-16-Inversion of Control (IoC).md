@@ -81,7 +81,7 @@ You don't have to build the car.
 
 - There are multiple types of injection with Spring
 
-- We will cover the two recommended types of injection
+- You will cover the two recommended types of injection
   
   - Constructor Injection
   

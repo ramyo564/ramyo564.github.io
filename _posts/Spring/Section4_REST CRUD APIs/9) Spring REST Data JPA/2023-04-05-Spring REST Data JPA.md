@@ -81,9 +81,20 @@ public class EmployeeServiceImpl implements EmployeeService {
 }
 ```
 
+![](https://i.imgur.com/guZbSj3.png)
+
+
 ## Minimized Boilerplate Code
-> - Before Spring Data JPA -> 2 Files , 30+ lines of code
-> - After Spring Data JPA -> 1 File, 3 lines of code! ,Plus no need for implementation class
+- Before Spring Data JPA
+	- We'd create our Interface for given entity
+	- We'd write our repository or our DAO implementation
+> 2 Files , 30+ lines of code
+
+- After Spring Data JPA
+	- We create this interface employee repository
+>- 1 File, 3 lines of code!
+>-  No need for implementation class
+
 
 ## Advanced Features
 - Advanced features available for 
@@ -148,3 +159,5 @@ public class EmployeeServiceImpl implements EmployeeService {
     }  
 }
 ```
+
+출처 luv2code.com

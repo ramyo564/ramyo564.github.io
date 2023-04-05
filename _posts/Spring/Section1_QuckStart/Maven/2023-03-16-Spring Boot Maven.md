@@ -142,7 +142,7 @@ Version ->  A specific release version like : 1.0 , 1.6 ....
 
 ## Dependency Coordinates
 
-- To add given dependency project, we need
+- To add given dependency project, You need
   
   - Group ID, Articat ID
   

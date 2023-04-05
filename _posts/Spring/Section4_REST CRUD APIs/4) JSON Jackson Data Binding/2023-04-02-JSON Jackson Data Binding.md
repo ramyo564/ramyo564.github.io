@@ -89,3 +89,5 @@ REST CRUD APIs(4)
 - JSON data being passed to REST controller is converted to Java POJO
 - Java POJO being returned from REST controller is converted to JSON
 	- Spring Boot Starter Web automatically includes dependency for Jackson
+
+출처 luv2code.com
