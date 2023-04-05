@@ -124,3 +124,4 @@ const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]; const sum1 = numbers.reduce((ac
 https://tocomo.tistory.com/26
 
 출처 : 프로그래머스, https://wikidocs.net/21113
+11

@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237.5046501159668,
-    "collapsed": true
+    "width": 237.5046501159668
   },
   "right": {
     "id": "3b2593f41b8f88cb",
@@ -147,7 +146,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "af0408d3bb014810",
+  "active": "d9caa9d73e429202",
   "lastOpenFiles": [
     "Lv.0/Day_2/2023-04-01-fraction.md",
     "Lv.0/Day_2/2023-04-01-division.md",
