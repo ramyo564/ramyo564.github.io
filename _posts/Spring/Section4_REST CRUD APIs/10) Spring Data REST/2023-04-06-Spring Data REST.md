@@ -10,7 +10,7 @@ sidebar:
 
 ---
 # Spring Data REST
-REST CRUD APIs(9)
+REST CRUD APIs(10)
 
 ## Spring Data JPA
 - Earlier, We saw the magic of Spring Data JPA
@@ -126,9 +126,10 @@ For Spring Data REST, you only need 3 items
 	- Think of it as meta-data for REST data
 - Spring Data REST response using HATEOAS
 - For example REST response from : GET / employees / 3
-- pic
+- Then it'll return the JSON data as a response
 - For a collection, meta-data includes page size, total elements, pages etc
 - For example REST response from: GET / employees
+- 133pic 07..IFIW
 
 ## Advanced Features
 - Spring Data REST advanced features

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lv.0/Lv_0/2023-04-06-sum reminder.md",
+                "file": "Lv.0/Day_2/2023-04-01-fraction.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lv.0/Lv_0/2023-04-06-sum reminder.md",
+                "file": "Lv.0/Day_2/2023-04-01-fraction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lv.0/Lv_0/2023-04-06-sum reminder.md",
+                "file": "Lv.0/Day_2/2023-04-01-fraction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lv.0/Lv_0/2023-04-06-sum reminder.md"
+                "file": "Lv.0/Day_2/2023-04-01-fraction.md"
               }
             }
           }
@@ -160,12 +160,12 @@
   },
   "active": "b3d99b9dfa65e1b9",
   "lastOpenFiles": [
-    "Lv.0/Lv_0/2023-04-06-protractor.md",
-    "Lv.0/Lv_0/2023-04-06-sum reminder.md",
-    "Lv.0/Lv_0/2023-04-06-reminder.md",
     "Lv.0/Day_2/2023-04-05-2times array.md",
     "Lv.0/2023-04-06-temp.md",
+    "Lv.0/Lv_0/2023-04-06-sum reminder.md",
+    "Lv.0/Lv_0/2023-04-06-reminder.md",
     "Lv.0/Lv_0/2023-04-06-print age.md",
+    "Lv.0/Lv_0/2023-04-06-protractor.md",
     "Lv.0/Lv_0",
     "Lv.0/Day_2/2023-04-01-fraction.md",
     "Lv.0/Day_2/2023-04-01-division.md",

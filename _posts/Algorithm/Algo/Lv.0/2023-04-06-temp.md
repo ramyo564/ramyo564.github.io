@@ -20,7 +20,6 @@ sidebar:
 ## Java
 
 ```java
-// 내가푼답 -> 오답 -> 배열크기에 대해서 몰랐음
 class Solution {
     public int solution(int age) {
         int answer = 2022 - age + 1;

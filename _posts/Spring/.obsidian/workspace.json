@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "46782bb860f2e2b5",
+        "id": "45ca292aff0b8bdb",
         "type": "tabs",
         "children": [
           {
-            "id": "4b9c227e9759f535",
+            "id": "485474ada67b24d4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Section4_REST CRUD APIs/10) Spring Data REST/2023-04-06-Spring Data REST.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bcaba9ce0b9644cb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Section4_REST CRUD APIs/11) Spring Data REST Configuration, Pagination and Sorting/2023-04-06-Spring Data REST Configuration, Pagination and Sorting.md",
+                "file": "Section5_Spring_Boot_REST_API_Security/3) User Accounts Stored in Database/2023-04-06-User Accounts Stored in Database.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -61,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "we",
+                "query": "pic",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -99,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Section4_REST CRUD APIs/11) Spring Data REST Configuration, Pagination and Sorting/2023-04-06-Spring Data REST Configuration, Pagination and Sorting.md",
+                "file": "Section5_Spring_Boot_REST_API_Security/3) User Accounts Stored in Database/2023-04-06-User Accounts Stored in Database.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -116,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Section4_REST CRUD APIs/11) Spring Data REST Configuration, Pagination and Sorting/2023-04-06-Spring Data REST Configuration, Pagination and Sorting.md",
+                "file": "Section5_Spring_Boot_REST_API_Security/3) User Accounts Stored in Database/2023-04-06-User Accounts Stored in Database.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Section4_REST CRUD APIs/11) Spring Data REST Configuration, Pagination and Sorting/2023-04-06-Spring Data REST Configuration, Pagination and Sorting.md"
+                "file": "Section5_Spring_Boot_REST_API_Security/3) User Accounts Stored in Database/2023-04-06-User Accounts Stored in Database.md"
               }
             }
           },
@@ -169,13 +156,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bcaba9ce0b9644cb",
+  "active": "485474ada67b24d4",
   "lastOpenFiles": [
+    "Section5_Spring_Boot_REST_API_Security/1) REST API security/2023-04-06-Spring Boot REST API Security.md",
+    "Section5_Spring_Boot_REST_API_Security/2) Configuring Basic Security/2023-04-06-Configuring Basic Security.md",
+    "Section5_Spring_Boot_REST_API_Security/3) User Accounts Stored in Database/2023-04-06-User Accounts Stored in Database.md",
+    "Section5_Spring_Boot_REST_API_Security/3) User Accounts Stored in Database",
     "Section4_REST CRUD APIs/10) Spring Data REST/2023-04-06-Spring Data REST.md",
+    "Section5_Spring_Boot_REST_API_Security/2) Configuring Basic Security",
     "Section4_REST CRUD APIs/11) Spring Data REST Configuration, Pagination and Sorting/2023-04-06-Spring Data REST Configuration, Pagination and Sorting.md",
-    "Section4_REST CRUD APIs/11) Spring Data REST Configuration, Pagination and Sorting",
-    "Section4_REST CRUD APIs/9) Spring REST Data JPA/2023-04-05-Spring REST Data JPA.md",
+    "Section5_Spring_Boot_REST_API_Security/1) REST API security",
     "Section4_REST CRUD APIs/8) Spring REST API Design/2023-04-03-Spring REST API Design.md",
+    "Section4_REST CRUD APIs/9) Spring REST Data JPA/2023-04-05-Spring REST Data JPA.md",
+    "Section5_Spring_Boot_REST_API_Security",
+    "Section4_REST CRUD APIs/11) Spring Data REST Configuration, Pagination and Sorting",
     "Section4_REST CRUD APIs/1) What are REST Services/2023-04-01-What are REST Services.md",
     "Section4_REST CRUD APIs/2) Spring Boot REST HTTP/2023-04-01-Spring Boot REST HTTP.md",
     "Section4_REST CRUD APIs/3) Spring Boot REST Controller/2023-04-02-Spring Boot REST Controller.md",
@@ -193,20 +187,13 @@
     "Section4_REST CRUD APIs/8) Spring REST API Design",
     "Section4_REST CRUD APIs/7) Spring REST Global Exception Handling",
     "Section4_REST CRUD APIs/6) Spring REST - Exception Handling",
-    "Section4_REST CRUD APIs/5) Spring REST - Path Variables",
-    "Section4_REST CRUD APIs/4) JSON Jackson Data Binding",
     "Section3_DatabaseAccessWithHibernate_JPA_CRUD/9) Create Database Tables from Java Code/2023-03-30-Create Database Tables from Java Code.md",
-    "Section4_REST CRUD APIs/3) Spring Boot REST Controller",
-    "Section4_REST CRUD APIs/2) Spring Boot REST HTTP",
     "Section3_DatabaseAccessWithHibernate_JPA_CRUD/6) Querying Objects with JPA/2023-03-30-Querying Objects with JPA.md",
     "Section3_DatabaseAccessWithHibernate_JPA_CRUD/8) Deleteing Objects with JPA/2023-03-30-Deleteing Objects with JPA.md",
     "Section3_DatabaseAccessWithHibernate_JPA_CRUD/Primary Keys---/2023-03-30-Primary keys.md",
     "Section3_DatabaseAccessWithHibernate_JPA_CRUD/7) Updating Objects with JPA/2023-03-30-Updating Objects with JPA.md",
     "Section3_DatabaseAccessWithHibernate_JPA_CRUD/5) Reading Objects with JPA/2023-03-30-Reading Objects with JPA.md",
     "Section3_DatabaseAccessWithHibernate_JPA_CRUD/4) Saving a Java Object with JPA/2023-03-30-Saving a Java Object with JPA.md",
-    "Section3_DatabaseAccessWithHibernate_JPA_CRUD/Transactions with JPA/2023-03-30-Transactions with JPA.md",
-    "Section3_DatabaseAccessWithHibernate_JPA_CRUD/3) JPA Annotations/2023-03-29-JPA Annotations.md",
-    "Section3_DatabaseAccessWithHibernate_JPA_CRUD/1) Hibernare_JPA_Overview/2023-03-29-Hibernate JPA Overview.md",
     "2023-03-17-21-19-32-image.png"
   ]
 }

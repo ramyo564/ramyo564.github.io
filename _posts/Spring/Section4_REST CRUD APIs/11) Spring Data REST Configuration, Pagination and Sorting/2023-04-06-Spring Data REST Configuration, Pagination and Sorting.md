@@ -2,7 +2,7 @@
 layout: single
 title: "Spring Data REST Configuration, Pagination and Sorting"
 categories: Spring
-tag: [Java,REST,"Data REST",HATEOAS,"@RepositoryRestResource"]
+tag: [Java,REST,"Data REST",HATEOAS,"@RepositoryRestResource","REST Pagination Soritng"]
 toc: true
 toc_sticky: true
 author_profile: false
@@ -11,6 +11,7 @@ sidebar:
 ---
 
 # REST Endpoints
+REST CRUD APIs(11)
 - By default, Spring Data REST will create endpoints based on entity type
 - Simple pluralized form
 	- First character of Entity type is lowercase
