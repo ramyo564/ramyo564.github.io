@@ -2,7 +2,7 @@
 layout: single
 title: "Spring Data REST"
 categories: Spring
-tag: [Java,REST,"Data REST"]
+tag: [Java,REST,"Data REST",HATEOAS]
 toc: true
 toc_sticky: true
 author_profile: false
@@ -79,6 +79,8 @@ public interface EmployeeRepository extends JpaRepository<Employee, Integer>{
 >- Absolutely NO CODING required
 
 ### Step 1: Add Spring Data REST to POM file
+![](https://i.imgur.com/oUMFSl4.png)
+
 ```java
 <dependency>
 	<groupId>org.springframework.boot</gropId>
@@ -86,6 +88,10 @@ public interface EmployeeRepository extends JpaRepository<Employee, Integer>{
 </dependency>
 ```
 >Spring Data REST will scan for JPARepository
+
+![](https://i.imgur.com/naaHTHk.png)
+
+![](https://i.imgur.com/s5MDtlx.png)
 
 
 ## In A Nutshell
@@ -129,3 +135,4 @@ For Spring Data REST, you only need 3 items
 	- Pagination, sorting and searching
 	- Extending and adding custom queries with JPQL
 	- Query Domain Specific Language(Query DSL)
+

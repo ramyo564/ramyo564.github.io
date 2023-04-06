@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "bcaba9ce0b9644cb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Section4_REST CRUD APIs/11) Spring Data REST Configuration, Pagination and Sorting/2023-04-06-Spring Data REST Configuration, Pagination and Sorting.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 309.5046501159668
+    "width": 309.5046501159668,
+    "collapsed": true
   },
   "right": {
     "id": "3c82fc008517e921",
@@ -85,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Section4_REST CRUD APIs/10) Spring Data REST/2023-04-06-Spring Data REST.md",
+                "file": "Section4_REST CRUD APIs/11) Spring Data REST Configuration, Pagination and Sorting/2023-04-06-Spring Data REST Configuration, Pagination and Sorting.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -102,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Section4_REST CRUD APIs/10) Spring Data REST/2023-04-06-Spring Data REST.md",
+                "file": "Section4_REST CRUD APIs/11) Spring Data REST Configuration, Pagination and Sorting/2023-04-06-Spring Data REST Configuration, Pagination and Sorting.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Section4_REST CRUD APIs/10) Spring Data REST/2023-04-06-Spring Data REST.md"
+                "file": "Section4_REST CRUD APIs/11) Spring Data REST Configuration, Pagination and Sorting/2023-04-06-Spring Data REST Configuration, Pagination and Sorting.md"
               }
             }
           },
@@ -155,10 +169,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d1f38cd97009ee7b",
+  "active": "bcaba9ce0b9644cb",
   "lastOpenFiles": [
-    "Section4_REST CRUD APIs/9) Spring REST Data JPA/2023-04-05-Spring REST Data JPA.md",
     "Section4_REST CRUD APIs/10) Spring Data REST/2023-04-06-Spring Data REST.md",
+    "Section4_REST CRUD APIs/11) Spring Data REST Configuration, Pagination and Sorting/2023-04-06-Spring Data REST Configuration, Pagination and Sorting.md",
+    "Section4_REST CRUD APIs/11) Spring Data REST Configuration, Pagination and Sorting",
+    "Section4_REST CRUD APIs/9) Spring REST Data JPA/2023-04-05-Spring REST Data JPA.md",
     "Section4_REST CRUD APIs/8) Spring REST API Design/2023-04-03-Spring REST API Design.md",
     "Section4_REST CRUD APIs/1) What are REST Services/2023-04-01-What are REST Services.md",
     "Section4_REST CRUD APIs/2) Spring Boot REST HTTP/2023-04-01-Spring Boot REST HTTP.md",
@@ -183,7 +199,6 @@
     "Section4_REST CRUD APIs/3) Spring Boot REST Controller",
     "Section4_REST CRUD APIs/2) Spring Boot REST HTTP",
     "Section3_DatabaseAccessWithHibernate_JPA_CRUD/6) Querying Objects with JPA/2023-03-30-Querying Objects with JPA.md",
-    "Section4_REST CRUD APIs/1) What are REST Services",
     "Section3_DatabaseAccessWithHibernate_JPA_CRUD/8) Deleteing Objects with JPA/2023-03-30-Deleteing Objects with JPA.md",
     "Section3_DatabaseAccessWithHibernate_JPA_CRUD/Primary Keys---/2023-03-30-Primary keys.md",
     "Section3_DatabaseAccessWithHibernate_JPA_CRUD/7) Updating Objects with JPA/2023-03-30-Updating Objects with JPA.md",
@@ -192,7 +207,6 @@
     "Section3_DatabaseAccessWithHibernate_JPA_CRUD/Transactions with JPA/2023-03-30-Transactions with JPA.md",
     "Section3_DatabaseAccessWithHibernate_JPA_CRUD/3) JPA Annotations/2023-03-29-JPA Annotations.md",
     "Section3_DatabaseAccessWithHibernate_JPA_CRUD/1) Hibernare_JPA_Overview/2023-03-29-Hibernate JPA Overview.md",
-    "Section2_IoCAndDependency/Bean Lifecycle Methods/2023-03-29-Bean lifecycle Methods.md",
     "2023-03-17-21-19-32-image.png"
   ]
 }
