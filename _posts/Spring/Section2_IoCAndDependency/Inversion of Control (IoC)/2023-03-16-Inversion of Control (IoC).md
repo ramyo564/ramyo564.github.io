@@ -23,7 +23,8 @@ And that's the big idea of Inversion of Control.
 
 ## Spring Container
 
-![Spring - IoC-Page-1.drawio 1.png](/images/2022-03-16-Inversion of Control (IoC)/6a07f695e7826d193a2afcb1729ef147e6572ac7.png)
+![](https://i.imgur.com/PTOntie.png)
+
 
 - Primary functions
   
@@ -49,7 +50,8 @@ And that's the big idea of Inversion of Control.
 
 ### Dependency inversion Injection
 
-![Spring - IoC-페이지-2.drawio.png](/images/2022-03-16-Inversion%20of%20Control%20(IoC)/0b1dffb9a2bec34a68d433443a8f99c0e5114260.png)
+![](https://i.imgur.com/MQlVMwA.png)
+
 
 그림으로 설명하면 이런 개념이다.
 내가 직접 자동차를 생산하지는 않는다.
@@ -59,9 +61,10 @@ In this case, That's the car factory.
 They inject the engine, tires and so on for you.
 You don't have to build the car.
 
-![Spring - IoC-Page-1.drawio (1) 1.png](/images/2022-03-16-Inversion%20of%20Control%20(IoC)/db9017c5c5fd753754c32159c150db03cb104293.png)
+![](https://i.imgur.com/7LKLUiz.png)
 
-![Pasted image 20230303054847.png](/images/2022-03-16-Inversion%20of%20Control%20(IoC)/5dcaa5756b8e65ee6a01683f49865f19976ebf51.png)
+![](https://i.imgur.com/FlYGO0o.png)
+
 
 ## Demo Example
 
@@ -75,7 +78,8 @@ You don't have to build the car.
 
 - Need to ***inject*** this ***dependency***
 
-![](/images/2023-03-16-Inversion%20of%20Control%20(IoC)/2023-03-22-22-55-44-image.png)
+![](https://i.imgur.com/b9uyzsu.png)
+
 
 ## Injection Types
 
@@ -123,7 +127,8 @@ You don't have to build the car.
 
 ### Example Application
 
-![](/images/2023-03-16-Inversion%20of%20Control%20(IoC)/2023-03-22-23-10-53-image.png)
+![](https://i.imgur.com/snTk5Nk.png)
+
 
 ## Development Process - Constructor Injection
 
@@ -235,7 +240,9 @@ public class DemoController {
 }
 ```
 
-![](/images/2023-03-16-Inversion%20of%20Control%20(IoC)/2023-03-23-02-51-23-image.png)
+![](https://i.imgur.com/6m9TxGd.png)
+
+
 
 참고로 no usages 는 무시해도 된다.
 

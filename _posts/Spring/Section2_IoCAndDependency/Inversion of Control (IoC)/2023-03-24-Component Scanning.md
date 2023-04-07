@@ -29,8 +29,11 @@ sidebar:
 ## Annotations
 
 - @SpringBootApplication is composed of the following annotations:
-  
-  ![](/images/2023-03-24-Constructor%20Scanning/2023-03-24-05-13-30-image.png)
+
+
+
+![](https://i.imgur.com/1znwcQW.png)
+
 
 - Behind the scenes ...
   
@@ -51,12 +54,17 @@ sidebar:
   - Allows you to leverage default component scanning
   
   - No need to explicitly reference the base package name
-  
-  ![](/images/2023-03-24-Constructor%20Scanning/2023-03-24-05-19-39-image.png)
+
+
+
+  ![](https://i.imgur.com/s0xQyUn.png)
+
+
   
   - 요약- >기본적으로 같은 패키지에서 스캔후 자동적으로 다른 패키지들도 알아서 스캔함
-  
-  ![](/images/2023-03-24-Constructor%20Scanning/2023-03-24-05-22-16-image.png)
+
+![](https://i.imgur.com/Cq2ETcW.png)
+
   
   - 하지만 위에 그림처럼 위치가 다르면 안됨
   
@@ -87,6 +95,7 @@ package com.luv2code.springdemo;
 )
 ```
 
-![](/images/2023-03-24-Constructor%20Scanning/2023-03-24-06-03-21-image.png)
+![](https://i.imgur.com/jIdEPoS.png)
+
 
 - scanBasePackages = {"중괄호"} 

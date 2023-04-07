@@ -43,22 +43,20 @@ sidebar:
 ```
 
 - 근데 IntelliJ 무료 버전은 DevTools 기본으로 제공 안해줌..
-
 - Mac 은 Preferences -> Build, Execution, Deployment > Compiler
-
 - Window 는 File -> Settings -> Build, Execution, Deployment > Compiler
-  
   - Check box: Build project automatically
-    
-    ![](/images/2023-03-17-Spring%20Boot%20Dev%20Tools/2023-03-17-20-37-34-image.png)
+
+
+![](https://i.imgur.com/XnbBQNm.png)
 
 - Additional setting
-
 - Select: Preferences -> Advanced Settings
-  
   - Check box : Allow auto-make-to ..
+
+  ![](https://i.imgur.com/LYrporD.png)
+
   
-  ![](/images/2023-03-17-Spring%20Boot%20Dev%20Tools/2023-03-17-20-39-29-image.png)
 
 이렇게 2개 체크하고 밑에 코드 pom.xml에 추가해 주면 끝 (새로고침 잊지말기)
 

@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "45ca292aff0b8bdb",
+        "id": "847b457d506290ae",
         "type": "tabs",
         "children": [
           {
-            "id": "485474ada67b24d4",
+            "id": "9bba08ea0500c45f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Section5_Spring_Boot_REST_API_Security/3) User Accounts Stored in Database/2023-04-06-User Accounts Stored in Database.md",
+                "file": "Section2_IoCAndDependency/Java Config Bean/2023-03-29-Java Config Bean.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "pic",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 309.5046501159668,
-    "collapsed": true
+    "width": 309.5046501159668
   },
   "right": {
     "id": "3c82fc008517e921",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Section5_Spring_Boot_REST_API_Security/3) User Accounts Stored in Database/2023-04-06-User Accounts Stored in Database.md",
+                "file": "Section2_IoCAndDependency/Java Config Bean/2023-03-29-Java Config Bean.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Section5_Spring_Boot_REST_API_Security/3) User Accounts Stored in Database/2023-04-06-User Accounts Stored in Database.md",
+                "file": "Section2_IoCAndDependency/Java Config Bean/2023-03-29-Java Config Bean.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Section5_Spring_Boot_REST_API_Security/3) User Accounts Stored in Database/2023-04-06-User Accounts Stored in Database.md"
+                "file": "Section2_IoCAndDependency/Java Config Bean/2023-03-29-Java Config Bean.md"
               }
             }
           },
@@ -156,44 +155,44 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "485474ada67b24d4",
+  "active": "9bba08ea0500c45f",
   "lastOpenFiles": [
-    "Section5_Spring_Boot_REST_API_Security/1) REST API security/2023-04-06-Spring Boot REST API Security.md",
-    "Section5_Spring_Boot_REST_API_Security/2) Configuring Basic Security/2023-04-06-Configuring Basic Security.md",
+    "Section2_IoCAndDependency/Inversion of Control (IoC)/2023-03-24-Setter Injection.md",
+    "Section2_IoCAndDependency/Inversion of Control (IoC)/2023-03-24-Field Injection.md",
+    "Section2_IoCAndDependency/Inversion of Control (IoC)/2023-03-24-Component Scanning.md",
+    "Section2_IoCAndDependency/Inversion of Control (IoC)/2023-03-24-Compare Injection.md",
+    "Section2_IoCAndDependency/Inversion of Control (IoC)/2023-03-23-Constructor Injection.md",
+    "Section2_IoCAndDependency/Inversion of Control (IoC)/2023-03-16-Inversion of Control (IoC).md",
+    "images/2023-03-23-Constructor Injection/2023-03-23-03-29-29-image.png.md",
+    "images/2023-03-23-Constructor Injection",
+    "images",
+    "Section2_IoCAndDependency/Bean Lifecycle Methods/2023-03-29-Bean lifecycle Methods.md",
+    "Section2_IoCAndDependency/Bean Scopes/2023-03-28-Beans Scopes.md",
+    "Section3_DatabaseAccessWithHibernate_JPA_CRUD/1) Hibernare_JPA_Overview/2023-03-29-Hibernate JPA Overview.md",
+    "Section2_IoCAndDependency/Qualifiers/2023-03-24-Annotation Autowiring and Qualifiers.md",
+    "Section2_IoCAndDependency/Primary/2023-03-28-@Primary annotation.md",
+    "Section2_IoCAndDependency/Lazy Initialization/2023-03-28-Lazy Initialization.md",
+    "Section2_IoCAndDependency/Java Config Bean/2023-03-29-Java Config Bean.md",
+    "images/2023-03-24-Constructor Scanning/2023-03-24-05-19-39-image.png.md",
+    "images/2023-03-24-Constructor Scanning",
+    "Section1_QuckStart/Maven/2023-03-16-Spring Boot Maven.md",
+    "Section1_QuckStart/Initializr/2023-03-17-Spring Initializr.md",
+    "images/2023-03-17-Spring Initializr/2023-03-17-18-35-59-image.png.md",
+    "images/2023-03-17-Spring Initializr",
+    "Section1_QuckStart/DevTools/2023-03-17-Spring Boot DevTools.md",
+    "Section1_QuckStart/Command_Line/2023-03-21-Run Spring Boot apps from the Command Line.md",
+    "Section1_QuckStart/Beans/2023-03-16-Spring Framework Overview(Bean).md",
+    "Section1_QuckStart/Application_Properties & Server/2023-03-22-Spring Boot Properties & Server copy.md",
+    "Section1_QuckStart/Application_Properties & Server/2023-03-22-Custom Application Properties.md",
+    "Section1_QuckStart/Actuator/2023-03-17-Spring Boot Actuator.md",
     "Section5_Spring_Boot_REST_API_Security/3) User Accounts Stored in Database/2023-04-06-User Accounts Stored in Database.md",
+    "Section5_Spring_Boot_REST_API_Security/1) REST API security/2023-04-06-Spring Boot REST API Security.md",
     "Section5_Spring_Boot_REST_API_Security/3) User Accounts Stored in Database",
-    "Section4_REST CRUD APIs/10) Spring Data REST/2023-04-06-Spring Data REST.md",
     "Section5_Spring_Boot_REST_API_Security/2) Configuring Basic Security",
-    "Section4_REST CRUD APIs/11) Spring Data REST Configuration, Pagination and Sorting/2023-04-06-Spring Data REST Configuration, Pagination and Sorting.md",
     "Section5_Spring_Boot_REST_API_Security/1) REST API security",
-    "Section4_REST CRUD APIs/8) Spring REST API Design/2023-04-03-Spring REST API Design.md",
-    "Section4_REST CRUD APIs/9) Spring REST Data JPA/2023-04-05-Spring REST Data JPA.md",
     "Section5_Spring_Boot_REST_API_Security",
     "Section4_REST CRUD APIs/11) Spring Data REST Configuration, Pagination and Sorting",
-    "Section4_REST CRUD APIs/1) What are REST Services/2023-04-01-What are REST Services.md",
-    "Section4_REST CRUD APIs/2) Spring Boot REST HTTP/2023-04-01-Spring Boot REST HTTP.md",
-    "Section4_REST CRUD APIs/3) Spring Boot REST Controller/2023-04-02-Spring Boot REST Controller.md",
-    "Section4_REST CRUD APIs/4) JSON Jackson Data Binding/2023-04-02-JSON Jackson Data Binding.md",
-    "Section4_REST CRUD APIs/5) Spring REST - Path Variables/2023-04-02-Spring REST Path Variables.md",
-    "Section4_REST CRUD APIs/6) Spring REST - Exception Handling/2023-04-02-6) Spring REST Exception Handling.md",
-    "Section4_REST CRUD APIs/7) Spring REST Global Exception Handling/2023-04-03-Spring REST Global Exception Handling.md",
-    "Section1_QuckStart/Beans/2023-03-16-Spring Framework Overview(Bean).md",
-    "Section1_QuckStart/Maven/2023-03-16-Spring Boot Maven.md",
-    "Section2_IoCAndDependency/Inversion of Control (IoC)/2023-03-16-Inversion of Control (IoC).md",
-    "Others/2023-03-16-@Autowired, @Resource and @Inject.md",
     "Section4_REST CRUD APIs/10) Spring Data REST",
-    "Section3_DatabaseAccessWithHibernate_JPA_CRUD/2) Setting Up Development Environment/2023-03-29-Setting Up Development Environment.md",
-    "Section4_REST CRUD APIs/9) Spring REST Data JPA",
-    "Section4_REST CRUD APIs/8) Spring REST API Design",
-    "Section4_REST CRUD APIs/7) Spring REST Global Exception Handling",
-    "Section4_REST CRUD APIs/6) Spring REST - Exception Handling",
-    "Section3_DatabaseAccessWithHibernate_JPA_CRUD/9) Create Database Tables from Java Code/2023-03-30-Create Database Tables from Java Code.md",
-    "Section3_DatabaseAccessWithHibernate_JPA_CRUD/6) Querying Objects with JPA/2023-03-30-Querying Objects with JPA.md",
-    "Section3_DatabaseAccessWithHibernate_JPA_CRUD/8) Deleteing Objects with JPA/2023-03-30-Deleteing Objects with JPA.md",
-    "Section3_DatabaseAccessWithHibernate_JPA_CRUD/Primary Keys---/2023-03-30-Primary keys.md",
-    "Section3_DatabaseAccessWithHibernate_JPA_CRUD/7) Updating Objects with JPA/2023-03-30-Updating Objects with JPA.md",
-    "Section3_DatabaseAccessWithHibernate_JPA_CRUD/5) Reading Objects with JPA/2023-03-30-Reading Objects with JPA.md",
-    "Section3_DatabaseAccessWithHibernate_JPA_CRUD/4) Saving a Java Object with JPA/2023-03-30-Saving a Java Object with JPA.md",
     "2023-03-17-21-19-32-image.png"
   ]
 }

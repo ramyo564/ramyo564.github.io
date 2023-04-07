@@ -31,7 +31,8 @@ sidebar:
 
 - Becuase Spring Boot apps are self-contained !
 
-![](/images/2023-03-21-ssss/2023-03-21-20-03-35-image.png)
+![](https://i.imgur.com/QgitMgd.png)
+
 
 ## Two options for running the app
 

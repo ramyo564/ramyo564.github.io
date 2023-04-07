@@ -17,7 +17,9 @@ Spring Initializr created a maven.
 
 ## Maven Standard Directory Structure
 
-![](/images/2023-03-17-Spring%20Initializr/2023-03-17-18-35-59-image.png)
+
+![](https://i.imgur.com/GZMkZ1Y.png)
+
 
 ## Maven Wrapper files
 
@@ -91,7 +93,10 @@ Spring Initializr created a maven.
 
 - By default, Spring Boot will load properties from: application.properties
 
-![](/images/2023-03-17-Spring%20Initializr/2023-03-17-18-51-58-image.png)
+
+
+![](https://i.imgur.com/yQjJtZ0.png)
+
 
 - Created by Spring initializr
   
@@ -130,7 +135,7 @@ coach.name = Micky Mouse
 
 ## Static Content
 
-![](/images/2023-03-17-Spring%20Initializr/2023-03-17-18-58-39-image.png)
+![](https://i.imgur.com/ZCtF0Mq.png)
 
 - By default, Spring Boot will load static resources from "/static" directory
 

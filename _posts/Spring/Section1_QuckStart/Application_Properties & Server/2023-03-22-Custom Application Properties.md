@@ -63,11 +63,12 @@ public class FunrestController {
 ```
 
 ### Result
+![](https://i.imgur.com/ShkjYor.png)
 
-![](/images/2023-03-22-sss/2023-03-22-16-16-59-image.png)
 
-<img title="" src="../images/2023-03-22-sss/2023-03-22-16-17-14-image.png" alt="" width="458">
+![](https://i.imgur.com/xBM7AE9.png)
 
-![](/images/2023-03-22-sss/2023-03-22-16-17-33-image.png)
+![](https://i.imgur.com/Ie7Pj3R.png)
+
 
 출처 : 유데미, luv2code.com

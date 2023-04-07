@@ -44,6 +44,7 @@ sidebar:
 - Automatically exposes endpoints for metrics out of the box
 
 - Endpoints are prefixed with : **/actuator**
+
   
 ![](https://i.imgur.com/SRIlJKp.png)
 
@@ -98,10 +99,12 @@ management.endpoints.web.exposure.include= *
 - **/info** gives information about your application
 
 - Default is empty
-  
+
+
 ![](https://i.imgur.com/LAwkciO.png)
 
 - Update **application.properties** with your app info
+
 ```java
 File: src/main/resources/application.properties
 
@@ -113,12 +116,15 @@ info.app.version = ***1.0.0***
 
 -> Properties starting with "info." will be used by /info
 
+
+
 ![](https://i.imgur.com/AzWf2dr.png)
 
 
 ## Spring Boot Actuator Endpoints
 
 - There are 10+ Spring Boot Actuator endpoints
+
 
 ![](https://i.imgur.com/TRt86p6.png)
 
@@ -228,7 +234,6 @@ src/main/resources/application.properties
 ### dependency 추가
 
 - pom.xml 에 dependency를 추가하면 login을 해야 정보를 볼 수 있다.
-
 - 비밀번호는 콘솔창에 자동으로 생성되지만 바꿔줄 수 있다.
 
 ![](https://i.imgur.com/PIkR0XY.png)

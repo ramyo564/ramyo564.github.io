@@ -17,27 +17,16 @@ sidebar:
 ## Spring Boot Properties
 
 - Spring Boot can be configured in the ***application.properties*** file
-
 - Server port, context path, actuator, security etc
-
 - Spring Boot has 1,000 + properties...
-
 - The properties are roughly grouped into the following categories
-  
   - Core
-  
   - Web
-  
   - Security
-  
   - Data
-  
   - Actuator
-  
   - Integration
-  
   - DevTools
-  
   - Testing
 
 ### Core Properties
@@ -129,17 +118,16 @@ spring.datasource.password = tiger
 2. Configure the application context path
 
 ### Step 1: Cofigure the server port
-
-![](/images/2023-03-22-sss/2023-03-22-19-25-40-image.png)
-
-![](/images/2023-03-22-sss/2023-03-22-19-26-07-image.png)
+![](https://i.imgur.com/T5X38oD.png)
+![](https://i.imgur.com/jwcYC4D.png)
 
 ### Step 2: Configure the application context path
+![](https://i.imgur.com/LcDL0jJ.png)
 
-![](/images/2023-03-22-sss/2023-03-22-19-29-30-image.png)
+![](https://i.imgur.com/dIYnD3g.png)
 
-![](/images/2023-03-22-sss/2023-03-22-19-29-18-image.png)
+![](https://i.imgur.com/e8Q622S.png)
 
-![](/images/2023-03-22-sss/2023-03-22-19-29-49-image.png)
+
 
 출처 : 유데미, luv2code.com
