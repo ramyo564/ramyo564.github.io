@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3cdc0c31e1f976f6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Section6_Spring_MVC_Thymeleaf/1) Thymeleaf with Spring Boot/2023-04-07-Thymeleaf with Spring Boot.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "277fcd44a0c4d2f1",
             "type": "leaf",
             "state": {
@@ -31,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -156,7 +143,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 365.5
+    "width": 310.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -169,7 +156,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "277fcd44a0c4d2f1",
+  "active": "bee27e022af4371e",
   "lastOpenFiles": [
     "Section6_Spring_MVC_Thymeleaf/1) Thymeleaf with Spring Boot/2023-04-07-Thymeleaf with Spring Boot.md",
     "Section7_Spring_MVC_CRUD/1) Thymeleaf-CRUD Database Project/2023-04-07-Thymeleaf-CRUD Database Project.md",

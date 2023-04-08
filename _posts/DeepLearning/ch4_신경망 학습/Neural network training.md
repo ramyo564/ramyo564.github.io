@@ -238,6 +238,40 @@ def numerical_diff(f, x):
 ```
 >- 파이썬에서는 반올림 오차 문제가 있다. 1e-50을 float32형으로 나타내면 0.0이 된다.
 >- 이 미세값을 1e-4 정도로 사용하면 문제 없다.
+>- h를 무한히 0으로 좁히는 것은 불가능하다.
+>- 이러한 오차를 줄이기 위해 (x+h) 와 (x-h)일때 함수의 차분을 계산해서 쓴다.
+>- 이를 중심차분 또는 중앙차분이라하며
+>- (x+h) 와 x의 차분은 전방차분이라고 한다.
+>- 요약하자면 우리가 알고 있는 미분은 ***해석적 미분*** 이고 ***수치미분은 근사치로 계산*** 하는 거라고 생각하면 된다.
 
+![](https://i.imgur.com/SXCqk5C.png)
 
 <iframe width="1567" height="586" src="https://www.youtube.com/embed/rqX27ZKgjcQ" title="인하대물리1 03A차분과 미분" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+### 수치 미분의 예
+
+![](https://i.imgur.com/BORdRoh.png)
+
+#### 파이썬 구현
+
+![](https://i.imgur.com/K5aGkbA.png)
+
+#### 함수 그리기
+
+![](https://i.imgur.com/nA5LK1k.png)
+
+![](https://i.imgur.com/3jjjvns.png)
+
+- x 가 5일 때와 10일 때의 함수 미분을 계산해보자
+![](https://i.imgur.com/HJXPYmI.png)
+
+>- 진정한 미분은 0.2 와 0.3 이지만 수치미분과 비교 했을 때 오차가 매우 작다.
+>- x =5 , x = 10에서의 접선은 아래와 같다.
+
+![](https://i.imgur.com/cGyBX7T.png)
+
+### 편미분
+
+![](https://i.imgur.com/5dxjBIf.png)
+
+![](https://i.imgur.com/u3dBHSh.png)

@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "6b04303da8d7e2bc",
+        "id": "6c58777aa34000ca",
         "type": "tabs",
         "children": [
           {
-            "id": "937e275c792b7b73",
+            "id": "795a27e18d001edc",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "1189296d4db3bce6",
@@ -147,8 +146,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "937e275c792b7b73",
+  "active": "795a27e18d001edc",
   "lastOpenFiles": [
+    "().md",
     "ch4_신경망 학습/Neural network training.md",
     "ch3_신경망/2023-03-30-Neural network.md",
     "ch4_신경망 학습",
