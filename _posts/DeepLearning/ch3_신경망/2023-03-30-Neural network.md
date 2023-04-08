@@ -358,4 +358,156 @@ print(np.sum(y)) -> 1.0
 - 여기서 색이 가장 짙은 뉴런 y_2가 가장 큰 값을 출력한다.
 - 그래서 이 신경망이 선택한 클래스 y_2 즉 입력 이미지 숫자 '2'로 판단했음을 의미한다.
 
-출처 : https://www.baeldung.com/cs/mlp-vs-dnn
+## 손글씨 숫자 인식
+
+### MNIST 데이터셋
+- MNIST 데이터셋은 0부터 9까지의 숫자 이미지로 구성된다.
+- 훈련이미지가 60,000 장 시험 이미지가 10,000장 있다.
+- 일반적으로 이 훈련 이미지들을 사용하여 모델을 학습한다.
+- 학습한 모델로 시험 이미지들을 얼마나 정확하게 분류하는지를 평가한다.
+
+![](https://i.imgur.com/X3bluP9.png)
+
+- MNIST 의 이미지 데이터는 28x28 크기의 회색조 이미지(1채널)이며, 각 픽셀은 0에서 255까지의 값을 취한다.
+- 각 이미지에는 7, 2, 1과 같이 그 이미지가 실제 의미하는 숫자가 레이블로 붙어 있다.
+
+```python
+import sys, os
+sys.path.append(os.pardir) # 부모 디렉터리의 파일을 가져올 수 있도록 설정
+from dataset.mnist import load_mnist
+
+(x_train, t_train), (x_test, t_test) = load_mnist(flatten=True, normalize=False)
+
+
+# 각 데이터의 형상 출력
+print(x_train.shape) #(60000, 784)
+print(t_train.shape) #(60000,)
+print(x_test.shape) #(10000, 784)
+print(t_test.shape) #(10000,)
+
+
+# normalize = 0.0 에서 1.0 사이의 값으로 정규화 할 건지
+# False 는 0~255 값으로 그대로 출력
+# flatten = 1 차원 배열로 만들건지
+# false 는 1 x 28 x 28 의 3차원 배열로
+# true 는 784 개의 원소로 이뤄진 1차원 배열로 저장
+```
+
+> - 인수로는 normalize,flatten,one_hot_label 세가지를 설정할 수 있다.
+> - 세 인수 모두 bool 값이다.
+> - normalize = 0.0 에서 1.0 사이의 값으로 정규화 할 건지 정한다.
+> 	- 여기서 False 로 설정하면 0~255 값으로 그대로 출력한다.
+> - flatten 은 이미지를 평탄하게 즉 1차원 배열로 만들지를 정한다.
+> 	- False로 설정하면 입력 이미지를 1x28x28의 3차원 배열로
+> 	- True로 설정하면 784개의 원소로 이뤄진 1차원 배열로 저장한다.
+> - one_hot_label 은 레이블을 ***원-핫 인코딩*** 형태로 저장할지를 정한다.
+> 	- False로 설정하면 7’이나 ‘2’와 같이 숫자 형태의 레이블을 저장한다.
+> 	- True일 때는 레이블을 원-핫 인코딩하여 저장합니다.
+> 	- 예를 들어서  [0,0,1,0,0,0,0,0,0,] 은 정답을 뜻하는 원소만 1이고 나머지는 모두 0인 배열입니다. 
+
+>파이썬에서 pickle 이라는 기능은 프로그램 실행중에 특정 객체를 파일로 저장하는 기능이다.
+>저장해둔 pickle 파일을 로드하면 실행 당시의 객체를 바로 복원할 수 있다.
+>위 코드에서는 load_mnist() 함수에서 2번째 이후의 읽기 시 pickle을 이용한다.
+
+
+```python
+import sys, os
+sys.path.append(os.pardir)  # 부모 디렉터리의 파일을 가져올 수 있도록 설정
+import numpy as np
+from dataset.mnist import load_mnist
+from PIL import Image
+
+
+def img_show(img):
+    pil_img = Image.fromarray(np.uint8(img))
+    pil_img.show()
+
+(x_train, t_train), (x_test, t_test) = load_mnist(flatten=True, normalize=False)
+  
+img = x_train[0]
+label = t_train[0]
+print(label)  # 5
+
+print(img.shape)  # (784,)
+img = img.reshape(28, 28)  # 형상을 원래 이미지의 크기로 변형
+
+# 원래 해당 이미지 크기는 3차원 1 x 28 x 28 이였음
+print(img.shape)  # (28, 28)
+img_show(img)
+```
+
+![](https://i.imgur.com/1yDIKdD.png)
+
+### 신경망 추론처리
+- 이 신경망은 입력층 뉴런을 784개, 출력층 뉴런을 10개로 구성
+- 입력층 뉴런이 784개인 이유는 이미지 크기가 28 x 28 = 784
+- 출력층 뉴런이 10개인 이유는 문제가 0에서 9까지의 숫자를 구분하기 때문
+- 한편 은닉층은 총 2개로, 첫 번째 은닉층에는 50개의 뉴런을 두 번째 은닉층에는 100개의 뉴런을 배치한다.
+- 여기서 50 과 100은 임의로 정한 값이다.
+
+
+```java
+
+
+def get_data():
+    (x_train, t_train), (x_test, t_test) = 
+    load_mnist(normalize=True, flatten=True, one_hot_label=False)
+    return x_test, t_test
+
+  
+def init_network():
+    with open("sample_weight.pkl", 'rb') as f:
+        network = pickle.load(f)
+    return network
+
+def predict(network, x):
+    W1, W2, W3 = network['W1'], network['W2'], network['W3']
+    b1, b2, b3 = network['b1'], network['b2'], network['b3']
+    a1 = np.dot(x, W1) + b1
+    z1 = sigmoid(a1)
+    a2 = np.dot(z1, W2) + b2
+    z2 = sigmoid(a2)
+    a3 = np.dot(z2, W3) + b3
+    y = softmax(a3)
+    return y
+
+x, t = get_data()
+network = init_network()
+
+accuracy_cnt = 0
+for i in range(len(x)):
+    y = predict(network, x[i])
+    p= np.argmax(y) # 확률이 가장 높은 원소의 인덱스를 얻는다.
+    if p == t[i]:
+        accuracy_cnt += 1
+print("Accuracy:" + str(float(accuracy_cnt) / len(x)))
+
+  
+
+```
+
+
+```python
+
+x, t = get_data()
+network = init_network()
+
+batch_size = 100 # 배치 크기
+accuracy_cnt = 0
+for i in range(0, len(x), batch_size):
+    x_batch = x[i:i+batch_size]
+    y_batch = predict(network, x_batch)
+    p = np.argmax(y_batch, axis=1)
+    accuracy_cnt += np.sum(p == t[i:i+batch_size])
+
+print("배치 사이즈 100 / Accuracy:" + str(float(accuracy_cnt) / len(x)))
+
+```
+
+
+
+
+
+
+
+출처 : https://www.baeldung.com/cs/mlp-vs-dnn  , 밑바닥부터 딥러닝

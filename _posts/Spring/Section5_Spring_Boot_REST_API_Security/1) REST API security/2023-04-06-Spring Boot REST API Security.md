@@ -34,7 +34,7 @@ REST API security(1)
 
 ![](https://i.imgur.com/uYyiggv.png)
 
-## Spring Security in Action
+### Spring Security in Action
 
 ![](https://i.imgur.com/X0Sa90o.png)
 
@@ -44,16 +44,16 @@ REST API security(1)
 - Authorization
 	- Check to see if user has an authorized role
 
-## Declarative Security
+### Declarative Security
 - Define application's security constraints in configuration
 	- All Java config: @Configuration
 - Provides separation of concerns between application code and security
 
-## Programmatic Security
+### Programmatic Security
 - Spring Security provides an API for custom application coding
 - Provides greater customization for specific app requirements
 
-## Enabling Spring Security
+### Enabling Spring Security
 1. Edit pom.xml and add spring-boot-starter-security
    ```java
    <dependency>
@@ -63,13 +63,13 @@ REST API security(1)
 ```
 2. This will automagically secure all endpoints for application
 
-## Secured Endpoints
+### Secured Endpoints
 - Now when you access your application
 - Spring Security will prompt for login
 >Default user name : user
 >Password : Check console logs for it
 
-## Spring Security configuration
+### Spring Security configuration
 - You can override default user name and generated password
 ```java
 File : src/main/resources/application.properties
@@ -77,7 +77,7 @@ spring.security.user.name=scott
 spring.security.user.password=1234
 ```
 
-## Authentication and Authorization
+### Authentication and Authorization
 - In-memory
 - JDBC
 - LDAP
