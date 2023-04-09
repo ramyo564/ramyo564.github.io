@@ -2,7 +2,7 @@
 layout: single
 title: "신경망 학습!"
 categories: ML_DL
-tag: [Python,]
+tag: [Python,"경사 하강법"]
 toc: true
 toc_sticky: true
 author_profile: false
@@ -271,7 +271,173 @@ def numerical_diff(f, x):
 ![](https://i.imgur.com/cGyBX7T.png)
 
 ### 편미분
+- 앞과 달리 변수가 2개다
+- ![](https://i.imgur.com/5dxjBIf.png)
+- ![](https://i.imgur.com/u3dBHSh.png)
 
-![](https://i.imgur.com/5dxjBIf.png)
+- 그래프
+- ![](https://i.imgur.com/UCQgrM4.png)
+- ![](https://i.imgur.com/cvzgc1O.png)
+- ![](https://i.imgur.com/x70YNOU.png)
+>- 문제 1에서는 x_1 = 4로 고정된 새로운 함수를 정의하고, 변수가 x_0 에 대해 수치 미분 함수를 적용했다.
+>- 이렇게 구한 문제 1의 결과는 6.0000...
+>- 문제 2의 결과는 7.99999... 
+>- 편미분은 목표 변수를 제외한 나머지를 특정 값에 고정
 
-![](https://i.imgur.com/u3dBHSh.png)
+## 기울기
+```python
+import numpy as np
+# 기울기
+# x[0] x[1] 동시에 계산하고 싶다면?
+def numerical_gradient(f, x):
+    h = 1e-4 # 0.0001
+    grad = np.zeros_like(x) # x와 형상이 같은 배열을 생성
+    # print(grad) array [0. 0.]
+    # print(x.size) -> 2
+    for idx in range(x.size):
+        tmp_val = x[idx]
+        # f(x+h) 계산
+        x[idx] = tmp_val + h
+        fxh1 = f(x)
+        # f(x-h) 계산
+        x[idx] = tmp_val - h
+        fxh2 = f(x)
+        grad[idx] = (fxh1 - fxh2) / (2*h)
+        x[idx] = tmp_val # 값 복원
+    return grad
+
+def function_2(x):
+    return x[0]**2 + x[1]**2
+
+```
+>- x = np.array[3.0, 4.0] 이라고 가정한다면 x.size 값은 2
+>- range 로 인해 idx 는 0 , 1
+>- x[0] 값은 3.0, x[1] 값은 4.0
+>- x[0], x[1] 값 갱신
+>- f(x) = function_2(x) 갱신된 값 fxh1, fxh2 각각 대입
+
+![](https://i.imgur.com/CUtJtMR.png)
+> - 세 점 (3,4) , (0,2), (3,0) 에서의 기울기는 위와 같다.
+> - 이 기울기를 백터로 그리면 아래와 같다.
+
+![](https://i.imgur.com/wed5whJ.png)
+>- 각 기울기는 각 지점에서 낮아지는 방향을 가리킨다.
+>- 기울기가 가리키는 쪽은 각 장소에서 함수의 출력 값을 가장 크게 줄이는 방향이다.
+
+### 경사법(경사 하강법)
+신경망에서 최적의 매개변수 (가중치와 편향)을 학습 시에 찾아야 한다. 여기에서 최적이란 손실 함수가 최솟값이 될 때의 매개변수 값이다.
+>- 일반적으로 매개변수 공간이 광대하여 어디가 최솟값이 되는 곳인지 짐작하기 어렵다.
+>- 이런 상황에서 기울기를 잘 이용해 함수의 최솟값(또는 가능한 작은 값)을 찾으려는 것이 경사법이다.
+>- 주의할 점은 각 지점에서 기울기가 가리키는 곳이 정말 함수의 최솟값이 있는지, 그 쪽으로 나아갈 방향인지는 보장할 수 없다.
+>- 실제로 복잡한 함수에서 기울기가 가리키는 방향에 최솟값이 없는 경우가 대부분이다.
+
+- 경사법은 현 위치에서 기울어진 방향으로 일정 거리만큼 이동한다.
+- 그런 다음 이동한 곳에서도 마찬가지로 기울기를 구하고, 또 그 기울어진 방향으로 나아가기를 반복한다.
+- 이런 방식으로 함수의 값을 점차 줄이는 것을 ***경사법***이라 한다.
+- 특히 신경망 학습에서 경사법을 많이 사용한다.
+![](https://i.imgur.com/BgE7RvC.png)
+- 경사법의 수식은 다음과 같다
+- ![](https://i.imgur.com/QYjPwGc.png)
+>- 기호 에타 N 은 갱신하는 양을 나타낸다.
+>- 이를 신경망 학습에서는 학습률이라고 한다.
+>- 한 번의 학습으로 얼마만큼 학습해야할지, 즉 매개변수 값을 얼마나 갱신하느냐를 정하는 것이 학습률이다.
+>- 위 식에서는 1회에 해당하는 갱신이고 이 단계를 반복한다.
+>- 이 단계를 여러번 반복해서 서서히 함수의 값을 줄인다.
+>	- 학습률 값은 0.01 이나 0.001등 미리 특정 값으로 정한다
+>	- 일반적으로 값이 너무 크거나 작으면 좋은 장소를 찾아갈 수 없다.
+>	- 보통 이 학습률 값을 변경하면서 올바르게 학습하고 있는지를 확인하면서 진행한다.
+
+#### 경사 하강법 구현
+
+```python
+import numpy as np
+from Chap_4_4_0_기울기 import numerical_gradient
+# 경사하강법
+
+def gradient_descent(f, init_x, lr=0.01, step_num=100):
+    x = init_x
+    for i in range(step_num):
+        grad = numerical_gradient(f, x)
+        x -= lr * grad
+    return x
+```
+>- f 는 최적화 하려는 함수
+>- init_x 는 초깃값
+>- lr 은 learning late를 의미하는 학습률
+>- step_num 경사법에 따른 반복 횟수를 뜻함
+
+```python
+# 경사하강법으로 f(x[0],f[1]) = x[0]^2 + x[1]^2 의 최솟값을 구하여라
+def function_2(x):
+    return x[0]**2 + x[1]**2
+    
+init_x = np.array([-3.0, 4.0])
+
+a = gradient_descent(function_2, init_x=init_x, lr=0.1, step_num=100)
+
+print(a)
+# array([ -6.11110793e-10, 8.14814391e-10])
+```
+>- 초기값을 (-3.0, 4.0) 으로 설정
+>- lr = 0.1 x grad(기울기) =  (array ([-6.0, 8.0]))
+>- 첫 return x 값은 [-2.4 3.2]
+>	- (-3.0 , 4.0) - (-0.6 , 0.8)
+>- [-2.4, 3.2] 의 기울기로 다시 시작
+>- 반복문이 끝날 때까지 계속 차감하면서 값을 업데이트
+
+- ![](https://i.imgur.com/oafQbW5.png)
+- ![](https://i.imgur.com/yOyPShr.png)
+##### 학습률에 따른 차이
+![](https://i.imgur.com/QbckfX9.png)
+
+
+### 신경망에서의 기울기
+
+![](https://i.imgur.com/FXoZxkX.png)
+- ![](https://i.imgur.com/NkXsf2j.png) 의 각 원소는 각각의 원소에 관한 편미분이다.
+- 예를 들어 1행 1번째 원소인 ![](https://i.imgur.com/3IeNrfk.png) 은 w_11 을 조금 변경했을 때 손실함수 L이 얼마나 변화했느냐를 나타낸다.
+
+```python
+class simpleNet:
+    def __init__(self):
+        self.W = np.random.randn(2,3) # 정규분포로 초기화
+        self.Z = 1
+    def predict(self,x):
+        return np.dot(x, self.W)
+
+    # 행렬의 곱
+    def loss(self, x, t):
+        z = self.predict(x)
+        y = softmax(z)
+        loss = cross_entropy_error(y, t)
+        return loss
+```
+>- W는 random 으로 2행 3열의 행렬 생성
+
+
+- ![](https://i.imgur.com/C16nIYf.png)
+- ![](https://i.imgur.com/P02YhNz.png)
+-  x= 1x2, W = 2x3
+- np.argmax() 배열에서 가장 높은 값의 인덱스 반환
+- t= 임의의 정답 레이블
+- 위에서는 1.1328074가 최대값이라 np.argmax(p) 값은 2
+- loss의 z값은 p값과 동일
+- p 값은 1차원
+- 오버플로 대비해서 p의 max 값 제거해줌
+	- x값 = [1.05414809 0.63071653 1.1328074 ]
+	- np.max값 = 1.1328074
+	- x - np.max(x) 값 = [-0.07865931 -0.50209087  0.        ]
+- soft max 값은 np.exp(x) / np.sum(np.exp(x))
+- 위 식에서 `y = [0.36541271 0.23927078 0.39531651]`
+- y 값이 1 차원이므로
+	- t = t.reshape(1, t.size)
+		- t 값은 [2]
+	- y = y.reshape(1, y.size)
+		- y 값은 [[0.36541271 0.23927078 0.39531651]]
+	- batch_size = y.shape[0]
+	- return -np.sum(np.log(y[np.arange(batch_size), t] + 1e-7)) / batch_size
+- 0.92806853663411326
+
+
+![](https://i.imgur.com/dlHkapx.png)
+![](https://i.imgur.com/UZuFQIi.png)

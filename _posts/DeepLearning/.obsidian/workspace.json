@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ch4_신경망 학습/Neural network training.md",
+                "file": "ch4_신경망 학습/2023-04-09-Neural network training.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ch4_신경망 학습/Neural network training.md",
+                "file": "ch4_신경망 학습/2023-04-09-Neural network training.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ch4_신경망 학습/Neural network training.md",
+                "file": "ch4_신경망 학습/2023-04-09-Neural network training.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ch4_신경망 학습/Neural network training.md"
+                "file": "ch4_신경망 학습/2023-04-09-Neural network training.md"
               }
             }
           }
@@ -148,9 +148,9 @@
   },
   "active": "795a27e18d001edc",
   "lastOpenFiles": [
-    "().md",
-    "ch4_신경망 학습/Neural network training.md",
     "ch3_신경망/2023-03-30-Neural network.md",
+    "ch4_신경망 학습/2023-04-09-Neural network training.md",
+    "().md",
     "ch4_신경망 학습",
     "ch2_퍼셉트론/2023-03-25-Perceptron.md",
     "Section3/Untitled.md",
