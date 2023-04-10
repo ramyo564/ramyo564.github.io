@@ -4,22 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "847b457d506290ae",
+        "id": "859df5028c9858a5",
         "type": "tabs",
         "children": [
           {
-            "id": "277fcd44a0c4d2f1",
+            "id": "b560afe9c051401d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Section7_Spring_MVC_CRUD/1) Thymeleaf-CRUD Database Project/2023-04-07-Thymeleaf-CRUD Database Project.md",
+                "file": "Chad_Spring_udemy/Section6_Spring_MVC_Thymeleaf/1) Thymeleaf with Spring Boot/2023-04-07-Thymeleaf with Spring Boot.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2a853f75ca808189",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Ranga_Spring_udemy/Ranga_Section2_Start_Spring/2023-04-10-Design Game Runner with Spring Boo.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Section7_Spring_MVC_CRUD/1) Thymeleaf-CRUD Database Project/2023-04-07-Thymeleaf-CRUD Database Project.md",
+                "file": "Ranga_Spring_udemy/Ranga_Section2_Start_Spring/2023-04-10-Design Game Runner with Spring Boo.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Section7_Spring_MVC_CRUD/1) Thymeleaf-CRUD Database Project/2023-04-07-Thymeleaf-CRUD Database Project.md",
+                "file": "Ranga_Spring_udemy/Ranga_Section2_Start_Spring/2023-04-10-Design Game Runner with Spring Boo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Section7_Spring_MVC_CRUD/1) Thymeleaf-CRUD Database Project/2023-04-07-Thymeleaf-CRUD Database Project.md"
+                "file": "Ranga_Spring_udemy/Ranga_Section2_Start_Spring/2023-04-10-Design Game Runner with Spring Boo.md"
               }
             }
           },
@@ -156,44 +169,44 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "277fcd44a0c4d2f1",
+  "active": "2a853f75ca808189",
   "lastOpenFiles": [
-    "Section6_Spring_MVC_Thymeleaf/1) Thymeleaf with Spring Boot/2023-04-07-Thymeleaf with Spring Boot.md",
-    "Section7_Spring_MVC_CRUD/1) Thymeleaf-CRUD Database Project/2023-04-07-Thymeleaf-CRUD Database Project.md",
-    "Section7_Spring_MVC_CRUD/1) Thymeleaf-CRUD Database Project",
-    "Section7_Spring_MVC_CRUD",
-    "Section6_Spring_MVC_Thymeleaf",
-    "Section5_Spring_Boot_REST_API_Security/5) JDBC Authentication Custom tables/2023-04-07-JDBC Authentication Custom tables.md",
-    "Section6_Spring_MVC_Thymeleaf/1) Thymeleaf with Spring Boot",
-    "Section5_Spring_Boot_REST_API_Security/4) Security - BCrypt Encryption/2023-04-07- Security BCrypt Encryption.md",
-    "Section5_Spring_Boot_REST_API_Security/5) JDBC Authentication Custom tables",
-    "Section5_Spring_Boot_REST_API_Security/4) Security - BCrypt Encryption/Untitled",
-    "Section5_Spring_Boot_REST_API_Security/3) User Accounts Stored in Database/2023-04-06-User Accounts Stored in Database.md",
-    "Section5_Spring_Boot_REST_API_Security/4) Security - BCrypt Encryption",
-    "Section5_Spring_Boot_REST_API_Security/1) REST API security/2023-04-06-Spring Boot REST API Security.md",
-    "Section5_Spring_Boot_REST_API_Security/2) Configuring Basic Security/2023-04-06-Configuring Basic Security.md",
-    "Section2_IoCAndDependency/Java Config Bean/2023-03-29-Java Config Bean.md",
-    "Section2_IoCAndDependency/Inversion of Control (IoC)/2023-03-24-Setter Injection.md",
-    "Section2_IoCAndDependency/Inversion of Control (IoC)/2023-03-24-Field Injection.md",
-    "Section2_IoCAndDependency/Inversion of Control (IoC)/2023-03-24-Component Scanning.md",
-    "Section2_IoCAndDependency/Inversion of Control (IoC)/2023-03-24-Compare Injection.md",
-    "Section2_IoCAndDependency/Inversion of Control (IoC)/2023-03-23-Constructor Injection.md",
-    "Section2_IoCAndDependency/Inversion of Control (IoC)/2023-03-16-Inversion of Control (IoC).md",
+    "Chad_Spring_udemy/Section6_Spring_MVC_Thymeleaf/1) Thymeleaf with Spring Boot/2023-04-07-Thymeleaf with Spring Boot.md",
+    "Ranga_Spring_udemy/Ranga_Section2_Start_Spring/2023-04-10-Design Game Runner with Spring Boo.md",
+    "Chad_Spring_udemy",
+    "Ranga_Spring_udemy",
+    "Ranga_Spring_udemy/Ranga_Section2_Start_Spring",
+    "FC_Part_1_mySQL/Untitled.md",
+    "Chad_Spring_udemy/Section1_QuckStart/Actuator/2023-03-17-Spring Boot Actuator.md",
+    "FC_Part_1_mySQL/ch_1",
+    "Chad_Spring_udemy/Section7_Spring_MVC_CRUD/1) Thymeleaf-CRUD Database Project/2023-04-07-Thymeleaf-CRUD Database Project.md",
+    "FC_Part_1_mySQL",
+    "Chad_Spring_udemy/Section7_Spring_MVC_CRUD/1) Thymeleaf-CRUD Database Project",
+    "Chad_Spring_udemy/Section7_Spring_MVC_CRUD",
+    "Chad_Spring_udemy/Section6_Spring_MVC_Thymeleaf",
+    "Chad_Spring_udemy/Section5_Spring_Boot_REST_API_Security/5) JDBC Authentication Custom tables/2023-04-07-JDBC Authentication Custom tables.md",
+    "Chad_Spring_udemy/Section6_Spring_MVC_Thymeleaf/1) Thymeleaf with Spring Boot",
+    "Chad_Spring_udemy/Section5_Spring_Boot_REST_API_Security/4) Security - BCrypt Encryption/2023-04-07- Security BCrypt Encryption.md",
+    "Chad_Spring_udemy/Section5_Spring_Boot_REST_API_Security/5) JDBC Authentication Custom tables",
+    "Chad_Spring_udemy/Section5_Spring_Boot_REST_API_Security/3) User Accounts Stored in Database/2023-04-06-User Accounts Stored in Database.md",
+    "Chad_Spring_udemy/Section5_Spring_Boot_REST_API_Security/1) REST API security/2023-04-06-Spring Boot REST API Security.md",
+    "Chad_Spring_udemy/Section5_Spring_Boot_REST_API_Security/2) Configuring Basic Security/2023-04-06-Configuring Basic Security.md",
+    "Chad_Spring_udemy/Section2_IoCAndDependency/Java Config Bean/2023-03-29-Java Config Bean.md",
+    "Chad_Spring_udemy/Section2_IoCAndDependency/Inversion of Control (IoC)/2023-03-24-Setter Injection.md",
+    "Chad_Spring_udemy/Section2_IoCAndDependency/Inversion of Control (IoC)/2023-03-24-Field Injection.md",
+    "Chad_Spring_udemy/Section2_IoCAndDependency/Inversion of Control (IoC)/2023-03-24-Component Scanning.md",
+    "Chad_Spring_udemy/Section2_IoCAndDependency/Inversion of Control (IoC)/2023-03-24-Compare Injection.md",
+    "Chad_Spring_udemy/Section2_IoCAndDependency/Inversion of Control (IoC)/2023-03-23-Constructor Injection.md",
+    "Chad_Spring_udemy/Section2_IoCAndDependency/Inversion of Control (IoC)/2023-03-16-Inversion of Control (IoC).md",
     "images/2023-03-23-Constructor Injection/2023-03-23-03-29-29-image.png.md",
-    "images/2023-03-23-Constructor Injection",
-    "images",
-    "Section2_IoCAndDependency/Bean Lifecycle Methods/2023-03-29-Bean lifecycle Methods.md",
-    "Section2_IoCAndDependency/Bean Scopes/2023-03-28-Beans Scopes.md",
-    "Section3_DatabaseAccessWithHibernate_JPA_CRUD/1) Hibernare_JPA_Overview/2023-03-29-Hibernate JPA Overview.md",
-    "Section2_IoCAndDependency/Qualifiers/2023-03-24-Annotation Autowiring and Qualifiers.md",
-    "Section2_IoCAndDependency/Primary/2023-03-28-@Primary annotation.md",
-    "Section2_IoCAndDependency/Lazy Initialization/2023-03-28-Lazy Initialization.md",
+    "Chad_Spring_udemy/Section2_IoCAndDependency/Bean Lifecycle Methods/2023-03-29-Bean lifecycle Methods.md",
+    "Chad_Spring_udemy/Section2_IoCAndDependency/Bean Scopes/2023-03-28-Beans Scopes.md",
+    "Chad_Spring_udemy/Section3_DatabaseAccessWithHibernate_JPA_CRUD/1) Hibernare_JPA_Overview/2023-03-29-Hibernate JPA Overview.md",
+    "Chad_Spring_udemy/Section2_IoCAndDependency/Qualifiers/2023-03-24-Annotation Autowiring and Qualifiers.md",
+    "Chad_Spring_udemy/Section2_IoCAndDependency/Primary/2023-03-28-@Primary annotation.md",
+    "Chad_Spring_udemy/Section2_IoCAndDependency/Lazy Initialization/2023-03-28-Lazy Initialization.md",
     "images/2023-03-24-Constructor Scanning/2023-03-24-05-19-39-image.png.md",
-    "images/2023-03-24-Constructor Scanning",
-    "Section1_QuckStart/Maven/2023-03-16-Spring Boot Maven.md",
-    "Section1_QuckStart/Initializr/2023-03-17-Spring Initializr.md",
-    "images/2023-03-17-Spring Initializr/2023-03-17-18-35-59-image.png.md",
-    "Section1_QuckStart/DevTools/2023-03-17-Spring Boot DevTools.md",
+    "Chad_Spring_udemy/Section1_QuckStart/Maven/2023-03-16-Spring Boot Maven.md",
     "2023-03-17-21-19-32-image.png"
   ]
 }

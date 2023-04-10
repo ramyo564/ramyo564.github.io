@@ -13,25 +13,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lv.0/Day_2/2023-04-01-fraction.md",
+                "file": "Lv.0/2023-04-10-temp.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "cb4156ce3a7767b9",
+            "id": "d7de1be4eef31430",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lv.0/Lv_0/2023-04-06-sum reminder.md",
+                "file": "Lv.0/Lv_0/2023-04-10-lam.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7129f8b3f183ab25",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Lv.0/2023-04-10-temp.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -97,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lv.0/Day_2/2023-04-01-fraction.md",
+                "file": "Lv.0/2023-04-10-temp.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lv.0/Day_2/2023-04-01-fraction.md",
+                "file": "Lv.0/2023-04-10-temp.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lv.0/Day_2/2023-04-01-fraction.md"
+                "file": "Lv.0/2023-04-10-temp.md"
               }
             }
           }
@@ -146,7 +159,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 203.5
+    "width": 267.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -158,25 +171,27 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b3d99b9dfa65e1b9",
+  "active": "7129f8b3f183ab25",
   "lastOpenFiles": [
-    "Lv.0/Day_2/2023-04-05-2times array.md",
-    "Lv.0/2023-04-06-temp.md",
-    "Lv.0/Lv_0/2023-04-06-sum reminder.md",
-    "Lv.0/Lv_0/2023-04-06-reminder.md",
+    "Lv.0/Day_2/2023-03-31-compare numbers.md",
+    "Lv.0/2023-04-10-temp.md",
     "Lv.0/Lv_0/2023-04-06-print age.md",
+    "Lv.0/Lv_0/2023-04-06-avarage array.md",
+    "Lv.0/Day_2/2023-04-05-2times array.md",
+    "Lv.0/Day_1/2023-04-01-times numbers.md",
+    "Lv.0/Lv_0/2023-04-10-lam.md",
+    "Lv.0/Lv_0/2023-04-06-sum even.md",
+    "Lv.0/Lv_0/2023-04-06-reminder.md",
     "Lv.0/Lv_0/2023-04-06-protractor.md",
-    "Lv.0/Lv_0",
     "Lv.0/Day_2/2023-04-01-fraction.md",
     "Lv.0/Day_2/2023-04-01-division.md",
+    "Lv.0/Day_1/2023-04-01-sub numbers.md",
     "Lv.0/Day_1/2023-04-01-reminder.md",
-    "Lv.0/Day_2/2023-03-31-compare numbers.md",
     "Lv.0/Day_1/2023-03-31-sum numbers.md",
+    "Lv.0/Lv_0",
     "Lv.0/Day_2",
     "Lv.0/Day_1",
-    "Lv.0/Day_1/2023-04-01-times numbers.md",
     "Untitled.md",
-    "Lv.0/Day_1/2023-04-01-sub numbers.md",
     "Pasted image 20230331012122.png",
     "Lv.0"
   ]

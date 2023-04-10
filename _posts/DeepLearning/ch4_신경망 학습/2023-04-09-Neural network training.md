@@ -152,7 +152,7 @@ import numpy as np
 from dataset.mnist import load_mnist
 
 # 배치용 교차 엔트로피 오차 구현하기
-# 1번
+# 1번 원 핫코딩일때
 def cross_entropy_error(y, t):
     if y.ndim == 1:
         # ndim 은 y 의 차원의 수, 배열의 축 수
@@ -160,8 +160,8 @@ def cross_entropy_error(y, t):
         # y는 신경망 출력
         t = t.reshape(1, t.size)
         y = y.reshape(1, y.size)
-    batch_size = y.shape[0]
-    return -np.sum(t * np.log(y + 1e-7)) / batch_size
+	    batch_size = y.shape[0]
+	    return -np.sum(t * np.log(y + 1e-7)) / batch_size
 
 # 1e-7 = 0.0000001
 # 2번
@@ -169,9 +169,7 @@ def cross_entropy_error(y, t):
     if y.ndim == 1:
         t = t.reshape(1, t.size)
         y = y.reshape(1, y.size)
-        batch_size = y.shape[0]
-        # 배치 사이즈가 5라면 np.arrange(5) 는 [0,1,2,3,4] 라는 넘파이 배열
-
+    batch_size = y.shape[0]
     return -np.sum(np.log(y[np.arange(batch_size), t] + 1e-7)) / batch_size
 
 
@@ -192,8 +190,11 @@ print(b.shape[1])
 4
 '''
 ```
+> y = 신경망의 출력
+> t = 정답 테이블
+> t 가 0일 경우 교차 엔트로피 오차도 0, 그 계산은 무시함
 
---ㅇㅇ
+
 
 ### 왜 손실 함수를 설정하는가?
 - 신경망 학습에서는 최적의 매개변수(가중치와 편향)을 탐색할 때 손실 함수의 값을 가능한 작게 만들어주는 매개변수 값을 찾는다.
@@ -441,3 +442,24 @@ class simpleNet:
 
 ![](https://i.imgur.com/dlHkapx.png)
 ![](https://i.imgur.com/UZuFQIi.png)
+
+
+
+책에 나와있는 코드 내용은 배치사이즈가 1밖에 안되게 해놨는데 
+배치사이즈 5가 예제로 나와서 헷갈렸던거 같습니다. ㅜ
+y= np.array([0.1,0.7,0.2])
+t= np.array([0,1,0])
+
+이렇게 있을 경우 y = y.reshape(1, y.size) 는 
+2차원 배열 `[[0.1,0.7,0.2]]` 이고 arange(1)은 0이니
+2차원 배열의 index 0은 [0.1,0.7,0.2] 
+여기서 y의 인덱스 값 0 ,1, 2 는 
+각각 0.1, 0.7, 0.2 입니다.
+
+y[np.arange(batch_size), t] 여기서 앞에 배치사이즈는 1로 고정이니 t 값만 보면 되는데
+여기서 t 값이 [0,1,1] 이면
+[0.1,0.7,0.7]로 나옵니다
+그냥 list랑 보는법이 똑같은데 특별한건줄 잘못 알았네요ㅜ
+
+그리고 동재 님이 말씀하신 것 중에 배열도 결국 슬라이싱 되는데
+해당 내용이랑 슬라이싱이 관련 없어서 제가 착각해서 잘못 말했습니다. 죄송합니다.ㅜ

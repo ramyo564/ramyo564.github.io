@@ -10,7 +10,7 @@ sidebar:
 
 ---
 # Java vs Node.Js vs Python
-- 문제 푸는건 5초 정리는 10분...
+## 문제 푸는건 5초 정리는 10분...
 
 - 문제 -> https://school.programmers.co.kr/learn/courses/30/lessons/120802
 
