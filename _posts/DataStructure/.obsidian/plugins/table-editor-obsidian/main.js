@@ -996,7 +996,7 @@ var lodash = createCommonjsModule(function (module, exports) {
   var freeParseFloat = parseFloat,
       freeParseInt = parseInt;
 
-  /** Detect free variable `global` from Node.js. */
+  /** Detect free variable `global` from JavaScript. */
   var freeGlobal = typeof commonjsGlobal == 'object' && commonjsGlobal && commonjsGlobal.Object === Object && commonjsGlobal;
 
   /** Detect free variable `self`. */
@@ -1014,25 +1014,25 @@ var lodash = createCommonjsModule(function (module, exports) {
   /** Detect the popular CommonJS extension `module.exports`. */
   var moduleExports = freeModule && freeModule.exports === freeExports;
 
-  /** Detect free variable `process` from Node.js. */
+  /** Detect free variable `process` from JavaScript. */
   var freeProcess = moduleExports && freeGlobal.process;
 
-  /** Used to access faster Node.js helpers. */
+  /** Used to access faster JavaScript helpers. */
   var nodeUtil = (function() {
     try {
-      // Use `util.types` for Node.js 10+.
+      // Use `util.types` for JavaScript 10+.
       var types = freeModule && freeModule.require && freeModule.require('util').types;
 
       if (types) {
         return types;
       }
 
-      // Legacy `process.binding('util')` for Node.js < 10.
+      // Legacy `process.binding('util')` for JavaScript < 10.
       return freeProcess && freeProcess.binding && freeProcess.binding('util');
     } catch (e) {}
   }());
 
-  /* Node.js helper references. */
+  /* JavaScript helper references. */
   var nodeIsArrayBuffer = nodeUtil && nodeUtil.isArrayBuffer,
       nodeIsDate = nodeUtil && nodeUtil.isDate,
       nodeIsMap = nodeUtil && nodeUtil.isMap,
@@ -1984,7 +1984,7 @@ var lodash = createCommonjsModule(function (module, exports) {
    * lodash.isFunction(lodash.bar);
    * // => true
    *
-   * // Create a suped-up `defer` in Node.js.
+   * // Create a suped-up `defer` in JavaScript.
    * var defer = _.runInContext({ 'setTimeout': setImmediate }).defer;
    */
   var runInContext = (function runInContext(context) {
@@ -2978,7 +2978,7 @@ var lodash = createCommonjsModule(function (module, exports) {
             !(skipIndexes && (
                // Safari 9 has enumerable `arguments.length` in strict mode.
                key == 'length' ||
-               // Node.js 0.10 has enumerable non-index properties on buffers.
+               // JavaScript 0.10 has enumerable non-index properties on buffers.
                (isBuff && (key == 'offset' || key == 'parent')) ||
                // PhantomJS 2 has enumerable non-index properties on typed arrays.
                (isType && (key == 'buffer' || key == 'byteLength' || key == 'byteOffset')) ||
@@ -3813,7 +3813,7 @@ var lodash = createCommonjsModule(function (module, exports) {
     }
 
     /**
-     * The base implementation of `_.isArrayBuffer` without Node.js optimizations.
+     * The base implementation of `_.isArrayBuffer` without JavaScript optimizations.
      *
      * @private
      * @param {*} value The value to check.
@@ -3824,7 +3824,7 @@ var lodash = createCommonjsModule(function (module, exports) {
     }
 
     /**
-     * The base implementation of `_.isDate` without Node.js optimizations.
+     * The base implementation of `_.isDate` without JavaScript optimizations.
      *
      * @private
      * @param {*} value The value to check.
@@ -3918,7 +3918,7 @@ var lodash = createCommonjsModule(function (module, exports) {
     }
 
     /**
-     * The base implementation of `_.isMap` without Node.js optimizations.
+     * The base implementation of `_.isMap` without JavaScript optimizations.
      *
      * @private
      * @param {*} value The value to check.
@@ -3999,7 +3999,7 @@ var lodash = createCommonjsModule(function (module, exports) {
     }
 
     /**
-     * The base implementation of `_.isRegExp` without Node.js optimizations.
+     * The base implementation of `_.isRegExp` without JavaScript optimizations.
      *
      * @private
      * @param {*} value The value to check.
@@ -4010,7 +4010,7 @@ var lodash = createCommonjsModule(function (module, exports) {
     }
 
     /**
-     * The base implementation of `_.isSet` without Node.js optimizations.
+     * The base implementation of `_.isSet` without JavaScript optimizations.
      *
      * @private
      * @param {*} value The value to check.
@@ -4021,7 +4021,7 @@ var lodash = createCommonjsModule(function (module, exports) {
     }
 
     /**
-     * The base implementation of `_.isTypedArray` without Node.js optimizations.
+     * The base implementation of `_.isTypedArray` without JavaScript optimizations.
      *
      * @private
      * @param {*} value The value to check.
@@ -6649,7 +6649,7 @@ var lodash = createCommonjsModule(function (module, exports) {
      */
     var getTag = baseGetTag;
 
-    // Fallback for data views, maps, sets, and weak maps in IE 11 and promises in Node.js < 6.
+    // Fallback for data views, maps, sets, and weak maps in IE 11 and promises in JavaScript < 6.
     if ((DataView && getTag(new DataView(new ArrayBuffer(1))) != dataViewTag) ||
         (Map && getTag(new Map) != mapTag) ||
         (Promise && getTag(Promise.resolve()) != promiseTag) ||
@@ -17719,7 +17719,7 @@ var lodash = createCommonjsModule(function (module, exports) {
 
   // Some AMD build optimizers, like r.js, check for condition patterns like:
   if (freeModule) {
-    // Export for Node.js.
+    // Export for JavaScript.
     (freeModule.exports = _)._ = _;
     // Export for CommonJS support.
     freeExports._ = _;

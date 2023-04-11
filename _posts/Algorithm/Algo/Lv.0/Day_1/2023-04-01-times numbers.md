@@ -1,15 +1,15 @@
 ---
 layout: single
-title: "두 수의 곱 (알고리즘)"
+title: "프로그래머스 두 수의 곱 (알고리즘)"
 categories: Algo
-tag: [Java,Python,NodeJs,Lv_0,"두 수의 곱"]
+tag: [Java,Python,JavaScript,Lv_0,"두 수의 곱"]
 toc: true
 toc_sticky: true
 author_profile: false
 sidebar:
 
 ---
-# Java vs Node.Js vs Python
+# Java vs JavaScript vs Python
 ## 문제 푸는건 5초 정리는 10분...
 
 - 문제 -> https://school.programmers.co.kr/learn/courses/30/lessons/120804
@@ -52,7 +52,7 @@ pass
 ```
 ### 정리
 - pass
-## Node.js
+## JavaScript
 
 ```javascript
 // 내가 푼 답

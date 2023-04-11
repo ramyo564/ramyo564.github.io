@@ -1,15 +1,15 @@
 ---
 layout: single
-title: "숫자 비교하기 (알고리즘)"
+title: "프로그래머스 숫자 비교하기 (알고리즘)"
 categories: Algo
-tag: [Java,Python,NodeJs,Lv_0,"숫자 비교하기"]
+tag: [Java,Python,JavaScript,Lv_0,"숫자 비교하기"]
 toc: true
 toc_sticky: true
 author_profile: false
 sidebar:
 
 ---
-# Java vs Node.Js vs Python
+# Java vs JavaScript vs Python
 ## 문제 푸는건 5초 정리는 10분...
 
 - 하다보니까 이제 3개 점점 못 해지는 느낌...
@@ -70,7 +70,7 @@ def solution(num1, num2):
 - return q if 조건 else n  
 	- (***조건이 성립하면 앞에 q을 반환 아니면 n을 반환*** ) 
 
-## Node.js
+## JavaScript
 
 ```javascript
 

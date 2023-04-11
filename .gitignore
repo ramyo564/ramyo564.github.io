@@ -12,7 +12,7 @@
 Gemfile.lock
 **/vendor/bundle
 
-# Node.js and NPM
+# JavaScript and NPM
 node_modules
 npm-debug.log*
 package-lock.json

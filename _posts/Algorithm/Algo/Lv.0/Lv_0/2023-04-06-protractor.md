@@ -1,15 +1,15 @@
 ---
 layout: single
-title: "각도기 (알고리즘)"
+title: "프로그래머스 각도기 (알고리즘)"
 categories: Algo
-tag: [Java,Python,NodeJs,Lv_0,"각도기","자스함수filter"]
+tag: [Java,Python,JavaScript,Lv_0,"각도기","자스함수filter"]
 toc: true
 toc_sticky: true
 author_profile: false
 sidebar:
 
 ---
-# Java vs Node.Js vs Python
+# Java vs JavaScript vs Python
 ## 문제 푸는건 5초 정리는 10분...
 
 - 하루 시작은 알고리즘 한 문제 풀기로 시작
@@ -68,7 +68,7 @@ def solution(angle):
 
 
 
-## Node.js
+## JavaScript
 
 ```javascript
 // 내가 푼 답

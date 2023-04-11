@@ -1,15 +1,15 @@
 ---
 layout: single
-title: "두 수의 차 (알고리즘)"
+title: "프로그래머스 두 수의 차 (알고리즘)"
 categories: Algo
-tag: [Java,Python,NodeJs,Lv_0,"두 수의 차"]
+tag: [Java,Python,JavaScript,Lv_0,"두 수의 차"]
 toc: true
 toc_sticky: true
 author_profile: false
 sidebar:
 
 ---
-# Java vs Node.Js vs Python
+# Java vs JavaScript vs Python
 ## 문제 푸는건 5초 정리는 10분...
 
 - 문제 -> https://school.programmers.co.kr/learn/courses/30/lessons/120803
@@ -45,7 +45,7 @@ solution = lambda num1, num2 : num1 - num2
 ```
 ### 정리
 - 다음에 람다 써봐야겠다.
-## Node.js
+## JavaScript
 
 ```javascript
 // 내가 푼 답

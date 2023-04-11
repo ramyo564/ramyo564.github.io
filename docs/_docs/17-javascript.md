@@ -56,7 +56,7 @@ In an effort to reduce dependencies a set of [**npm scripts**](https://css-trick
 
 To get started:
 
-1. Install [Node.js](http://nodejs.org/).
+1. Install [JavaScript](http://JavaScript.org/).
 2. `cd` to the root of your project.
 3. Install all of the dependencies by running `npm install`.
 
