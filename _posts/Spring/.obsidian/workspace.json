@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "00ccf65f572ba459",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "BigTraffic/MySQL/2023-04-12-MySQL.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -82,7 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 250.5046501159668
+    "width": 200
   },
   "right": {
     "id": "3c82fc008517e921",
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ranga_Spring_udemy/Ranga_Section2_Start_Spring/2023-04-10-Design Game Runner with Spring Boo.md",
+                "file": "BigTraffic/MySQL/2023-04-12-MySQL.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ranga_Spring_udemy/Ranga_Section2_Start_Spring/2023-04-10-Design Game Runner with Spring Boo.md",
+                "file": "BigTraffic/MySQL/2023-04-12-MySQL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ranga_Spring_udemy/Ranga_Section2_Start_Spring/2023-04-10-Design Game Runner with Spring Boo.md"
+                "file": "BigTraffic/MySQL/2023-04-12-MySQL.md"
               }
             }
           },
@@ -168,15 +180,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2a853f75ca808189",
+  "active": "00ccf65f572ba459",
   "lastOpenFiles": [
-    "Chad_Spring_udemy/Section6_Spring_MVC_Thymeleaf/1) Thymeleaf with Spring Boot/2023-04-07-Thymeleaf with Spring Boot.md",
+    "Chad_Spring_udemy/Section1_QuckStart/Actuator/2023-03-17-Spring Boot Actuator.md",
+    "BigTraffic/MySQL/2023-04-12-MySQL.md",
     "Ranga_Spring_udemy/Ranga_Section2_Start_Spring/2023-04-10-Design Game Runner with Spring Boo.md",
+    "BigTraffic/MySQL",
+    "BigTraffic",
+    "Chad_Spring_udemy/Section6_Spring_MVC_Thymeleaf/1) Thymeleaf with Spring Boot/2023-04-07-Thymeleaf with Spring Boot.md",
     "Chad_Spring_udemy",
     "Ranga_Spring_udemy",
     "Ranga_Spring_udemy/Ranga_Section2_Start_Spring",
     "FC_Part_1_mySQL/Untitled.md",
-    "Chad_Spring_udemy/Section1_QuckStart/Actuator/2023-03-17-Spring Boot Actuator.md",
     "FC_Part_1_mySQL/ch_1",
     "Chad_Spring_udemy/Section7_Spring_MVC_CRUD/1) Thymeleaf-CRUD Database Project/2023-04-07-Thymeleaf-CRUD Database Project.md",
     "FC_Part_1_mySQL",
@@ -184,9 +199,7 @@
     "Chad_Spring_udemy/Section7_Spring_MVC_CRUD",
     "Chad_Spring_udemy/Section6_Spring_MVC_Thymeleaf",
     "Chad_Spring_udemy/Section5_Spring_Boot_REST_API_Security/5) JDBC Authentication Custom tables/2023-04-07-JDBC Authentication Custom tables.md",
-    "Chad_Spring_udemy/Section6_Spring_MVC_Thymeleaf/1) Thymeleaf with Spring Boot",
     "Chad_Spring_udemy/Section5_Spring_Boot_REST_API_Security/4) Security - BCrypt Encryption/2023-04-07- Security BCrypt Encryption.md",
-    "Chad_Spring_udemy/Section5_Spring_Boot_REST_API_Security/5) JDBC Authentication Custom tables",
     "Chad_Spring_udemy/Section5_Spring_Boot_REST_API_Security/3) User Accounts Stored in Database/2023-04-06-User Accounts Stored in Database.md",
     "Chad_Spring_udemy/Section5_Spring_Boot_REST_API_Security/1) REST API security/2023-04-06-Spring Boot REST API Security.md",
     "Chad_Spring_udemy/Section5_Spring_Boot_REST_API_Security/2) Configuring Basic Security/2023-04-06-Configuring Basic Security.md",
@@ -205,7 +218,6 @@
     "Chad_Spring_udemy/Section2_IoCAndDependency/Primary/2023-03-28-@Primary annotation.md",
     "Chad_Spring_udemy/Section2_IoCAndDependency/Lazy Initialization/2023-03-28-Lazy Initialization.md",
     "images/2023-03-24-Constructor Scanning/2023-03-24-05-19-39-image.png.md",
-    "Chad_Spring_udemy/Section1_QuckStart/Maven/2023-03-16-Spring Boot Maven.md",
     "2023-03-17-21-19-32-image.png"
   ]
 }
