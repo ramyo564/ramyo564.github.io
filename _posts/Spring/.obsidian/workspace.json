@@ -4,47 +4,34 @@
     "type": "split",
     "children": [
       {
-        "id": "859df5028c9858a5",
+        "id": "0c4de5842ff7f6f4",
         "type": "tabs",
         "children": [
           {
-            "id": "b560afe9c051401d",
+            "id": "e4da8f594413906c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Chad_Spring_udemy/Section6_Spring_MVC_Thymeleaf/1) Thymeleaf with Spring Boot/2023-04-07-Thymeleaf with Spring Boot.md",
+                "file": "Ranga_Spring_udemy/Ranga_Section2_Start_Spring/2023-04-15-How can I list all beans managed by Spring Framework.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "2a853f75ca808189",
+            "id": "4d5e516f624b2a83",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ranga_Spring_udemy/Ranga_Section2_Start_Spring/2023-04-10-Design Game Runner with Spring Boo.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "00ccf65f572ba459",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "BigTraffic/MySQL/2023-04-12-MySQL.md",
+                "file": "Chad_Spring_udemy/Section2_IoCAndDependency/Primary/2023-03-28-@Primary annotation.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -73,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "@primary",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,11 +77,13 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 282.5046501159668,
+    "collapsed": true
   },
   "right": {
     "id": "3c82fc008517e921",
@@ -110,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BigTraffic/MySQL/2023-04-12-MySQL.md",
+                "file": "Ranga_Spring_udemy/Ranga_Section2_Start_Spring/2023-04-15-How can I list all beans managed by Spring Framework.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -127,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "BigTraffic/MySQL/2023-04-12-MySQL.md",
+                "file": "Ranga_Spring_udemy/Ranga_Section2_Start_Spring/2023-04-15-How can I list all beans managed by Spring Framework.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "BigTraffic/MySQL/2023-04-12-MySQL.md"
+                "file": "Ranga_Spring_udemy/Ranga_Section2_Start_Spring/2023-04-15-How can I list all beans managed by Spring Framework.md"
               }
             }
           },
@@ -167,7 +156,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 310.5
+    "width": 271.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -180,11 +169,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "00ccf65f572ba459",
+  "active": "e4da8f594413906c",
   "lastOpenFiles": [
+    "Chad_Spring_udemy/Section2_IoCAndDependency/Primary/2023-03-28-@Primary annotation.md",
+    "Ranga_Spring_udemy/Ranga_Section2_Start_Spring/2023-04-15-How can I list all beans managed by Spring Framework.md",
+    "Ranga_Spring_udemy/Ranga_Section2_Start_Spring/2023-04-15-Design Game Runner with Spring Boot (1).md",
+    "Ranga_Spring_udemy/Ranga_Section2_Start_Spring/2023-04-15-Exploring Java Bean vs POJO vs Spring Bean (3).md",
+    "Chad_Spring_udemy/Section1_QuckStart/Maven/2023-03-16-Spring Boot Maven.md",
+    "Chad_Spring_udemy/Section1_QuckStart/Application_Properties & Server/2023-03-22-Custom Application Properties.md",
+    "Chad_Spring_udemy/Section2_IoCAndDependency/Bean Scopes/2023-03-28-Beans Scopes.md",
+    "Chad_Spring_udemy/Section2_IoCAndDependency/Inversion of Control (IoC)/2023-03-16-Inversion of Control (IoC).md",
+    "Chad_Spring_udemy/Section2_IoCAndDependency/Bean Lifecycle Methods/2023-03-29-Bean lifecycle Methods.md",
     "Chad_Spring_udemy/Section1_QuckStart/Actuator/2023-03-17-Spring Boot Actuator.md",
+    "Ranga_Spring_udemy/Ranga_Section2_Start_Spring/temp.md",
+    "Ranga_Spring_udemy/Ranga_Section2_Start_Spring/2023-04-15-Exploring Spring IOC Container (2).md",
     "BigTraffic/MySQL/2023-04-12-MySQL.md",
-    "Ranga_Spring_udemy/Ranga_Section2_Start_Spring/2023-04-10-Design Game Runner with Spring Boo.md",
     "BigTraffic/MySQL",
     "BigTraffic",
     "Chad_Spring_udemy/Section6_Spring_MVC_Thymeleaf/1) Thymeleaf with Spring Boot/2023-04-07-Thymeleaf with Spring Boot.md",
@@ -208,16 +207,6 @@
     "Chad_Spring_udemy/Section2_IoCAndDependency/Inversion of Control (IoC)/2023-03-24-Field Injection.md",
     "Chad_Spring_udemy/Section2_IoCAndDependency/Inversion of Control (IoC)/2023-03-24-Component Scanning.md",
     "Chad_Spring_udemy/Section2_IoCAndDependency/Inversion of Control (IoC)/2023-03-24-Compare Injection.md",
-    "Chad_Spring_udemy/Section2_IoCAndDependency/Inversion of Control (IoC)/2023-03-23-Constructor Injection.md",
-    "Chad_Spring_udemy/Section2_IoCAndDependency/Inversion of Control (IoC)/2023-03-16-Inversion of Control (IoC).md",
-    "images/2023-03-23-Constructor Injection/2023-03-23-03-29-29-image.png.md",
-    "Chad_Spring_udemy/Section2_IoCAndDependency/Bean Lifecycle Methods/2023-03-29-Bean lifecycle Methods.md",
-    "Chad_Spring_udemy/Section2_IoCAndDependency/Bean Scopes/2023-03-28-Beans Scopes.md",
-    "Chad_Spring_udemy/Section3_DatabaseAccessWithHibernate_JPA_CRUD/1) Hibernare_JPA_Overview/2023-03-29-Hibernate JPA Overview.md",
-    "Chad_Spring_udemy/Section2_IoCAndDependency/Qualifiers/2023-03-24-Annotation Autowiring and Qualifiers.md",
-    "Chad_Spring_udemy/Section2_IoCAndDependency/Primary/2023-03-28-@Primary annotation.md",
-    "Chad_Spring_udemy/Section2_IoCAndDependency/Lazy Initialization/2023-03-28-Lazy Initialization.md",
-    "images/2023-03-24-Constructor Scanning/2023-03-24-05-19-39-image.png.md",
     "2023-03-17-21-19-32-image.png"
   ]
 }
