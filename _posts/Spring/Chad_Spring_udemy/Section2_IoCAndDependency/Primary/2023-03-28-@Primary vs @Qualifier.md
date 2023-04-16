@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "@Primary annotation"
+title: "@Primary vs @Qualifier"
 categories: Spring
 tag: [Java,IoC,Inversion of Control,"@Primary","@Qualifier","@Component"]
 toc: true
@@ -60,7 +60,7 @@ public class DemoController {
   
     //define a constructor for dependency injection  
     @Autowired  
-    public DemoController(//@Qualifier("trackCoach") <- 더 이상 필요 없음
+    public DemoController(//@Qualifier("trackCoach") <- @Primary 때문에 더 이상 필요 없음
 						    Coach theCoach){  
         myCoach = theCoach;  
     }  
@@ -84,3 +84,34 @@ public class DemoController {
 - In genenral, recommend using @Qualifier
 	- More specific
 	- Higher priority
+
+
+## @Primary vs @Qualifier - Which one to use?
+
+```java
+@Component @Primary  
+class QuickSort implements SortingAlgorithm {}  
+  
+@Component  
+class BubbleSort implements SortingAlgorithm {}  
+  
+@Component @Qualifier("RadixSortQualifier")  
+class RadixSort implements SortingAlgorithm {}  
+  
+@Component @Primary  
+class ComplexAlgorithm  
+    @Autowired  
+    private SortingAlgorithm algorithm;  
+  
+@Component  
+class AnotherComplexAlgorithm  
+    @Autowired @Qualifier("RadixSortQualifier")  
+    private SortingAlgorithm iWantToUseRadixSortOnly;
+```
+
+- @Primary - A bean should given preference when multiple candidates are qualified
+- @Qualifier - A specific bean should be auto-wired (name of the bean can be used as qualifier)
+- ALWAYS think from the perspective of the class using the SortingAlgorithm:
+	- 1. Just @Autowired : Give me (preferred) SortingAlgorithm
+	- 2. @Autowired + @Qualifier : I only want to use specific SortingAlogorithm - RadixSort
+	- (REMEMBER) @Qualifier has higher priority then @Primary as text above
