@@ -317,7 +317,7 @@ user.setTeam(teamA);
 **이럴땐 constructor-arg를 사용**한다. **단, 순서대로 설정해야 한다.**  
 나머지는 동일하다.
 
-```null
+```java
 /* 객체 */
 Team teamA = new Team();
 // 순서대로 각각 "1, 개발자, teamA"

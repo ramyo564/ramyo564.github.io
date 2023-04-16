@@ -8,30 +8,31 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e4da8f594413906c",
+            "id": "e3859ff346a89cf1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ranga_Spring_udemy/Ranga_Section2_Start_Spring/2023-04-15-How can I list all beans managed by Spring Framework.md",
+                "file": "Ranga_Spring_udemy/Ranga_Section3_Using Spring Framework to Create and Manage Your Java Objects/2023-04-16-Managing Objects and performing auto-wiring with Spring.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "4d5e516f624b2a83",
+            "id": "3e0a9af20b58d813",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Chad_Spring_udemy/Section2_IoCAndDependency/Primary/2023-03-28-@Primary annotation.md",
+                "file": "Ranga_Spring_udemy/Ranga_Section3_Using Spring Framework to Create and Manage Your Java Objects/2023-04-.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -60,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "@primary",
+                "query": "@Primary",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,13 +78,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 282.5046501159668,
-    "collapsed": true
+    "width": 211.5046501159668
   },
   "right": {
     "id": "3c82fc008517e921",
@@ -99,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ranga_Spring_udemy/Ranga_Section2_Start_Spring/2023-04-15-How can I list all beans managed by Spring Framework.md",
+                "file": "Ranga_Spring_udemy/Ranga_Section3_Using Spring Framework to Create and Manage Your Java Objects/2023-04-.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -116,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ranga_Spring_udemy/Ranga_Section2_Start_Spring/2023-04-15-How can I list all beans managed by Spring Framework.md",
+                "file": "Ranga_Spring_udemy/Ranga_Section3_Using Spring Framework to Create and Manage Your Java Objects/2023-04-.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ranga_Spring_udemy/Ranga_Section2_Start_Spring/2023-04-15-How can I list all beans managed by Spring Framework.md"
+                "file": "Ranga_Spring_udemy/Ranga_Section3_Using Spring Framework to Create and Manage Your Java Objects/2023-04-.md"
               }
             }
           },
@@ -152,7 +151,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -169,20 +168,26 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e4da8f594413906c",
+  "active": "3e0a9af20b58d813",
   "lastOpenFiles": [
-    "Chad_Spring_udemy/Section2_IoCAndDependency/Primary/2023-03-28-@Primary annotation.md",
-    "Ranga_Spring_udemy/Ranga_Section2_Start_Spring/2023-04-15-How can I list all beans managed by Spring Framework.md",
+    "Ranga_Spring_udemy/Ranga_Section3_Using Spring Framework to Create and Manage Your Java Objects/2023-04-16-Managing Objects and performing auto-wiring with Spring.md",
+    "Ranga_Spring_udemy/Ranga_Section3_Using Spring Framework to Create and Manage Your Java Objects/2023-04-.md",
     "Ranga_Spring_udemy/Ranga_Section2_Start_Spring/2023-04-15-Design Game Runner with Spring Boot (1).md",
+    "Ranga_Spring_udemy/Ranga_Section2_Start_Spring/2023-04-15-How can I list all beans managed by Spring Framework.md",
+    "Ranga_Spring_udemy/Ranga_Section3_Using Spring Framework to Create and Manage Your Java Objects/temp.md",
+    "Ranga_Spring_udemy/Ranga_Section2_Start_Spring/2023-04-15-Exploring Spring IOC Container (2).md",
+    "Ranga_Spring_udemy/Ranga_Section3_Using Spring Framework to Create and Manage Your Java Objects",
     "Ranga_Spring_udemy/Ranga_Section2_Start_Spring/2023-04-15-Exploring Java Bean vs POJO vs Spring Bean (3).md",
+    "Chad_Spring_udemy/Section2_IoCAndDependency/Inversion of Control (IoC)/2023-03-24-Component Scanning.md",
+    "Chad_Spring_udemy/Section2_IoCAndDependency/Inversion of Control (IoC)/2023-03-16-Inversion of Control (IoC).md",
+    "Chad_Spring_udemy/Section2_IoCAndDependency/Primary/2023-03-28-@Primary annotation.md",
+    "Chad_Spring_udemy/Section1_QuckStart/Beans/2023-03-16-Spring Framework Overview(Bean).md",
+    "Chad_Spring_udemy/Section1_QuckStart/Application_Properties & Server/2023-03-22-Spring Boot Properties & Server copy.md",
+    "Chad_Spring_udemy/Section2_IoCAndDependency/Bean Scopes/2023-03-28-Beans Scopes.md",
+    "Chad_Spring_udemy/Section2_IoCAndDependency/Bean Lifecycle Methods/2023-03-29-Bean lifecycle Methods.md",
     "Chad_Spring_udemy/Section1_QuckStart/Maven/2023-03-16-Spring Boot Maven.md",
     "Chad_Spring_udemy/Section1_QuckStart/Application_Properties & Server/2023-03-22-Custom Application Properties.md",
-    "Chad_Spring_udemy/Section2_IoCAndDependency/Bean Scopes/2023-03-28-Beans Scopes.md",
-    "Chad_Spring_udemy/Section2_IoCAndDependency/Inversion of Control (IoC)/2023-03-16-Inversion of Control (IoC).md",
-    "Chad_Spring_udemy/Section2_IoCAndDependency/Bean Lifecycle Methods/2023-03-29-Bean lifecycle Methods.md",
     "Chad_Spring_udemy/Section1_QuckStart/Actuator/2023-03-17-Spring Boot Actuator.md",
-    "Ranga_Spring_udemy/Ranga_Section2_Start_Spring/temp.md",
-    "Ranga_Spring_udemy/Ranga_Section2_Start_Spring/2023-04-15-Exploring Spring IOC Container (2).md",
     "BigTraffic/MySQL/2023-04-12-MySQL.md",
     "BigTraffic/MySQL",
     "BigTraffic",
@@ -196,17 +201,11 @@
     "FC_Part_1_mySQL",
     "Chad_Spring_udemy/Section7_Spring_MVC_CRUD/1) Thymeleaf-CRUD Database Project",
     "Chad_Spring_udemy/Section7_Spring_MVC_CRUD",
-    "Chad_Spring_udemy/Section6_Spring_MVC_Thymeleaf",
     "Chad_Spring_udemy/Section5_Spring_Boot_REST_API_Security/5) JDBC Authentication Custom tables/2023-04-07-JDBC Authentication Custom tables.md",
     "Chad_Spring_udemy/Section5_Spring_Boot_REST_API_Security/4) Security - BCrypt Encryption/2023-04-07- Security BCrypt Encryption.md",
     "Chad_Spring_udemy/Section5_Spring_Boot_REST_API_Security/3) User Accounts Stored in Database/2023-04-06-User Accounts Stored in Database.md",
     "Chad_Spring_udemy/Section5_Spring_Boot_REST_API_Security/1) REST API security/2023-04-06-Spring Boot REST API Security.md",
     "Chad_Spring_udemy/Section5_Spring_Boot_REST_API_Security/2) Configuring Basic Security/2023-04-06-Configuring Basic Security.md",
-    "Chad_Spring_udemy/Section2_IoCAndDependency/Java Config Bean/2023-03-29-Java Config Bean.md",
-    "Chad_Spring_udemy/Section2_IoCAndDependency/Inversion of Control (IoC)/2023-03-24-Setter Injection.md",
-    "Chad_Spring_udemy/Section2_IoCAndDependency/Inversion of Control (IoC)/2023-03-24-Field Injection.md",
-    "Chad_Spring_udemy/Section2_IoCAndDependency/Inversion of Control (IoC)/2023-03-24-Component Scanning.md",
-    "Chad_Spring_udemy/Section2_IoCAndDependency/Inversion of Control (IoC)/2023-03-24-Compare Injection.md",
     "2023-03-17-21-19-32-image.png"
   ]
 }

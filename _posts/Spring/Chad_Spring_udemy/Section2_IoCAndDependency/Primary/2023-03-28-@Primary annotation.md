@@ -2,7 +2,7 @@
 layout: single
 title: "@Primary annotation"
 categories: Spring
-tag: [Java,IoC,Inversion of Control,"@Primary","@Qualifier"]
+tag: [Java,IoC,Inversion of Control,"@Primary","@Qualifier","@Component"]
 toc: true
 toc_sticky: true
 author_profile: false

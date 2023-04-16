@@ -2,7 +2,7 @@
 layout: single
 title: "Component Scanning"
 categories: Spring
-tag: [Java,IoC,Inversion of Control,Component Scanning]
+tag: [Java,IoC,Inversion of Control,Component Scanning,"@Component"]
 toc: true
 toc_sticky: true
 author_profile: false

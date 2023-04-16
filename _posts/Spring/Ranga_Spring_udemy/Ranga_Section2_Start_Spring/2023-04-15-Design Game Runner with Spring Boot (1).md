@@ -64,7 +64,7 @@ sidebar:
 
 ![](https://i.imgur.com/auHMrII.png)
 
-
+### Practice!
 
 ```java
 public class App02HelloWorldSpring {  
@@ -212,6 +212,9 @@ public class HelloWorldConfiguration {
     }  
 }
 ```
+
+#### 출력
+
 ![](https://i.imgur.com/7ULd7Jr.png)
 
 #### Alternative approach
@@ -236,7 +239,8 @@ public class HelloWorldConfiguration {
 }
 ```
 
->- 메소드를 직접 부르는거 대신에 파라미터로 부를 수 있다.
+>- 메소드를 직접 부르는거 대신에 파라미터로 부를 수 있다.\
+>	- (name, age, address2);
 
 
 ## 정리
@@ -250,3 +254,61 @@ public class HelloWorldConfiguration {
 
 3. The third thing that we learned is that you can use existing beans, which are managed by spring to create new beans.
 	- So we are now creating a person three in here using existing beans, which are managed by spring framework.
+
+### Spring 으로 관리
+
+#### Basic (Before)
+```java
+public class App01GamingBasicJava {  
+    public static void main(String[] args) {  
+  
+        //var marioGame = new MarioGame();  
+        var superContraGame = new SuperContraGame(); // 1: Object creation  
+        var gameRunner = new GameRunner(superContraGame);  
+        // 2: Object Creation + Wiring of Dependencies  
+        // Game is a Dependency of GameRunner        
+        gameRunner.run();  
+    }  
+}
+```
+
+>- 인터페이스를 만들어서 갈아 끼우는 방식으로 관리
+
+#### Spring (New)
+```java
+public class App03GamingSpringBeans {  
+    public static void main(String[] args) {  
+  
+        var context =  
+                new AnnotationConfigApplicationContext(GamingConfiguration.class);  
+        context.getBean(GamingConsole.class).up();  
+        context.getBean(GameRunner.class).run();  
+  
+    }  
+}
+```
+
+```java
+@Configuration  
+public class GamingConfiguration {  
+  
+    @Bean  
+    public GamingConsole game() {  
+        var game = new PacmanGame();  
+        return game;  
+    }  
+  
+    @Bean  
+    public GameRunner gameRunner(GamingConsole game) {  
+        var gameRunner = new GameRunner(game);  
+        return gameRunner;  
+    }  
+  
+  
+}
+```
+
+>- Spring 으로 관리하게 만드는게 더 적은 코드를 쓰는 것도 아니고 interface 등 그대로 유지된 상태에서 더 얹는 느낌이다.
+>- 그럼 Spring이 어느 부분에서 도대체 왜!! 좋은걸까?
+>- Starting Spring Framework(5) 에 정리
+
