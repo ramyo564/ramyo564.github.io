@@ -209,3 +209,7 @@ public class App03GamingSpringBeans {
 	- @ComponentScan 에서 설정한 경로에서 @Component가 달린 클래스를 자동으로 감지하고 찾는다.
 - 위와 같은 특징들로 수동으로 Game Runner, Pac-Man game 을 작성하지 않아도 된다.
 - Spring is able to scan the right packages, find the components, create instances, auto, add them for us and get the entire application up and runniung
+
+그럼 Component랑 Bean 이랑 뭐가 다르지?
+@Component vs @ Bean 에 정리해두었다
+블로그 내에서 검색하면 된다.

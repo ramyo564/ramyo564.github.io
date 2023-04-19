@@ -1,8 +1,8 @@
 ---
 layout: single
-title: "프로그래머스 temp (알고리즘)"
+title: "프로그래머스 배열 원소의 길이 (알고리즘)"
 categories: Algo
-tag: [Java,Python,JavaScript,Lv_0,"나이 출력"]
+tag: [Java,Python,JavaScript,Lv_0," 배열 원소의 길이 "]
 toc: true
 toc_sticky: true
 author_profile: false
@@ -16,7 +16,7 @@ sidebar:
 - 자바가 특히 헷갈려서 언어에 익숙해질겸 lv_0부터 다시 하는게 나을 듯
 - 어차피 기본기가 안되면 뭘 배워도 응용이 안됨
 
-- 문제 -> !!!!!!!!!!!!!!!!!!!!!!!!링크!
+- 문제 -> https://school.programmers.co.kr/learn/courses/30/lessons/120854
 
 ## Java
 
@@ -34,9 +34,12 @@ sidebar:
 ## Python
 ```python
 # 내가 푼 답
-
+def solution(strlist):
+    return [len(x) for x in strlist]
 # 다른 사람 풀이 1
-
+def solution(strlist):
+    answer = list(map(len, strlist))
+    return answer
 
 ```
 ### 정리
