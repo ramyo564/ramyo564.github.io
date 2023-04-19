@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f380fa0e5936ea4d",
+            "id": "2408ad3dc64eddbf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ranga_Spring_udemy/Ranga_Section3_Using Spring Framework to Create and Manage Your Java Objects/2023-04-16-Managing Objects and performing auto-wiring with Spring.md",
+                "file": "Ranga_Spring_udemy/Ranga_Section4_Exploring Lazy and Eager Initialization of Spring Framework Beans/2023-04-19-PostConstruct and PreDestroy.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 269.5046501159668,
-    "collapsed": true
+    "width": 269.5046501159668
   },
   "right": {
     "id": "3c82fc008517e921",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ranga_Spring_udemy/Ranga_Section3_Using Spring Framework to Create and Manage Your Java Objects/2023-04-16-Managing Objects and performing auto-wiring with Spring.md",
+                "file": "Ranga_Spring_udemy/Ranga_Section4_Exploring Lazy and Eager Initialization of Spring Framework Beans/2023-04-19-PostConstruct and PreDestroy.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ranga_Spring_udemy/Ranga_Section3_Using Spring Framework to Create and Manage Your Java Objects/2023-04-16-Managing Objects and performing auto-wiring with Spring.md",
+                "file": "Ranga_Spring_udemy/Ranga_Section4_Exploring Lazy and Eager Initialization of Spring Framework Beans/2023-04-19-PostConstruct and PreDestroy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ranga_Spring_udemy/Ranga_Section3_Using Spring Framework to Create and Manage Your Java Objects/2023-04-16-Managing Objects and performing auto-wiring with Spring.md"
+                "file": "Ranga_Spring_udemy/Ranga_Section4_Exploring Lazy and Eager Initialization of Spring Framework Beans/2023-04-19-PostConstruct and PreDestroy.md"
               }
             }
           },
@@ -139,7 +138,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -156,23 +155,29 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f380fa0e5936ea4d",
+  "active": "2408ad3dc64eddbf",
   "lastOpenFiles": [
+    "Ranga_Spring_udemy/Ranga_Section4_Exploring Lazy and Eager Initialization of Spring Framework Beans/Sample.md",
+    "Ranga_Spring_udemy/Ranga_Section4_Exploring Lazy and Eager Initialization of Spring Framework Beans/2023-04-19-PostConstruct and PreDestroy.md",
+    "Ranga_Spring_udemy/Ranga_Section4_Exploring Lazy and Eager Initialization of Spring Framework Beans/2023-04-19-Bean Scopes - Prototype and Singleton.md",
+    "Ranga_Spring_udemy/Ranga_Section4_Exploring Lazy and Eager Initialization of Spring Framework Beans/2023-04-19-Exploring Lazy and Eager Initialization of Spring Framework Beans.md",
     "Ranga_Spring_udemy/Ranga_Section3_Using Spring Framework to Create and Manage Your Java Objects/2023-04-19-@Component  vs @Bean.md",
+    "Ranga_Spring_udemy/Ranga_Section2_Start_Spring/2023-04-15-Design Game Runner with Spring Boot (1).md",
+    "Ranga_Spring_udemy/Ranga_Section2_Start_Spring/2023-04-15-Exploring Java Bean vs POJO vs Spring Bean (3).md",
+    "Ranga_Spring_udemy/Ranga_Section2_Start_Spring/2023-04-15-Exploring Spring IOC Container (2).md",
+    "Ranga_Spring_udemy/Ranga_Section2_Start_Spring/2023-04-15-How can I list all beans managed by Spring Framework.md",
     "Ranga_Spring_udemy/Ranga_Section3_Using Spring Framework to Create and Manage Your Java Objects/2023-04-16-Exploring Dependency Injection Types.md",
     "Ranga_Spring_udemy/Ranga_Section3_Using Spring Framework to Create and Manage Your Java Objects/2023-04-16-Managing Objects and performing auto-wiring with Spring.md",
-    "Ranga_Spring_udemy/Ranga_Section3_Using Spring Framework to Create and Manage Your Java Objects/temp.md",
+    "Ranga_Spring_udemy/Ranga_Section3_Using Spring Framework to Create and Manage Your Java Objects/2023-04-19-Why do we have a lot of Dependencies.md",
+    "Ranga_Spring_udemy/Sample.md",
+    "Ranga_Spring_udemy/Ranga_Section4_Exploring Lazy and Eager Initialization of Spring Framework Beans",
     "Chad_Spring_udemy/Section2_IoCAndDependency/Inversion of Control (IoC)/2023-03-24-Field Injection.md",
     "Chad_Spring_udemy/Section2_IoCAndDependency/Inversion of Control (IoC)/2023-03-24-Component Scanning.md",
     "Chad_Spring_udemy/Section2_IoCAndDependency/Primary/2023-03-28-@Primary vs @Qualifier.md",
     "BigTraffic/MySQL/2023-04-16-MySQL register.md",
     "BigTraffic/MySQL/2023-04-16-MySQL.md",
     "Chad_Spring_udemy/Section2_IoCAndDependency/Inversion of Control (IoC)/2023-03-23-Constructor Injection.md",
-    "Ranga_Spring_udemy/Ranga_Section2_Start_Spring/2023-04-15-Design Game Runner with Spring Boot (1).md",
-    "Ranga_Spring_udemy/Ranga_Section2_Start_Spring/2023-04-15-How can I list all beans managed by Spring Framework.md",
-    "Ranga_Spring_udemy/Ranga_Section2_Start_Spring/2023-04-15-Exploring Spring IOC Container (2).md",
     "Ranga_Spring_udemy/Ranga_Section3_Using Spring Framework to Create and Manage Your Java Objects",
-    "Ranga_Spring_udemy/Ranga_Section2_Start_Spring/2023-04-15-Exploring Java Bean vs POJO vs Spring Bean (3).md",
     "Chad_Spring_udemy/Section2_IoCAndDependency/Inversion of Control (IoC)/2023-03-16-Inversion of Control (IoC).md",
     "Chad_Spring_udemy/Section1_QuckStart/Beans/2023-03-16-Spring Framework Overview(Bean).md",
     "Chad_Spring_udemy/Section1_QuckStart/Application_Properties & Server/2023-03-22-Spring Boot Properties & Server copy.md",
@@ -180,20 +185,14 @@
     "Chad_Spring_udemy/Section2_IoCAndDependency/Bean Lifecycle Methods/2023-03-29-Bean lifecycle Methods.md",
     "Chad_Spring_udemy/Section1_QuckStart/Maven/2023-03-16-Spring Boot Maven.md",
     "Chad_Spring_udemy/Section1_QuckStart/Application_Properties & Server/2023-03-22-Custom Application Properties.md",
-    "Chad_Spring_udemy/Section1_QuckStart/Actuator/2023-03-17-Spring Boot Actuator.md",
     "BigTraffic/MySQL",
     "BigTraffic",
-    "Chad_Spring_udemy/Section6_Spring_MVC_Thymeleaf/1) Thymeleaf with Spring Boot/2023-04-07-Thymeleaf with Spring Boot.md",
     "Chad_Spring_udemy",
     "Ranga_Spring_udemy",
     "Ranga_Spring_udemy/Ranga_Section2_Start_Spring",
-    "FC_Part_1_mySQL/Untitled.md",
     "FC_Part_1_mySQL/ch_1",
-    "Chad_Spring_udemy/Section7_Spring_MVC_CRUD/1) Thymeleaf-CRUD Database Project/2023-04-07-Thymeleaf-CRUD Database Project.md",
     "FC_Part_1_mySQL",
     "Chad_Spring_udemy/Section7_Spring_MVC_CRUD/1) Thymeleaf-CRUD Database Project",
-    "Chad_Spring_udemy/Section7_Spring_MVC_CRUD",
-    "Chad_Spring_udemy/Section5_Spring_Boot_REST_API_Security/5) JDBC Authentication Custom tables/2023-04-07-JDBC Authentication Custom tables.md",
     "2023-03-17-21-19-32-image.png"
   ]
 }

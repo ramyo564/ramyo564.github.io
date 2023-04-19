@@ -2,7 +2,7 @@
 layout: single
 title: "How can I list all beans managed by Spring Framework?"
 categories: Spring
-tag: [Java,"Starting Spring Framework","@Primary","@Qualifier","IoC","@Component","@Bean"]
+tag: [Java,"Starting Spring Framework","@Primary","@Qualifier","IoC","@Component","@Bean","@Component vs @Bean"]
 toc: true
 toc_sticky: true
 author_profile: false
@@ -49,13 +49,11 @@ public class Utility {
 
 #### 정리
 
-| @Bean                                                  | @Component                                       |
-| ------------------------------------------------------ | ------------------------------------------------ |
-| 메소드에 사용                                          | 클래스에 사용                                    |
-| 개발자가 컨트롤이 불가능한 외부 라이브러리 사용시 사용 | 개발자가 직접 컨트롤이 가능한 내부 클래스에 사용 |
 
-
-
+| @Component                                       | @Bean                                                  |
+| ------------------------------------------------ | ------------------------------------------------------ |
+| 클래스에 사용                                    | 메소드에 사용                                          |
+| 개발자가 직접 컨트롤이 가능한 내부 클래스에 사용 | 개발자가 컨트롤이 불가능한 외부 라이브러리 사용시 사용 |
 
 
 
