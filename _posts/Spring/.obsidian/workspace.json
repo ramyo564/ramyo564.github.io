@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "66367c8a5941c6d7",
+        "id": "f900b549b02e3507",
         "type": "tabs",
         "children": [
           {
-            "id": "2408ad3dc64eddbf",
+            "id": "5c34d3e2e6ee2638",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ranga_Spring_udemy/Ranga_Section4_Exploring Lazy and Eager Initialization of Spring Framework Beans/2023-04-19-PostConstruct and PreDestroy.md",
+                "file": "Ranga_Spring_udemy/Ranga_Section4_Exploring Lazy and Eager Initialization of Spring Framework Beans/2023-04-20-Spring Stereotype Annotations - Component and more.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 269.5046501159668
+    "width": 269.5046501159668,
+    "collapsed": true
   },
   "right": {
     "id": "3c82fc008517e921",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ranga_Spring_udemy/Ranga_Section4_Exploring Lazy and Eager Initialization of Spring Framework Beans/2023-04-19-PostConstruct and PreDestroy.md",
+                "file": "Ranga_Spring_udemy/Ranga_Section4_Exploring Lazy and Eager Initialization of Spring Framework Beans/2023-04-20-Spring Stereotype Annotations - Component and more.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ranga_Spring_udemy/Ranga_Section4_Exploring Lazy and Eager Initialization of Spring Framework Beans/2023-04-19-PostConstruct and PreDestroy.md",
+                "file": "Ranga_Spring_udemy/Ranga_Section4_Exploring Lazy and Eager Initialization of Spring Framework Beans/2023-04-20-Spring Stereotype Annotations - Component and more.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ranga_Spring_udemy/Ranga_Section4_Exploring Lazy and Eager Initialization of Spring Framework Beans/2023-04-19-PostConstruct and PreDestroy.md"
+                "file": "Ranga_Spring_udemy/Ranga_Section4_Exploring Lazy and Eager Initialization of Spring Framework Beans/2023-04-20-Spring Stereotype Annotations - Component and more.md"
               }
             }
           },
@@ -155,9 +156,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2408ad3dc64eddbf",
+  "active": "5c34d3e2e6ee2638",
   "lastOpenFiles": [
-    "Ranga_Spring_udemy/Ranga_Section4_Exploring Lazy and Eager Initialization of Spring Framework Beans/Sample.md",
+    "Ranga_Spring_udemy/Ranga_Section4_Exploring Lazy and Eager Initialization of Spring Framework Beans/2023-04-20-Java Spring XML Configuration.md",
+    "Ranga_Spring_udemy/Ranga_Section4_Exploring Lazy and Eager Initialization of Spring Framework Beans/2023-04-20-Spring Stereotype Annotations - Component and more.md",
+    "Ranga_Spring_udemy/Ranga_Section4_Exploring Lazy and Eager Initialization of Spring Framework Beans/2023-04-20-Jakarta Contexts & Dependency Injection (CDI).md",
+    "Ranga_Spring_udemy/Ranga_Section4_Exploring Lazy and Eager Initialization of Spring Framework Beans/Sample 1 1.md",
+    "Ranga_Spring_udemy/Ranga_Section4_Exploring Lazy and Eager Initialization of Spring Framework Beans/2023-04-20-Comparing with J2EE and Java EE.md",
     "Ranga_Spring_udemy/Ranga_Section4_Exploring Lazy and Eager Initialization of Spring Framework Beans/2023-04-19-PostConstruct and PreDestroy.md",
     "Ranga_Spring_udemy/Ranga_Section4_Exploring Lazy and Eager Initialization of Spring Framework Beans/2023-04-19-Bean Scopes - Prototype and Singleton.md",
     "Ranga_Spring_udemy/Ranga_Section4_Exploring Lazy and Eager Initialization of Spring Framework Beans/2023-04-19-Exploring Lazy and Eager Initialization of Spring Framework Beans.md",
@@ -181,10 +186,6 @@
     "Chad_Spring_udemy/Section2_IoCAndDependency/Inversion of Control (IoC)/2023-03-16-Inversion of Control (IoC).md",
     "Chad_Spring_udemy/Section1_QuckStart/Beans/2023-03-16-Spring Framework Overview(Bean).md",
     "Chad_Spring_udemy/Section1_QuckStart/Application_Properties & Server/2023-03-22-Spring Boot Properties & Server copy.md",
-    "Chad_Spring_udemy/Section2_IoCAndDependency/Bean Scopes/2023-03-28-Beans Scopes.md",
-    "Chad_Spring_udemy/Section2_IoCAndDependency/Bean Lifecycle Methods/2023-03-29-Bean lifecycle Methods.md",
-    "Chad_Spring_udemy/Section1_QuckStart/Maven/2023-03-16-Spring Boot Maven.md",
-    "Chad_Spring_udemy/Section1_QuckStart/Application_Properties & Server/2023-03-22-Custom Application Properties.md",
     "BigTraffic/MySQL",
     "BigTraffic",
     "Chad_Spring_udemy",
