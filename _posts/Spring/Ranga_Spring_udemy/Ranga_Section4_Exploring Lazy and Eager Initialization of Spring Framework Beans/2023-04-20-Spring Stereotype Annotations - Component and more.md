@@ -26,3 +26,43 @@ sidebar:
 		- By using a specific annotation, you are giving more information to the framework about your intentions
 		- You can use AOP at later point to add additional behavior
 			- Example : For @Repository, Spring automatically wires in JDBC Exception translation features
+
+## 예제
+
+```java
+
+import org.springframework.stereotype.Component;  
+import org.springframework.stereotype.Repository;  
+  
+//@Component  
+@Repository  <-
+public class MySQLDataService implements DataService{  
+    @Override  
+    public int[] retrieveData() {  
+  
+        return new int[] {1, 2, 3, 4, 5};  
+    }  
+}
+```
+
+
+```java
+
+import org.springframework.stereotype.Component;  
+import org.springframework.stereotype.Service;  
+  
+import java.util.Arrays;  
+//@Component  
+@Service  <-
+public class BusinessCalculationService {  
+    private DataService dataService;  
+    public BusinessCalculationService(DataService dataService){  
+        super();  
+        this.dataService = dataService;  
+    }  
+    public int findMax() {  
+        return Arrays.stream(dataService.retrieveData())  
+                .max().orElse(0);  
+    }  
+}
+```
