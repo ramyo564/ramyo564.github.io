@@ -40,11 +40,10 @@ sidebar:
 	- They do not need to make use of everything in Spring framework!
 
 ## Spring Projects
-
+- ![](https://i.imgur.com/s1cQcaw.png)
 - Application architectures evolve continuously
 	- Web > REST API > Microservices > Colud > ...
 - Spring evolves through Spring Projects:
-- ![](https://i.imgur.com/s1cQcaw.png)
 	- First Project : Spring Framework
 	- Spring Security : Secure your web application or REST API or microservice
 	- Spring Data : Integrate the same way with different types of databases : NoSQL and Relational
