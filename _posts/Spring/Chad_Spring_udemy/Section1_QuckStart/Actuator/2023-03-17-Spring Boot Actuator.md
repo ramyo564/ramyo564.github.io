@@ -10,24 +10,24 @@ sidebar:
      
 
 ---
-
+# Spring Actuator
+/ Actuator /
+- Monitor and manage your application in your production
+- Provides a number of endpoints:
+	- beans - Complete list of Spring beans in your app
+	- health - Application health information
+	- metrics - Application metrics
+	- mappings - Details around Request Mappings
 
 ## Problem
-
 - How can I monitor and manage my application?
-
 - How can I check the application health?
-
 - How can I access application metrics?
 
 ## Solution : Spring Boot Actuator
-
 - Exposes endpoints to monitor and manage your application
-
 - You easily get DevOps functionality out of the box
-
 - Simply add the dependency to your POM file
-
 - REST endpoints are automatically added to your application
   (No need to write additional code!)
   (You get new REST endpoints for FREE!)
@@ -42,22 +42,15 @@ sidebar:
 ```
 
 - Automatically exposes endpoints for metrics out of the box
-
 - Endpoints are prefixed with : **/actuator**
 
-  
 ![](https://i.imgur.com/SRIlJKp.png)
-
-
 
 ### Health Endpoint
 
 - **/health** checks the status of your application
-
 - Normally used by monitoring apps to see if your app is up or down 
-
 - (Health status is customizable based on your own business logic)
-
 
 ![](https://i.imgur.com/13mfFaZ.png)
 
@@ -65,9 +58,7 @@ sidebar:
 ### Exposing Endpoints
 
 - By default, only **/health** is exposed
-
 - The **/info** endpoint can provide information about your application
-
 - To expose **/info**
 
 
@@ -81,7 +72,6 @@ management.info.env.enabled=ture
 ***
 
 - By default, only **/health** is exposed
-
 - To expose all actuator endpoints over HTTP
 
 ```java
@@ -97,9 +87,7 @@ management.endpoints.web.exposure.include= *
 ### Info Endpoint
 
 - **/info** gives information about your application
-
 - Default is empty
-
 
 ![](https://i.imgur.com/LAwkciO.png)
 
@@ -116,8 +104,6 @@ info.app.version = ***1.0.0***
 
 -> Properties starting with "info." will be used by /info
 
-
-
 ![](https://i.imgur.com/AzWf2dr.png)
 
 
@@ -125,22 +111,18 @@ info.app.version = ***1.0.0***
 
 - There are 10+ Spring Boot Actuator endpoints
 
-
 ![](https://i.imgur.com/TRt86p6.png)
 
 
 ### Get A List of Beans
 
 - Access http://localhost:8080/actuator/beans ->
-
 - 당연히 security도 추가 해야함
 
 ### Development Process
 
 1. Edit **pom.xml** and add **spring-boot-starter-acuator**
-
 2. View actuator endpoints for: **/health**
-
 3. Edit **application.properties** to customize **/info**
 
 ```java
@@ -172,15 +154,12 @@ src/main/resources/application.properties
 ### List of Actuator
 
 - actuator/beans -> 등록된 bean 확인
-
 - actuator/threaddump-> 모든 스레드 확인 , 병목현상 및 퍼포먼스 확인
-
 - actuator/mapping,,etc..
 
 ## What about Security?
 
 - You may NOT want to expose all of this information
-
 - Add Spring Security to project and endpoints are secured 
 
 ```java
@@ -193,7 +172,6 @@ src/main/resources/application.properties
 ### Secured Endpoints
 
 - Now when you access: /actuator/beans
-
 - Spring Security will prompt for login
 
 ### Spring Security configuration
@@ -210,7 +188,6 @@ src/main/resources/application.properties
 ### Customizing Spring Security
 
 - You can customize Spring Security for Spring Boot Actuator
-  
   - Use a database for roles, encrypted password etc..
 
 ### Excluding Endpoints
@@ -226,9 +203,7 @@ src/main/resources/application.properties
 ## Development Process
 
 1. Edit **pom.xml** and add **spring-boot-starter-security**
-
 2. Verify security on actuator endpoints for: **/beans** etc
-
 3. Disable endpoints for **/health** and **/info**
 
 ### dependency 추가

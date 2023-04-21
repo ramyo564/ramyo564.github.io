@@ -25,3 +25,10 @@ sidebar:
 - Embedded Server - Simpler alternative
 	- Step 1 : Install Java
 	- Step 2 : Run JAR file
+	- Make JAR not WAR (Credit: Josh Long!)
+	- Embedded Server Examples:
+		- spring-boot-starter-tomcat
+		- spring-boot-starter-jetty
+		- spring-boot-starter-undertow
+
+>- 스프링을 쓰면 톰캣이든 뭐든 알아서 해준다.
