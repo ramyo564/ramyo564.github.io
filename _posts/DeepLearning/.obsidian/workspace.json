@@ -18,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "fa209d33e5a8acdc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ch5_오차역전파법/Backpropagation.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -99,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ch5_오차역전파법/Backpropagation.md",
+                "file": "ch4_신경망 학습/Learning Algorithm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ch5_오차역전파법/Backpropagation.md",
+                "file": "ch4_신경망 학습/Learning Algorithm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ch5_오차역전파법/Backpropagation.md"
+                "file": "ch4_신경망 학습/Learning Algorithm.md"
               }
             }
           }
@@ -160,10 +147,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fa209d33e5a8acdc",
+  "active": "afd33dc6650878e0",
   "lastOpenFiles": [
+    "ch5_오차역전파법/2023-04-22-Backpropagation.md",
     "ch2_퍼셉트론/2023-03-25-Perceptron.md",
-    "ch5_오차역전파법/Backpropagation.md",
     "ch4_신경망 학습/Learning Algorithm.md",
     "ch5_오차역전파법",
     "ch4_신경망 학습/2023-04-09-Neural network training.md",
