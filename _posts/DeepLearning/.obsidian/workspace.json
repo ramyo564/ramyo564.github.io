@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ch4_신경망 학습/Learning Algorithm.md",
+                "file": "ch4_신경망 학습/2023-04-14-Learning Algorithm.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "1189296d4db3bce6",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ch4_신경망 학습/Learning Algorithm.md",
+                "file": "ch4_신경망 학습/2023-04-14-Learning Algorithm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ch4_신경망 학습/Learning Algorithm.md",
+                "file": "ch4_신경망 학습/2023-04-14-Learning Algorithm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ch4_신경망 학습/Learning Algorithm.md"
+                "file": "ch4_신경망 학습/2023-04-14-Learning Algorithm.md"
               }
             }
           }
@@ -150,7 +149,7 @@
   "active": "afd33dc6650878e0",
   "lastOpenFiles": [
     "ch4_신경망 학습/2023-04-09-Neural network training.md",
-    "ch4_신경망 학습/Learning Algorithm.md",
+    "ch4_신경망 학습/2023-04-14-Learning Algorithm.md",
     "ch5_오차역전파법/2023-04-22-Backpropagation.md",
     "ch2_퍼셉트론/2023-03-25-Perceptron.md",
     "ch5_오차역전파법",

@@ -3,15 +3,17 @@
 layout: single
 title: " Spring MVC Controller, @ResponseBody, @Controller "
 categories: Spring
-tag: [Java,"Spring MVC Controller","@ResponseBody","@Controller","JSP","@RequestParam","@RequestMapping"]
+tag: [Java,"Spring MVC Controller","@ResponseBody","@Controller","JSP","@RequestParam","@RequestMapping","Java Web Application with Spring and Hibernate"]
 toc: true
 toc_sticky: true
 author_profile: false
 sidebar:
 
 ---
-# Spring MVC Controller, @ResponseBody, @Controller
+# Java Web Application with Spring and Hibernate (1)
 / @ResponseBody / @Controller / @RequestMapping / @RequestParam
+
+## Spring MVC Controller, @ResponseBody, @Controller
 
 ```java
 @Controller  
@@ -137,12 +139,70 @@ public class LoginController {
 
 
 ### How does Web Work?
+
+![](https://i.imgur.com/E8p69hM.png)
+
 - A : Browser sends a request
 	- HttpRequest
 - B : Server handles the request
 	- Your Spring Boot Web Application
 - C : Server returns the response
 	- HttpResponse
+
+### Peek into History - Model 1 Arch.
+
+![](https://i.imgur.com/dmpinBL.png)
+
+- All CODE in Views (JSPs, ....)
+	- View logic
+	- Flow logic
+	- Queries to databases
+- Disadvantages:
+	- VERY complex JSPs
+	- ZERO separation of concerns
+	- Difficult to maintain
+
+### Peek into History - Model 2 Arch.
+
+![](https://i.imgur.com/52FMBXa.png)
+
+- How about separating concerns?
+	- Model : Data to genereate the view
+	- View : Show information to user
+	- Controller : Controls the flow
+- Advantage : Simpler to maintain
+- Concern:
+	- Where to implement common features to all controllers?
+		- You have a number if services
+		- There might be common features that you would want to implement acreoss all these services
+		- For example, if you want to implement authentication.
+		- The authentication logic is similar across all the servlet
+		- How do you implement it in common across all this servlet?
+		- That's where we graduated into something called a friend controller pattern. -> ***Front Controller***
+
+#### Model2 Architecure - Front Controller
+
+![](https://i.imgur.com/n8kC0Pa.png)
+
+- Concept : All requests flow into a central controller
+	- Called as Front Controller
+- Front Controller controls flow to Controller's and View's
+	- Common features can be implemented in the Front Controller
+	- ![](https://i.imgur.com/HTLBAcM.png)
+- A : Receives HTTP Request
+- B : Processes HTTP Request
+	- B1 : Identifies correct Controller method
+		- Based on request URL
+			- /login => LoginController.gotoLoginPage
+	- B2 : Executes Controller method
+		- Puts data into model
+		- Returns Model and View Name
+	- B3 : Identifies correct View
+		- Using ViewResolver
+			- /WEB-INF/jsp/login.jsp
+	- B4 : Executes view
+- C : Returns HTTP Response
+
 
 
 
