@@ -318,6 +318,7 @@ def function_2(x):
 >- range 로 인해 idx 는 0 , 1
 >- x[0] 값은 3.0, x[1] 값은 4.0
 >- x[0], x[1] 값 갱신
+>- 파라미터 F 는 함수를 받아옴
 >- f(x) = function_2(x) 갱신된 값 fxh1, fxh2 각각 대입
 
 ![](https://i.imgur.com/CUtJtMR.png)

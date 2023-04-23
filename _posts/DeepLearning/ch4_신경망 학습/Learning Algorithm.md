@@ -83,6 +83,7 @@ class TwoLayerNet:
         grads['b2'] = numerical_gradient(loss_W, self.params['b2'])
         return grads
         
+       # 오차역전법 -> 다음 장에서 설명
     def gradient(self, x, t):
         W1, W2 = self.params['W1'], self.params['W2']
         b1, b2 = self.params['b1'], self.params['b2']
@@ -124,11 +125,32 @@ net.params['b2'].shape # (10,)
 >	- 가중치 매개변수의 초깃값을 무엇으로 설정하느냐에 따라 신경망 학습의 성공을 좌우 한다고 함
 >	- 편향은 0으로 초기화
 >- predict() 은 정답 레이블을 바탕으로 교차 엔트로피 오차 구현
->- numerical_gradient(self, x, t) 는 각 매개변수의 기울기 계산
+>- numerical_gradient(self, x, t) 는 각 매개변수의 기울기 계산 (계산 오래 걸림)
 >- gradient(self, x, t)는 오차역전파법을 사용해 기울기를 계산
->	- numerical_gradient(self, x, t)는 수치 미분 방식으로 매개변수의 기울기를 계산
->	- 이 기울기 계산에 오차역 전파법을 쓰면 수치 미분을 사용할 때와 거의 같은 결과를 훨씬 빠르게 얻을 수 있다.
->	- 신경망 학습은 시간이 오래 걸리니, 시간을 절약하려면 numerical_gradient(self, x, t) 대신 gradient(self, x. t)를 쓰는 것이 좋다.
+>	- ***numerical_gradient(self, x, t)는 수치 미분 방식으로 매개변수의 기울기를 계산***
+>	- ***오차역 전파법***을 쓰면 수치 미분을 사용할 때와 ***거의 같은 결과를 훨씬 빠르게*** 얻을 수 있다.
+>	- 신경망 학습은 시간이 오래 걸리니, 시간을 절약하려면 numerical_gradient(self, x, t) 대신 gradient(self, x. t)를 쓰는 것이 좋다. (연습할 때)
+>	- 오차역전법에 대한 자세한 이야기는 다음장에서 ㄱ
+
+### 예측처리
+
+```python
+x = np.random.rand(100, 784) # 더미 입력 데이터 (100장 분량)
+y = net.predict(x)
+```
+>- x = 100행 784열
+
+```python
+x = np.random.rand(100, 784) # 더미 입력 데이터(100장 분량)
+t = np.random.rand(100, 10) # 더이 정답 레이블(100장 분량)
+
+grads = net.numerical_gradient(x, t) # 기울기 계산
+grads['W1'].shape # (784, 100)
+grads['b1'].shape # (100,)
+grads['W2'].shape # (100, 10)
+grads['b2'].shape # (10,)
+```
+
 
 
 ## 미니배치 학습 구현하기
@@ -156,16 +178,18 @@ train_loss_list = []
 # 하이퍼파라미터
 
 iters_num = 10000 # 반복 횟수
-train_size = x_train.shape[0]
+train_size = x_train.shape[0] # <- 훈련 이미지 60,000개
+# shape[0] 은 행의 개수
+# shape[1] 은 열의 개수
+
 batch_size = 100 # 미니배치 크기
 learning_rate = 0.1
 network = TwoLayerNet(input_size=784, hidden_size=50, output_size=10)
 
-  
 
 for i in range(iters_num):
     # 미니배치 획득
-    batch_mask = np.random.choice(train_size, batch_size)
+    batch_mask = np.random.choice(train_size, batch_size) #<- 중복허용
     x_batch = x_train[batch_mask]
     t_batch = t_train[batch_mask]
 
@@ -182,8 +206,102 @@ for i in range(iters_num):
     train_loss_list.append(loss)
 ```
 
+>- x_train.shape (60000, 784)
+>	- 훈련이미지가 60,000 개 / 이미지 크기는 28 x 28 = 784
+>- batch_mask = train_size (60,000) 수 에서 (batch_size)100개의 무작위 숫자(인덱스) 추출
+>- x batch는 batch_mask 를 인덱스로 해서 원래 있던 60,000 개의 데이터중 무작위 100개 추출
+>- 무작위의 데이터를 numerical_gradient에 대입
+>	- 이전에 예측값 함수 predict에서 연속된 수(시그모이드) (입력이 작을 때 출력이 0, 입력이 클 때 출력이  1) 로 바꾼 후 소프트 맥스 함수를 이용해서 다시 확률로 계산
+>	- 해당 확률을 크로스 엔트로피 오차를 이용해서 정답 테이블과 훈련 테이블의 오차 계산
+>		- 정답에 가까울 수록 린턴 값은  0에 가까움
+>	- 구해온 해당 오차 loss_W 와 이전에 초기화 값 self.params 와의 기울기 (미분 값)을 grads 딕셔너리에 저장
+>	- 해당 grads의 키 값 과 이전에 저장해둔 learning_rate -0.01 값을 곱해 r같은 키 값의 network.params의 값을 갱신 시켜줌
+>- 해당 과정을 통해 손실 함수의 값이 서서히 줄어듬
+>	- 손실 함수 값이 작아진다는 것은 신경망 학습이 잘 되고 있다는 뜻
 
 
+## 시험 데이터로 평가하기
+
+> - 1에폭은 학습에서 훈련 데이터를 모두 소진했을 때의 횟수에 해당
+> 	- 훈련 데이터 10,000개를 100개의 미니배치로 학습할 경우
+> 	- 확률적 경사 하강법을 100회 반복하면 모든 훈련 데이터를 소진하게 됨
+> 		- 이 경우 100회가 1 에폭
+
+```python
+# coding: utf-8
+
+import sys, os
+sys.path.append(os.pardir)  # 부모 디렉터리의 파일을 가져올 수 있도록 설정
+import numpy as np
+import matplotlib.pyplot as plt
+from dataset.mnist import load_mnist
+from two_layer_net import TwoLayerNet
+
+# 데이터 읽기
+(x_train, t_train), (x_test, t_test) = load_mnist(normalize=True, one_hot_label=True)
+network = TwoLayerNet(input_size=784, hidden_size=50, output_size=10)
+
+# 하이퍼파라미터
+iters_num = 10000  # 반복 횟수를 적절히 설정한다.
+train_size = x_train.shape[0]
+batch_size = 100   # 미니배치 크기
+learning_rate = 0.1
+train_loss_list = []
+train_acc_list = []
+test_acc_list = []
+
+# 1에폭당 반복 수
+
+iter_per_epoch = max(train_size / batch_size, 1)
+for i in range(iters_num):
+
+    # 미니배치 획득
+    batch_mask = np.random.choice(train_size, batch_size)
+    x_batch = x_train[batch_mask]
+    t_batch = t_train[batch_mask]
+
+    # 기울기 계산
+    #grad = network.numerical_gradient(x_batch, t_batch)
+    grad = network.gradient(x_batch, t_batch)
+    
+    # 매개변수 갱신
+    for key in ('W1', 'b1', 'W2', 'b2'):
+        network.params[key] -= learning_rate * grad[key]
+
+    # 학습 경과 기록
+    loss = network.loss(x_batch, t_batch)
+    train_loss_list.append(loss)
+
+    # 1에폭당 정확도 계산
+    if i % iter_per_epoch == 0:
+        train_acc = network.accuracy(x_train, t_train)
+        test_acc = network.accuracy(x_test, t_test)
+        train_acc_list.append(train_acc)
+        test_acc_list.append(test_acc)
+        print("train acc, test acc | " + str(train_acc) + ", " + str(test_acc))
+
+# 그래프 그리기
+
+markers = {'train': 'o', 'test': 's'}
+x = np.arange(len(train_acc_list))
+plt.plot(x, train_acc_list, label='train acc')
+plt.plot(x, test_acc_list, label='test acc', linestyle='--')
+plt.xlabel("epochs")
+plt.ylabel("accuracy")
+plt.ylim(0, 1.0)
+plt.legend(loc='lower right')
+plt.show()
+```
+
+>- accuracy 에서는 예를 들어 `[0.1, 0.5, 0.3, ... 0.04]` 같은 배열이 반환될 때 
+>	- (이미지 숫자가 '0' 일 확률이 0.1, '1' 일 확률이 0.5 .... 식으로 해석)
+>- np.argmax() 함수로 배열에서 가장 큰 값 (확률이 가장 높은) 원소의 인덱스를 구한다.
+>- 이를 전체 이미지 숫자로 나눠 정확도를 측정
+
+### 학습 결과 그래프
+
+- ![](https://i.imgur.com/hav5e0O.png)
+- ![](https://i.imgur.com/uh5ahls.png)
 
 
 

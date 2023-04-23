@@ -3,7 +3,7 @@
 layout: single
 title: " Automatically Kill 8080 port "
 categories: Spring
-tag: [Java," Automatically Kill 8080 port "]
+tag: [Java,"Automatically Kill 8080 port"]
 toc: true
 toc_sticky: true
 author_profile: false

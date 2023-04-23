@@ -3,7 +3,7 @@
 layout: single
 title: " Embedded Servers "
 categories: Spring
-tag: [Java,"Embedded Servers",]
+tag: [Java,"Embedded Servers"]
 toc: true
 toc_sticky: true
 author_profile: false
