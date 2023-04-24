@@ -249,4 +249,4 @@ public class LoginController {
 >- 컨트롤러에서 파라미터를 받으면 뷰로 넘겨줌
 >- JSP에 있는 내용을 보여주기 위해서 Model이 필요함
 >- Model에 넣으면 View가 알아서 픽업해줌
->	- 파라미터의 name 을 모델에서  jsp에 있는 name(model_name) 에서 픽업
+>	- 파라미터의 name 을 모델에서  jsp에 있는 name(model_name) 픽업
