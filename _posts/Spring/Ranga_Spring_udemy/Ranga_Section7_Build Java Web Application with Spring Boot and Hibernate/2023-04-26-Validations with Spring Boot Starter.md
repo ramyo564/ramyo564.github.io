@@ -3,7 +3,7 @@
 layout: single
 title: " Validations with Spring Boot Starter "
 categories: Spring
-tag: [Java,"Java Web Application with Spring and Hibernate","Validations with Spring Boot Starter"]
+tag: [Java,"Java Web Application with Spring and Hibernate","Validations with Spring Boot Starter","BindingResult","@Valid","@Size"]
 toc: true
 toc_sticky: true
 author_profile: false
@@ -12,7 +12,7 @@ sidebar:
 ---
 # Java Web Application with Spring and Hibernate (5)
 
-/ !!!!!! /
+/ @Size / @Valid / BindingResult / Validations
 
 ## 유효성 검사
 
@@ -169,3 +169,86 @@ public String showNewTodoPage(ModelMap model) {
     return "todo";  
 }
 ```
+
+>- One side binding ->  `"Default Desc"` 
+>- ![](https://i.imgur.com/UyQijTj.png)
+>- Basically from your controller to the values which are shown in the form that one side
+>- The second side is whatever values you are entering in here
+>- ![](https://i.imgur.com/ZFdundd.png)
+>- ![](https://i.imgur.com/CvMIQZ1.png)
+
+
+## 3. Add Validations to Bean
+- Todo.java
+### TodoController.java
+```java
+@RequestMapping(value="add-todo", method = RequestMethod.POST)  
+public String addNewTodo(ModelMap model, @Valid Todo todo) {  
+  
+    String username = (String)model.get("name");  
+    todoService.addTodo(username, todo.getDescription(),  
+            LocalDate.now().plusYears(1), false);  
+    return "redirect:list-todos";  
+}
+```
+
+### Todo.java
+```java
+@Size(min=10, message="Enter at least 10 characters")  
+private String description;
+```
+>- @Size 애너테이션을 이용해 유효성 검사를 한다.
+>- 컨트롤러에서 @Valid를 사용해서 Todo의 bean 유효성 검사
+>- ![](https://i.imgur.com/Wu8qeWK.png)
+
+## 4. Display Validation Errors in the View
+- VIew 에서 에러페이지가 나오도록 하기 위해 JSP 를 수정
+
+### todo.jsp
+```java
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>  
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>  
+  
+  
+<html>  
+   <head>  
+      <link href="webjars/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet" >  
+      <title>Add Todo Page</title>  
+   </head>  
+   <body>  
+      <div class="container">  
+         <h1>Enter Todo Details</h1>  
+         <form:form method="post" modelAttribute="todo">  
+            Description: <form:input type="text" path="description"  
+                        required="required"/>  
+                        <form:errors path="description" cssClass="text-warning"/>  
+            <form:input type="hidden" path="id"/>  
+            <form:input type="hidden" path="done"/>  
+            <input type="submit" class="btn btn-success"/>  
+  
+         </form:form>  
+  
+      </div>  
+      <script src="webjars/bootstrap/5.1.3/js/bootstrap.min.js"></script>  
+      <script src="webjars/jquery/3.6.0/jquery.min.js"></script>  
+   </body>  
+</html>
+```
+>- `<form:errors path="description" cssClass="text-warning"/> ` 추가 
+>- JSP를 수정하면 부트스트랩에서 제공하는 cssClass를 사용해 css를 컨트롤 할 수 있다.
+
+### TodoController.java
+```java
+@RequestMapping(value="add-todo", method = RequestMethod.POST)  
+public String addNewTodo(ModelMap model, @Valid Todo todo, BindingResult result) {  
+    if(result.hasErrors()){  
+        return "todo";  
+    }  
+    String username = (String)model.get("name");  
+    todoService.addTodo(username, todo.getDescription(),  
+            LocalDate.now().plusYears(1), false);  
+    return "redirect:list-todos";  
+}
+```
+>- 스프링에서 제공하는 BindingResult 를 통해 오류 내용을 JSP로 보내줌
+>- 조건문을 활용해서 에러가 있으면 todo 페이지에 남아 있으면서 에러메세지를 뷰를 통해 브라우저에서 보여준다.
