@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "033a1120f2b4d3f6",
+            "id": "1a92749a5ec64c18",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ranga_Spring_udemy/Ranga_Section7_Build Java Web Application with Spring Boot and Hibernate/2023-04-26-Spring Security.md",
+                "file": "Ranga_Spring_udemy/Ranga_Section7_Build Java Web Application with Spring Boot and Hibernate/2023-04-27-Setting up a New User for Todo Application.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ranga_Spring_udemy/Ranga_Section7_Build Java Web Application with Spring Boot and Hibernate/2023-04-26-Spring Security.md",
+                "file": "Ranga_Spring_udemy/Ranga_Section7_Build Java Web Application with Spring Boot and Hibernate/2023-04-27-Setting up a New User for Todo Application.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ranga_Spring_udemy/Ranga_Section7_Build Java Web Application with Spring Boot and Hibernate/2023-04-26-Spring Security.md",
+                "file": "Ranga_Spring_udemy/Ranga_Section7_Build Java Web Application with Spring Boot and Hibernate/2023-04-27-Setting up a New User for Todo Application.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ranga_Spring_udemy/Ranga_Section7_Build Java Web Application with Spring Boot and Hibernate/2023-04-26-Spring Security.md"
+                "file": "Ranga_Spring_udemy/Ranga_Section7_Build Java Web Application with Spring Boot and Hibernate/2023-04-27-Setting up a New User for Todo Application.md"
               }
             }
           },
@@ -156,17 +156,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "033a1120f2b4d3f6",
+  "active": "1a92749a5ec64c18",
   "lastOpenFiles": [
-    "Ranga_Spring_udemy/Ranga_Section7_Build Java Web Application with Spring Boot and Hibernate/2023-04-26-Adding a Navigation Bar and Implementing JSP Fragments.md",
     "Ranga_Spring_udemy/Ranga_Section7_Build Java Web Application with Spring Boot and Hibernate/2023-04-26-Spring Security.md",
+    "Ranga_Spring_udemy/Ranga_Section7_Build Java Web Application with Spring Boot and Hibernate/2023-04-27-Setting up a New User for Todo Application.md",
+    "Ranga_Spring_udemy/Ranga_Section7_Build Java Web Application with Spring Boot and Hibernate/2023-04-26-Show Update Todo Page.md",
+    "Ranga_Spring_udemy/Ranga_Section7_Build Java Web Application with Spring Boot and Hibernate/2023-04-26-Validations with Spring Boot Starter.md",
+    "Ranga_Spring_udemy/Ranga_Section7_Build Java Web Application with Spring Boot and Hibernate/2023-04-26-Adding a Navigation Bar and Implementing JSP Fragments.md",
     "Ranga_Spring_udemy/Ranga_Section7_Build Java Web Application with Spring Boot and Hibernate/2023-04-25-Add a New Todo.md",
     "Ranga_Spring_udemy/Ranga_Section7_Build Java Web Application with Spring Boot and Hibernate/2023-04-22-Spring MVC Controller, @ResponseBody, @Controller and so on.....md",
     "Ranga_Spring_udemy/Ranga_Section7_Build Java Web Application with Spring Boot and Hibernate/2023-04-23-Creating a Login Form.md",
     "Ranga_Spring_udemy/Ranga_Section7_Build Java Web Application with Spring Boot and Hibernate/2023-04-23-Importance of Logging with Spring boot.md",
     "Ranga_Spring_udemy/Ranga_Section7_Build Java Web Application with Spring Boot and Hibernate/2023-04-24-Creating Todo Service.md",
-    "Ranga_Spring_udemy/Ranga_Section7_Build Java Web Application with Spring Boot and Hibernate/2023-04-26-Validations with Spring Boot Starter.md",
-    "Ranga_Spring_udemy/Ranga_Section7_Build Java Web Application with Spring Boot and Hibernate/2023-04-26-Show Update Todo Page.md",
     "Ranga_Spring_udemy/Ranga_Section7_Build Java Web Application with Spring Boot and Hibernate/2023-04-26-Delete todo Feature.md",
     "Ranga_Spring_udemy/SampleSection7.md",
     "Ranga_Spring_udemy/Sample.md",
@@ -187,7 +188,6 @@
     "Ranga_Spring_udemy/Ranga_Section4_Exploring Lazy and Eager Initialization of Spring Framework Beans/2023-04-20-Spring -Framework,Modules and Projects.md",
     "Ranga_Spring_udemy/Ranga_Section4_Exploring Lazy and Eager Initialization of Spring Framework Beans/2023-04-20-Spring Stereotype Annotations - Component and more.md",
     "Chad_Spring_udemy/Section2_IoCAndDependency/Inversion of Control (IoC)/2023-03-16-Inversion of Control (IoC).md",
-    "Ranga_Spring_udemy/Ranga_Section4_Exploring Lazy and Eager Initialization of Spring Framework Beans/2023-04-20-Spring Annotations and Concepts.md",
     "Ranga_Spring_udemy/Ranga_Section4_Exploring Lazy and Eager Initialization of Spring Framework Beans",
     "Ranga_Spring_udemy/Ranga_Section3_Using Spring Framework to Create and Manage Your Java Objects",
     "BigTraffic/MySQL",
