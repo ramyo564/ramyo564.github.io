@@ -2,14 +2,14 @@
 layout: single
 title: "@Component  vs @Bean"
 categories: Spring
-tag: [Java,"Starting Spring Framework","@Component vs @Bean"]
+tag: [Java,"[BIG] Starting Spring Framework","@Component vs @Bean"]
 toc: true
 toc_sticky: true
 author_profile: false
 sidebar:
 
 ---
-# Starting Spring Framework ( 7 )
+# Starting Spring Framework (7)
 / @Component  vs @Bean /
 
 

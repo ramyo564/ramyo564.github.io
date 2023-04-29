@@ -3,7 +3,7 @@
 layout: single
 title: " Spring Security "
 categories: Spring
-tag: [Java,"Java Web Application with Spring and Hibernate","Spring Security","InMemoryUserDetailsManager","PasswordEncoder","BCryptPasswordEncoder","User","UserDetails","SecurityContextHolder.getContext().getAuthentication()"]
+tag: [Java,"[BIG] Java Web Application with Spring and Hibernate","Spring Security","InMemoryUserDetailsManager","PasswordEncoder","BCryptPasswordEncoder","User","UserDetails","SecurityContextHolder.getContext().getAuthentication()"]
 toc: true
 toc_sticky: true
 author_profile: false

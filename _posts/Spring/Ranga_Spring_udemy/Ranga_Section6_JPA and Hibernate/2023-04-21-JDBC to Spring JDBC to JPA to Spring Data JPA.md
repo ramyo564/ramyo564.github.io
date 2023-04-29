@@ -29,12 +29,7 @@ sidebar:
 ## Spring JDBC
 
 ```java
-import org.springframework.beans.factory.annotation.Autowired;  
-import org.springframework.jdbc.core.BeanPropertyRowMapper;  
-import org.springframework.jdbc.core.JdbcTemplate;  
-import org.springframework.stereotype.Repository;  
-import com.in28minutes.springboot.learnjpaandhibernate.course.Course;  
-  
+
 @Repository  
 public class CourseJdbcRepository {  
     @Autowired  
@@ -68,12 +63,7 @@ public class CourseJdbcRepository {
 
 ## JPA
 ```java
-import org.springframework.stereotype.Repository;  
-import com.in28minutes.springboot.learnjpaandhibernate.course.Course;  
-import jakarta.persistence.EntityManager;  
-import jakarta.persistence.PersistenceContext;  
-import jakarta.transaction.Transactional;  
-  
+
 @Repository  
 @Transactional  
 public class CourseJpaRepository {  
@@ -107,10 +97,7 @@ public interface CourseSpringDataJpaRepository extends JpaRepository<Course, Lon
 
 ## Course
 ```java
-import jakarta.persistence.Column;  
-import jakarta.persistence.Entity;  
-import jakarta.persistence.Id;  
-  
+
 @Entity  
 public class Course {  
   

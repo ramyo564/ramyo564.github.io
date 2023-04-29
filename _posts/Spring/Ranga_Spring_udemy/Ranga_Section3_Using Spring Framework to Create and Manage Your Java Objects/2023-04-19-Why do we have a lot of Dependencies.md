@@ -3,14 +3,14 @@
 layout: single
 title: "Why do we have a lot of Dependencies?"
 categories: Spring
-tag: [Java,"Starting Spring Framework","Why do we have a lot of Dependencies?","Dependencies"]
+tag: [Java,"[BIG] Starting Spring Framework","Why do we have a lot of Dependencies?","Dependencies"]
 toc: true
 toc_sticky: true
 author_profile: false
 sidebar:
 
 ---
-# Starting Spring Framework ( 8 )
+# Starting Spring Framework (8)
 / Dependencies /
 
 - In Game Runner Hello World App, we have very few classes

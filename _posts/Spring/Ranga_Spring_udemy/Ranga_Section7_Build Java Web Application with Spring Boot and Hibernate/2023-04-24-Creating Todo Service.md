@@ -3,7 +3,7 @@
 layout: single
 title: " Creating Todo Service "
 categories: Spring
-tag: [Java,"Creating Todo Service","@SessionAttributes",JSTL,Bootstrap]
+tag: [Java,"[BIG] Java Web Application with Spring and Hibernate","Creating Todo Service","@SessionAttributes",JSTL,Bootstrap]
 toc: true
 toc_sticky: true
 author_profile: false

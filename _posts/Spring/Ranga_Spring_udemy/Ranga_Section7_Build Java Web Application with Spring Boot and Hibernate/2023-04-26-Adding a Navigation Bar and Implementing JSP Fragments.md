@@ -3,7 +3,7 @@
 layout: single
 title: " Adding a Navigation Bar and Implementing JSP Fragments "
 categories: Spring
-tag: [Java,"Java Web Application with Spring and Hibernate","Adding a Navigation Bar and Implementing JSP Fragments","jspf","Navigation, Header, Footer 분할"]
+tag: [Java,"[BIG] Java Web Application with Spring and Hibernate","Adding a Navigation Bar and Implementing JSP Fragments","jspf","Navigation, Header, Footer 분할"]
 toc: true
 toc_sticky: true
 author_profile: false
