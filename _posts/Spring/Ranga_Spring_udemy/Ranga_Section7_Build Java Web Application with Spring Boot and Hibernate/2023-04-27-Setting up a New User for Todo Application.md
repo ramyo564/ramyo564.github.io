@@ -3,7 +3,7 @@
 layout: single
 title: " Setting up a New User for Todo Application "
 categories: Spring
-tag: [Java,"Java Web Application with Spring and Hibernate","Setting up a New User for Todo Application"]
+tag: [Java,"Java Web Application with Spring and Hibernate","Setting up a New User for Todo Application","UserDetails","createNewUser","HttpSecurity","withDefaults()","@Entity","SecurityFilterChain","authorizeHttpRequests","JpaRepository"]
 toc: true
 toc_sticky: true
 author_profile: false
@@ -12,7 +12,7 @@ sidebar:
 ---
 # Java Web Application with Spring and Hibernate (10)
 
-/ !!!!!! /
+/ UserDetails / createNewUser / HttpSecurity / withDefaults() / @Entity / SecurityFilterChain /  authorizeHttpRequests / JpaRepository
 
 ## Setting up a New User
 
@@ -158,14 +158,6 @@ public class Todo {
 ```
 
 ```java
-package com.in28minutes.springboot.myfirstwebapp.todo;
-
-import java.time.LocalDate;
-
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.Id;
-import jakarta.validation.constraints.Size;
 
 //Database (MySQL) 
 //Static List of todos => Database (H2, MySQL)
@@ -204,10 +196,136 @@ public class Todo {
 >- Primary key로 @Id를 선언해서 사용하면 된다.
 >- 시퀀스를 사용해서 Id 값을 생성하기 위해서 @GeneratedValue를 사용해주면 된다.
 >	- 뭔말이냐면 id 값을 자동으로 생성해주는 에노테이션이다.
->- @Column을 통해 컬럼 이름을 컨트롤 할 수 있다.
+>- @Column이나 @Entitiy도 (name= ) 을통해 이름을 컨트롤 할 수 있다.
+>- 스프링에서 @Entitiy가 탐색 되면 바로 Todo 클래스 빈을 만든다.
 
 ### before h2
 ![](https://i.imgur.com/2DCUkBb.png)
 
 ### after h2
 ![](https://i.imgur.com/oxrVpUw.png)
+
+## sql문 
+
+### /src/main/resources/data.sql
+
+```java
+insert into todo (ID, USERNAME, DESCRIPTION, TARGET_DATE, DONE)
+values(10001,'in28minutes', 'Get AWS Certified', CURRENT_DATE(), false);
+
+insert into todo (ID, USERNAME, DESCRIPTION, TARGET_DATE, DONE)
+values(10002,'in28minutes', 'Get Azure Certified', CURRENT_DATE(), false);
+
+insert into todo (ID, USERNAME, DESCRIPTION, TARGET_DATE, DONE)
+values(10003,'in28minutes', 'Get GCP Certified', CURRENT_DATE(), false);
+
+insert into todo (ID, USERNAME, DESCRIPTION, TARGET_DATE, DONE)
+values(10004,'in28minutes', 'Learn DevOps', CURRENT_DATE(), false);
+```
+
+>-  sql에서는 '' 작은 따옴표를 사용한다.
+
+
+### /src/main/resources/application.properties
+```java
+spring.jpa.defer-datasource-initialization=true
+```
+
+>- @Entitiy 가 sql 파일보다 먼저 실행된다.
+>- 따라서 테이블이 생성되면 그 후에 @Entity가 실행 될 수 있게 환경 설정을 위와 같이 해줘야 한다.
+>- 그럼 다음과 같이 잘 작동된다.
+>- ![](https://i.imgur.com/9OmNGZX.png)
+
+## Creating TodoRepository & Connecting List Todos page from H2 database
+
+- Repository allows you to perorm actions on entities
+### /src/main/java/com/in28minutes/springboot/myfirstwebapp/todo/TodoRepository.java
+```java
+
+public interface TodoRepository extends JpaRepository<Todo, Integer>{
+	public List<Todo> findByUsername(String username);
+}
+```
+>- JpaRepository< 1 , 2 >
+>	- 1은 어떤 빈을 관리할 건지
+>	- 2는 아이디 필드의 타입을 뭘로 할 건지
+>- Spring data JPA가 자동으로 username을 찾는 메소드를 생성해준다.
+
+### before Todo.java
+```java
+@Entity  
+public class Todo {   
+    public Todo(int id, String username, String description, LocalDate targetDate, boolean done) {  
+        super();  
+        this.id = id;  
+        this.username = username;  
+        this.description = description;  
+        this.targetDate = targetDate;  
+        this.done = done;  
+    }
+```
+
+### after Todo.java
+```java
+@Entity  
+public class Todo {  
+    public Todo(){  <----
+    }  
+    public Todo(int id, String username, String description, LocalDate targetDate, boolean done) {  
+        super();  
+        this.id = id;  
+        this.username = username;  
+        this.description = description;  
+        this.targetDate = targetDate;  
+        this.done = done;  
+    }
+```
+>- Entity 에 대한 디폴트 생성자를 추가해줌
+
+
+### before TodoControllerJpa.java
+```java
+@Controller  
+@SessionAttributes("name")  
+public class TodoControllerJpa {  
+    public TodoControllerJpa(TodoService todoService) {  
+        super();  
+        this.todoService = todoService;  
+    }  
+    private TodoService todoService;  
+    
+@RequestMapping("list-todos")  
+public String listAllTodos(ModelMap model) {  
+    String username = getLoggedInUsername(model);  
+    List<Todo> todos = todoService.findByUsername(username);  
+    model.addAttribute("todos", todos);  
+    return "listTodos";  
+}
+```
+
+### after TodoControllerJpa.java
+```java
+@Controller  
+@SessionAttributes("name")  
+public class TodoControllerJpa {  
+  
+    public TodoControllerJpa(TodoService todoService, TodoRepository todoRepository) {  
+        super();  
+        this.todoService = todoService;  <----
+        this.todoRepository = todoRepository;  
+    }  
+    private TodoService todoService;  <----
+    private TodoRepository todoRepository;
+
+@RequestMapping("list-todos")  
+public String listAllTodos(ModelMap model) {  
+    String username = getLoggedInUsername(model);  
+    List<Todo> todos = todoRepository.findByUsername(username);  <---
+    model.addAttribute("todos", todos);  
+  
+    return "listTodos";  
+}
+```
+
+>-  이렇게 하면 static에 있는 정보가 아닌 h2 database로 부터 데이터를 갖고 온다.
+

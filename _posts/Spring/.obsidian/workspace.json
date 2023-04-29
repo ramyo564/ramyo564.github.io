@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "1a92749a5ec64c18",
+            "id": "0ba072f4cad96358",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ranga_Spring_udemy/Ranga_Section7_Build Java Web Application with Spring Boot and Hibernate/2023-04-27-Setting up a New User for Todo Application.md",
+                "file": "Ranga_Spring_udemy/Ranga_Section7_Build Java Web Application with Spring Boot and Hibernate/2023-04-29-Connecting Database with Spring.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 269.5046501159668,
-    "collapsed": true
+    "width": 269.5046501159668
   },
   "right": {
     "id": "3c82fc008517e921",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ranga_Spring_udemy/Ranga_Section7_Build Java Web Application with Spring Boot and Hibernate/2023-04-27-Setting up a New User for Todo Application.md",
+                "file": "Ranga_Spring_udemy/Ranga_Section7_Build Java Web Application with Spring Boot and Hibernate/2023-04-29-Connecting Database with Spring.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ranga_Spring_udemy/Ranga_Section7_Build Java Web Application with Spring Boot and Hibernate/2023-04-27-Setting up a New User for Todo Application.md",
+                "file": "Ranga_Spring_udemy/Ranga_Section7_Build Java Web Application with Spring Boot and Hibernate/2023-04-29-Connecting Database with Spring.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ranga_Spring_udemy/Ranga_Section7_Build Java Web Application with Spring Boot and Hibernate/2023-04-27-Setting up a New User for Todo Application.md"
+                "file": "Ranga_Spring_udemy/Ranga_Section7_Build Java Web Application with Spring Boot and Hibernate/2023-04-29-Connecting Database with Spring.md"
               }
             }
           },
@@ -156,10 +155,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1a92749a5ec64c18",
+  "active": "0ba072f4cad96358",
   "lastOpenFiles": [
-    "Ranga_Spring_udemy/Ranga_Section7_Build Java Web Application with Spring Boot and Hibernate/2023-04-26-Spring Security.md",
     "Ranga_Spring_udemy/Ranga_Section7_Build Java Web Application with Spring Boot and Hibernate/2023-04-27-Setting up a New User for Todo Application.md",
+    "Ranga_Spring_udemy/Ranga_Section7_Build Java Web Application with Spring Boot and Hibernate/2023-04-29-Connecting Database with Spring.md",
+    "Ranga_Spring_udemy/Ranga_Section7_Build Java Web Application with Spring Boot and Hibernate/2023-04-26-Spring Security.md",
     "Ranga_Spring_udemy/Ranga_Section7_Build Java Web Application with Spring Boot and Hibernate/2023-04-26-Show Update Todo Page.md",
     "Ranga_Spring_udemy/Ranga_Section7_Build Java Web Application with Spring Boot and Hibernate/2023-04-26-Validations with Spring Boot Starter.md",
     "Ranga_Spring_udemy/Ranga_Section7_Build Java Web Application with Spring Boot and Hibernate/2023-04-26-Adding a Navigation Bar and Implementing JSP Fragments.md",
@@ -187,7 +187,6 @@
     "Ranga_Spring_udemy/Ranga_Section5_Getting started with Spring Boot",
     "Ranga_Spring_udemy/Ranga_Section4_Exploring Lazy and Eager Initialization of Spring Framework Beans/2023-04-20-Spring -Framework,Modules and Projects.md",
     "Ranga_Spring_udemy/Ranga_Section4_Exploring Lazy and Eager Initialization of Spring Framework Beans/2023-04-20-Spring Stereotype Annotations - Component and more.md",
-    "Chad_Spring_udemy/Section2_IoCAndDependency/Inversion of Control (IoC)/2023-03-16-Inversion of Control (IoC).md",
     "Ranga_Spring_udemy/Ranga_Section4_Exploring Lazy and Eager Initialization of Spring Framework Beans",
     "Ranga_Spring_udemy/Ranga_Section3_Using Spring Framework to Create and Manage Your Java Objects",
     "BigTraffic/MySQL",
