@@ -193,8 +193,7 @@ public List<Todo> findByUsername(String username){
 >- username 이 매칭될 경우에 실행됨
 
 ## username을 활용하기 위해 다시 리팩
-- 모델 안에 username을 세팅해놓았기 때문에
-- 웰컴컨트롤러가 아닌 유저가 바로 Todo 컨트롤러를 거친다면 세션이 생성이 안된다.
+- 모델 안에 username을 세팅해놓았기 때문에 웰컴컨트롤러가 아닌 유저가 바로 Todo 컨트롤러를 거친다면 세션 생성이 안된다.
 - 따라서 Spring security에서 바로 세션 값을 갖고 오는 방법을 권장한다.
 
 ### before TodoController.java
