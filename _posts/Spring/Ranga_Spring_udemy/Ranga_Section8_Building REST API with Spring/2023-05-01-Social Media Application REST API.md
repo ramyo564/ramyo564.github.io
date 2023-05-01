@@ -137,7 +137,9 @@ return users;
 		- Retrieve details of a post
 			- GET/users/{id}/posts/{post_id}
 
-### Retrieve all Users -> GET/users
+### Retrieve all Users  & findOne
+-> GET/users
+-> GET/users/{id} -> /users/1
 
 #### UserDaoService.java
 ```java
@@ -183,4 +185,73 @@ return service.findOne(id);
   
 }
 ```
->- @RestController
+>- @RestController 는 @Controller에 @ResponseBody가 추가된 것
+>- RestController의 주용도는 Json 형태로 객체 데이터를 반환하는 것
+>	- 참고 : https://mangkyu.tistory.com/49
+>- id 값은 숫자니 int로 받고 @PathVariable 를 통해 받아올 때 {} 사용하면된다.
+>- User 클라스에서 findOne 선언
+>	- 유저아이디가 일치하는게 있으면 리턴
+>- ![](https://i.imgur.com/GWDXVhW.png)
+>- ![](https://i.imgur.com/nVtzsnN.png)
+
+### Create a User
+-> POST/users
+#### UserResource.java
+```java
+//POST /users  
+@PostMapping("/users")  
+public void createUser(@RequestBody User user) {  
+service.save(user);  
+}
+```
+>- @PostMapping 와 @RequestBody 를 이용해 데이터를 받는다.
+>- 아이디 값은 자동 카운팅으로 변경 했으니 이름과 생년월일만 post 맵에 맞게 적으면 알아서 데이터가 들어간다.
+
+#### UserDaoService.java
+```java
+private static int usersCount = 0;
+
+public User save(User user) {
+		user.setId(++usersCount);
+		users.add(user);
+		return user;
+	}
+
+```
+>- 이전에 저장해둔 임의 값의 아이디도 변경해준다.
+>	- `users.add(new User(1,"Adam",LocalDate.now().minusYears(30)));`
+>	- -> `users.add(new User(++usersCount,"Adam",LocalDate.now().minusYears(30)));`
+
+### POSTMAN 으로 테스트하기
+- ![](https://i.imgur.com/UhsCkO5.png)
+- ![](https://i.imgur.com/dmHuHbe.png)
+- 자동으로 아이디 값도 잘 반영되는지 확인
+- 하지만 아직 응답이 200으로 반영됨
+	- 뭔가 생성 되었을 때는 201로 반영되야함
+
+#### UserResource.java
+```java
+@PostMapping("/users")  
+public ResponseEntity<User> createUser(@RequestBody User user) {  
+  
+User savedUser = service.save(user);  
+  
+URI location = ServletUriComponentsBuilder.fromCurrentRequest()  
+				.path("/{id}")  
+				.buildAndExpand(savedUser.getId())  
+				.toUri();  
+  
+return ResponseEntity.created(location).build();  
+}
+```
+>- ResponseEntity 를 통하면 201이 정상적으로 반환된다 .
+>- ServletUriComponentsBuilder.fromCurrentRequest() -> 사용자가 요청한 URI를 갖고 온다.
+>- path에 변수명 입력
+>- buildAndExpand에 갖고 올 정보를 입력하면 {id}에 그 값이 추가된다.
+>- toUri() 는 uri 생성이다.
+>- **build()메서드**는 필수 멤버변수의 null체크를 하고 지금까지 set된 builder를 바탕으로 A클래스의 생성자를 호출하고 인스턴스를 리턴한다.
+>	- `2<201 CREATED Created,[Location:"http://localhost:8080/users/4"]>`
+>	- ![](https://i.imgur.com/M3G00C0.png)
+
+
+- 참고 : https://pooney.tistory.com/65 , https://devjjsjjj.tistory.com/entry/%EB%B9%8C%EB%8D%94-%ED%8C%A8%ED%84%B4-Builder-Pattern-Builder

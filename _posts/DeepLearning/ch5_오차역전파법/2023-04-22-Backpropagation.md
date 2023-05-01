@@ -19,7 +19,18 @@ author_profile: false
 >- 이러한 이유로 가중치 매개변수의 기울기를 효율적으로 계산하는 방법으로 ***오차역전파법*** 이 있다.
 >- 오차역전파법은 단계별로 나눠 미분을 통해 기울기 값을 구한다고 이해하면 된다.
 
-## 연쇄법칙
+## Why backpropagation is faster than Numerical differentiation?
+
+- Backpropagation is faster than numerical differentiation for computing gradients in neural networks because it utilizes the ***chain rule*** of differentiation to propagate errors backward from the output layer to the input layer, instead of estimating the gradients numerically using finite differences.
+
+- ***Computing gradients numerically involves calculating the function at least two times for each input dimension***, one for a small positive perturbation and one for a small negative perturbation, and then computing the difference between them divided by the perturbation size. ***This approach is computationally expensive because it requires a large number of function evaluations, especially when dealing with high-dimensional inputs, such as images or text.***
+
+- In contrast, backpropagation calculates gradients in a much more efficient way ***by reusing the computations done during the forward pass of the neural network to calculate the gradients of the loss function with respect to each parameter in the network.*** By exploiting the structure of the network, backpropagation can efficiently compute gradients for all the parameters in a single pass, which makes it much faster than numerical differentiation, especially for deep neural networks with many layers and parameters.
+
+>In summary, backpropagation is faster than numerical differentiation because **it leverages the structure of the neural network and the chain rule of differentiation to efficiently compute gradients with respect to all the parameters in the network in a single pass.**
+
+
+## 연쇄법칙 Chain rule
 
 ![](https://i.imgur.com/5Jk6m2y.png)
 - 역전파는 순방향과는 반대 방향으로 국소적 미분을 곱한다.
@@ -227,3 +238,6 @@ class Sigmoid:
 ```
 
 >- 순전파의 출력을 인스턴스 변수 out에 보관했다가 역전파 계산 때 그 값을 사용한다.
+
+
+출처 : 밑바닥부터 시작하는 딥러닝
