@@ -14,6 +14,9 @@ sidebar:
 
 / Docker /
 
+- H2 메모리 데이터에서 탈출을 위해 도커를 사용한 MySQL를 사용해보기
+- 도커를 설치한 후 아래의 명령어 실행
+
 ```text
 docker run --detach --env MYSQL_ROOT_PASSWORD=dummypassword --env MYSQL_USER=todos-user --env MYSQL_PASSWORD=dummytodos --env MYSQL_DATABASE=todos --name mysql --publish 3306:3306 mysql:8-oracle
 ```
@@ -34,6 +37,7 @@ docker run --detach --env MYSQL_ROOT_PASSWORD=dummypassword --env MYSQL_USER=tod
 			<version>8.0.28</version> <-- 추가하니 작동됨
 		</dependency>
 ```
+
 >- 이전 H2 삭제하고 mysql 추가
 >- 이렇게 해도 계속 오류가 나서 이것 저것 찾아보고 메이븐도 클린 빌드 하고 진짜 별에별 짓은 다했는데 ***버전을 써놓으니까 해결*** (심지어 도커랑 정확히 맞는 버전도 아님..)
 >	- 윈도우 문제인지 내 노트북 문제인지는 모르겠음...

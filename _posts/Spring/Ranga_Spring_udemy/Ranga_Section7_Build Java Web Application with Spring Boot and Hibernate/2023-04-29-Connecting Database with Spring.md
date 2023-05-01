@@ -120,8 +120,8 @@ public String addNewTodo(ModelMap model, @Valid Todo todo, BindingResult result)
 }
 ```
 >- 시간 표시 같은 경우 로컬이 아닌 자동으로 되게 변경
->- 이걸 다시 todoRepository로 변경
->- update 같은 경우는 .get() 을 따로 한 번 더 사용해줘야함
+>- todoService 이걸 다시 todoRepository로 변경
+>- update 같은 경우는 기존과 다르게 .get() 을 따로 한 번 더 사용해줘야함
 
 ## 정리
 - JpaRepository 덕분에 따로 클래스를 만들어서 매서드를 만들 필요가 없어져서 이전 보다 편하게 작업 가능하다

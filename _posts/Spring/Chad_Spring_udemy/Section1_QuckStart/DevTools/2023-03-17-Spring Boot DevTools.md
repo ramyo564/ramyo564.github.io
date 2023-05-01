@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Spring Boot DevTools?"
+title: "Spring Boot DevTools? 인텔리제이 커뮤니티버전 DevTools 설정방법"
 categories: Spring
 tag: [Java,Devtools]
 toc: true
@@ -14,21 +14,15 @@ sidebar:
 ## The problem
 
 - When running Spring Boot applications
-  
   - If you make changes to your source code
-  
   - Then you have to manually restart your application
 
 ## Solution: Spring Boot Dev Tools
 
 - Spring-boot-devtools to the rescue!
-
 - Automatically restart your application when code is updated
-
 - Simply add the dependency to your POM file
-
 - No need to write additional code
-
 - For IntelliJ, need to set additional configurations
 
 ## Spring Boot DevTools
