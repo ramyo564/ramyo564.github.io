@@ -3,7 +3,7 @@
 layout: single
 title: " Implementing Exception Handling "
 categories: Spring
-tag: [Java,"[BIG] Building REST API with Spring Boot","HTTP 에러코드"]
+tag: [Java,"[BIG] Building REST API with Spring Boot","HTTP 에러코드","@ControllerAdvice","@ExceptionHandler"]
 toc: true
 toc_sticky: true
 author_profile: false
@@ -12,7 +12,7 @@ sidebar:
 ---
 # Building REST API with Spring Boot (5)
 
-/ HTTP 에러코드 /
+/ HTTP 에러코드 / @ControllerAdvice / @ExceptionHandler / 
 
 ## 에러코드 정리
 
@@ -40,8 +40,8 @@ sidebar:
 ### UserDaoService.java
 ```java
 public User findOne(int id) {  
-Predicate<? super User> predicate = user -> user.getId().equals(id);  
-return users.stream().filter(predicate).findFirst().get();  
+	Predicate<? super User> predicate = user -> user.getId().equals(id);  
+	return users.stream().filter(predicate).findFirst().get();  
 }
 ```
 >- get() 부분을 orElse(null) 로 변경해주면 된다.
@@ -98,3 +98,60 @@ public class UserNotFoundException extends RuntimeException {
 
 ### Custom structre for exception response
 
+#### ErrorDetails.java
+```java
+import java.time.LocalDateTime;  
+public class ErrorDetails {  
+	private LocalDateTime timestamp;  
+	private String message;  
+	private String details;  
+public ErrorDetails(LocalDateTime timestamp, String message, String details) {  
+	super();  
+	this.timestamp = timestamp;  
+	this.message = message;  
+	this.details = details;  
+}  
+public LocalDateTime getTimestamp() {  
+	return timestamp;  
+}  
+public String getMessage() {  
+	return message;  
+}  
+public String getDetails() {  
+	return details;  
+}  
+  
+}
+```
+
+#### CustomizedResponseEntityExceptionHandler.java
+
+```java
+@ControllerAdvice  
+public class CustomizedResponseEntityExceptionHandler extends ResponseEntityExceptionHandler{  
+@ExceptionHandler(Exception.class)  
+public final ResponseEntity<ErrorDetails> handleAllExceptions(Exception ex, WebRequest request) throws Exception {  
+	ErrorDetails errorDetails = new ErrorDetails(LocalDateTime.now(),  
+	ex.getMessage(), request.getDescription(false));  
+	  
+	return new ResponseEntity<ErrorDetails>(errorDetails, HttpStatus.INTERNAL_SERVER_ERROR);  
+}  
+@ExceptionHandler(UserNotFoundException.class)  
+public final ResponseEntity<ErrorDetails> handleUserNotFoundException(Exception ex, WebRequest request) throws Exception {  
+	ErrorDetails errorDetails = new ErrorDetails(LocalDateTime.now(),  
+	ex.getMessage(), request.getDescription(false));  
+	return new ResponseEntity<ErrorDetails>(errorDetails, HttpStatus.NOT_FOUND);  
+	  
+}  
+}
+```
+>- ResponseEntityExceptionHandler
+>	- This is the standard class which handles all spring MVC raised exceptions and it returns formatted error details
+>- @ControllerAdvice
+>	- Specialization of `@Component` for classes that declare `@ExceptionHandler`, `@InitBinder`, or `@ModelAttribute` methods to be shared across multiple @Controller classes.
+>- 오버라이딩을 통해 ResponseEntityExceptionHandler 을 extends를 통해 갖고 옴
+>- @ExceptionHandler(Exception.class) 는 모든 예외를 갖고 옴
+>- 유저 아이디가 없을 경우 실행되게 UserNotFoundException를 주입
+>	- ![](https://i.imgur.com/Q0BPkmA.png)
+
+>	- 404 오류 번호, 아이디 값이 null일 때 메세지 및  ErrorDetails 클래스에서 지정해두었던 정보들 확인

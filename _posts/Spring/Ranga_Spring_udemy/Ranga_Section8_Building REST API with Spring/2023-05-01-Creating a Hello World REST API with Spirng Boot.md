@@ -22,7 +22,7 @@ public class HelloWorldController {
   
 @GetMapping(path = "/hello-world")  
 public String helloWorld() {  
-return "Hello World";  
+	return "Hello World";  
 }
 ```
 >- @RestController 을 통해서 컨트롤러를 등록하고 @RequestMapping 통해서 API URL을 매핑 시킬 수 있다.
