@@ -3,7 +3,7 @@
 layout: single
 title: " Social Media Application REST API "
 categories: Spring
-tag: [Java,"[BIG] Building REST API with Spring Boot",]
+tag: [Java,"[BIG] Building REST API with Spring Boot","ResponseEntity","ServletUriComponentsBuilder","buildAndExpand","toUri"]
 toc: true
 toc_sticky: true
 author_profile: false
@@ -12,7 +12,7 @@ sidebar:
 ---
 # Building REST API with Spring Boot (4)
 
-/ !!!!!! /
+/ ResponseEntity / ServletUriComponentsBuilder / buildAndExpand / toUri
 
 ## Social Media Application REST API
 - Build a REST API for a Social Media Application
