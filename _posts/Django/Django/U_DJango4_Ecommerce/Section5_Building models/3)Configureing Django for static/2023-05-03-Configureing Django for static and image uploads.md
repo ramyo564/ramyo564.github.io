@@ -3,7 +3,7 @@
 layout: single
 title: " [Django] Configureing Django for static and image uploads "
 categories: Django
-tag: [Python,"[BIG][Django4] Building models","static 폴더 경로 설정"]
+tag: [Python,"[BIG][Django] Building models","static 폴더 경로 설정"]
 toc: true
 toc_sticky: true
 author_profile: false
@@ -58,3 +58,6 @@ urlpatterns += static(settings.MEDIA_URL, document_root = settings.MEDIA_ROOT)
 >- So our unique image URL and we've also gone ahead and just configured those settings that we need to actually connect and to actually upload images appropriately and connect the parts.
 
 추가 참고 : https://blog.hannal.com/2015/04/start_with_django_webframework_06/
+
+>- 정적파일로 운영하는게 더 빠른지 아니면 온라인으로 이미지 호스팅 방식으로 운영하는것 중 어떤게 더 빠른지는 아직 잘 모르겠다
+>- Django 에서는 정적 파일 제공 기능을 제공하는데 일반적으로 성능은 웹 서버가 직접 정적 파일을 제공 하는 것보다 떨어지지만 정적 파일 제공에 필요한 기능은 대부분 지원한다고 한다.

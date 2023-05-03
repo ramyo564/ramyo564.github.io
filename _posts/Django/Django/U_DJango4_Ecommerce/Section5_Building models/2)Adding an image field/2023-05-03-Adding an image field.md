@@ -3,7 +3,7 @@
 layout: single
 title: " [Django] Adding an image field "
 categories: Django
-tag: [Python,"[BIG][Django4] Building models","Pillow","ImageField"]
+tag: [Python,"[BIG][Django] Building models","Pillow","ImageField"]
 toc: true
 toc_sticky: true
 author_profile: false

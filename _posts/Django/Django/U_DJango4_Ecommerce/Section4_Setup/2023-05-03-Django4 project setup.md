@@ -3,7 +3,7 @@
 layout: single
 title: " [Django] Project setup "
 categories: Django
-tag: [Python,"[BIG][Django4] Django4 project setup","파이썬 가상환경"]
+tag: [Python,"[BIG][Django] Django4 project setup","파이썬 가상환경"]
 toc: true
 toc_sticky: true
 author_profile: false

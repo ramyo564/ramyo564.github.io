@@ -14,3 +14,4 @@ sidebar:
 
 / !!! /
 
+## Configure template rendering

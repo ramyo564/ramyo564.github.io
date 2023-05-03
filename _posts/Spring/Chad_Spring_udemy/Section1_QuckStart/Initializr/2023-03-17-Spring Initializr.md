@@ -23,7 +23,8 @@ Spring Initializr created a maven.
 
 ## Maven Wrapper files
 
-<img src="/images/2023-03-17-Spring%20Initializr/2023-03-17-18-40-18-image.png" title="" alt="" width="247">
+![](https://i.imgur.com/Wkmaoxk.png)
+
 
 - mbnw allows you to run a Maven project
   - No need to have Maven installed or present on your path
@@ -38,8 +39,9 @@ Spring Initializr created a maven.
 ## Maven POM file
 
 - pom.xml includes info that you entered at Spring Initializr website 
+![](https://i.imgur.com/0H773VR.png)
 
-<img src="/images/2023-03-17-Spring%20Initializr/2023-03-17-18-45-29-image.png" title="" alt="" width="248">
+
 
 ```java
 <?xml version="1.0" encoding="UTF-8"?>
@@ -161,7 +163,6 @@ It is silently ignored by most build tools if you generate a JAR.
 - Mustache
 
 ## Unit Tests
-
-<img src="/images/2023-03-17-Spring%20Initializr/2023-03-17-19-05-55-image.png" title="" alt="" width="443">
+![](https://i.imgur.com/M2XnKvm.png)
 
 출처 유데미, luv2code.com

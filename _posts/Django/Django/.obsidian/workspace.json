@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "6f426a8242618568",
+        "id": "9e10aa918d4a10c3",
         "type": "tabs",
         "children": [
           {
-            "id": "0894eb60536347ed",
+            "id": "f14de5b2701cdb39",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "U_DJango4_Ecommerce/Section5_Building models/2)Adding an image field/2023-05-03-Adding an image field.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b0ab890f96db9c35",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "U_DJango4_Ecommerce/Section5_Building models/3)Configureing Django for static/2023-05-03-Configureing Django for static.md",
+                "file": "U_DJango4_Ecommerce/Section6_Templates_URL_Views/temp 1v models 1.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -82,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 202.5046501159668,
-    "collapsed": true
+    "width": 202.5046501159668
   },
   "right": {
     "id": "bb13c8d6ddac13ba",
@@ -99,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "U_DJango4_Ecommerce/Section5_Building models/3)Configureing Django for static/2023-05-03-Configureing Django for static.md",
+                "file": "U_DJango4_Ecommerce/Section6_Templates_URL_Views/temp 1v models 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "U_DJango4_Ecommerce/Section5_Building models/3)Configureing Django for static/2023-05-03-Configureing Django for static.md",
+                "file": "U_DJango4_Ecommerce/Section6_Templates_URL_Views/temp 1v models 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "U_DJango4_Ecommerce/Section5_Building models/3)Configureing Django for static/2023-05-03-Configureing Django for static.md"
+                "file": "U_DJango4_Ecommerce/Section6_Templates_URL_Views/temp 1v models 1.md"
               }
             }
           }
@@ -160,16 +146,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b0ab890f96db9c35",
+  "active": "c9f89cdee8606cb6",
   "lastOpenFiles": [
-    "U_DJango4_Ecommerce/Section5_Building models/1)Create a Django app/2023-05-03-Building models.md",
-    "U_DJango4_Ecommerce/Section5_Building models/3)Configureing Django for static/2023-05-03-Configureing Django for static.md",
-    "U_DJango4_Ecommerce/Section4_Setup/2023-05-03-Django4 project setup.md",
+    "U_DJango4_Ecommerce/Section6_Templates_URL_Views/1)",
+    "U_DJango4_Ecommerce/temp 1v models.md",
+    "U_DJango4_Ecommerce/Section6_Templates_URL_Views/temp 1v models 1.md",
+    "U_DJango4_Ecommerce/Section5_Building models/4)Django admin/2023-05-04-Django Admin.md",
+    "U_DJango4_Ecommerce/Section5_Building models/3)Configureing Django for static/2023-05-03-Configureing Django for static and image uploads.md",
     "U_DJango4_Ecommerce/Section5_Building models/2)Adding an image field/2023-05-03-Adding an image field.md",
+    "U_DJango4_Ecommerce/Section5_Building models/1)Create a Django app/2023-05-03-Building models.md",
+    "U_DJango4_Ecommerce/Section4_Setup/2023-05-03-Django4 project setup.md",
+    "U_DJango4_Ecommerce/Section6_Templates_URL_Views",
+    "U_DJango4_Ecommerce/Section5_Building models/4)Django admin",
     "U_DJango4_Ecommerce/Section5_Building models/3)Configureing Django for static",
     "U_DJango4_Ecommerce/Section5_Building models/2)Adding an image field",
     "U_DJango4_Ecommerce/Section5_Building models/1)Create a Django app",
-    "U_DJango4_Ecommerce/temp 1v models.md",
     "U_DJango4_Ecommerce/temp.md",
     "U_DJango4_Ecommerce/Section5_Building models",
     "Pasted image 20230503224609.png",

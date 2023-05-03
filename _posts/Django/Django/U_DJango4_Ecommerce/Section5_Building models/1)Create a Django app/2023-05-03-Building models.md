@@ -3,7 +3,7 @@
 layout: single
 title: " [Django] Building models "
 categories: Django
-tag: [Python,"[BIG][Django4] Building models","db_index","slug"]
+tag: [Python,"[BIG][Django] Building models","db_index","slug"]
 toc: true
 toc_sticky: true
 author_profile: false
@@ -57,7 +57,7 @@ class Product(models.Model):
 >- For instance, a slug uses the title of an article to generate a URL.
 >- 중복되지 않게 unique = True
 >- 구글 검색 최적화에도 좋다.
->- 수동으로 설정하는게 아니라 함수를 통해 슬러그랠 생성해준다.
+>- 슬러그를 수동으로 설정하는것 보다는 함수를 통해 생성해주는게 좋다.
 >	- 참고 : https://itmining.tistory.com/119
 
 ### verbose_name_plural
@@ -66,11 +66,4 @@ class Product(models.Model):
 ### `__str__`
 >- 파이썬 내장 모듈을 통해 쉽게 출력
 
-
-
-
-## Configuring Django for image uploads
-
-## Basic - Django admin
-
-## Advanced - Django - admin configuration
+> 위에 기술 되어있는 내용들은 ***Building models (4)*** 포스팅에서 어떻게 구동되는지 확인할 수 있다.
