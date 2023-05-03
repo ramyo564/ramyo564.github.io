@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "회원정보 등록 구현"
+title: "[Spring] 회원정보 등록 구현"
 categories: Spring
 tag: [Java,MySQL]
 toc: true

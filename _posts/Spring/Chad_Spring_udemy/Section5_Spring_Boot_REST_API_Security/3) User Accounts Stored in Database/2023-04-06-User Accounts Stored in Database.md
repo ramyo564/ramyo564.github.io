@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "User Accounts Stored in Database"
+title: "[Spring] User Accounts Stored in Database"
 categories: Spring
 tag: [Java,"User Accounts Stored in Database",]
 toc: true

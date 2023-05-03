@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "IoC 가 그래서 뭐지?"
+title: "[Spring] IoC 가 그래서 뭐지?"
 categories: Spring
 tag: [Java,IoC,Inversion of Control]
 toc: true

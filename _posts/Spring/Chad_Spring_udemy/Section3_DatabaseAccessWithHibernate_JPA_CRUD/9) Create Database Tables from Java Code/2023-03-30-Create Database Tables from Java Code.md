@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Create Database Tables from Java Code"
+title: "[Spring] Create Database Tables from Java Code"
 categories: Spring
 tag: [Java,Hibernate,JPA]
 toc: true

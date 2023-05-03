@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Spring REST API Design"
+title: "[Spring] Spring REST API Design"
 categories: Spring
 tag: [Java,REST,"REST API Design","@Service","@PathVariable","@RequestBody","@DeleteMapping","@PutMapping"]
 toc: true

@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Spring Boot REST HTTP"
+title: "[Spring] Spring Boot REST HTTP"
 categories: Spring
 tag: [Java,REST,"Status Codes"]
 toc: true

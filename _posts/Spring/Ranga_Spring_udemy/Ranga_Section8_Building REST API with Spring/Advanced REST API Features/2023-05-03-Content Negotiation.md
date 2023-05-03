@@ -1,9 +1,9 @@
 ---
 
 layout: single
-title: " API response -> JSON? XML? -> Content Negotiation "
+title: " [Spring] API response -> JSON? XML? -> Content Negotiation "
 categories: Spring
-tag: [Java,"[BIG] Advanced REST API Features","Content Negotiation","API -> json,xml, ...","api 응답 포맷 형식 변경"]
+tag: [Java,"[BIG][Spring] Advanced REST API Features","Content Negotiation","API -> json,xml, ...","api 응답 포맷 형식 변경"]
 toc: true
 toc_sticky: true
 author_profile: false

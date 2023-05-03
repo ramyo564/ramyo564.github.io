@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Spring Data REST Configuration, Pagination and Sorting"
+title: "[Spring] Spring Data REST Configuration, Pagination and Sorting"
 categories: Spring
 tag: [Java,REST,"Data REST",HATEOAS,"@RepositoryRestResource","REST Pagination Soritng"]
 toc: true

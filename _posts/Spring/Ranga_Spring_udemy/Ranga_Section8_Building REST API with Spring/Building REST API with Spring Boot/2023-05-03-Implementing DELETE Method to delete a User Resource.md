@@ -1,9 +1,9 @@
 ---
 
 layout: single
-title: " Implementing DELETE Method to delete a User Resource "
+title: " [Spring] Implementing DELETE Method to delete a User Resource "
 categories: Spring
-tag: [Java,"[BIG] Building REST API with Spring Boot",]
+tag: [Java,"[BIG][Spring] Building REST API with Spring Boot",]
 toc: true
 toc_sticky: true
 author_profile: false

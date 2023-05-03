@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Spring Initializr?"
+title: "[Spring] Spring Initializr?"
 categories: Spring
 tag: [Java,Spring Initializr]
 toc: true

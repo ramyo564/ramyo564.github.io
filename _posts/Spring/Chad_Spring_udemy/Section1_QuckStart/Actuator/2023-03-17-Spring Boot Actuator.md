@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Spring Boot Actuator?"
+title: "[Spring] Spring Boot Actuator?"
 categories: Spring
 tag: [Java,Actuator]
 toc: true

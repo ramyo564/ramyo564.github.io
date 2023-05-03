@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Spring Boot REST Controller"
+title: "[Spring] Spring Boot REST Controller"
 categories: Spring
 tag: [Java,REST,"REST Controller"]
 toc: true

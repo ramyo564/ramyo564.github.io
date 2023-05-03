@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Saving a Java Object with JPA"
+title: "[Spring] Saving a Java Object with JPA"
 categories: Spring
 tag: [Java,JPA,"@Transactional","JDBC"]
 toc: true

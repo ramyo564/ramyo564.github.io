@@ -1,9 +1,9 @@
 ---
 
 layout: single
-title: " AutoConfiguration Magic Data JPA "
+title: " [Spring] AutoConfiguration Magic Data JPA "
 categories: Spring
-tag: [Java,"[BIG] Java Web Application with Spring and Hibernate",]
+tag: [Java,"[BIG][Spring] Java Web Application with Spring and Hibernate",]
 toc: true
 toc_sticky: true
 author_profile: false

@@ -1,7 +1,7 @@
 ---
 
 layout: single
-title: " JDBC to Spring JDBC to JPA to Spring Data JPA "
+title: " [Spring] JDBC to Spring JDBC to JPA to Spring Data JPA "
 categories: Spring
 tag: [Java,"JDBC to Spring JDBC to JPA to Spring Data JPA"]
 toc: true

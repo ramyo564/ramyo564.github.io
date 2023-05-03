@@ -1,7 +1,7 @@
 ---
 
 layout: single
-title: " Bean Scopes - Prototype and Singleton "
+title: " [Spring] Bean Scopes - Prototype and Singleton "
 categories: Spring
 tag: [Java,"Bean Scopes - Prototype and Singleton","Singleton vs Prototype","Prototype Scope","@Scope"]
 toc: true

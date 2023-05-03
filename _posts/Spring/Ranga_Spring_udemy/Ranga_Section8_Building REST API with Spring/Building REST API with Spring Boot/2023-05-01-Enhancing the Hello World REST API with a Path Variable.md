@@ -1,9 +1,9 @@
 ---
 
 layout: single
-title: " Enhancing the Hello World REST API with a Path Variable "
+title: " [Spring] Enhancing the Hello World REST API with a Path Variable "
 categories: Spring
-tag: [Java,"[BIG] Building REST API with Spring Boot","String.format","@PathVariable"]
+tag: [Java,"[BIG][Spring] Building REST API with Spring Boot","String.format","@PathVariable"]
 toc: true
 toc_sticky: true
 author_profile: false

@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Deleteing Objects with JPA"
+title: "[Spring] Deleteing Objects with JPA"
 categories: Spring
 tag: [Java,Hibernate,JPA]
 toc: true

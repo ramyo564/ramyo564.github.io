@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Maven은 뭐지?"
+title: "[Spring] Maven은 뭐지?"
 categories: Spring
 tag: [Java,Maven]
 toc: true

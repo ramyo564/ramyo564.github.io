@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Spring REST Global Exception Handling"
+title: "[Spring] Spring REST Global Exception Handling"
 categories: Spring
 tag: [Java,REST,"REST Exception Handling","@ControllerAdvice"]
 toc: true

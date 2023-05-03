@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "What is Beans Scopes?"
+title: "[Spring] What is Beans Scopes?"
 categories: Spring
 tag: [Java,IoC,Inversion of Control,Prototype Scope,Singleton,"@Scope","Prototype Beans"]
 toc: true

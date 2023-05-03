@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Setter Injection"
+title: "[Spring] Setter Injection"
 categories: Spring
 tag: [Java,IoC,Inversion of Control,Setter Injection
 ,"@Autowired",Annotation]

@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Hibernate, JPA Overview"
+title: "[Spring] Hibernate, JPA Overview"
 categories: Spring
 tag: [Java,Hibernate,JPA,JDBC,ORM]
 toc: true

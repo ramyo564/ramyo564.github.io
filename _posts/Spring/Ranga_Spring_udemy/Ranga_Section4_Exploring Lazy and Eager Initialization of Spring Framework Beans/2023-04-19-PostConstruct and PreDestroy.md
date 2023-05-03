@@ -1,7 +1,7 @@
 ---
 
 layout: single
-title: "PostConstruct and PreDestroy"
+title: "[Spring] PostConstruct and PreDestroy"
 categories: Spring
 tag: [Java,"PostConstruct and PreDestroy","@PreDestroy","@PostConstruct",Bean Lifecycle]
 toc: true

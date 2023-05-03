@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Spring Boot REST API Security"
+title: "[Spring] Spring Boot REST API Security"
 categories: Spring
 tag: [Java,"API REST Security"]
 toc: true

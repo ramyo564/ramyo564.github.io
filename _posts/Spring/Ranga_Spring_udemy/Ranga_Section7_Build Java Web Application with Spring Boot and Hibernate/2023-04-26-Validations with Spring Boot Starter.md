@@ -1,9 +1,9 @@
 ---
 
 layout: single
-title: " Validations with Spring Boot Starter "
+title: " [Spring] Validations with Spring Boot Starter "
 categories: Spring
-tag: [Java,"[BIG] Java Web Application with Spring and Hibernate","Validations with Spring Boot Starter","BindingResult","@Valid","@Size"]
+tag: [Java,"[BIG][Spring] Java Web Application with Spring and Hibernate","Validations with Spring Boot Starter","BindingResult","@Valid","@Size"]
 toc: true
 toc_sticky: true
 author_profile: false

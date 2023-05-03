@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Beans 이게 뭐지?"
+title: "[Spring] Beans 이게 뭐지?"
 categories: Spring
 tag: [Java,Beans]
 toc: true

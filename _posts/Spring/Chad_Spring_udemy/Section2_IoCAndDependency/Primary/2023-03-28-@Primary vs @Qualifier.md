@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "@Primary vs @Qualifier"
+title: "[Spring] @Primary vs @Qualifier"
 categories: Spring
 tag: [Java,IoC,Inversion of Control,"@Primary","@Qualifier","@Component"]
 toc: true

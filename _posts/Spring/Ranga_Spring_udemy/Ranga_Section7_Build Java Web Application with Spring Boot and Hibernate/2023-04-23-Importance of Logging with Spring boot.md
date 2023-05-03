@@ -1,7 +1,7 @@
 ---
 
 layout: single
-title: " Importance of Logging with Spring boot "
+title: " [Spring] Importance of Logging with Spring boot "
 categories: Spring
 tag: [Java,"Importance of Logging with Spring boot","Logging"]
 toc: true

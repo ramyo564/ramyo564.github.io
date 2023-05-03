@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Spring REST Exception Handling"
+title: "[Spring] Spring REST Exception Handling"
 categories: Spring
 tag: [Java,REST,"REST Exception Handling"]
 toc: true

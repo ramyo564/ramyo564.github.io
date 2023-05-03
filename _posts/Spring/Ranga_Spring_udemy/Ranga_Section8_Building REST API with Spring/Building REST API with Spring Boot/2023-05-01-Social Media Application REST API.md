@@ -1,9 +1,9 @@
 ---
 
 layout: single
-title: " Social Media Application REST API "
+title: " [Spring] Social Media Application REST API "
 categories: Spring
-tag: [Java,"[BIG] Building REST API with Spring Boot","ResponseEntity","ServletUriComponentsBuilder","buildAndExpand","toUri"]
+tag: [Java,"[BIG][Spring] Building REST API with Spring Boot","ResponseEntity","ServletUriComponentsBuilder","buildAndExpand","toUri"]
 toc: true
 toc_sticky: true
 author_profile: false

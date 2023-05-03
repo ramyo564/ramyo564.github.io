@@ -1,7 +1,7 @@
 ---
 
 layout: single
-title: " Spring Boot vs Spring MVC vs Spring "
+title: " [Spring] Spring Boot vs Spring MVC vs Spring "
 categories: Spring
 tag: [Java,"Spring Boot vs Spring MVC vs Spring"]
 toc: true

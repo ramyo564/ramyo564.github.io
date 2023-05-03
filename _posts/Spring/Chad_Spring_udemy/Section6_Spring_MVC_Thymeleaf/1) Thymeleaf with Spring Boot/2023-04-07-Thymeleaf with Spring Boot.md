@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Thymeleaf with Spring Boot"
+title: "[Spring] Thymeleaf with Spring Boot"
 categories: Spring
 tag: [Java,"Thymeleaf"]
 toc: true

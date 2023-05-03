@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Run Spring Boot apps from the Command Line"
+title: "[Spring] Run Spring Boot apps from the Command Line"
 categories: Spring
 tag: [Java,mvn,mvnw]
 toc: true

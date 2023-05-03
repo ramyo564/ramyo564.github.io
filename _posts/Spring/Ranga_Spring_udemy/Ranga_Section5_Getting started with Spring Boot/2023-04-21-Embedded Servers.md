@@ -1,7 +1,7 @@
 ---
 
 layout: single
-title: " Embedded Servers "
+title: " [Spring] Embedded Servers "
 categories: Spring
 tag: [Java,"Embedded Servers"]
 toc: true

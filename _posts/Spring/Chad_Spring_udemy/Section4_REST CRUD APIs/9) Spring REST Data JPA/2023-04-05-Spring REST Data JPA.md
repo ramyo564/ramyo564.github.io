@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Spring REST Data JPA"
+title: "[Spring] Spring REST Data JPA"
 categories: Spring
 tag: [Java,REST,"REST Data JPA","JpaRepository"]
 toc: true

@@ -1,7 +1,7 @@
 ---
 
 layout: single
-title: " Spring Profiles "
+title: " [Spring] Spring Profiles "
 categories: Spring
 tag: [Java,"Spring Profiles","@ConfigurationProperties"]
 toc: true

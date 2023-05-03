@@ -1,8 +1,8 @@
 ---
 layout: single
-title: "Design Game Runner with Spring Boot"
+title: "[Spring] Design Game Runner with Spring Boot"
 categories: Spring
-tag: [Java,"record클래스",getBean,"@Bean","[BIG] Starting Spring Framework"]
+tag: [Java,"record클래스",getBean,"@Bean","[BIG][Spring] Starting Spring Framework"]
 toc: true
 toc_sticky: true
 author_profile: false

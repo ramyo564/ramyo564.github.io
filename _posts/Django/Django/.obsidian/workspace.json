@@ -1,0 +1,181 @@
+{
+  "main": {
+    "id": "262a04f6fa21a3cb",
+    "type": "split",
+    "children": [
+      {
+        "id": "6f426a8242618568",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0894eb60536347ed",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "U_DJango4_Ecommerce/Section5_Building models/2)Adding an image field/2023-05-03-Adding an image field.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b0ab890f96db9c35",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "U_DJango4_Ecommerce/Section5_Building models/3)Configureing Django for static/2023-05-03-Configureing Django for static.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "cba626549864f992",
+    "type": "split",
+    "children": [
+      {
+        "id": "a39038e4c6bdbbb7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c9f89cdee8606cb6",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "f3aacd496563a4a4",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "08917a000bc43f62",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 202.5046501159668,
+    "collapsed": true
+  },
+  "right": {
+    "id": "bb13c8d6ddac13ba",
+    "type": "split",
+    "children": [
+      {
+        "id": "b2a4c957b1c6e97f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c07e07e726743b7d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "U_DJango4_Ecommerce/Section5_Building models/3)Configureing Django for static/2023-05-03-Configureing Django for static.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "dd47f851dce1db08",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "U_DJango4_Ecommerce/Section5_Building models/3)Configureing Django for static/2023-05-03-Configureing Django for static.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c2a6e88337aaad54",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "02b164dc571eeeef",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "U_DJango4_Ecommerce/Section5_Building models/3)Configureing Django for static/2023-05-03-Configureing Django for static.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 217.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "b0ab890f96db9c35",
+  "lastOpenFiles": [
+    "U_DJango4_Ecommerce/Section5_Building models/1)Create a Django app/2023-05-03-Building models.md",
+    "U_DJango4_Ecommerce/Section5_Building models/3)Configureing Django for static/2023-05-03-Configureing Django for static.md",
+    "U_DJango4_Ecommerce/Section4_Setup/2023-05-03-Django4 project setup.md",
+    "U_DJango4_Ecommerce/Section5_Building models/2)Adding an image field/2023-05-03-Adding an image field.md",
+    "U_DJango4_Ecommerce/Section5_Building models/3)Configureing Django for static",
+    "U_DJango4_Ecommerce/Section5_Building models/2)Adding an image field",
+    "U_DJango4_Ecommerce/Section5_Building models/1)Create a Django app",
+    "U_DJango4_Ecommerce/temp 1v models.md",
+    "U_DJango4_Ecommerce/temp.md",
+    "U_DJango4_Ecommerce/Section5_Building models",
+    "Pasted image 20230503224609.png",
+    "Pasted image 20230503224707.png",
+    "U_DJango4_Ecommerce/Section4_Setup",
+    "U_DJango4_Ecommerce/Section5_Building Models",
+    "U_DJango4_Ecommerce"
+  ]
+}

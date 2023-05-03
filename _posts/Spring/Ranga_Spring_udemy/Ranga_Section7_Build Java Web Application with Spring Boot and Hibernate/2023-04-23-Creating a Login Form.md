@@ -1,9 +1,9 @@
 ---
 
 layout: single
-title: " Creating a Login Form "
+title: " [Spring] Creating a Login Form "
 categories: Spring
-tag: [Java,"[BIG] Java Web Application with Spring and Hibernate","@Service","html pre 태그"]
+tag: [Java,"[BIG][Spring] Java Web Application with Spring and Hibernate","@Service","html pre 태그"]
 toc: true
 toc_sticky: true
 author_profile: false

@@ -1,9 +1,9 @@
 ---
 
 layout: single
-title: " Connecting Todo App to MySQL database "
+title: " [Spring] Connecting Todo App to MySQL database "
 categories: Spring
-tag: [Java,"[BIG] Java Web Application with Spring and Hibernate","Docker"]
+tag: [Java,"[BIG][Spring] Java Web Application with Spring and Hibernate","Docker"]
 toc: true
 toc_sticky: true
 author_profile: false

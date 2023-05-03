@@ -1,8 +1,8 @@
 ---
 layout: single
-title: "Exploring Dependency Injection Types"
+title: "[Spring] Exploring Dependency Injection Types"
 categories: Spring
-tag: [Java,"[BIG] Starting Spring Framework"]
+tag: [Java,"[BIG][Spring] Starting Spring Framework"]
 toc: true
 toc_sticky: true
 author_profile: false

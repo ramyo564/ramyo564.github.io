@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "What is Java Config Bean?"
+title: "[Spring] What is Java Config Bean?"
 categories: Spring
 tag: [Java,IoC,Inversion of Control,Java Config Bean,"@Bean","@Configuration"]
 toc: true

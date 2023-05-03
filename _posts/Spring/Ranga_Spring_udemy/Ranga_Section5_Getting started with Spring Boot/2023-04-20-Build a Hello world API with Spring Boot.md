@@ -1,7 +1,7 @@
 ---
 
 layout: single
-title: " Build a Hello world API with Spring Boot "
+title: " [Spring] Build a Hello world API with Spring Boot "
 categories: Spring
 tag: [Java,"Build a Hello world API with Spring Boot","arrays.asList()"]
 toc: true

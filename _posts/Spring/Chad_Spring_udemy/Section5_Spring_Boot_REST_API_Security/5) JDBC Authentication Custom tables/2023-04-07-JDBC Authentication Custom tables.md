@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "JDBC Authentication Custom tables"
+title: "[Spring] JDBC Authentication Custom tables"
 categories: Spring
 tag: [Java,"JDBC Authentication Custom tables","Security Schema Customization"]
 toc: true

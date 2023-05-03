@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Thymeleaf-CRUD Database Project"
+title: "[Spring] Thymeleaf-CRUD Database Project"
 categories: Spring
 tag: [Java,"Thymeleaf-CRUD"]
 toc: true

@@ -1,7 +1,7 @@
 ---
 
 layout: single
-title: " Jakarta Contexts & Dependency Injection (CDI) "
+title: " [Spring] Jakarta Contexts & Dependency Injection (CDI) "
 categories: Spring
 tag: [Java,"Jakarta Contexts & Dependency Injection (CDI)","@Named","@Inject","@Resource"]
 toc: true

@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "What is Beans lifecycle?"
+title: "[Spring] What is Beans lifecycle?"
 categories: Spring
 tag: [Java,IoC,Inversion of Control,Bean Lifecycle,"@PostConstruct","@PreDestroy"]
 toc: true

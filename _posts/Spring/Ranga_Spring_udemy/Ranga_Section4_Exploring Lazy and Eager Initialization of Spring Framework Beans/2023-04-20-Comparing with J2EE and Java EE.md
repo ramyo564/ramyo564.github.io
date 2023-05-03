@@ -1,7 +1,7 @@
 ---
 
 layout: single
-title: "Comparing with J2EE and Java EE"
+title: "[Spring] Comparing with J2EE and Java EE"
 categories: Spring
 tag: [Java, "Comparing with J2EE and Java EE" ]
 toc: true

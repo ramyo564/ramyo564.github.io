@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Spring Boot Properties & Server"
+title: "[Spring] Spring Boot Properties & Server"
 categories: Spring
 tag: [Java,Properties,server]
 toc: true

@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "JSON Jackson Data Binding"
+title: "[Spring] JSON Jackson Data Binding"
 categories: Spring
 tag: [Java,REST,JSON,Jackson]
 toc: true

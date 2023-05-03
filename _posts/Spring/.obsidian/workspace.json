@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ranga_Spring_udemy/Ranga_Section8_Building REST API with Spring/Advanced REST API Features/2023-05-03-Versioning REST API.md",
+                "file": "Ranga_Spring_udemy/Sample.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 235.5046501159668,
-    "collapsed": true
+    "width": 235.5046501159668
   },
   "right": {
     "id": "3c82fc008517e921",
@@ -97,7 +96,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ranga_Spring_udemy/Ranga_Section8_Building REST API with Spring/Advanced REST API Features/2023-05-03-Versioning REST API.md"
+                "file": "Ranga_Spring_udemy/Sample.md"
               }
             }
           },
@@ -107,6 +106,35 @@
             "state": {
               "type": "advanced-tables-toolbar",
               "state": {}
+            }
+          },
+          {
+            "id": "1e40cf4428c95fbc",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Ranga_Spring_udemy/Sample.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d1742b218dd8e0f9",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Ranga_Spring_udemy/Sample.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
             }
           }
         ],
@@ -129,36 +157,36 @@
   },
   "active": "3cd0eb6a704dabd5",
   "lastOpenFiles": [
-    "Ranga_Spring_udemy/Ranga_Section8_Building REST API with Spring/Advanced REST API Features/2023-05-03-Content Negotiation.md",
-    "Ranga_Spring_udemy/Ranga_Section8_Building REST API with Spring/Advanced REST API Features/2023-05-03-Versioning REST API.md",
-    "Ranga_Spring_udemy/Ranga_Section8_Building REST API with Spring/Advanced REST API Features/2023-05-03-Internationalization for REST API.md",
-    "Ranga_Spring_udemy/Ranga_Section8_Building REST API with Spring/Advanced REST API Features/2023-05-03-REST API Documentation.md",
-    "Ranga_Spring_udemy/Ranga_Section8_Building REST API with Spring/Building REST API with Spring Boot/2023-04-30-REST API with Spring Boot.md",
-    "Ranga_Spring_udemy/Ranga_Section8_Building REST API with Spring/Building REST API with Spring Boot/2023-05-01-Creating a Hello World REST API with Spirng Boot.md",
-    "Ranga_Spring_udemy/Ranga_Section8_Building REST API with Spring/Building REST API with Spring Boot",
     "Ranga_Spring_udemy/Sample 1.md",
-    "Ranga_Spring_udemy/Ranga_Section8_Building REST API with Spring/Advanced REST API Features",
-    "Untitled.canvas",
+    "Ranga_Spring_udemy/Sample.md",
     "Ranga_Spring_udemy/Ranga_Section8_Building REST API with Spring/Building REST API with Spring Boot/2023-05-03-Implementing Validations for REST API.md",
     "Ranga_Spring_udemy/Ranga_Section8_Building REST API with Spring/Building REST API with Spring Boot/2023-05-03-Implementing DELETE Method to delete a User Resource.md",
-    "Untitled 1.canvas",
-    "Ranga_Spring_udemy/Ranga_Section8_Building REST API with Spring/2023-04-29-Connecting Database with Spring 1.md",
-    "Ranga_Spring_udemy/Ranga_Section7_Build Java Web Application with Spring Boot and Hibernate/2023-04-29-Connecting Database with Spring.md",
     "Ranga_Spring_udemy/Ranga_Section8_Building REST API with Spring/Building REST API with Spring Boot/2023-05-02-Implementing Exception Handling.md",
-    "Ranga_Spring_udemy/Ranga_Section7_Build Java Web Application with Spring Boot and Hibernate/2023-04-26-Show Update Todo Page.md",
     "Ranga_Spring_udemy/Ranga_Section8_Building REST API with Spring/Building REST API with Spring Boot/2023-05-01-Social Media Application REST API.md",
     "Ranga_Spring_udemy/Ranga_Section8_Building REST API with Spring/Building REST API with Spring Boot/2023-05-01-Enhancing the Hello World REST API with a Path Variable.md",
-    "Ranga_Spring_udemy/Sample.md",
-    "Ranga_Spring_udemy/Ranga_Section7_Build Java Web Application with Spring Boot and Hibernate/2023-04-24-Creating Todo Service.md",
-    "Chad_Spring_udemy/Section1_QuckStart/DevTools/2023-03-17-Spring Boot DevTools.md",
-    "Chad_Spring_udemy/Section1_QuckStart/Actuator/2023-03-17-Spring Boot Actuator.md",
-    "Others/Sample 1.md",
-    "Others/2023-03-16-spring others.md",
-    "Others/2023-03-16-@Autowired, @Resource and @Inject.md",
-    "Ranga_Spring_udemy/Ranga_Section7_Build Java Web Application with Spring Boot and Hibernate/2023-04-29-AutoConfiguration Magic Data JPA.md",
+    "Ranga_Spring_udemy/Ranga_Section8_Building REST API with Spring/Building REST API with Spring Boot/2023-05-01-Creating a Hello World REST API with Spirng Boot.md",
+    "Ranga_Spring_udemy/Ranga_Section8_Building REST API with Spring/Building REST API with Spring Boot/2023-04-30-REST API with Spring Boot.md",
+    "Ranga_Spring_udemy/Ranga_Section8_Building REST API with Spring/Advanced REST API Features/2023-05-03-Versioning REST API.md",
+    "Ranga_Spring_udemy/Ranga_Section8_Building REST API with Spring/Advanced REST API Features/2023-05-03-REST API Documentation.md",
+    "Ranga_Spring_udemy/Ranga_Section8_Building REST API with Spring/Advanced REST API Features/2023-05-03-Internationalization for REST API.md",
+    "Ranga_Spring_udemy/Ranga_Section8_Building REST API with Spring/Advanced REST API Features/2023-05-03-Content Negotiation.md",
+    "Ranga_Spring_udemy/Ranga_Section6_JPA and Hibernate/2023-04-21-JDBC to Spring JDBC to JPA to Spring Data JPA.md",
     "Ranga_Spring_udemy/Ranga_Section7_Build Java Web Application with Spring Boot and Hibernate/2023-04-30-Connecting Todo App to MySQL database.md",
-    "Ranga_Spring_udemy/Ranga_Section7_Build Java Web Application with Spring Boot and Hibernate/2023-04-26-Spring Security.md",
+    "Ranga_Spring_udemy/Ranga_Section7_Build Java Web Application with Spring Boot and Hibernate/2023-04-29-Connecting Database with Spring.md",
+    "Ranga_Spring_udemy/Ranga_Section7_Build Java Web Application with Spring Boot and Hibernate/2023-04-29-AutoConfiguration Magic Data JPA.md",
+    "Ranga_Spring_udemy/Ranga_Section7_Build Java Web Application with Spring Boot and Hibernate/2023-04-27-Setting up a New User for Todo Application.md",
     "Ranga_Spring_udemy/Ranga_Section7_Build Java Web Application with Spring Boot and Hibernate/2023-04-26-Validations with Spring Boot Starter.md",
+    "Ranga_Spring_udemy/Ranga_Section7_Build Java Web Application with Spring Boot and Hibernate/2023-04-26-Spring Security.md",
+    "Ranga_Spring_udemy/Ranga_Section7_Build Java Web Application with Spring Boot and Hibernate/2023-04-26-Show Update Todo Page.md",
+    "Ranga_Spring_udemy/Ranga_Section7_Build Java Web Application with Spring Boot and Hibernate/2023-04-26-Delete todo Feature.md",
+    "Ranga_Spring_udemy/Ranga_Section7_Build Java Web Application with Spring Boot and Hibernate/2023-04-26-Adding a Navigation Bar and Implementing JSP Fragments.md",
+    "Ranga_Spring_udemy/Ranga_Section7_Build Java Web Application with Spring Boot and Hibernate/2023-04-25-Add a New Todo.md",
+    "Ranga_Spring_udemy/Ranga_Section7_Build Java Web Application with Spring Boot and Hibernate/2023-04-24-Creating Todo Service.md",
+    "Ranga_Spring_udemy/Ranga_Section7_Build Java Web Application with Spring Boot and Hibernate/2023-04-23-Importance of Logging with Spring boot.md",
+    "Ranga_Spring_udemy/Ranga_Section8_Building REST API with Spring/Building REST API with Spring Boot",
+    "Ranga_Spring_udemy/Ranga_Section8_Building REST API with Spring/Advanced REST API Features",
+    "Untitled.canvas",
+    "Untitled 1.canvas",
     "Ranga_Spring_udemy/Ranga_Section8_Building REST API with Spring",
     "Ranga_Spring_udemy/Ranga_Section7_Build Java Web Application with Spring Boot and Hibernate",
     "Ranga_Spring_udemy/Ranga_Section6_JPA and Hibernate",

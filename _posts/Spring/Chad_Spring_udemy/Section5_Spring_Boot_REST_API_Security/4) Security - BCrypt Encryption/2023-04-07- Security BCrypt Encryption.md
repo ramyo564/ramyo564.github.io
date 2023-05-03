@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Security - BCrypt Encryption"
+title: "[Spring] Security - BCrypt Encryption"
 categories: Spring
 tag: [Java,"Security - BCrypt Encryption",]
 toc: true

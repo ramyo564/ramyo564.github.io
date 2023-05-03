@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Injection 비교"
+title: "[Spring] Injection 비교"
 categories: Spring
 tag: [Java,IoC,Inversion of Control,Injection 비교]
 toc: true

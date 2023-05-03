@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Spring Data REST"
+title: "[Spring] Spring Data REST"
 categories: Spring
 tag: [Java,REST,"Data REST",HATEOAS]
 toc: true

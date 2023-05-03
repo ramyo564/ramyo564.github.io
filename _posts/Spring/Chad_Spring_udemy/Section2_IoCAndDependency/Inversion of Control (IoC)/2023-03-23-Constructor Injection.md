@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Constructor Injection"
+title: "[Spring] Constructor Injection"
 categories: Spring
 tag: [Java,IoC,Inversion of Control,Constructor Injection]
 toc: true

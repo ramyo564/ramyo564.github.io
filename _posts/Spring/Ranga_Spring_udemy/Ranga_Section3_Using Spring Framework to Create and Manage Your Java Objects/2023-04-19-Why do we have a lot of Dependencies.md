@@ -1,9 +1,9 @@
 ---
 
 layout: single
-title: "Why do we have a lot of Dependencies?"
+title: "[Spring] Why do we have a lot of Dependencies?"
 categories: Spring
-tag: [Java,"[BIG] Starting Spring Framework","Why do we have a lot of Dependencies?","Dependencies"]
+tag: [Java,"[BIG][Spring] Starting Spring Framework","Why do we have a lot of Dependencies?","Dependencies"]
 toc: true
 toc_sticky: true
 author_profile: false

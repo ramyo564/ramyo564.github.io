@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "JPA로 오브젝트 업데이트"
+title: "[Spring] JPA로 오브젝트 업데이트"
 categories: Spring
 tag: [Java,JPA,update]
 toc: true

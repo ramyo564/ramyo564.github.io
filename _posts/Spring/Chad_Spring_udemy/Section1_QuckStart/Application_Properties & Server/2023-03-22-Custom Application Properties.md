@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Custom Application Properties"
+title: "[Spring] Custom Application Properties"
 categories: Spring
 tag: [Java,"@Value",Injecting Custom Application Properties]
 toc: true

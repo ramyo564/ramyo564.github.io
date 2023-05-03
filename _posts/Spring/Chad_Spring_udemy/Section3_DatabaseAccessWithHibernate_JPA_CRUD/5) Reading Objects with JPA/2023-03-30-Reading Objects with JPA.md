@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Reading Objects with JPA"
+title: "[Spring] Reading Objects with JPA"
 categories: Spring
 tag: [Java,JPA,DAO]
 toc: true

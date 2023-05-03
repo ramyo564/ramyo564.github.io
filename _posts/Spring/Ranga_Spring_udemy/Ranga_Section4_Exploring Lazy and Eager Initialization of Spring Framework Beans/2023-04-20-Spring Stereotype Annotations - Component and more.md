@@ -1,7 +1,7 @@
 ---
 
 layout: single
-title: " Spring Stereotype Annotations - Component and more "
+title: " [Spring] Spring Stereotype Annotations - Component and more "
 categories: Spring
 tag: [Java,"Spring Stereotype Annotations - Component and more","@Service","@Controller","@Repository"]
 toc: true

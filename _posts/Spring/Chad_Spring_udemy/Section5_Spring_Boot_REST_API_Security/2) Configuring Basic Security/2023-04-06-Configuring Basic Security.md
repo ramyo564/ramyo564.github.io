@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Configuring Basic Security"
+title: "[Spring] Configuring Basic Security"
 categories: Spring
 tag: [Java,"Configuring Basic Security","@Configuration","InMemoryUserDetailsManager",CSRF]
 toc: true

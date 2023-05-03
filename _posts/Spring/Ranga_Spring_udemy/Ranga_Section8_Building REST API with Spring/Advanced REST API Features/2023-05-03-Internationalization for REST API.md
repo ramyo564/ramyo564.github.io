@@ -1,9 +1,9 @@
 ---
 
 layout: single
-title: " Internationalization for REST API "
+title: " [Spring] Internationalization for REST API "
 categories: Spring
-tag: [Java,"[BIG] Advanced REST API Features","MessageSource","i18n"]
+tag: [Java,"[BIG][Spring] Advanced REST API Features","MessageSource","i18n"]
 toc: true
 toc_sticky: true
 author_profile: false

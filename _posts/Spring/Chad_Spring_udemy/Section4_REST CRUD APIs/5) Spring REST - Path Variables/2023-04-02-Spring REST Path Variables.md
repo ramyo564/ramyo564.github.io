@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Spring REST Path Variables"
+title: "[Spring] Spring REST Path Variables"
 categories: Spring
 tag: [Java,REST,"REST Path Variables"]
 toc: true

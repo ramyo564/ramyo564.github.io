@@ -1,7 +1,7 @@
 ---
 
 layout: single
-title: " Spring Annotations and Concepts "
+title: " [Spring] Spring Annotations and Concepts "
 categories: Spring
 tag: [Java,"Spring Annotations and Concepts","Annotations and  Concepts"]
 toc: true

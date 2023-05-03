@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "What are REST Services?"
+title: "[Spring] What are REST Services?"
 categories: Spring
 tag: [Java,REST]
 toc: true

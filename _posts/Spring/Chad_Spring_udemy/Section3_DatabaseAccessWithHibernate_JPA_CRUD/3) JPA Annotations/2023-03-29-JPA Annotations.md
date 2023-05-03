@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "JPA Annotations Overview"
+title: "[Spring] JPA Annotations Overview"
 categories: Spring
 tag: [Java,JPA,"@Entity","@Table","@Column","@GeneratedValue","@Id","Lombok","Entity Class"]
 toc: true

@@ -1,9 +1,9 @@
 ---
 
 layout: single
-title: " Implementing Validations for REST API "
+title: " [Spring] Implementing Validations for REST API "
 categories: Spring
-tag: [Java,"[BIG] Building REST API with Spring Boot","@Valid","@Size","@Past","getErrorCount()","getFieldError().getDefaultMessage()","handleMethodArgumentNotValid","ResponseEntity"]
+tag: [Java,"[BIG][Spring] Building REST API with Spring Boot","@Valid","@Size","@Past","getErrorCount()","getFieldError().getDefaultMessage()","handleMethodArgumentNotValid","ResponseEntity"]
 toc: true
 toc_sticky: true
 author_profile: false

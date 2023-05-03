@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Component Scanning"
+title: "[Spring] Component Scanning"
 categories: Spring
 tag: [Java,IoC,Inversion of Control,Component Scanning,"@Component"]
 toc: true

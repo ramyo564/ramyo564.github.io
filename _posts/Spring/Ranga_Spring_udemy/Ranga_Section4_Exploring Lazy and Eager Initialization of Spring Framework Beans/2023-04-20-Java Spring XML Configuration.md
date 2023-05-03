@@ -1,7 +1,7 @@
 ---
 
 layout: single
-title: " Java Spring XML Configuration "
+title: " [Spring] Java Spring XML Configuration "
 categories: Spring
 tag: [Java,"Java Spring XML Configuration","Annotations vs XML configuration"]
 toc: true

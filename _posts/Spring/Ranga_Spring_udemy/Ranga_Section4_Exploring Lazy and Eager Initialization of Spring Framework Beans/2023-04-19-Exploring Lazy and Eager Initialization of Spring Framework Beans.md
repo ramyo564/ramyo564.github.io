@@ -1,7 +1,7 @@
 ---
 
 layout: single
-title: "Exploring Lazy and Eager Initialization of Spring Framework Beans"
+title: "[Spring] Exploring Lazy and Eager Initialization of Spring Framework Beans"
 categories: Spring
 tag: [Java,"Exploring Lazy and Eager Initialization of Spring Framework Beans"]
 toc: true
