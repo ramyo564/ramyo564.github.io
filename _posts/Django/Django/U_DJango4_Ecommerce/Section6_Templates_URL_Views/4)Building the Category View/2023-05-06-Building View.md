@@ -3,7 +3,7 @@
 layout: single
 title: " [Django] Building View "
 categories: Django
-tag: [Python,"[BIG][Django] Basic templates, URL's and VIews","get_object_or_404","templates - settings.py"]
+tag: [Python,"[BIG][Django] Basic templates, URL's and VIews","[Django] get_object_or_404","[Django] templates - settings.py","[Django] 장고 전역변수"]
 toc: true
 toc_sticky: true
 author_profile: false
@@ -11,9 +11,8 @@ sidebar:
 
 ---
 # Basic templates, URL's and VIews (4)
-
-/ get_object_or_404 / templates - settings.py
-
+{% raw %}
+/ get_object_or_404 / templates - settings.py / 장고 Templates 설정
 ## Building the Category View
 
 ![](https://i.imgur.com/7xJw2As.png)
@@ -46,7 +45,7 @@ TEMPLATES = [
         'OPTIONS': {
             'context_processors': [
                'django.template.context_processors.debug',
-               'django.template.context_processors.request',
+              'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
                 'store.views.categories',
@@ -56,14 +55,21 @@ TEMPLATES = [
 ]
 ```
 >- settings.py 에서 뷰의 `categories`를 등록해준다.
+>- This is a context processor that we're adding.
+>- It'll allow it to be available our data on every single template or page s owe can reference this easily
 >- templates 참고 : https://query.tistory.com/entry/%EC%9E%A5%EA%B3%A0-settingspy-%ED%85%9C%ED%94%8C%EB%A6%BF-%ED%8F%B4%EB%8D%94-%EC%9C%84%EC%B9%98-%EC%A7%80%EC%A0%95-%EB%B0%A9%EB%B2%95
 
 ### 장고 Templates 설정
 - 장고에서 template는 MVC 패턴에서 view와 비슷한 기능을 한다.
 - templates는 데이터를 사용자에게 보여주는 컴포넌트다.
 - 이러한 template의 경로나 정보를 설정하는 곳이 TEMPLATES다.
+- 기본 설정은 앱 디렉토리 내에 **'templates'** 디렉토리를 각각 생성해서 괸리하도록 구성되어 있으며, 이에 따라 위의 View에서 반환되는 템플릿 파일 경로는 다음과 같다
+- ![](https://i.imgur.com/2ir8r8k.png)
+>- 참고 : https://velog.io/@ansalstmd/Django-Template-%EA%B8%B0%EB%8A%A5
 
+### 여러개의 templates 관리
 
+참고: https://hwan-hobby.tistory.com/126
 ### ecommerce>store>templates>store>base.html
 ```python
 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -316,3 +322,4 @@ class Category(models.Model):
 >- 필터링 된 상품들만 루프를 돌면서 보내준다.
 >- ![](https://i.imgur.com/U4ZLM70.png)
 
+{% endraw %}

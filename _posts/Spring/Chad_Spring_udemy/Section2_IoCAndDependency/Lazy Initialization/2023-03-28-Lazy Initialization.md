@@ -2,7 +2,7 @@
 layout: single
 title: "[Spring] Lazy Initialization"
 categories: Spring
-tag: [Java,IoC,Inversion of Control,"@Lazy"]
+tag: [Java,"[Spring] IoC","[Spring] Inversion of Control","[Spring] @Lazy"]
 toc: true
 toc_sticky: true
 author_profile: false

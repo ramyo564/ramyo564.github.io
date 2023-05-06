@@ -2,7 +2,7 @@
 layout: single
 title: "[Spring] Hibernate, JPA Overview"
 categories: Spring
-tag: [Java,Hibernate,JPA,JDBC,ORM]
+tag: [Java,"[Spring] Hibernate","[Spring] JPA","[Spring] JDBC","[Spring] ORM"]
 toc: true
 toc_sticky: true
 author_profile: false

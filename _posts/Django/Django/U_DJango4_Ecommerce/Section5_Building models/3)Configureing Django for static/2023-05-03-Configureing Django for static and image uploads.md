@@ -3,7 +3,7 @@
 layout: single
 title: " [Django] Configureing Django for static and image uploads "
 categories: Django
-tag: [Python,"[BIG][Django] Building models","static 폴더 경로 설정"]
+tag: [Python,"[BIG][Django] Building models","[Django] static 폴더 경로 설정"]
 toc: true
 toc_sticky: true
 author_profile: false

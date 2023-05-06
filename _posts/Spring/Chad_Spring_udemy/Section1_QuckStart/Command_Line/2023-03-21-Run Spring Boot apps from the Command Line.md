@@ -2,7 +2,7 @@
 layout: single
 title: "[Spring] Run Spring Boot apps from the Command Line"
 categories: Spring
-tag: [Java,mvn,mvnw]
+tag: [Java,"[Spring] mvn","[Spring] mvnw"]
 toc: true
 toc_sticky: true
 author_profile: false

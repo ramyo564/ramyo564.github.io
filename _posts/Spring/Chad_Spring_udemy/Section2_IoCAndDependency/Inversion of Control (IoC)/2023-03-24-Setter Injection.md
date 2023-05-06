@@ -2,8 +2,8 @@
 layout: single
 title: "[Spring] Setter Injection"
 categories: Spring
-tag: [Java,IoC,Inversion of Control,Setter Injection
-,"@Autowired",Annotation]
+tag: [Java,"[Spring] IoC","[Spring] Inversion of Control","[Spring] Setter Injection"
+,"[Spring] @Autowired","[Spring] Annotation"]
 toc: true
 toc_sticky: true
 author_profile: false

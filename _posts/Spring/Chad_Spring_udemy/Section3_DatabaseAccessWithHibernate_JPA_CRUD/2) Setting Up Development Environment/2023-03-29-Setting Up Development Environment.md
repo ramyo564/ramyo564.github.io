@@ -2,7 +2,7 @@
 layout: single
 title: "[Spring] Spring 배너창 및 쓸데없는 정보 없애기 및 환경설정"
 categories: Spring
-tag: [Java,EntityManager]
+tag: [Java,"[Spring] EntityManager"]
 toc: true
 toc_sticky: true
 author_profile: false

@@ -2,8 +2,8 @@
 layout: single
 title: "[Spring] Annotation Autowiring and Qualifiers"
 categories: Spring
-tag: [Java,IoC,Inversion of Control,Setter Injection
-,"@Autowired",Annotation,"@Qualifier"]
+tag: [Java,"[Spring] IoC","[Spring] Inversion of Control","[Spring] Setter Injection"
+,"[Spring] @Autowired","[Spring] Annotation","[Spring] @Qualifier"]
 toc: true
 toc_sticky: true
 author_profile: false

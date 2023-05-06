@@ -2,7 +2,7 @@
 layout: single
 title: "[Spring] Spring Boot Properties & Server"
 categories: Spring
-tag: [Java,Properties,server]
+tag: [Java,"[Spring] Properties","[Spring] server"]
 toc: true
 toc_sticky: true
 author_profile: false

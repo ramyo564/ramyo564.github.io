@@ -2,7 +2,7 @@
 layout: single
 title: "오차역전파법 구현하기!"
 categories: ML_DL
-tag: [Python,"[BIG][밑딥] 오차역전파법 구현하기"]
+tag: [Python,"[밑딥] 오차역전파법 구현하기"]
 toc: true
 toc_sticky: true
 author_profile: false
@@ -10,6 +10,7 @@ author_profile: false
 ---
 
 # 오차역전파법 구현하기!
+5-8까지
 
 ## 신경망 학습의 전체 그림
 - 전제 

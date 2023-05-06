@@ -2,7 +2,7 @@
 layout: single
 title: "[Spring] @Primary vs @Qualifier"
 categories: Spring
-tag: [Java,IoC,Inversion of Control,"@Primary","@Qualifier","@Component"]
+tag: [Java,"[Spring] IoC","[Spring] Inversion of Control","[Spring] @Primary","[Spring] @Qualifier","[Spring] @Component"]
 toc: true
 toc_sticky: true
 author_profile: false

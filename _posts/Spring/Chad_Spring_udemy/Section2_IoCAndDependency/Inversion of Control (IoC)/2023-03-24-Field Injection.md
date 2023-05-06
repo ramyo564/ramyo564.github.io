@@ -2,7 +2,7 @@
 layout: single
 title: "[Spring] Field Injection"
 categories: Spring
-tag: [Java,IoC,Inversion of Control,Field Injection]
+tag: [Java,"[Spring] IoC,Inversion of Control","[Spring] Field Injection"]
 toc: true
 toc_sticky: true
 author_profile: false

@@ -2,7 +2,7 @@
 layout: single
 title: "[Spring] Beans 이게 뭐지?"
 categories: Spring
-tag: [Java,Beans]
+tag: [Java,"[Spring] Beans"]
 toc: true
 toc_sticky: true
 author_profile: false

@@ -2,7 +2,7 @@
 layout: single
 title: "[Spring] Spring Boot DevTools? 인텔리제이 커뮤니티버전 DevTools 설정방법"
 categories: Spring
-tag: [Java,Devtools]
+tag: [Java,"[Spring] Devtools"]
 toc: true
 toc_sticky: true
 author_profile: false

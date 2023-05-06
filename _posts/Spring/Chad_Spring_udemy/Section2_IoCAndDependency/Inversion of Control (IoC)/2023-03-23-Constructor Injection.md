@@ -2,7 +2,7 @@
 layout: single
 title: "[Spring] Constructor Injection"
 categories: Spring
-tag: [Java,IoC,Inversion of Control,Constructor Injection]
+tag: [Java,"[Spring] IoC","[Spring] Inversion of Control,Constructor Injection"]
 toc: true
 toc_sticky: true
 author_profile: false

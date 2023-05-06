@@ -3,7 +3,7 @@
 layout: single
 title: " [Django] Building models "
 categories: Django
-tag: [Python,"[BIG][Django] Building models","db_index","slug"]
+tag: [Python,"[BIG][Django] Building models","[Django] db_index","[Django] slug"]
 toc: true
 toc_sticky: true
 author_profile: false

@@ -2,7 +2,7 @@
 layout: single
 title: "[Spring] IoC 가 그래서 뭐지?"
 categories: Spring
-tag: [Java,IoC,Inversion of Control]
+tag: [Java,"[Spring] IoC","[Spring] Inversion of Control"]
 toc: true
 toc_sticky: true
 author_profile: false

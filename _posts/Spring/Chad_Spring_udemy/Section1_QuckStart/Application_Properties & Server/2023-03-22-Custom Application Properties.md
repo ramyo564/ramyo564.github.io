@@ -2,7 +2,7 @@
 layout: single
 title: "[Spring] Custom Application Properties"
 categories: Spring
-tag: [Java,"@Value",Injecting Custom Application Properties]
+tag: [Java,"[Spring] @Value","[Spring] Injecting Custom Application Properties"]
 toc: true
 toc_sticky: true
 author_profile: false

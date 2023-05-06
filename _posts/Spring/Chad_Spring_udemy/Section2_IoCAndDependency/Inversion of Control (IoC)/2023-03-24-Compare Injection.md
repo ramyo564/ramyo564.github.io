@@ -2,7 +2,7 @@
 layout: single
 title: "[Spring] Injection 비교"
 categories: Spring
-tag: [Java,IoC,Inversion of Control,Injection 비교]
+tag: [Java,"[Spring] IoC","[Spring] Inversion of Control,Injection 비교"]
 toc: true
 toc_sticky: true
 author_profile: false

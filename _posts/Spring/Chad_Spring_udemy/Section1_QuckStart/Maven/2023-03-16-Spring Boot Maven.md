@@ -2,7 +2,7 @@
 layout: single
 title: "[Spring] Maven은 뭐지?"
 categories: Spring
-tag: [Java,Maven]
+tag: [Java,"[Spring] Maven"]
 toc: true
 toc_sticky: true
 author_profile: false

@@ -3,7 +3,7 @@
 layout: single
 title: " [Django] admin configuration "
 categories: Django
-tag: [Python,"[BIG][Django] Building models","Django Admin","Slug 한글화"]
+tag: [Python,"[BIG][Django] Building models","[Django] Django Admin","[Django] Slug 한글화"]
 toc: true
 toc_sticky: true
 author_profile: false

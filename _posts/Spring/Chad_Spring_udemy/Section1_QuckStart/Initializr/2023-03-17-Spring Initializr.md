@@ -2,7 +2,7 @@
 layout: single
 title: "[Spring] Spring Initializr?"
 categories: Spring
-tag: [Java,Spring Initializr]
+tag: [Java,"[Spring] Spring Initializr"]
 toc: true
 toc_sticky: true
 author_profile: false
