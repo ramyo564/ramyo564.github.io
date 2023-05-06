@@ -3,7 +3,7 @@
 layout: single
 title: " [Django] admin configuration "
 categories: Django
-tag: [Python,"[BIG][Django] Building models",]
+tag: [Python,"[BIG][Django] Building models","Django Admin","Slug 한글화"]
 toc: true
 toc_sticky: true
 author_profile: false
@@ -12,7 +12,7 @@ sidebar:
 ---
 # Building models (4)
 
-/ !!! /
+/ Django Admin / Slug 한글화
 
 ## Basic - Django admin
 ```python
@@ -72,3 +72,47 @@ class ProductAdmin(admin.ModelAdmin):
 >- 어드민에서 자동으로 슬러그가 자동으로 등록되게 만들어준다.
 >- 이렇게 해놓으면 슬러그를 따로 설정할 필요없이 설정해 놓은 변수대로 자동으로 만든다.
 >- ![](https://i.imgur.com/TtvDGL2.png)
+
+## Slug 한글화
+
+![](https://i.imgur.com/KeUqSRx.png)
+- 샘플로 쇼핑몰을 만들려고 보는데 한글은 Slug가 지원이 기본으로 안된다.
+	- `slugify` 를 이용하면 된다.
+```python
+from django.db import models
+from django.utils.text import slugify
+class Category(models.Model):
+    name = models.CharField(max_length=250, db_index=True)
+    slug = models.SlugField(max_length=250, unique=True, allow_unicode=True)
+    
+    class Meta:
+        verbose_name_plural = 'categories'
+    def __str__(self):
+        return self.name
+```
+>- `slugify` 를 부르고 slug 파라미터에 `allow_unicode=True` 로 설정해주면 된다.
+>- ![](https://i.imgur.com/r8NKOIy.png)
+
+
+## Slug 한글 오류
+- slug를 한글로 사용하면 url에서 사용할 떄 오류가 난다.
+- ![](https://i.imgur.com/vnrQs3G.png)
+```python
+from django.urls import path
+from . import views
+
+urlpatterns = [
+    # Store main page
+    path('', views.store, name='store'),
+    # Individual product
+    path('product/<slug:product_slug>/', views.product_info, name='product-info'),
+	-> slug 대신에 str로 변경
+]
+```
+>- slug를 그냥 str로 변경하면 해결  -> `<str:product_slug>` 
+>- re_path나 StringConverter를 사용해서 해결할 수도 있지만 이게 제일 간단하고 편하다.
+>	- 어차피 위에 있는 방법도 원리는 비슷비슷하다.
+>- ![](https://i.imgur.com/C7UkOfI.png)
+>	- URL에 한글이 있어도 잘 갖고 온다.
+
+>- 참고 : https://kgu0724.tistory.com/99

@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "9e10aa918d4a10c3",
+        "id": "6884bf92d34640e9",
         "type": "tabs",
         "children": [
           {
-            "id": "f14de5b2701cdb39",
+            "id": "35c5bf5024c74975",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "U_DJango4_Ecommerce/Section6_Templates_URL_Views/2)Base page/temp 1v models 1.md",
+                "file": "U_DJango4_Ecommerce/Section6_Templates_URL_Views/4)Building the Category View/2023-05-06-Building View.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 202.5046501159668,
+    "width": 200,
     "collapsed": true
   },
   "right": {
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "U_DJango4_Ecommerce/Section6_Templates_URL_Views/2)Base page/temp 1v models 1.md",
+                "file": "U_DJango4_Ecommerce/Section6_Templates_URL_Views/4)Building the Category View/2023-05-06-Building View.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "U_DJango4_Ecommerce/Section6_Templates_URL_Views/2)Base page/temp 1v models 1.md",
+                "file": "U_DJango4_Ecommerce/Section6_Templates_URL_Views/4)Building the Category View/2023-05-06-Building View.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "U_DJango4_Ecommerce/Section6_Templates_URL_Views/2)Base page/temp 1v models 1.md"
+                "file": "U_DJango4_Ecommerce/Section6_Templates_URL_Views/4)Building the Category View/2023-05-06-Building View.md"
               }
             }
           }
@@ -143,7 +143,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 217.5
+    "width": 328.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -155,18 +155,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f14de5b2701cdb39",
+  "active": "35c5bf5024c74975",
   "lastOpenFiles": [
+    "U_DJango4_Ecommerce/Section5_Building models/4)Django admin/2023-05-04-Django Admin.md",
+    "U_DJango4_Ecommerce/temp 1v models.md",
+    "U_DJango4_Ecommerce/Section6_Templates_URL_Views/4)Building the Category View/2023-05-06-Building View.md",
     "U_DJango4_Ecommerce/Section6_Templates_URL_Views/1)Configure URL View/2023-05-04-Basic templates.md",
-    "U_DJango4_Ecommerce/Section6_Templates_URL_Views/2)Base page/temp 1v models 1.md",
+    "U_DJango4_Ecommerce/Section6_Templates_URL_Views/2)Base page/2023-05-04-Creating a base page.md",
+    "U_DJango4_Ecommerce/Section6_Templates_URL_Views/3)Populating database/2023-05-05-Populating database.md",
+    "U_DJango4_Ecommerce/Section6_Templates_URL_Views/4)Building the Category View",
+    "U_DJango4_Ecommerce/Section5_Building models/1)Create a Django app/2023-05-03-Building models.md",
+    "U_DJango4_Ecommerce/Section5_Building models/2)Adding an image field/2023-05-03-Adding an image field.md",
+    "U_DJango4_Ecommerce/Section5_Building models/3)Configureing Django for static/2023-05-03-Configureing Django for static and image uploads.md",
+    "U_DJango4_Ecommerce/Section6_Templates_URL_Views/3)Populating database",
     "U_DJango4_Ecommerce/Section4_Setup/2023-05-03-Django4 project setup.md",
     "U_DJango4_Ecommerce/Section6_Templates_URL_Views/2)Base page",
-    "U_DJango4_Ecommerce/temp 1v models.md",
     "U_DJango4_Ecommerce/Section6_Templates_URL_Views/1)Configure URL View",
-    "U_DJango4_Ecommerce/Section5_Building models/4)Django admin/2023-05-04-Django Admin.md",
-    "U_DJango4_Ecommerce/Section5_Building models/3)Configureing Django for static/2023-05-03-Configureing Django for static and image uploads.md",
-    "U_DJango4_Ecommerce/Section5_Building models/2)Adding an image field/2023-05-03-Adding an image field.md",
-    "U_DJango4_Ecommerce/Section5_Building models/1)Create a Django app/2023-05-03-Building models.md",
     "U_DJango4_Ecommerce/Section6_Templates_URL_Views",
     "U_DJango4_Ecommerce/Section5_Building models/4)Django admin",
     "U_DJango4_Ecommerce/Section5_Building models/3)Configureing Django for static",
@@ -175,8 +179,6 @@
     "U_DJango4_Ecommerce/temp.md",
     "U_DJango4_Ecommerce/Section5_Building models",
     "Pasted image 20230503224609.png",
-    "Pasted image 20230503224707.png",
-    "U_DJango4_Ecommerce/Section4_Setup",
-    "U_DJango4_Ecommerce/Section5_Building Models"
+    "Pasted image 20230503224707.png"
   ]
 }

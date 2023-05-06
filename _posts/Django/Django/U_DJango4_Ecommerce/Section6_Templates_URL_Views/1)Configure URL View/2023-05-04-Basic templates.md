@@ -3,14 +3,14 @@
 layout: single
 title: " [Django] Configure URL files and store view "
 categories: Django
-tag: [Python,"[BIG][Django] Basic templates, URLS's and VIews"]
+tag: [Python,"[BIG][Django] Basic templates, URL's and VIews"]
 toc: true
 toc_sticky: true
 author_profile: false
 sidebar:
 
 ---
-# Basic templates, URLS's and VIews (1)
+# Basic templates, URL's and VIews (1)
 
 / urls.py / views.py /
 
