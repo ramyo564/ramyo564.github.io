@@ -3,16 +3,16 @@
 layout: single
 title: " [Django] Cart functionality - Initial build up "
 categories: Django
-tag: [Python,"[BIG][Django] Basic templates, URLS's and VIews",]
+tag: [Python,"[BIG][Django] Cart functionality",]
 toc: true
 toc_sticky: true
 author_profile: false
 sidebar:
 
 ---
-# Cart (1)
+# Cart (2)
 {% raw %}
-/ !!! /
+/ 장바구니 만들기 /
 
 ## Cart app 만들기
 

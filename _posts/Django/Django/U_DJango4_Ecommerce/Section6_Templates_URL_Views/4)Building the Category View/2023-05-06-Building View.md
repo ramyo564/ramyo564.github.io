@@ -58,6 +58,7 @@ TEMPLATES = [
 >- This is a context processor that we're adding.
 >- It'll allow it to be available our data on every single template or page s owe can reference this easily
 >- templates 참고 : https://query.tistory.com/entry/%EC%9E%A5%EA%B3%A0-settingspy-%ED%85%9C%ED%94%8C%EB%A6%BF-%ED%8F%B4%EB%8D%94-%EC%9C%84%EC%B9%98-%EC%A7%80%EC%A0%95-%EB%B0%A9%EB%B2%95
+>- 상품요약페이지든 장바구니든 모든 페이지에서 해당 기능을 사용하기위해 등록해준다고 이해하면 됨
 
 ### 장고 Templates 설정
 - 장고에서 template는 MVC 패턴에서 view와 비슷한 기능을 한다.

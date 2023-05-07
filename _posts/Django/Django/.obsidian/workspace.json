@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "U_DJango4_Ecommerce/Section7_Cart functionality - Initial build up/Section7_Cart functionality - Initial build up/2023-05-07-Cart functionality - Initial build up.md",
+                "file": "U_DJango4_Ecommerce/Section6_Templates_URL_Views/4)Building the Category View/2023-05-06-Building View.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "U_DJango4_Ecommerce/Section7_Cart functionality - Initial build up/Section7_Cart functionality - Initial build up/2023-05-07-Cart functionality - Initial build up.md",
+                "file": "U_DJango4_Ecommerce/Section6_Templates_URL_Views/4)Building the Category View/2023-05-06-Building View.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "U_DJango4_Ecommerce/Section7_Cart functionality - Initial build up/Section7_Cart functionality - Initial build up/2023-05-07-Cart functionality - Initial build up.md",
+                "file": "U_DJango4_Ecommerce/Section6_Templates_URL_Views/4)Building the Category View/2023-05-06-Building View.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "U_DJango4_Ecommerce/Section7_Cart functionality - Initial build up/Section7_Cart functionality - Initial build up/2023-05-07-Cart functionality - Initial build up.md"
+                "file": "U_DJango4_Ecommerce/Section6_Templates_URL_Views/4)Building the Category View/2023-05-06-Building View.md"
               }
             }
           }
@@ -154,12 +154,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c9f89cdee8606cb6",
+  "active": "35c5bf5024c74975",
   "lastOpenFiles": [
-    "U_DJango4_Ecommerce/temp.md",
-    "U_DJango4_Ecommerce/Section7_Cart functionality - Initial build up/Section7_Cart functionality - Initial build up/2023-05-07-Cart functionality - Initial build up.md",
-    "U_DJango4_Ecommerce/Section7_Cart functionality - Initial build up/Section7_Cart functionality - Initial build up",
+    "U_DJango4_Ecommerce/Section7_Cart functionality - Initial build up/Section8-2Cart functionality - Sessions/2023-05-07-session.md",
+    "U_DJango4_Ecommerce/Section7_Cart functionality - Initial build up/Section7-1Cart functionality - Initial build up/2023-05-07-Cart functionality - Initial build up.md",
     "U_DJango4_Ecommerce/temp 1v models.md",
+    "U_DJango4_Ecommerce/Section7_Cart functionality - Initial build up/Section8-2Cart functionality - Sessions",
+    "U_DJango4_Ecommerce/temp.md",
+    "U_DJango4_Ecommerce/Section7_Cart functionality - Initial build up/Section7-1Cart functionality - Initial build up",
     "U_DJango4_Ecommerce/Section5_Building models/1)Create a Django app/2023-05-03-Building models.md",
     "U_DJango4_Ecommerce/Section6_Templates_URL_Views/1)Configure URL View/2023-05-04-Basic templates.md",
     "U_DJango4_Ecommerce/Section6_Templates_URL_Views/5)Upgrade Option/2023-05-06-Control option button.md",
@@ -178,7 +180,6 @@
     "U_DJango4_Ecommerce/Section6_Templates_URL_Views/1)Configure URL View",
     "U_DJango4_Ecommerce/Section6_Templates_URL_Views",
     "U_DJango4_Ecommerce/Section5_Building models/4)Django admin",
-    "U_DJango4_Ecommerce/Section5_Building models/3)Configureing Django for static",
     "Pasted image 20230503224609.png",
     "Pasted image 20230503224707.png"
   ]
