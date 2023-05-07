@@ -2,7 +2,7 @@
 layout: single
 title: "[Spring] Thymeleaf-CRUD Database Project"
 categories: Spring
-tag: [Java,"Thymeleaf-CRUD"]
+tag: [Java,"[Spring] Thymeleaf-CRUD"]
 toc: true
 toc_sticky: true
 author_profile: false

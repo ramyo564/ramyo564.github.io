@@ -3,7 +3,7 @@
 layout: single
 title: " [Spring] Spring Boot vs Spring MVC vs Spring "
 categories: Spring
-tag: [Java,"Spring Boot vs Spring MVC vs Spring"]
+tag: [Java,"[Spring] Spring Boot vs Spring MVC vs Spring"]
 toc: true
 toc_sticky: true
 author_profile: false

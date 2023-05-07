@@ -2,7 +2,7 @@
 layout: single
 title: "[Spring] Security - BCrypt Encryption"
 categories: Spring
-tag: [Java,"Security - BCrypt Encryption",]
+tag: [Java,"[Spring] Security - BCrypt Encryption",]
 toc: true
 toc_sticky: true
 author_profile: false

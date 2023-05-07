@@ -2,7 +2,7 @@
 layout: single
 title: "[Spring] Spring REST API Design"
 categories: Spring
-tag: [Java,REST,"REST API Design","@Service","@PathVariable","@RequestBody","@DeleteMapping","@PutMapping"]
+tag: [Java,"[Spring] REST","[Spring] REST API Design","[Spring] @Service","[Spring] @PathVariable","[Spring] @RequestBody","[Spring] @DeleteMapping","[Spring] @PutMapping"]
 toc: true
 toc_sticky: true
 author_profile: false

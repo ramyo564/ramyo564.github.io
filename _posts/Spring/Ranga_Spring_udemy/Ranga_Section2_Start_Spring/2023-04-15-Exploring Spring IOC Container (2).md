@@ -2,7 +2,7 @@
 layout: single
 title: "[Spring] Exploring Spring IOC Container"
 categories: Spring
-tag: [Java,"Bean Factory","Application Context","[BIG][Spring] Starting Spring Framework"]
+tag: [Java,"[Spring] Bean Factory","[Spring] Application Context","[BIG][Spring] Starting Spring Framework"]
 toc: true
 toc_sticky: true
 author_profile: false

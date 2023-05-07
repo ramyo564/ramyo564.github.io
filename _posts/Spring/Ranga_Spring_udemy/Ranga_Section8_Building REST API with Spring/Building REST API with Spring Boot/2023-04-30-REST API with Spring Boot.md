@@ -3,7 +3,7 @@
 layout: single
 title: " [Spring] REST API with Spring Boot "
 categories: Spring
-tag: [Java,"[BIG][Spring] Building REST API with Spring Boot",]
+tag: [Java,"[BIG][Spring] Building REST API with Spring Boot"]
 toc: true
 toc_sticky: true
 author_profile: false

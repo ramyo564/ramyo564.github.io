@@ -3,7 +3,7 @@
 layout: single
 title: " [Spring] Setting up a New User for Todo Application "
 categories: Spring
-tag: [Java,"[BIG][Spring] Java Web Application with Spring and Hibernate","Setting up a New User for Todo Application","UserDetails","createNewUser","HttpSecurity","withDefaults()","@Entity","SecurityFilterChain","authorizeHttpRequests","JpaRepository"]
+tag: [Java,"[BIG][Spring] Java Web Application with Spring and Hibernate","[Spring] Setting up a New User for Todo Application","[Spring] UserDetails","[Spring] createNewUser","[Spring] HttpSecurity","[Spring] withDefaults()","[Spring] @Entity","[Spring] SecurityFilterChain","[Spring] authorizeHttpRequests","[Spring] JpaRepository"]
 toc: true
 toc_sticky: true
 author_profile: false

@@ -2,7 +2,7 @@
 layout: single
 title: "[Spring] Reading Objects with JPA"
 categories: Spring
-tag: [Java,JPA,DAO]
+tag: [Java,"[Spring] JPA","[Spring] DAO"]
 toc: true
 toc_sticky: true
 author_profile: false

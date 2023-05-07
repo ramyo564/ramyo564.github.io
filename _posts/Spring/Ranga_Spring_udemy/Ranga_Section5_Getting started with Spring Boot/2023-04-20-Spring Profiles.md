@@ -3,7 +3,7 @@
 layout: single
 title: " [Spring] Spring Profiles "
 categories: Spring
-tag: [Java,"Spring Profiles","@ConfigurationProperties"]
+tag: [Java,"[Spring] Spring Profiles","[Spring] @ConfigurationProperties"]
 toc: true
 toc_sticky: true
 author_profile: false

@@ -3,7 +3,7 @@
 layout: single
 title: " [Spring] Build a Hello world API with Spring Boot "
 categories: Spring
-tag: [Java,"Build a Hello world API with Spring Boot","arrays.asList()"]
+tag: [Java,"[Spring] Build a Hello world API with Spring Boot","[Spring] arrays.asList()"]
 toc: true
 toc_sticky: true
 author_profile: false

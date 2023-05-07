@@ -2,7 +2,7 @@
 layout: single
 title: "[Spring] Spring Boot REST API Security"
 categories: Spring
-tag: [Java,"API REST Security"]
+tag: [Java,"[Spring] API REST Security"]
 toc: true
 toc_sticky: true
 author_profile: false

@@ -3,7 +3,7 @@
 layout: single
 title: "[Spring] Exploring Lazy and Eager Initialization of Spring Framework Beans"
 categories: Spring
-tag: [Java,"Exploring Lazy and Eager Initialization of Spring Framework Beans"]
+tag: [Java,"[Spring] Exploring Lazy and Eager Initialization of Spring Framework Beans"]
 toc: true
 toc_sticky: true
 author_profile: false

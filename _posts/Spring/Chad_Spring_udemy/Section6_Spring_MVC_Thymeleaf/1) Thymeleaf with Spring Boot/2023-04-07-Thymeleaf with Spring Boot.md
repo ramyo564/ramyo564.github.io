@@ -2,7 +2,7 @@
 layout: single
 title: "[Spring] Thymeleaf with Spring Boot"
 categories: Spring
-tag: [Java,"Thymeleaf"]
+tag: [Java,"[Spring] Thymeleaf"]
 toc: true
 toc_sticky: true
 author_profile: false

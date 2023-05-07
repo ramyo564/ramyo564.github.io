@@ -2,7 +2,7 @@
 layout: single
 title: "[Spring] Managing Objects and performing auto-wiring with Spring"
 categories: Spring
-tag: [Java,"[BIG][Spring] Starting Spring Framework","@Component","@ComponentScan"]
+tag: [Java,"[BIG][Spring] Starting Spring Framework","[Spring] @Component","[Spring] @ComponentScan"]
 toc: true
 toc_sticky: true
 author_profile: false

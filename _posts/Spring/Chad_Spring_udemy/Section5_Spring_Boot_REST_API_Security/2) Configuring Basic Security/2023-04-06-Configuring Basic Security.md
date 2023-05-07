@@ -2,7 +2,7 @@
 layout: single
 title: "[Spring] Configuring Basic Security"
 categories: Spring
-tag: [Java,"Configuring Basic Security","@Configuration","InMemoryUserDetailsManager",CSRF]
+tag: [Java,"[Spring] Configuring Basic Security","[Spring] @Configuration","[Spring] InMemoryUserDetailsManager","[Spring] CSRF"]
 toc: true
 toc_sticky: true
 author_profile: false

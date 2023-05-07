@@ -3,7 +3,7 @@
 layout: single
 title: " [Spring] Versioning REST API "
 categories: Spring
-tag: [Java,"[BIG][Spring] Advanced REST API Features","Versioning REST API","API 버전관리"]
+tag: [Java,"[BIG][Spring] Advanced REST API Features","[Spring] Versioning REST API","[Spring] API 버전관리"]
 toc: true
 toc_sticky: true
 author_profile: false

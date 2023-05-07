@@ -3,7 +3,7 @@
 layout: single
 title: " [Spring] Add a New Todo "
 categories: Spring
-tag: [Java,"[BIG][Spring] Java Web Application with Spring and Hibernate","Add a New Todo","method = RequestMethod.GET","method = RequestMethod.POST","ModelMap"]
+tag: [Java,"[BIG][Spring] Java Web Application with Spring and Hibernate","[Spring] Add a New Todo","[Spring] method = RequestMethod.GET","[Spring] method = RequestMethod.POST","[Spring] ModelMap"]
 toc: true
 toc_sticky: true
 author_profile: false

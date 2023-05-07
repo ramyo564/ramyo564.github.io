@@ -2,7 +2,7 @@
 layout: single
 title: "[Spring] Design Game Runner with Spring Boot"
 categories: Spring
-tag: [Java,"record클래스",getBean,"@Bean","[BIG][Spring] Starting Spring Framework"]
+tag: [Java,"[Spring] record클래스","[Spring] getBean","[Spring] @Bean","[BIG][Spring] Starting Spring Framework"]
 toc: true
 toc_sticky: true
 author_profile: false

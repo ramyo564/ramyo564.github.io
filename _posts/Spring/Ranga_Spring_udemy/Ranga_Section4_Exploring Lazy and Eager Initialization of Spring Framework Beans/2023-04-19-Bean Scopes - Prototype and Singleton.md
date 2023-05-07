@@ -3,7 +3,7 @@
 layout: single
 title: " [Spring] Bean Scopes - Prototype and Singleton "
 categories: Spring
-tag: [Java,"Bean Scopes - Prototype and Singleton","Singleton vs Prototype","Prototype Scope","@Scope"]
+tag: [Java,"[Spring] Bean Scopes - Prototype and Singleton","[Spring] Singleton vs Prototype","[Spring] Prototype Scope","[Spring] @Scope"]
 toc: true
 toc_sticky: true
 author_profile: false

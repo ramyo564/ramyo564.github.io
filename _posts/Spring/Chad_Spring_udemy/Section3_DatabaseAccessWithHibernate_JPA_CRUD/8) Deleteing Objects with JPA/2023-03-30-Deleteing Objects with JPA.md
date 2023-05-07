@@ -2,7 +2,7 @@
 layout: single
 title: "[Spring] Deleteing Objects with JPA"
 categories: Spring
-tag: [Java,Hibernate,JPA]
+tag: [Java,"[Spring] Hibernate","[Spring] JPA"]
 toc: true
 toc_sticky: true
 author_profile: false

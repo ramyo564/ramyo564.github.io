@@ -3,7 +3,7 @@
 layout: single
 title: " [Spring] Connecting Database with Spring "
 categories: Spring
-tag: [Java,"[BIG][Spring] Java Web Application with Spring and Hibernate",JpaRepository]
+tag: [Java,"[BIG][Spring] Java Web Application with Spring and Hibernate","[Spring] JpaRepository"]
 toc: true
 toc_sticky: true
 author_profile: false

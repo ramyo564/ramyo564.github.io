@@ -3,7 +3,7 @@
 layout: single
 title: "[Spring] Comparing with J2EE and Java EE"
 categories: Spring
-tag: [Java, "Comparing with J2EE and Java EE" ]
+tag: [Java, "[Spring] Comparing with J2EE and Java EE"]
 toc: true
 toc_sticky: true
 author_profile: false

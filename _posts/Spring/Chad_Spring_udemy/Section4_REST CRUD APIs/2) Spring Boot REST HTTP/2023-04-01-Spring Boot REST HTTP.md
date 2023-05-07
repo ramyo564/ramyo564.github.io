@@ -2,7 +2,7 @@
 layout: single
 title: "[Spring] Spring Boot REST HTTP"
 categories: Spring
-tag: [Java,REST,"Status Codes"]
+tag: [Java,"[Spring] REST","[Spring] Status Codes"]
 toc: true
 toc_sticky: true
 author_profile: false

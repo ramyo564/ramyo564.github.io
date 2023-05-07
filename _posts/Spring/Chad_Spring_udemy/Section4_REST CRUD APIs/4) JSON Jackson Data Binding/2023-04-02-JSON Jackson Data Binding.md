@@ -2,7 +2,7 @@
 layout: single
 title: "[Spring] JSON Jackson Data Binding"
 categories: Spring
-tag: [Java,REST,JSON,Jackson]
+tag: [Java,"[Spring] REST","[Spring] JSON","[Spring] Jackson"]
 toc: true
 toc_sticky: true
 author_profile: false

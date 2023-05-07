@@ -2,7 +2,7 @@
 layout: single
 title: "[Spring] User Accounts Stored in Database"
 categories: Spring
-tag: [Java,"User Accounts Stored in Database",]
+tag: [Java,"[Spring] User Accounts Stored in Database"]
 toc: true
 toc_sticky: true
 author_profile: false

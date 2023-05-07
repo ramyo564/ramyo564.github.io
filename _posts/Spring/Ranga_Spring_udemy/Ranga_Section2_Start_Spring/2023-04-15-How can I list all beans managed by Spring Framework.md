@@ -2,7 +2,7 @@
 layout: single
 title: "[Spring] How can I list all beans managed by Spring Framework?"
 categories: Spring
-tag: [Java,"[BIG][Spring] Starting Spring Framework","@Primary","@Qualifier","IoC","@Component","@Bean","@Component vs @Bean"]
+tag: [Java,"[BIG][Spring] Starting Spring Framework","[Spring] @Primary","[Spring] @Qualifier","[Spring] IoC","[Spring] @Component","[Spring] @Bean","[Spring] @Component vs @Bean"]
 toc: true
 toc_sticky: true
 author_profile: false

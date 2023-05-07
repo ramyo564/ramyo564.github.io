@@ -2,7 +2,7 @@
 layout: single
 title: "[Spring] Spring Boot REST Controller"
 categories: Spring
-tag: [Java,REST,"REST Controller"]
+tag: [Java,"[Spring] REST","[Spring] REST Controller"]
 toc: true
 toc_sticky: true
 author_profile: false

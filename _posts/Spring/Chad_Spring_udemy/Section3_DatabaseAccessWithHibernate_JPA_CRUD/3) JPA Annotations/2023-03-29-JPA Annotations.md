@@ -2,7 +2,7 @@
 layout: single
 title: "[Spring] JPA Annotations Overview"
 categories: Spring
-tag: [Java,JPA,"@Entity","@Table","@Column","@GeneratedValue","@Id","Lombok","Entity Class"]
+tag: [Java,"[Spring] JPA","[Spring] @Entity","[Spring] @Table","[Spring] @Column","[Spring] @GeneratedValue","[Spring] @Id","[Spring] Lombok","[Spring] Entity Class"]
 toc: true
 toc_sticky: true
 author_profile: false

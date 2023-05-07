@@ -2,7 +2,7 @@
 layout: single
 title: "[Spring] Spring REST Data JPA"
 categories: Spring
-tag: [Java,REST,"REST Data JPA","JpaRepository"]
+tag: [Java,"[Spring] REST","[Spring] REST Data JPA","[Spring] JpaRepository"]
 toc: true
 toc_sticky: true
 author_profile: false

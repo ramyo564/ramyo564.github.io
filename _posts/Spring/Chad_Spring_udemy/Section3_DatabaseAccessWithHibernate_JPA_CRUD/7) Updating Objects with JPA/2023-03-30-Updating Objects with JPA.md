@@ -2,7 +2,7 @@
 layout: single
 title: "[Spring] JPA로 오브젝트 업데이트"
 categories: Spring
-tag: [Java,JPA,update]
+tag: [Java,"[Spring] JPA","[Spring] update"]
 toc: true
 toc_sticky: true
 author_profile: false

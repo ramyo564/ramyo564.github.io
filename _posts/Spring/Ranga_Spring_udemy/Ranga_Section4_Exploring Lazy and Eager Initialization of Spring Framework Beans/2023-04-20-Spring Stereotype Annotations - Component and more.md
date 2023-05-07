@@ -3,7 +3,7 @@
 layout: single
 title: " [Spring] Spring Stereotype Annotations - Component and more "
 categories: Spring
-tag: [Java,"Spring Stereotype Annotations - Component and more","@Service","@Controller","@Repository"]
+tag: [Java,"[Spring] Spring Stereotype Annotations - Component and more","[Spring] @Service","[Spring] @Controller","[Spring] @Repository"]
 toc: true
 toc_sticky: true
 author_profile: false

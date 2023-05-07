@@ -2,7 +2,7 @@
 layout: single
 title: "[Spring] Exploring Java Bean vs POJO vs Spring Bean"
 categories: Spring
-tag: [Java,"record클래스","[BIG][Spring] Starting Spring Framework"]
+tag: [Java,"[Spring] record클래스","[BIG][Spring] Starting Spring Framework"]
 toc: true
 toc_sticky: true
 author_profile: false

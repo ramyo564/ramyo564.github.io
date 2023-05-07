@@ -3,7 +3,7 @@
 layout: single
 title: " [Spring] Delete todo Feature "
 categories: Spring
-tag: [Java,"[BIG][Spring] Java Web Application with Spring and Hibernate","Delete todo Feature","@RequestParam"]
+tag: [Java,"[BIG][Spring] Java Web Application with Spring and Hibernate","[Spring] Delete todo Feature","[Spring] @RequestParam"]
 toc: true
 toc_sticky: true
 author_profile: false

@@ -2,7 +2,7 @@
 layout: single
 title: "[Spring] Spring Data REST"
 categories: Spring
-tag: [Java,REST,"Data REST",HATEOAS]
+tag: [Java,"[Spring] REST","[Spring] Data REST","[Spring] HATEOAS"]
 toc: true
 toc_sticky: true
 author_profile: false

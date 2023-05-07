@@ -3,7 +3,7 @@
 layout: single
 title: " [Spring] JDBC to Spring JDBC to JPA to Spring Data JPA "
 categories: Spring
-tag: [Java,"JDBC to Spring JDBC to JPA to Spring Data JPA"]
+tag: [Java,"[Spring] JDBC to Spring JDBC to JPA to Spring Data JPA"]
 toc: true
 toc_sticky: true
 author_profile: false

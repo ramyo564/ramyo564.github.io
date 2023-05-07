@@ -3,7 +3,7 @@
 layout: single
 title: " [Spring] REST API Documentation (Open API, Swagger) "
 categories: Spring
-tag: [Java,"[BIG][Spring] Advanced REST API Features","Open API","Swagger"]
+tag: [Java,"[BIG][Spring] Advanced REST API Features","[Spring] Open API","[Spring] Swagger"]
 toc: true
 toc_sticky: true
 author_profile: false

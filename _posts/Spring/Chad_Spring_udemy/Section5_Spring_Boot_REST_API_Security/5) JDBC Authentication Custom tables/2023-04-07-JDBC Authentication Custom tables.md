@@ -2,7 +2,7 @@
 layout: single
 title: "[Spring] JDBC Authentication Custom tables"
 categories: Spring
-tag: [Java,"JDBC Authentication Custom tables","Security Schema Customization"]
+tag: [Java,"[Spring] JDBC Authentication Custom tables","[Spring] Security Schema Customization"]
 toc: true
 toc_sticky: true
 author_profile: false

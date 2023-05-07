@@ -2,7 +2,7 @@
 layout: single
 title: "[Spring] Spring REST Path Variables"
 categories: Spring
-tag: [Java,REST,"REST Path Variables"]
+tag: [Java,"[Spring] REST","[Spring] REST Path Variables"]
 toc: true
 toc_sticky: true
 author_profile: false

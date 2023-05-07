@@ -3,7 +3,7 @@
 layout: single
 title: " [Spring] Java Spring XML Configuration "
 categories: Spring
-tag: [Java,"Java Spring XML Configuration","Annotations vs XML configuration"]
+tag: [Java,"[Spring] Java Spring XML Configuration","[Spring] Annotations vs XML configuration"]
 toc: true
 toc_sticky: true
 author_profile: false

@@ -2,7 +2,7 @@
 layout: single
 title: "[Spring] Spring REST Global Exception Handling"
 categories: Spring
-tag: [Java,REST,"REST Exception Handling","@ControllerAdvice"]
+tag: [Java,"[Spring] REST","[Spring] REST Exception Handling","[Spring] @ControllerAdvice"]
 toc: true
 toc_sticky: true
 author_profile: false

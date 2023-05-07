@@ -3,7 +3,7 @@
 layout: single
 title: " [Spring] Spring Annotations and Concepts "
 categories: Spring
-tag: [Java,"Spring Annotations and Concepts","Annotations and  Concepts"]
+tag: [Java,"[Spring] Spring Annotations and Concepts","[Spring] Annotations and  Concepts"]
 toc: true
 toc_sticky: true
 author_profile: false

@@ -2,7 +2,7 @@
 layout: single
 title: "[Spring] Saving a Java Object with JPA"
 categories: Spring
-tag: [Java,JPA,"@Transactional","JDBC"]
+tag: [Java,"[Spring] JPA","[Spring] @Transactional","[Spring] JDBC"]
 toc: true
 toc_sticky: true
 author_profile: false

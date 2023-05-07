@@ -2,7 +2,7 @@
 layout: single
 title: "[Spring] Create Database Tables from Java Code"
 categories: Spring
-tag: [Java,Hibernate,JPA]
+tag: [Java,"[Spring] Hibernate","[Spring] JPA"]
 toc: true
 toc_sticky: true
 author_profile: false

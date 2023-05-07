@@ -3,7 +3,7 @@
 layout: single
 title: " [Spring] Spring MVC Controller, @ResponseBody, @Controller "
 categories: Spring
-tag: [Java,"Spring MVC Controller","[BIG][Spring] Java Web Application with Spring and Hibernate","@ResponseBody","@Controller","JSP","@RequestParam","@RequestMapping","Java Web Application with Spring and Hibernate"]
+tag: [Java,"[Spring] Spring MVC Controller","[BIG][Spring] Java Web Application with Spring and Hibernate","[Spring] @ResponseBody","[Spring] @Controller","[Spring] JSP","[Spring] @RequestParam","[Spring] @RequestMapping"]
 toc: true
 toc_sticky: true
 author_profile: false

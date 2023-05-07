@@ -2,7 +2,7 @@
 layout: single
 title: "[Spring] Spring REST Exception Handling"
 categories: Spring
-tag: [Java,REST,"REST Exception Handling"]
+tag: [Java,"[Spring] REST","[Spring] REST Exception Handling"]
 toc: true
 toc_sticky: true
 author_profile: false

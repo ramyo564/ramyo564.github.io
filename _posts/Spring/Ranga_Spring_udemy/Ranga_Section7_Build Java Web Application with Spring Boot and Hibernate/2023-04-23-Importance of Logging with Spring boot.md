@@ -3,7 +3,7 @@
 layout: single
 title: " [Spring] Importance of Logging with Spring boot "
 categories: Spring
-tag: [Java,"Importance of Logging with Spring boot","Logging"]
+tag: [Java,"[Spring] Importance of Logging with Spring boot","[Spring] Logging"]
 toc: true
 toc_sticky: true
 author_profile: false

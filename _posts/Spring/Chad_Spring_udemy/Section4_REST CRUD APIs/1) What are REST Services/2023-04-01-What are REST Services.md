@@ -2,7 +2,7 @@
 layout: single
 title: "[Spring] What are REST Services?"
 categories: Spring
-tag: [Java,REST]
+tag: [Java,"[Spring] REST"]
 toc: true
 toc_sticky: true
 author_profile: false
