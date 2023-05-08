@@ -1,7 +1,7 @@
 ---
 
 layout: single
-title: " [Django] [Django] Cart functionality Add Summary info "
+title: " [Django] Cart functionality Add Summary info "
 categories: Django
 tag: [Python,"[BIG][Django] Cart functionality","[Django] Cart Add info template"]
 toc: true
@@ -16,17 +16,6 @@ sidebar:
 
 ## Update the cart summary template
 
-### cart-summary.html
-```python
-{% for item in cart %}
-{% with product=item.product %}
-
-
-{% endwith %}
-{% endfor %}
-
-```
-
 ### cart.py
 ```python
 def __iter__(self):
@@ -39,6 +28,19 @@ def __iter__(self):
 		item['price'] = int(item['price'])
 		item['total'] = item['price'] * item['qty']
 		yield item
+```
+
+
+
+### cart-summary.html
+```python
+{% for item in cart %}
+{% with product=item.product %}
+
+
+{% endwith %}
+{% endfor %}
+
 ```
 
 

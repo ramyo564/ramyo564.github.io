@@ -184,6 +184,8 @@ def __len__(self):
 ```
 >- 전역으로 사용할 수 있겠금 TEMPLATES에 cart 를 등록해줬으므로 with 템플릿 태그를 사용해서 length를 호출해준다.
 >- qty_amount 가 0보다 크면 qty_amount를 출력해주고 아니면 0을 출력
+>	- Wtih statement 참고 : https://jinja.palletsprojects.com/en/3.1.x/templates/
+
 
 ### Issue
 
