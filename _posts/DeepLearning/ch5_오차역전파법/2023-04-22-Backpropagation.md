@@ -2,7 +2,7 @@
 layout: single
 title: "오차역전파법!"
 categories: ML_DL
-tag: [Python,"[밑딥] 오차역전파법!"]
+tag: [Python,"[밑딥]오차역전파법!"]
 toc: true
 toc_sticky: true
 author_profile: false
@@ -404,6 +404,9 @@ class SoftmaxWithLoss:
 		return dx
 ```
 >- 역전파 때는 전파하는 값을 배치의 수(batch_size)로 나눠서 데이터 1개당 오차를 앞 계층으로 전파한다.
+>- 여기에 배치사이즈로 나눠주는 이유는 cross entropy의 정의가 각 데이터들의 cross entropy의 평균이다.
+>- 다시 말해 각 데이터의 cross entropy를 모두 더한 후 데이터의 개수로 나눠준다 -> 이 데이터 개수가 batch_size다
+>	- N행의 그레디언트 행렬의 모든 성분의 값이 N으로 나눠진다.
 
 
 

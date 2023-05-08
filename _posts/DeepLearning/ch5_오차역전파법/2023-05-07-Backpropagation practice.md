@@ -2,7 +2,7 @@
 layout: single
 title: "오차역전파법 구현하기!"
 categories: ML_DL
-tag: [Python,"[밑딥] 오차역전파법 구현하기"]
+tag: [Python,"[밑딥]오차역전파법 구현하기"]
 toc: true
 toc_sticky: true
 author_profile: false
@@ -225,7 +225,7 @@ for key in grad_numerical.keys():
 >		- 여기서 y값은 softmax의 확률로 변환 되고 정답 레이블은 원 핫 인코딩이되어 이것을 손실함수  `cross_entropy_error` 를 거쳐 리턴한다.
 >		- 이 때 정답 레이블이 원-핫 인코딩이므로 `(self.y - self.t) / batch_size` 로 리턴된 미분값 dout를 갖는다.
 >		- 이 때 layer를 딕셔너리 키 값 Affine1, Relu1, Affine2 으로 저장해둔 벨류 값을 순서대로 리스트 형태로 변환한 뒤 reverse()를 통해 거꾸로 돌려준다.
->		- 거꾸로 돌려준 밸류 값들에 아까 구한 미분 값 dout를 넣어준다.
+>		- 거꾸로 돌려준 밸류 값들에 아까 구한값을 객체 dout에 넣어준다.
 >		- 그렇게 구한 값을 다시 키값 w1,b1,w2,b2 에 차례대로 객체 grad_backprop 에 넣어준다.
 >	- 이제 grad_numerical 값과 grad_backprop 값을 이용해서 평균을 구해주면 아래 값이 나온다.
 >		- ![](https://i.imgur.com/ZYkIQRA.png)

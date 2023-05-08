@@ -2,7 +2,7 @@
 layout: single
 title: "신경망 학습!"
 categories: ML_DL
-tag: [Python,"[밑딥]경사 하강법"]
+tag: [Python,"[밑딥] 경사 하강법"]
 toc: true
 toc_sticky: true
 author_profile: false
