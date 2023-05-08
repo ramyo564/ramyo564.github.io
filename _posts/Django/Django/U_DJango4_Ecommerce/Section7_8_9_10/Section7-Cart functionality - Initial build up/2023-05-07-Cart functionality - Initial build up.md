@@ -10,7 +10,7 @@ author_profile: false
 sidebar:
 
 ---
-# Cart (2)
+# Cart (1)
 {% raw %}
 / 장바구니 만들기 /
 

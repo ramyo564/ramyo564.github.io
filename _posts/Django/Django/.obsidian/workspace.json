@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "U_DJango4_Ecommerce/Section7_Cart functionality - Initial build up/Section8-2Cart functionality - Sessions/2023-05-07-session.md",
+                "file": "U_DJango4_Ecommerce/Section7_8_9_10/Section9-Cart functionality Add/2023-05-08-Cart functionality Add.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "U_DJango4_Ecommerce/Section7_Cart functionality - Initial build up/Section8-2Cart functionality - Sessions/2023-05-07-session.md",
+                "file": "U_DJango4_Ecommerce/Section7_8_9_10/Section9-Cart functionality Add/2023-05-08-Cart functionality Add.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "U_DJango4_Ecommerce/Section7_Cart functionality - Initial build up/Section8-2Cart functionality - Sessions/2023-05-07-session.md",
+                "file": "U_DJango4_Ecommerce/Section7_8_9_10/Section9-Cart functionality Add/2023-05-08-Cart functionality Add.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "U_DJango4_Ecommerce/Section7_Cart functionality - Initial build up/Section8-2Cart functionality - Sessions/2023-05-07-session.md"
+                "file": "U_DJango4_Ecommerce/Section7_8_9_10/Section9-Cart functionality Add/2023-05-08-Cart functionality Add.md"
               }
             }
           }
@@ -156,17 +156,19 @@
   },
   "active": "35c5bf5024c74975",
   "lastOpenFiles": [
+    "U_DJango4_Ecommerce/Section7_8_9_10/Section8-Cart functionality - Sessions/2023-05-07-session.md",
+    "U_DJango4_Ecommerce/Section7_8_9_10/Section9-Cart functionality Add/2023-05-08-Cart functionality Add.md",
+    "U_DJango4_Ecommerce/Section7_8_9_10/Section7-Cart functionality - Initial build up/2023-05-07-Cart functionality - Initial build up.md",
+    "U_DJango4_Ecommerce/Section6_Templates_URL_Views/5)Upgrade Option/2023-05-06-Control option button.md",
+    "U_DJango4_Ecommerce/Section7_8_9_10/Section9-Cart functionality Add",
     "U_DJango4_Ecommerce/Section6_Templates_URL_Views/4)Building the Category View/2023-05-06-Building View.md",
-    "U_DJango4_Ecommerce/Section7_Cart functionality - Initial build up/Section8-2Cart functionality - Sessions/2023-05-07-session.md",
-    "U_DJango4_Ecommerce/Section7_Cart functionality - Initial build up/Section7-1Cart functionality - Initial build up/2023-05-07-Cart functionality - Initial build up.md",
     "U_DJango4_Ecommerce/temp 1v models.md",
-    "U_DJango4_Ecommerce/Section7_Cart functionality - Initial build up/Section8-2Cart functionality - Sessions",
+    "U_DJango4_Ecommerce/Section7_8_9_10/Section8-Cart functionality - Sessions",
     "U_DJango4_Ecommerce/temp.md",
-    "U_DJango4_Ecommerce/Section7_Cart functionality - Initial build up/Section7-1Cart functionality - Initial build up",
+    "U_DJango4_Ecommerce/Section7_8_9_10/Section7-Cart functionality - Initial build up",
     "U_DJango4_Ecommerce/Section5_Building models/1)Create a Django app/2023-05-03-Building models.md",
     "U_DJango4_Ecommerce/Section6_Templates_URL_Views/1)Configure URL View/2023-05-04-Basic templates.md",
-    "U_DJango4_Ecommerce/Section6_Templates_URL_Views/5)Upgrade Option/2023-05-06-Control option button.md",
-    "U_DJango4_Ecommerce/Section7_Cart functionality - Initial build up",
+    "U_DJango4_Ecommerce/Section7_8_9_10",
     "U_DJango4_Ecommerce/Section6_Templates_URL_Views/5)Upgrade Option",
     "U_DJango4_Ecommerce/Section6_Templates_URL_Views/3)Populating database/2023-05-05-Populating database.md",
     "U_DJango4_Ecommerce/Section6_Templates_URL_Views/2)Base page/2023-05-04-Creating a base page.md",
@@ -179,7 +181,6 @@
     "U_DJango4_Ecommerce/Section6_Templates_URL_Views/2)Base page",
     "U_DJango4_Ecommerce/Section6_Templates_URL_Views/1)Configure URL View",
     "U_DJango4_Ecommerce/Section6_Templates_URL_Views",
-    "U_DJango4_Ecommerce/Section5_Building models/4)Django admin",
     "Pasted image 20230503224609.png",
     "Pasted image 20230503224707.png"
   ]
