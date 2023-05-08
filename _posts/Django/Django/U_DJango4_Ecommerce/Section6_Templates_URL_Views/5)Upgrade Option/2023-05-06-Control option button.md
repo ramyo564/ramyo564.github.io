@@ -30,7 +30,7 @@ sidebar:
 		value='-'  class="form-control"/>
 	&nbsp;&nbsp;
 	
-	<div id='result' class="form-control">0</div>
+	<div id='result' class="form-control">1</div>
 	&nbsp;&nbsp;
 	
 	<input type='button'
@@ -55,15 +55,16 @@ sidebar:
         }
 
         // 결과 출력
-        if(number > -1){
+        if(number > 0){
             resultElement.innerText = number;
         }
       }
 </script>
 ```
 >-  장바구니에서 음수가 나오지 않게 유효성 검사를 해준다.
->-  0으로 표시되는 div 태그에 id 값 result 를 변수 resultElement에 할당
->-  resultElement에는 현재 0 값이 들어가 있고 최종 업데이트 때 0 이하가 되면 작동 안되게 하면 끝
+>-  1으로 표시되는 div 태그에 id 값 result 를 변수 resultElement에 할당
+>-  resultElement에는 현재 1값이 들어가 있고 최종 업데이트 때 1이하가 되면 작동 안되게 하면 끝
+>	- 어차피 장바구니에 0개가 들어가는게 말이 안됨
 >- 참고 : https://hianna.tistory.com/476
 
 ### 숫자 형식
