@@ -1,18 +1,22 @@
 {
   "main": {
-    "id": "fd44002e6dfe483c",
+    "id": "447b844e73357644",
     "type": "split",
     "children": [
       {
-        "id": "4aef5ff73f7c888d",
+        "id": "19de007f9d319313",
         "type": "tabs",
         "children": [
           {
-            "id": "020d88be96d8b856",
+            "id": "230559f4d1dcb5ce",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "2023-04-24-Generic.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -21,15 +25,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "db03129490716509",
+    "id": "1fd82d1193fc9ad7",
     "type": "split",
     "children": [
       {
-        "id": "d66575fef7fb7390",
+        "id": "ba7a3fa8e7e325dc",
         "type": "tabs",
         "children": [
           {
-            "id": "2a9f46dd32fe5bea",
+            "id": "487ad0f189314c56",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -39,7 +43,7 @@
             }
           },
           {
-            "id": "a26bdf04f6189b80",
+            "id": "eb7459711fabda40",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -54,7 +58,7 @@
             }
           },
           {
-            "id": "30cf31d371ec2026",
+            "id": "aa7058978048a8d0",
             "type": "leaf",
             "state": {
               "type": "starred",
@@ -62,7 +66,7 @@
             }
           },
           {
-            "id": "51fe9a305cf8da81",
+            "id": "7b492dcef5845e78",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -73,22 +77,24 @@
       }
     ],
     "direction": "horizontal",
-    "width": 316.50206756591797
+    "width": 300,
+    "collapsed": true
   },
   "right": {
-    "id": "7b797cdaf6a2516c",
+    "id": "4dc4b84cc492e635",
     "type": "split",
     "children": [
       {
-        "id": "4e31ff76c560b918",
+        "id": "47276960596a442b",
         "type": "tabs",
         "children": [
           {
-            "id": "02808f2cc383ba10",
+            "id": "f4e556104a93f8a4",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "2023-04-24-Generic.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,18 +106,19 @@
             }
           },
           {
-            "id": "3bee1c79a6dae192",
+            "id": "8aa31337fffd3aed",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "2023-04-24-Generic.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "85862c1a9748f432",
+            "id": "3bc8bfff915f2c32",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -122,11 +129,13 @@
             }
           },
           {
-            "id": "d78763ee67be343b",
+            "id": "d2679e8d7534c8bc",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "2023-04-24-Generic.md"
+              }
             }
           }
         ]
@@ -146,20 +155,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "020d88be96d8b856",
+  "active": "487ad0f189314c56",
   "lastOpenFiles": [
-    "Python/Untitled/Untitled.md",
-    "Python/Untitled",
-    "Java/Section 16 제네릭",
-    "Java/2023-04-24-Generic.md",
-    "Java/Java/Section 16 제네릭",
-    "Java/Java/2023-04-24-Generic.md",
-    "Java/Java",
-    "Python",
-    "DataStructure/List/2023-03-24-List(1).md",
-    "DataStructure/List/2023-03-24-List(2).md",
-    "DataStructure/List",
-    "DataStructure",
-    "Spring/2023-03-17-Spring Boot Actuator.md"
+    "Pasted image 20230424182706.png",
+    "2023-04-24-Generic.md",
+    "Section 16 제네릭"
   ]
 }
