@@ -10,7 +10,7 @@ author_profile: false
 sidebar:
 
 ---
-# Cart(4)
+# Cart (4)
 {% raw %}
 / 장바구니 정보 페이지 /
 
