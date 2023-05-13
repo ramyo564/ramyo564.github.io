@@ -4,7 +4,7 @@ layout: single
 title: " [Django] Email verification "
 categories: Django
 tag: [Python,"[BIG][Django] User management",'[Django] Email verification',"이메일 유효성 검사",'token','깃허브 SECRETS_KEY',"AbstractUser.email_user
-"]
+","이메일 태그 가리기 autoescape"]
 toc: true
 toc_sticky: true
 author_profile: false
@@ -117,8 +117,10 @@ def register(request):
 >- Django 4 이전 버전은 `force_text` 로 사용하면 된다.
 >- is_active() 함수는 좀 있다 User 모델을 통해 받아올 객체의 함수를 활성화 시키는 부분이다 -> 이메일로 인증이 완료되기 전에는 비활성화 상태로 만들어야 함으로 초기값을 False로 준다.
 >- get_current_site()
+>	- [`get_current_site()` 함수는](https://runebook.dev/ko/docs/django/ref/contrib/sites#django.contrib.sites.shortcuts.get_current_site) [`request.get_host()`](https://runebook.dev/ko/docs/django/ref/request-response#django.http.HttpRequest.get_host) 메서드 에서 [`domain`](https://runebook.dev/ko/docs/django/ref/contrib/sites#django.contrib.sites.models.Site.domain) 과 호스트 이름을 비교하여 현재 사이트를 가져오려고 시도 .
 >	- 참고 : https://docs.djangoproject.com/en/4.2/ref/contrib/sites/
 >- render_to_string()
+>	- `render_to_string()` 은 [`get_template()`](https://runebook.dev/ko/docs/django/topics/templates#django.template.loader.get_template) 과 같은 템플릿을 로드하고 즉시 `render()` 메소드를 호출
 >	- 참고 : https://docs.djangoproject.com/en/4.2/topics/templates/
 >- user 는 User를 상속받는데 User는 AbstractUser를 상속받는다
 >	- AbstractUser의 email_user 를 오버라이딩해서 사용한다.

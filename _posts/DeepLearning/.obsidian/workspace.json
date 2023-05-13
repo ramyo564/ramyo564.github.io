@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ch5_오차역전파법/2023-05-07-Backpropagation practice.md",
+                "file": "ch6_학습 관련 기술/3)배치 정규화/2023-05-14-Batch Normalization.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ch5_오차역전파법/2023-05-07-Backpropagation practice.md",
+                "file": "ch6_학습 관련 기술/3)배치 정규화/2023-05-14-Batch Normalization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ch5_오차역전파법/2023-05-07-Backpropagation practice.md",
+                "file": "ch6_학습 관련 기술/3)배치 정규화/2023-05-14-Batch Normalization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ch5_오차역전파법/2023-05-07-Backpropagation practice.md"
+                "file": "ch6_학습 관련 기술/3)배치 정규화/2023-05-14-Batch Normalization.md"
               }
             }
           }
@@ -156,13 +156,20 @@
   },
   "active": "cf748b190fbf09ce",
   "lastOpenFiles": [
+    "ch6_학습 관련 기술/2)가중치의 초깃값/2023-05-12-Weight initialization.md",
+    "ch6_학습 관련 기술/3)배치 정규화/2023-05-14-Batch Normalization.md",
+    "ch6_학습 관련 기술/1)매개변수 갱신/2023-05-12- parameter update.md",
+    "Untitled.md",
     "ch5_오차역전파법/2023-04-22-Backpropagation.md",
+    "ch5_오차역전파법/2023-05-07-Backpropagation practice.md",
+    "ch6_학습 관련 기술/3)배치 정규화",
+    "ch6_학습 관련 기술/2)가중치의 초깃값",
+    "ch6_학습 관련 기술/1)매개변수 갱신",
+    "ch6_학습 관련 기술",
     "ch4_신경망 학습/2023-04-14-Learning Algorithm.md",
     "ch4_신경망 학습/2023-04-09-Neural network training.md",
     "ch3_신경망/2023-03-30-Neural network.md",
     "ch2_퍼셉트론/2023-03-25-Perceptron.md",
-    "ch5_오차역전파법/2023-05-07-Backpropagation practice.md",
-    "Untitled.md",
     "().md",
     "Pasted image 20230505165211.png",
     "ch5_오차역전파법",

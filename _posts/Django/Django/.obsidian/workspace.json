@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "U_DJango4_Ecommerce/Section12/3) Login/2023-05-11-Login.md",
+                "file": "U_DJango4_Ecommerce/Section16/1)/temp 1v models 1 1.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "bb13c8d6ddac13ba",
@@ -94,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "U_DJango4_Ecommerce/Section12/3) Login/2023-05-11-Login.md",
+                "file": "U_DJango4_Ecommerce/Section16/1)/temp 1v models 1 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "U_DJango4_Ecommerce/Section12/3) Login/2023-05-11-Login.md",
+                "file": "U_DJango4_Ecommerce/Section16/1)/temp 1v models 1 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "U_DJango4_Ecommerce/Section12/3) Login/2023-05-11-Login.md"
+                "file": "U_DJango4_Ecommerce/Section16/1)/temp 1v models 1 1.md"
               }
             }
           }
@@ -155,38 +154,43 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fe047782b4582d1a",
+  "active": "c9f89cdee8606cb6",
   "lastOpenFiles": [
-    "U_DJango4_Ecommerce/Section12/2) Email verification/2023-05-11-Email verification.md",
-    "U_DJango4_Ecommerce/Section12/3) Login/2023-05-11-Login.md",
-    "U_DJango4_Ecommerce/Section12/3) Login",
-    "U_DJango4_Ecommerce/Section12/1) Register/2023-05-10-register.md",
-    "U_DJango4_Ecommerce/Section7_8_9_10_11/Section11-Optimaize/2023-05-10-Cart summary template optimization.md",
-    "U_DJango4_Ecommerce/Section7_8_9_10_11/Section9-Cart functionality Add/2023-05-08-Cart functionality Add.md",
-    "U_DJango4_Ecommerce/Section7_8_9_10_11/Section8-Cart functionality - Sessions/2023-05-07-session.md",
+    "U_Django4_upgrade",
+    "U_DJango4_Ecommerce/Section16/temp 1v models 1.md",
+    "U_DJango4_Ecommerce/Section16/1)/temp 1v models 1 1.md",
+    "U_DJango4_Ecommerce/Section14/2023-05-12-password management.md",
+    "U_DJango4_Ecommerce/Section12_13/4) Dashboard Profile management/2023-05-12-dashboard.md",
+    "U_DJango4_Ecommerce/Section12_13/3) Login/2023-05-11-Login Logout.md",
+    "U_DJango4_Ecommerce/Section12_13/2) Email verification/2023-05-11-Email verification.md",
     "U_DJango4_Ecommerce/Section7_8_9_10_11/Section7-Cart functionality - Initial build up/2023-05-07-Cart functionality - Initial build up.md",
-    "U_DJango4_Ecommerce/Section7_8_9_10_11/Section10-Cart functionaility Delete and Update/2023-05-10-Delete and Update  the cart summary template.md",
-    "U_DJango4_Ecommerce/Section12/2) Email verification",
+    "U_DJango4_Ecommerce/Section7_8_9_10_11/Section8-Cart functionality - Sessions/2023-05-07-session.md",
+    "U_DJango4_Ecommerce/Section7_8_9_10_11/Section9-Cart functionality Add/2023-05-08-Cart functionality Add.md",
     "U_DJango4_Ecommerce/Section7_8_9_10_11/Section10-Cart functionaility Delete and Update/2023-05-09-Update the cart summary template.md",
-    "U_DJango4_Ecommerce/temp 1v models.md",
-    "U_DJango4_Ecommerce/Section12/1) Register",
-    "U_DJango4_Ecommerce/Section12",
-    "U_DJango4_Ecommerce/Section7_8_9_10_11/Section11-Optimaize",
-    "U_DJango4_Ecommerce/Section7_8_9_10_11/Section10-Cart functionaility Delete and Update",
-    "U_DJango4_Ecommerce/Section6_Templates_URL_Views/5)Upgrade Option/2023-05-06-Control option button.md",
-    "U_DJango4_Ecommerce/Section7_8_9_10_11/Section9-Cart functionality Add",
-    "U_DJango4_Ecommerce/Section6_Templates_URL_Views/4)Building the Category View/2023-05-06-Building View.md",
-    "U_DJango4_Ecommerce/Section7_8_9_10_11/Section8-Cart functionality - Sessions",
-    "U_DJango4_Ecommerce/temp.md",
-    "U_DJango4_Ecommerce/Section7_8_9_10_11/Section7-Cart functionality - Initial build up",
-    "U_DJango4_Ecommerce/Section5_Building models/1)Create a Django app/2023-05-03-Building models.md",
-    "U_DJango4_Ecommerce/Section6_Templates_URL_Views/1)Configure URL View/2023-05-04-Basic templates.md",
-    "U_DJango4_Ecommerce/Section7_8_9_10_11",
-    "U_DJango4_Ecommerce/Section6_Templates_URL_Views/3)Populating database/2023-05-05-Populating database.md",
-    "U_DJango4_Ecommerce/Section6_Templates_URL_Views/2)Base page/2023-05-04-Creating a base page.md",
+    "U_DJango4_Ecommerce/Section7_8_9_10_11/Section10-Cart functionaility Delete and Update/2023-05-10-Delete and Update  the cart summary template.md",
+    "U_DJango4_Ecommerce/Section7_8_9_10_11/Section11-Optimaize/2023-05-10-Cart summary template optimization.md",
+    "U_DJango4_Ecommerce/Section14/1)",
+    "U_DJango4_Ecommerce/Section16/1)",
+    "U_DJango4_Ecommerce/Section16",
+    "U_DJango4_Ecommerce/Section14",
     "U_DJango4_Ecommerce/Section5_Building models/4)Django admin/2023-05-04-Django Admin.md",
     "U_DJango4_Ecommerce/Section5_Building models/3)Configureing Django for static/2023-05-03-Configureing Django for static and image uploads.md",
     "U_DJango4_Ecommerce/Section5_Building models/2)Adding an image field/2023-05-03-Adding an image field.md",
+    "U_DJango4_Ecommerce/Section5_Building models/1)Create a Django app/2023-05-03-Building models.md",
+    "U_DJango4_Ecommerce/Section12_13/4) Dashboard Profile management",
+    "U_DJango4_Ecommerce/Section12_13/3) Login",
+    "U_DJango4_Ecommerce/Section12_13/1) Register/2023-05-10-register.md",
+    "U_DJango4_Ecommerce/Section12_13/2) Email verification",
+    "U_DJango4_Ecommerce/temp 1v models.md",
+    "U_DJango4_Ecommerce/Section12_13/1) Register",
+    "U_DJango4_Ecommerce/Section12_13",
+    "U_DJango4_Ecommerce/Section7_8_9_10_11/Section11-Optimaize",
+    "U_DJango4_Ecommerce/Section6_Templates_URL_Views/5)Upgrade Option/2023-05-06-Control option button.md",
+    "U_DJango4_Ecommerce/Section6_Templates_URL_Views/4)Building the Category View/2023-05-06-Building View.md",
+    "U_DJango4_Ecommerce/temp.md",
+    "U_DJango4_Ecommerce/Section6_Templates_URL_Views/1)Configure URL View/2023-05-04-Basic templates.md",
+    "U_DJango4_Ecommerce/Section6_Templates_URL_Views/3)Populating database/2023-05-05-Populating database.md",
+    "U_DJango4_Ecommerce/Section6_Templates_URL_Views/2)Base page/2023-05-04-Creating a base page.md",
     "U_DJango4_Ecommerce/Section4_Setup/2023-05-03-Django4 project setup.md",
     "Pasted image 20230503224609.png",
     "Pasted image 20230503224707.png"
