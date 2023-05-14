@@ -119,6 +119,11 @@ author:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/ramyo564"
 
+    - label: "GitHub Blog"
+      icon: "fab fa-fw fa-github-square"
+      url: "https://ramyo564.github.io/git_blog"
+
+
 
 # Site Footer
 footer:
@@ -132,6 +137,10 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/ramyo564"
+
+    - label: "GitHub Blog"
+      icon: "fab fa-fw fa-github-square"
+      url: "https://ramyo564.github.io/git_blog"
     # - label: "GitLab"
     #   icon: "fab fa-fw fa-gitlab"
     #   # url:
