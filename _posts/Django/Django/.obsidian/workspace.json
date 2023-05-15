@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "U_Django4_upgrade/Section5/temp 1v models 1 1 1.md",
+                "file": "U_Django4_upgrade/Section6/temp 1v models 1 1 1.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "slug 한글",
+                "query": "humanize",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "U_Django4_upgrade/Section5/temp 1v models 1 1 1.md",
+                "file": "U_Django4_upgrade/Section6/temp 1v models 1 1 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "U_Django4_upgrade/Section5/temp 1v models 1 1 1.md",
+                "file": "U_Django4_upgrade/Section6/temp 1v models 1 1 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "U_Django4_upgrade/Section5/temp 1v models 1 1 1.md"
+                "file": "U_Django4_upgrade/Section6/temp 1v models 1 1 1.md"
               }
             }
           }
@@ -142,7 +142,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 208.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -156,14 +156,17 @@
   },
   "active": "140a39292d593b77",
   "lastOpenFiles": [
+    "U_Django4_upgrade/Section5/2023-05-15-custom user model.md",
+    "U_Django4_upgrade/Section6/temp 1v models 1 1 1.md",
+    "U_Django4_upgrade/temp 1v models 1 1.md",
+    "U_DJango4_Ecommerce/Section6_Templates_URL_Views/5)Upgrade Option/2023-05-06-Control option button.md",
     "U_DJango4_Ecommerce/Section5_Building models/4)Django admin/2023-05-04-Django Admin.md",
-    "U_Django4_upgrade/Section5/temp 1v models 1 1 1.md",
+    "U_Django4_upgrade/Section6",
+    "U_Django4_upgrade/Section4/2023-05-15-static and templates pate.md",
     "Basic Django/temp 1v models 1 1 1.md",
     "Basic Django",
     "U_DJango4_Ecommerce/Section4_Setup/2023-05-03-Django4 project setup.md",
     "U_Django4_upgrade/Section5",
-    "U_Django4_upgrade/temp 1v models 1 1.md",
-    "U_Django4_upgrade/Section4/temp 1v models 1.md",
     "U_DJango4_Ecommerce/temp 1v models.md",
     "Untitled.md",
     "U_Django4_upgrade/Section4",
@@ -188,10 +191,7 @@
     "U_DJango4_Ecommerce/Section5_Building models/2)Adding an image field/2023-05-03-Adding an image field.md",
     "U_DJango4_Ecommerce/Section5_Building models/1)Create a Django app/2023-05-03-Building models.md",
     "U_DJango4_Ecommerce/Section12_13/4) Dashboard Profile management",
-    "U_DJango4_Ecommerce/Section12_13/3) Login",
     "U_DJango4_Ecommerce/Section12_13/1) Register/2023-05-10-register.md",
-    "U_DJango4_Ecommerce/Section6_Templates_URL_Views/5)Upgrade Option/2023-05-06-Control option button.md",
-    "U_DJango4_Ecommerce/Section6_Templates_URL_Views/4)Building the Category View/2023-05-06-Building View.md",
     "Pasted image 20230503224609.png",
     "Pasted image 20230503224707.png"
   ]

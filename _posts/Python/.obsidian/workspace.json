@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2b83a0eff0f1f33a",
+            "id": "dad5805598ec662f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled/2023-05-09-Iterator and Generator and yield.md",
+                "file": "Untitled/2023-05-15-function str.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 200,
     "collapsed": true
   },
   "right": {
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled/2023-05-09-Iterator and Generator and yield.md",
+                "file": "Untitled/2023-05-15-function str.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled/2023-05-09-Iterator and Generator and yield.md",
+                "file": "Untitled/2023-05-15-function str.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled/2023-05-09-Iterator and Generator and yield.md"
+                "file": "Untitled/2023-05-15-function str.md"
               }
             }
           }
@@ -135,7 +135,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 204.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -147,9 +147,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2b83a0eff0f1f33a",
+  "active": "dad5805598ec662f",
   "lastOpenFiles": [
+    "Pasted image 20230515085701.png",
     "Untitled/2023-05-09-Iterator and Generator and yield.md",
+    "Untitled/2023-05-15-function str.md",
+    "Untitled 1",
     "Untitled"
   ]
 }
