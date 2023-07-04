@@ -19,8 +19,11 @@ sidebar:
 
 >- store 폴더에 templates 폴더를 하나 생성해주고 거기에 다시 store 폴더를 생성해준다.
 >- 테스트용으로 store.html 파일 생성
->- ![](https://i.imgur.com/AoX7Et8.png)
->- ![](https://i.imgur.com/rfK4H9N.png)
+>- ![](https://i.imgur.com/XE73Hvo.png)
+
+
+>-![](https://i.imgur.com/9sgCZYA.png)
+
 >- store 폴더에 views.py 파일과 urls.py를 만들어준다.
 
 ### views.py
@@ -77,5 +80,7 @@ urlpatterns = [
 urlpatterns += static(settings.MEDIA_URL, document_root = settings.MEDIA_ROOT)
 ```
 >- 메인 urls.py 에 include 함수를 호출해서 store.urls 와 연결시켜준다.
->- ![](https://i.imgur.com/VvYhIyg.png)
+
+>- ![](https://i.imgur.com/LxAkJX1.png)
+
 

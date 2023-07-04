@@ -51,7 +51,8 @@ django-admin startproject ecommerce
 ```
 
 - 이제 ecommerce 폴더에서 python manage.py runserver 를 입력해주면 끝
-- ![](https://i.imgur.com/5zQmBCt.png)
+- ![](https://i.imgur.com/bPGEgM2.png)
+
 - 이전에 만들었을 때는 4.0이였는데 4.2로 업글되었나 보다.
 	- 참고 : https://docs.djangoproject.com/en/4.2/releases/4.2/
 

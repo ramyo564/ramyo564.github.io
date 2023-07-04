@@ -22,7 +22,8 @@ sidebar:
 
 장고에서 templates 관리의 디폴트는 본인이 만든 app 폴더에 templates -> app 이름의 폴더다.
 
-![](https://i.imgur.com/JQozg8q.png)
+![](https://i.imgur.com/LOg7EKR.png)
+
 
 ### 문제점
 
@@ -48,7 +49,8 @@ TEMPLATES = [
 ]
 ```
 - 생각보다 방법은 간단하다.  기존의 디폴트 설정을 바꿔주려면 되는데 TEMPLATES 부분에서  `DIRS : []` 이부분의 경로를 설정 해주면 끝이다.
-- ![](https://i.imgur.com/H3yBzA9.png)
+- ![](https://i.imgur.com/G7ibWz1.png)
+
 - 예를 들어 위처럼 templates라는 폴더로 경로를 설정해 두었다면  `return render(request, 'ddd/ddd.html')` 이렇게 호출하면된다.
 - 진짜 앱 5개만 넘어가도 헷갈려서 머리아프니 templates도 한 곳에 모아서 관리하는게 정신건강에 이롭다.
 
@@ -79,8 +81,8 @@ STATICFILES_DIRS = [
 참고 : https://blog.hannal.com/2015/04/start_with_django_webframework_06/
 - 최종 배포 전에 `python manage.py collectstatic ` 를 해서 파일을 한 곳에 모아두기만 하면 된다.
 - 그럼 알아서 해당 경로에 static 파일들이 모아진 폴더가 만들어지고 `{% load static %}` 만 잘 호출해주면 된다.
-- ![](https://i.imgur.com/N8Wm1WF.png)
-- ![](https://i.imgur.com/VS9P3lJ.png)
+- ![](https://i.imgur.com/ouGUZhe.png)
+
 
 
 

@@ -16,7 +16,8 @@ sidebar:
 ## 어드민 페이지 커스텀하기
 
 - 보통 어드민 페이지를 만들고 관리자를 생성해서 로그인 하려고 보면 관리자를 생성할 때 지정한 유저네임으로 로그인한다.
-- ![](https://i.imgur.com/JhyQ8Yv.png)
+- ![](https://i.imgur.com/gOrR6n4.png)
+
 - 근데 이게 중간중간 테스트를 계속 하다보면 test1, test2 이런식으로 유저를 만드는데 나중에 가면 비슷비슷한 이름들이 은근히 헷갈린다.
 - 따로 포스트잇에 적어 놓는 것도 귀찮고 그래서 다른 사람들은 어떻게 하나 찾아보니 이걸 커스텀해서 쓴다.
 - 유저네임으로 로그인하는 대신에 이메일로 로그인하면 테스트할 때 좀 더 편하게 할 수 있지 않을까 생각함
@@ -100,7 +101,8 @@ class Account(AbstractBaseUser):
         return True
 ```
 >- USERNAME_FIELD = 'email' 로 지정하면 로그인할 때 이메일로 로그인이 된다.
->	- ![](https://i.imgur.com/jxEeMLG.png)
+>	- ![](https://i.imgur.com/x1snhGY.png)
+
 
 >- `normalize_email` 이메일 주소에 대문자가 있다면 다 소문자로 만들어준다.
 >- `REQUIRED_FIELDS` 이메일로 로그인을 하니까 해당부분에서 제외한다.
@@ -144,7 +146,8 @@ admin.site.register(Account, AccountAdmin)
 ```
 
 >- `filter_horizontal` [참고](https://velog.io/@hokim/Django-Admin-6-%EC%BB%A4%EC%8A%A4%ED%85%80-M2M-%ED%95%84%EB%93%9C-filterhorizontal%EB%A1%9C-%EB%82%98%ED%83%80%EB%82%B4%EA%B8%B0)
->	- ![](https://i.imgur.com/aSGZ6MF.png)
+>	- ![](https://i.imgur.com/yf8LsNg.png)
+
 >- `list_filter` [참고](https://codingdog.tistory.com/entry/django-admin%EC%9D%98-listfilter%EB%A5%BC-%EC%95%8C%EC%95%84%EB%B3%B4%EA%B3%A0-%EA%B0%84%EB%8B%A8%ED%95%98%EA%B2%8C-%EC%A0%81%EC%9A%A9%ED%95%B4-%EB%B4%85%EC%8B%9C%EB%8B%A4)
 >	- 필터를 리스트형식으로 만들어준다. 
 >- `fieldsets` [참고](https://jhoplin7259.tistory.com/185) 튜플과 딕셔너리 형태로 사용한다. 이것도 링크로 들어가서 사진으로 보는게 더 이해가 쉽다.
@@ -169,7 +172,8 @@ class FlatPageAdmin(admin.ModelAdmin):
         ),
     ]
 ```
-![](https://i.imgur.com/hslJGkY.png)
+![](https://i.imgur.com/P2JKxCz.png)
+
 - [출처 및 참고](https://docs.djangoproject.com/en/4.2/ref/contrib/admin/)
 
 

@@ -15,7 +15,8 @@ sidebar:
 / get_object_or_404 / templates - settings.py / 장고 Templates 설정
 ## Building the Category View
 
-![](https://i.imgur.com/7xJw2As.png)
+![](https://i.imgur.com/CYmELsZ.png)
+
 >- 현재 카테고리에는 Jacket, Pants, Top 이렇게 3개의 항목이 있는데 이 부분을 연결시켜주려면 이전에 했던 작업에서 뷰를 연결시켜주면 된다.
 >- Populate data 이걸 한국에서 정확히 뭐라고 옮겨서 말하는지 모르겠다 Annotation도 어노테이션 애노테이션 애너테이션 등등 제각각이다.
 >- 그렇다고 영어 표기로된 것도 아님..
@@ -65,7 +66,8 @@ TEMPLATES = [
 - templates는 데이터를 사용자에게 보여주는 컴포넌트다.
 - 이러한 template의 경로나 정보를 설정하는 곳이 TEMPLATES다.
 - 기본 설정은 앱 디렉토리 내에 **'templates'** 디렉토리를 각각 생성해서 괸리하도록 구성되어 있으며, 이에 따라 위의 View에서 반환되는 템플릿 파일 경로는 다음과 같다
-- ![](https://i.imgur.com/2ir8r8k.png)
+- ![](https://i.imgur.com/ukmZIvp.png)
+
 >- 참고 : https://velog.io/@ansalstmd/Django-Template-%EA%B8%B0%EB%8A%A5
 
 ### 여러개의 templates 관리
@@ -89,7 +91,8 @@ TEMPLATES = [
 >- Jinja랑 비슷하다고 생각했는데 Jinja 맞다 ㅋ
 >- 템플릿 엔진 사용법은 대부분 비슷비슷하다.
 >- 키 값으로 받은 all_categories 를 루프로 돌려서 나열해 출력해주면 된다.
->- ![](https://i.imgur.com/j4DG62d.png)
+>- ![](https://i.imgur.com/coUPqkT.png)
+
 >- 부트스트랩 테마에서 자동으로 첫 글자가 대문자라서 상관없지만 해당 설정이 없는 경우 `{{ category.name | capfirst}}` 를 사용해서 처리해줄 수도 있다.
 >	- 필요한 사항이 있으면 https://jinja.palletsprojects.com/en/3.1.x/ 여기서 확인하면 된다
 
@@ -146,7 +149,8 @@ def categories(request):
 >- 뭔가 복잡하지만 처음에 카테고리를 루프로 돌린거랑 원리는 똑같다.
 >- 카드형식의 테마도 부트스트랩에서 취향껏 선탠해서 조정하면 됨
 
-![](https://i.imgur.com/KNRKOUf.png)
+![](https://i.imgur.com/3dnWUPE.png)
+
 
 
 
@@ -195,11 +199,13 @@ def product_info(request, product_slug):
 ```
 >- 키값 product에서 갖고 올 때 이미지는 static 폴더에 있으니 .url 까지 써줘야한다.
 
-![](https://i.imgur.com/ozztDw4.png)
+![](https://i.imgur.com/VussrKo.png)
+
 
 ## Creating dynamic links
 
-![](https://i.imgur.com/rgwIdiP.png)
+![](https://i.imgur.com/Qa6vOxx.png)
+
 >- 이제 메인 페이지에서 해당 상품을 클릭하면 그 페이지로 넘어가게 설정을 해보자
 
 
@@ -228,7 +234,8 @@ class Product(models.Model):
 
 ## Building the list category view
 
-![](https://i.imgur.com/wjHdntj.png)
+![](https://i.imgur.com/j7ycK0r.png)
+
 >- 이쪽 카테고리도 연결시켜보자
 
 ### ecommerce>store>urls.py
@@ -321,6 +328,7 @@ class Category(models.Model):
 {% endblock %}
 ```
 >- 필터링 된 상품들만 루프를 돌면서 보내준다.
->- ![](https://i.imgur.com/U4ZLM70.png)
+>- ![](https://i.imgur.com/AhmWElU.png)
+
 
 {% endraw %}

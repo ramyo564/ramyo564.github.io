@@ -15,13 +15,15 @@ sidebar:
 / 장바구니 옵션 버튼  / 숫자 형식 /
 
 
-![](https://i.imgur.com/v1jjiII.png)
+![](https://i.imgur.com/GqXxTwv.png)
+
 
 ## 수량 옵션 클릭으로 변경하기
 
 - 현재 상품페이지에는 샘플로 만든거라 하드코딩으로 되어 있다.
 - 해당 부분을 일반적으로 사용하는 +,- 버튼으로 변경해보자.
-![](https://i.imgur.com/T1lk8LQ.png)
+![](https://i.imgur.com/xKS3vXR.png)
+
 
 ```python
 <div class="col-sm-10" style="text-align: center; width: 10px; display:flex; ">
@@ -69,7 +71,8 @@ sidebar:
 
 ### 숫자 형식
 
-![](https://i.imgur.com/GWV5ky7.png)
+![](https://i.imgur.com/YiSqWGo.png)
+
 
 ```python
 INSTALLED_APPS = [

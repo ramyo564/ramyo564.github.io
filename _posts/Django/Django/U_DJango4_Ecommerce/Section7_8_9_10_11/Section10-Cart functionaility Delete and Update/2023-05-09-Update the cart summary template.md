@@ -51,7 +51,8 @@ def __iter__(self):
 
 ## 장바구니 계산 적용하기
 
-![](https://i.imgur.com/vWQi3my.png)
+![](https://i.imgur.com/62fvgh7.png)
+
 
 >- 현재 수량은 12개지만 스포츠웨어 클럽의 단가만 나오고 수량 X 단가 가격으로 안나오고 있다.
 >- 이를 해결하기 위해서는 django-mathfilters 라이브러리를 사용하면 된다.
@@ -59,7 +60,8 @@ def __iter__(self):
 >	- 자세한 설명은 https://pypi.org/project/django-mathfilters/
 >- settings.py 에 앱에 mathfilters를 등록해주고
 >- 템플릿에서 {% load mathfilters %} 부르고 필터를 써주면 끝이다.
->- ![](https://i.imgur.com/VjKOjeN.png)
+>- ![](https://i.imgur.com/lNx8OIw.png)
+
 
 
 {% endraw %}

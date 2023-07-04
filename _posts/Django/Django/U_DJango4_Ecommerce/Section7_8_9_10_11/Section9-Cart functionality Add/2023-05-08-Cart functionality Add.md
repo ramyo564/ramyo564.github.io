@@ -98,12 +98,14 @@ def add(self, product, product_qty):
 >- 반면 해당 아이템이 장바구니에 없다면 아무런 정보가 없으니 가격과 수량 모두 반영해주면 된다.
 
 
-![](https://i.imgur.com/JtKM2CF.png)
+![](https://i.imgur.com/wcJWcwq.png)
+
 >- 수량과 이름 모두 잘 반영되는걸 콘솔에서 확인하면 끝
 
 
 ### 장바구니에 숫자 표시해주기
-![](https://i.imgur.com/C4lFXoI.png)
+![](https://i.imgur.com/49r1el1.png)
+
 - 현재 장바구니에는 딱히 표시되는게 없는데 장바구니에 아이템이 추가되면 아이템 갯수만큼 반영되도록 해보자.
 
 
@@ -118,7 +120,8 @@ def add(self, product, product_qty):
 	</div>
 </a>
 ```
->- ![](https://i.imgur.com/EhjPajN.png)
+>- ![](https://i.imgur.com/wPE4UpJ.png)
+
 >- 장바구니에 숫자 표시
 
 ### cart > views.py
@@ -150,8 +153,10 @@ success: function (json) {
 },
 ```
 >- `document.getElementById("cart-qty").textContent = json.qty` 는 base.html 에서 id 값 `cart-qty` 의 텍스트 값이  views.py 의 키 값 'qty' 의 벨류 값으로 반영됨
->- ![](https://i.imgur.com/D6WCUfs.png)
->-  ![](https://i.imgur.com/kQFk4Jk.png)
+>-![](https://i.imgur.com/KCBAhaS.png)
+
+>-![](https://i.imgur.com/MX8uwIk.png)
+
 >- 하지만 새로고침을 하면 데이터가 날아간다.
 >- 따라서 세션에 저장된 데이터(수량) 가 계속 페이지에 반영되도록 작업을 해줘야한다.
 
@@ -189,11 +194,14 @@ def __len__(self):
 
 ### Issue
 
-![](https://i.imgur.com/Ttph5AP.png)
+![](https://i.imgur.com/eUywHyl.png)
+
 - 이전에 티셔츠 상품을 방구니에 넣고 새로운 상품을 넣으면 현재 상품 갯수만 반영되고 합산이 안된다.
-- ![](https://i.imgur.com/5H1TM0o.png)
+- ![](https://i.imgur.com/FUyMHnP.png)
+
 - 여기서 새로고침을 눌러줘야지만 제대로 반영이 된다.
-- ![](https://i.imgur.com/w3eTBl0.png)
+- ![](https://i.imgur.com/mZ7mcB7.png)
+
 - 해당 부분을 해결해주기 위해서는 세션에서 전체수량을 넘겨줘야한다.
 
 ### cart>views.py

@@ -22,12 +22,27 @@ sidebar:
 
 ```java
 // 내가 푼 답
-
+class Solution {
+    public int[] solution(String[] strlist) {
+        int[] answer = new int[strlist.length];
+        for(int i = 0; i< strlist.length; i++){
+            answer[i] = strlist[i].length();
+        }
+        
+        return answer;
+    }
+}
 // 다른사람풀이 
+import java.util.Arrays;
 
+class Solution {
+    public int[] solution(String[] strList) {
+        return Arrays.stream(strList).mapToInt(String::length).toArray();
+    }
+}
 ```
 ### 정리
-- pass
+- [참고](https://mine-it-record.tistory.com/126)
 
 
 
@@ -51,17 +66,22 @@ def solution(strlist):
 
 ```javascript
 // 내가 푼 답
-
+function solution(strlist) {
+    var answer = [];
+    for (i=0; i<strlist.length; i++){
+        answer[i] = strlist[i].length
+    }
+    return answer;
+}
 // 다른 사람 풀이
-
+function solution(strlist) {
+    return strlist.map((el) => el.length)
+}
 ```
 ### 정리
-- pass
+- 자바스크립트는 진짜 잘 쓰려면 많이 알아야 될거 같다..ㅜ
 
 
 출처 : 프로그래머스,
 
 
-```java
-
-```

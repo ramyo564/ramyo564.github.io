@@ -20,7 +20,8 @@ django-admin startapp store
 ```
 >- 이전에 만들어 놓았던 ecommerce 폴더에서 store 앱을 생성해준다.
 >- 설정에서 지금 만든 store 앱을 등록해준다.
->- ![](https://i.imgur.com/g170Rfh.png)
+>- ![](https://i.imgur.com/E9SqRcs.png)
+
 
 ## Building models
 ```python

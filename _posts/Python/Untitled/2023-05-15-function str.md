@@ -29,7 +29,8 @@ def main():
 
 main()
 ```
-- ![[Pasted image 20230515085701.png]]
+- ![](https://i.imgur.com/JWlBCoC.png)
+
 - 위와같이 `__str__` 이 print로 출력하는 일반 문자열을 표기하는 방식이며 오버라이딩을해서 쓸 수도 있다.
 - 반면 `__repr__`은 객체 생성방법을 알 수 있도록 하는 표준 문자열 표시방식이다.
 

@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "994afc9be3a8f379",
+        "id": "b4cddc831e24c162",
         "type": "tabs",
         "children": [
           {
-            "id": "140a39292d593b77",
+            "id": "b854d0c61bc92049",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "U_Django4_upgrade/Section6/temp 1v models 1 1 1.md",
+                "file": "Basic Django/2023-06-01-request.get.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "humanize",
+                "query": "유효성",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "U_Django4_upgrade/Section6/temp 1v models 1 1 1.md",
+                "file": "Basic Django/2023-06-01-request.get.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "U_Django4_upgrade/Section6/temp 1v models 1 1 1.md",
+                "file": "Basic Django/2023-06-01-request.get.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "U_Django4_upgrade/Section6/temp 1v models 1 1 1.md"
+                "file": "Basic Django/2023-06-01-request.get.md"
               }
             }
           }
@@ -142,7 +142,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 208.5
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -154,45 +155,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "140a39292d593b77",
+  "active": "b854d0c61bc92049",
   "lastOpenFiles": [
-    "U_Django4_upgrade/Section5/2023-05-15-custom user model.md",
-    "U_Django4_upgrade/Section6/temp 1v models 1 1 1.md",
-    "U_Django4_upgrade/temp 1v models 1 1.md",
-    "U_DJango4_Ecommerce/Section6_Templates_URL_Views/5)Upgrade Option/2023-05-06-Control option button.md",
-    "U_DJango4_Ecommerce/Section5_Building models/4)Django admin/2023-05-04-Django Admin.md",
-    "U_Django4_upgrade/Section6",
-    "U_Django4_upgrade/Section4/2023-05-15-static and templates pate.md",
     "Basic Django/temp 1v models 1 1 1.md",
-    "Basic Django",
-    "U_DJango4_Ecommerce/Section4_Setup/2023-05-03-Django4 project setup.md",
-    "U_Django4_upgrade/Section5",
-    "U_DJango4_Ecommerce/temp 1v models.md",
-    "Untitled.md",
-    "U_Django4_upgrade/Section4",
-    "U_DJango4_Ecommerce/Section16/1)/temp 1v models 1 1.md",
-    "U_Django4_upgrade",
-    "U_DJango4_Ecommerce/Section16/temp 1v models 1.md",
+    "Basic Django/2023-06-01-request.get.md",
+    "U_Django4_upgrade/Section21/temp 1v models 1 1 1.md",
+    "U_Django4_upgrade/Section20/temp 1v models 1 1 1.md",
+    "U_Django4_upgrade/Section21",
+    "U_Django4_upgrade/Section19/2023-05-30-payment.md",
+    "U_Django4_upgrade/Section20",
+    "U_Django4_upgrade/Section18/temp 1v models 1 1 1.md",
+    "Untitled/Untitled",
+    "U_Django4_upgrade/Section19",
+    "U_Django4_upgrade/Section18/2023-05-26-Checkout.md",
+    "U_Django4_upgrade/Section17/2023-05-24-cart and check out.md",
+    "U_Django4_upgrade/Section16/2023-05-24-reset_password.md",
+    "U_Django4_upgrade/Section15/2023-05-24-login page 2.md",
+    "U_Django4_upgrade/Section14/2023-05-24-login page 1.md",
+    "U_Django4_upgrade/Section13/2023-05-19-Adding Variation in Cart Item.md",
+    "U_Django4_upgrade/Section12/2023-05-19-Variation Manager.md",
+    "U_Django4_upgrade/Section11/2023-05-17-Paginator and Search.md",
+    "U_Django4_upgrade/Section8/2023-05-16-product_pages.md",
+    "U_Django4_upgrade/Section7/2023-05-16-context_processors.md",
+    "U_Django4_upgrade/Section6/2023-05-16-products model.md",
+    "U_Django4_upgrade/Section5/2023-05-15-custom user model.md",
+    "U_Django4_upgrade/Section4/2023-05-15-static and templates pate.md",
     "U_DJango4_Ecommerce/Section14/2023-05-12-password management.md",
+    "U_DJango4_Ecommerce/Section16/temp 1v models 1.md",
+    "U_DJango4_Ecommerce/Section16/1)/temp 1v models 1 1.md",
     "U_DJango4_Ecommerce/Section12_13/4) Dashboard Profile management/2023-05-12-dashboard.md",
+    "Pasted image 20230526220133.png",
+    "Pasted image 20230526223306.png",
+    "Pasted image 20230526223001.png",
+    "Pasted image 20230526222922.png",
+    "Pasted image 20230526222630.png",
+    "Pasted image 20230526222614.png",
+    "Pasted image 20230526222201.png",
+    "Pasted image 20230526220424.png",
+    "Pasted image 20230526220351.png",
+    "Pasted image 20230526220316.png",
     "U_DJango4_Ecommerce/Section12_13/3) Login/2023-05-11-Login Logout.md",
     "U_DJango4_Ecommerce/Section12_13/2) Email verification/2023-05-11-Email verification.md",
-    "U_DJango4_Ecommerce/Section7_8_9_10_11/Section7-Cart functionality - Initial build up/2023-05-07-Cart functionality - Initial build up.md",
-    "U_DJango4_Ecommerce/Section7_8_9_10_11/Section8-Cart functionality - Sessions/2023-05-07-session.md",
-    "U_DJango4_Ecommerce/Section7_8_9_10_11/Section9-Cart functionality Add/2023-05-08-Cart functionality Add.md",
-    "U_DJango4_Ecommerce/Section7_8_9_10_11/Section10-Cart functionaility Delete and Update/2023-05-09-Update the cart summary template.md",
-    "U_DJango4_Ecommerce/Section7_8_9_10_11/Section10-Cart functionaility Delete and Update/2023-05-10-Delete and Update  the cart summary template.md",
-    "U_DJango4_Ecommerce/Section7_8_9_10_11/Section11-Optimaize/2023-05-10-Cart summary template optimization.md",
-    "U_DJango4_Ecommerce/Section14/1)",
-    "U_DJango4_Ecommerce/Section16/1)",
-    "U_DJango4_Ecommerce/Section16",
-    "U_DJango4_Ecommerce/Section14",
-    "U_DJango4_Ecommerce/Section5_Building models/3)Configureing Django for static/2023-05-03-Configureing Django for static and image uploads.md",
-    "U_DJango4_Ecommerce/Section5_Building models/2)Adding an image field/2023-05-03-Adding an image field.md",
-    "U_DJango4_Ecommerce/Section5_Building models/1)Create a Django app/2023-05-03-Building models.md",
-    "U_DJango4_Ecommerce/Section12_13/4) Dashboard Profile management",
     "U_DJango4_Ecommerce/Section12_13/1) Register/2023-05-10-register.md",
-    "Pasted image 20230503224609.png",
-    "Pasted image 20230503224707.png"
+    "U_Django4_upgrade/Section18",
+    "U_Django4_upgrade/Section17",
+    "U_Django4_upgrade/Section16",
+    "U_Django4_upgrade/Section15",
+    "U_Django4_upgrade/Section14",
+    "U_Django4_upgrade/Section13"
   ]
 }

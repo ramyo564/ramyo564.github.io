@@ -17,7 +17,7 @@ sidebar:
 ## Configureing Django for static
 
 - 플라스크와 동일하게 static 폴더를 만들어준다.
-- ![](https://i.imgur.com/pnANlBu.png)
+- ![](https://i.imgur.com/xdELzs5.png)
 - 그후 static 베이스 경로를 설정해준다.
 ### settings.py
 ```python

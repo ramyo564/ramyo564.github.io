@@ -41,7 +41,8 @@ def index(request: HttpRequest) -> HttpResponse:
 
 index함수는 view의 함수로 request를 input으로 받습니다. user가 로그인된 경우, request.user.is_authenticated는 True를 반환합니다. 이를 이용해서 조건문으로 로그인되지 않은 경우 login 화면으로 리다이렉트 하는 코드
 
-![](https://blog.kakaocdn.net/dn/QrSLy/btrI2dQXEzi/IdyDvs4uie1tqiTEeVeyWk/img.png)
+![](https://i.imgur.com/q0V2YkG.png)
+
 
 ### **2) @login_required로 판단**
 
@@ -63,7 +64,8 @@ def post_detail(request: HttpRequest, pk: int) -> HttpResponse:
 View에서 사용하고자 하는 함수위에 @login_required를 작성해주면 그 바로 아래의 함수에 대해 wrapper(래퍼) 역할을 하여 로그인된 경우만 아래 함수가 실행될 수 있도록 하고, 로그인하지 않은 상태로 아래 함수를 호출하게 되면 해당 유저는 로그인 화면으로 가게 된다. 
 (클래스형 뷰에는 이를 쓸 수 없다.)
 
-![](https://blog.kakaocdn.net/dn/ctETaZ/btrI2c5Baqj/HZCNjMoKyC6ERHMtkJBXr1/img.png)
+![](https://i.imgur.com/o8QeeQC.png)
+
 
 ### **3) login_required() 함수 사용**
 
@@ -80,7 +82,9 @@ post_new = login_required(
 CreateView.as_view()라는 CBV(Class Based View)를 사용하는 경우는 함수/클래스를 정의하는 게 아니고, 정의된 클래스를 import 하여 사용하기 때문에 데코레이터를 사용하기 어렵다.
 그럴 땐, login_required() 함수 내부에 CreateView.as_view() 함수를 작성하면, 해당 뷰 함수는 로그인된 경우만 호출
 
-![](https://blog.kakaocdn.net/dn/bTcUTf/btrI3zdYvzo/NfhvvkLgCAIHKxnZ3W5e9k/img.png)
+
+
+![](https://i.imgur.com/dUP1Z43.png)
 >- 참고 : https://bio-info.tistory.com/172
 
 ## Profile
@@ -115,10 +119,10 @@ class UpdateUserForm(forms.ModelForm):
 >- 비밀번호는 Forgotten your password로 대체한다.
 >- 이메일은 주민번호처럼 고유값이므로 유효성 검사를 통해 중복이 되지 않도록 만들어준다.
 
-![](https://i.imgur.com/t053VYl.png)
+![](https://i.imgur.com/ws6zvXj.png)
 
 
-![](https://i.imgur.com/zmormQJ.png)
+![](https://i.imgur.com/UT0cps0.png)
 
 
 ### 뷰 연결하기 account > views.py

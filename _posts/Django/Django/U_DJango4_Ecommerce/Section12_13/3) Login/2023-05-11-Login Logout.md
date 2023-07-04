@@ -111,8 +111,10 @@ path('user-logout', views.user_logout, name='user-logout'),
 		{% endif %}
 ```
 
-- ![](https://i.imgur.com/fd4DyC8.png)
-- ![](https://i.imgur.com/3d3s6eX.png)
+- ![](https://i.imgur.com/nzJxFFr.png)
+
+- ![](https://i.imgur.com/zAt71fr.png)
+
 - 사실 별거 없고 조건문으로 로그인이 안 되어 있는 상태면 위의 창을
 - 로그인이 되어 있다면 아래창을 출력하도록 조건문을 만들면 된다.
 

@@ -46,19 +46,24 @@ path('reset_password_complete', auth_views.PasswordResetCompleteView.as_view(tem
 >- 이메일 인증과 기본적으로 로직은 비슷하다.
 
 
-![](https://i.imgur.com/VYckMGp.png)
-
-![](https://i.imgur.com/fNsi33V.png)
+![](https://i.imgur.com/bezEReg.png)
 
 
-
-![](https://i.imgur.com/jcPff3F.png)
-
-![](https://i.imgur.com/7C7i5J3.png)
+![](https://i.imgur.com/rdLXzlu.png)
 
 
 
-![](https://i.imgur.com/ATdyhds.png)
+
+![](https://i.imgur.com/DKl2uik.png)
+
+
+![](https://i.imgur.com/4wyQcjF.png)
+
+
+
+
+![](https://i.imgur.com/Xz3eMwj.png)
+
 
 
 

@@ -28,10 +28,13 @@ python manage.py createsuperuser
 ```
 
 - 파이썬 서버를 띄우고 `http://127.0.0.1:8000/admin/` 을 접속한 후 설정한 유저 네임과 비밀번호를 입력한다.
-- ![](https://i.imgur.com/RaWSmEW.png)
+- ![](https://i.imgur.com/k4I5i5W.png)
+
 
 ### verbose_name_plural
-![](https://i.imgur.com/lALbxrA.png)
+
+![](https://i.imgur.com/cBDNLlA.png)
+
 
 - 장고에서는 Category를 그냥 전부 일괄적으로 Categorys 라고 생성해준다.
 - verbose_name_plural 를 통해 커스텀 해주면 커스텀한 문자 내용을 어드민을 통해 확인할 수 있다.
@@ -49,8 +52,10 @@ class Category(models.Model):
         return self.name
 ```
 class Category 에서 `__str__` 모듈을 사용해서 name을 설정해줬기 때문에 Name으로 반환된다.
-- ![](https://i.imgur.com/4gzv8ak.png)
-- ![](https://i.imgur.com/uvMY9Tu.png)
+- ![](https://i.imgur.com/7VkmUU7.png)
+
+- ![](https://i.imgur.com/vDMTdsr.png)
+
 - 이렇게 지정하지 않으면 Category(1) 이런식으로 나와서 나중에 뭐가 어떤건지 헷갈리게 된다.
 
 ## Advanced - Django - admin configuration
@@ -71,11 +76,14 @@ class ProductAdmin(admin.ModelAdmin):
 ```
 >- 어드민에서 자동으로 슬러그가 자동으로 등록되게 만들어준다.
 >- 이렇게 해놓으면 슬러그를 따로 설정할 필요없이 설정해 놓은 변수대로 자동으로 만든다.
->- ![](https://i.imgur.com/TtvDGL2.png)
+
+>- ![](https://i.imgur.com/SZPq8Lp.png)
+
 
 ## Slug 한글화
 
-![](https://i.imgur.com/KeUqSRx.png)
+![](https://i.imgur.com/whTm5A9.png)
+
 - 샘플로 쇼핑몰을 만들려고 보는데 한글은 Slug가 지원이 기본으로 안된다.
 	- `slugify` 를 이용하면 된다.
 ```python
@@ -91,12 +99,14 @@ class Category(models.Model):
         return self.name
 ```
 >- `slugify` 를 부르고 slug 파라미터에 `allow_unicode=True` 로 설정해주면 된다.
->- ![](https://i.imgur.com/r8NKOIy.png)
+>![](https://i.imgur.com/9a4sERy.png)
+
 
 
 ## Slug 한글 오류
-- slug를 한글로 사용하면 url에서 사용할 떄 오류가 난다.
-- ![](https://i.imgur.com/vnrQs3G.png)
+- slug를 한글로 사용하면 url에서 사용할 때 오류가 난다.
+- ![](https://i.imgur.com/SjkZoab.png)
+
 ```python
 from django.urls import path
 from . import views
@@ -112,7 +122,8 @@ urlpatterns = [
 >- slug를 그냥 str로 변경하면 해결  -> `<str:product_slug>` 
 >- re_path나 StringConverter를 사용해서 해결할 수도 있지만 이게 제일 간단하고 편하다.
 >	- 어차피 위에 있는 방법도 원리는 비슷비슷하다.
->- ![](https://i.imgur.com/C7UkOfI.png)
+>- ![](https://i.imgur.com/cwxCrXL.png)
+
 >	- URL에 한글이 있어도 잘 갖고 온다.
 
 >- 참고 : https://kgu0724.tistory.com/99

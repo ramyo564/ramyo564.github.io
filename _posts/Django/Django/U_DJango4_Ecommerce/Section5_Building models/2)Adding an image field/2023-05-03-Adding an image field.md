@@ -24,4 +24,7 @@ python manage.py makemigrations
 python manage.py migrate
 ```
 
-- ![](https://i.imgur.com/qw0G8rS.png)
+
+![](https://i.imgur.com/And1OGs.png)
+
+

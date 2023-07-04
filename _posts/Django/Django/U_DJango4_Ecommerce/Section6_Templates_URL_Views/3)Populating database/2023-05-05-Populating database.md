@@ -27,10 +27,12 @@ class Product(models.Model):
 >- `python manage.py makemigrations`
 >- `python manage.py migrate`
 >	- 모델 및 DB에 대해서 변경사항이 있으니 마이그레이션을 해줘야한다.
->- ![](https://i.imgur.com/62OPt2d.png)
+>- ![](https://i.imgur.com/mNqICbT.png)
+
 >- 참고 : https://moondol-ai.tistory.com/411
 >- 이제 Products에서 카테고리를 요구하는게 잘 작동되는지 확인하면 끝
->- ![](https://i.imgur.com/aVBxJ9X.png)
+>- ![](https://i.imgur.com/RW2wQjg.png)
+
 
 
 
