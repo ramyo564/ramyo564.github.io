@@ -11,8 +11,12 @@
             "id": "204cbea8c6820237",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Lv.2/2023-07-02- geolidugi hwag-in check distance.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -73,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237.5046501159668,
-    "collapsed": true
+    "width": 237.5046501159668
   },
   "right": {
     "id": "3b2593f41b8f88cb",
@@ -90,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Lv.2/2023-07-02- geolidugi hwag-in check distance.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Lv.2/2023-07-02- geolidugi hwag-in check distance.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +132,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Lv.2/2023-07-02- geolidugi hwag-in check distance.md"
+              }
             }
           }
         ],
