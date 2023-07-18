@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "leetcode/2023-07-10-169. Majority Element.md",
+                "file": "Lv.2/2023-07-18-kakao code test construction of a raceway.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "leetcode/2023-07-10-169. Majority Element.md",
+                "file": "Lv.2/2023-07-18-kakao code test construction of a raceway.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "leetcode/2023-07-10-169. Majority Element.md",
+                "file": "Lv.2/2023-07-18-kakao code test construction of a raceway.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "leetcode/2023-07-10-169. Majority Element.md"
+                "file": "Lv.2/2023-07-18-kakao code test construction of a raceway.md"
               }
             }
           }
@@ -167,10 +167,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d9caa9d73e429202",
+  "active": "1ccf9b35c3a864b3",
   "lastOpenFiles": [
-    "leetcode",
+    "Lv.2/2023-07-18-kakao code test construction of a raceway.md",
     "Lv.2/2023-07-02- geolidugi hwag-in check distance.md",
+    "leetcode",
     "leetcode/2023-07-10-169. Majority Element.md",
     "Lv.0/2023-04-19-lv_0.md",
     "Lv.0/Day_1/2023-03-31-sum numbers.md",

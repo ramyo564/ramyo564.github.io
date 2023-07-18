@@ -77,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "bb13c8d6ddac13ba",
@@ -155,7 +156,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b854d0c61bc92049",
+  "active": "c9f89cdee8606cb6",
   "lastOpenFiles": [
     "Basic Django/temp 1v models 1 1 1.md",
     "Basic Django/2023-06-01-request.get.md",
