@@ -17,7 +17,9 @@ sidebar:
 
 -   아무튼 근데 왜 사용할까?
 	- 재활용하기 편하려고!
-.
+
+---
+
 ```python
 # order.py
 
@@ -32,7 +34,6 @@ def order(price):
 print(order(3000))
 print(order(5000))
 ```
-
 
 ```python
 # 결과
