@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "그래프 탐색/Untitled.md",
+                "file": "Lv.2/2023-08-09-kakao code test Candidate key.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237.5046501159668,
-    "collapsed": true
+    "width": 237.5046501159668
   },
   "right": {
     "id": "3b2593f41b8f88cb",
@@ -94,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "그래프 탐색/Untitled.md",
+                "file": "Lv.2/2023-08-09-kakao code test Candidate key.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "그래프 탐색/Untitled.md",
+                "file": "Lv.2/2023-08-09-kakao code test Candidate key.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "그래프 탐색/Untitled.md"
+                "file": "Lv.2/2023-08-09-kakao code test Candidate key.md"
               }
             }
           }
@@ -157,11 +156,14 @@
   },
   "active": "1ccf9b35c3a864b3",
   "lastOpenFiles": [
+    "Lv.2/2023-08-01-kakao code test  Valid period of personal information collection.md",
+    "Lv.2/2023-08-09-kakao code test Candidate key.md",
+    "leetcode/2023-08-08-62. Unique Paths.md",
     "leetcode/2023-07-10-169. Majority Element.md",
+    "Lv.2/2023-07-18-kakao code test  Valid period of personal information collection.md",
     "Lv.2/2023-07-02- geolidugi hwag-in check distance.md",
     "그래프 탐색/Untitled.md",
     "그래프 탐색/자료구조.md",
-    "Lv.2/2023-07-18-kakao code test construction of a raceway.md",
     "그래프 탐색",
     "leetcode",
     "Lv.0/2023-04-19-lv_0.md",
@@ -184,9 +186,6 @@
     "Lv.0/Lv_0/page_1/2023-04-11-sharing pizza (3).md",
     "Lv.0/Lv_0/page_1/2023-04-06-protractor.md",
     "Lv.0/Lv_0/page_1/2023-04-06-reminder.md",
-    "Lv.0/Lv_0/page_1/2023-04-06-sum even.md",
-    "Lv.0/Lv_0/page_1/2023-04-10-lam.md",
-    "Lv.0/Day_1/2023-04-01-reminder.md",
     "Lv.0/Lv_0",
     "Lv.0/Day_2",
     "Lv.0/Day_1",
