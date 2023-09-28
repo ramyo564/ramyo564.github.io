@@ -11,8 +11,12 @@
             "id": "020d88be96d8b856",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "English/6 minutes English/2023-09-29-How fans talk about their passions.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -89,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "English/6 minutes English/2023-09-29-How fans talk about their passions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "English/6 minutes English/2023-09-29-How fans talk about their passions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +132,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "English/6 minutes English/2023-09-29-How fans talk about their passions.md"
+              }
             }
           }
         ]
@@ -148,6 +156,14 @@
   },
   "active": "020d88be96d8b856",
   "lastOpenFiles": [
+    "Spring/Untitled.md",
+    "Django/Django/U_DJango4_Ecommerce/temp.md",
+    "English/6 minutes English/2023-09-29-How fans talk about their passions.md",
+    "Python/Untitled/2023-05-09-Iterator and Generator and yield.md",
+    "English/6 minutes English/template.md",
+    "English/6 minutes English",
+    "English",
+    "DeepLearning/Untitled.md",
     "Python/Untitled/Untitled.md",
     "Python/Untitled",
     "Java/Section 16 제네릭",

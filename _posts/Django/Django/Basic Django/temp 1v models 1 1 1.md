@@ -1,14 +1,15 @@
 ---
-
 layout: single
 title: " [Django] !!! "
 categories: Django
-tag: [Python,"[BIG][Django] User management",]
+tags:
+  - Python
+  - User
+  - management
 toc: true
 toc_sticky: true
 author_profile: false
 sidebar:
-
 ---
 # User management (!!!)
 {% raw %}
@@ -18,3 +19,8 @@ sidebar:
 
 python manage.py collectstatic 
 {% endraw %}
+
+start at
+
+
+## 해야할 것
