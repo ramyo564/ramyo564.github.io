@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "English/6 minutes English/2023-09-29-How fans talk about their passions.md",
+                "file": "English/6 minutes English/2023-10-02-Making male friends.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "English/6 minutes English/2023-09-29-How fans talk about their passions.md",
+                "file": "English/6 minutes English/2023-10-02-Making male friends.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "English/6 minutes English/2023-09-29-How fans talk about their passions.md",
+                "file": "English/6 minutes English/2023-10-02-Making male friends.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "English/6 minutes English/2023-09-29-How fans talk about their passions.md"
+                "file": "English/6 minutes English/2023-10-02-Making male friends.md"
               }
             }
           }
@@ -156,11 +156,13 @@
   },
   "active": "020d88be96d8b856",
   "lastOpenFiles": [
+    "English/6 minutes English/2023-09-29-How fans talk about their passions.md",
+    "English/6 minutes English/2023-09-29-Sounds that make you want to scream.md",
+    "English/6 minutes English/2023-10-02-Making male friends.md",
+    "English/6 minutes English/template.md",
+    "Python/Untitled/2023-05-09-Iterator and Generator and yield.md",
     "Spring/Untitled.md",
     "Django/Django/U_DJango4_Ecommerce/temp.md",
-    "English/6 minutes English/2023-09-29-How fans talk about their passions.md",
-    "Python/Untitled/2023-05-09-Iterator and Generator and yield.md",
-    "English/6 minutes English/template.md",
     "English/6 minutes English",
     "English",
     "DeepLearning/Untitled.md",

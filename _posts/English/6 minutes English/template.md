@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "[BBC] How fans talk about their passions"
+title: "[BBC]"
 categories: BBC_6_Eng
 tags:
   - 6MinutesEnglish
@@ -9,10 +9,9 @@ toc_sticky: true
 author_profile: false
 sidebar:
 ---
-Fandom is more than simply being a fan, and now the world of fandom has started to develop its own language. Beth and Neil discuss this and teach you some useful vocabulary.
+# How fans talk about their passions
 
 [링크](https://www.bbc.co.uk/learningenglish/korean/features/6-minute-english_2023/ep-230921)
-
 
 <iframe width="400" height="500" frameborder="0" src="http://www.bbc.co.uk/programmes/p0gfvjb5/player"></iframe>
 
@@ -48,7 +47,6 @@ distancing yourself from the team you support when they lose
 - BIRGing 의 반대말 
 - 한국인으로서 엄청 창피한 짓을 했을 경우 거기에 같은 한국인으로서 끼고 싶지 않는 느낌
 
-### In Talk
 
 **Michael Bond**  
 Kings ruled their kingdoms, fans certainly rule their fandoms. It taps into that ancient human impulse to belong to a group of **like-minded** people, and of course being a fan by yourself can be a challenging thing because fannish pursuits can look **quirky** and odd… even obsessive, and you get often **mocked** and, I mean, if you're Jane Austen fan and you want to dress up in a bonnet and gown of the Regency era it's difficult to do that by yourself in public, but once you join a fandom there's no problem.
