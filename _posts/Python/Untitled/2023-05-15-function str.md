@@ -1,14 +1,14 @@
 ---
-
 layout: single
 title: "[Basic Python] 내장함수 __str__, __repr__"
 categories: Basic_Python
-tag: [Python,"[Basic Python] 내장함수 __str__, __repr__"]
+tags:
+  - Python
+  - __repr__
 toc: true
 toc_sticky: true
 author_profile: false
 sidebar:
-
 ---
 # 파이썬 내장함수 `__str__`,  `__repr__`?
 

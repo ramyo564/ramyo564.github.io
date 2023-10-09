@@ -1,14 +1,18 @@
 ---
-
 layout: single
 title: "[Basic Python] 파이썬 클래스 & __ & Mangling 맹글링"
 categories: Basic_Python
-tag: [Python,"[Basic Python] 파이썬 클래스 & __ & Mangling 맹글링"]
+tags:
+  - Python
+  - 파이썬
+  - 클래스
+  - __
+  - Mangling
+  - 맹글링
 toc: true
 toc_sticky: true
 author_profile: false
 sidebar:
-
 ---
 ## **파이썬의 클래스**
 

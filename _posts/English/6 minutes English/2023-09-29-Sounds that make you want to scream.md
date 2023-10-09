@@ -41,6 +41,8 @@ euphemistic way of saying ‘died’
 **a shock to the system**  
 a sudden and unpleasant change
 - a shock to the system : 대박 사건 (충격적인, 긍정적인 방향은 아님)
+
+
 ### In Talk
 
 **Phil**

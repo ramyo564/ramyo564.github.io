@@ -1,14 +1,18 @@
 ---
-
 layout: single
 title: "[Basic Python] Iterator and Generator and yield"
 categories: Basic_Python
-tag: [Python,"[Basic Python] Iterator and Generator and yield"]
+tags:
+  - Python
+  - Iterator
+  - and
+  - Generator
+  - and
+  - yield
 toc: true
 toc_sticky: true
 author_profile: false
 sidebar:
-
 ---
 # 이터레이터와 제네레이너 이런건 도대체 뭘까?
 / 이터레이터 / 제네레이터 / yield /
