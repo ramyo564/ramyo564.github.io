@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "English/6 minutes English/2023-09-29-Sounds that make you want to scream.md",
+                "file": "Database/relational data model/temp.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "English/6 minutes English/2023-09-29-Sounds that make you want to scream.md",
+                "file": "Database/relational data model/temp.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "English/6 minutes English/2023-09-29-Sounds that make you want to scream.md",
+                "file": "Database/relational data model/temp.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,16 +133,16 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "English/6 minutes English/2023-09-29-Sounds that make you want to scream.md"
+                "file": "Database/relational data model/temp.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -156,9 +156,19 @@
   },
   "active": "020d88be96d8b856",
   "lastOpenFiles": [
+    "Database/temp.md",
+    "Database/relational data model/temp.md",
+    "Database/basic/2023-10-13-basic_database_concept.md",
+    "Database/Untitled 1",
+    "Untitled 1",
+    "Database/relational data model",
+    "Pasted image 20231013142040.png",
+    "Database/basic",
+    "Python/temp.md",
+    "English/6 minutes English/2023-09-29-Sounds that make you want to scream.md",
+    "Database",
     "English/6 minutes English/2023-09-29-How fans talk about their passions.md",
     "English/6 minutes English/template 1.md",
-    "English/6 minutes English/2023-09-29-Sounds that make you want to scream.md",
     "English/6 minutes English/2023-10-02-Making male friends.md",
     "English/6 minutes English/template.md",
     "Python/Untitled/2023-05-09-Iterator and Generator and yield.md",
@@ -173,12 +183,8 @@
     "Java/2023-04-24-Generic.md",
     "Java/Java/Section 16 제네릭",
     "Java/Java/2023-04-24-Generic.md",
-    "Java/Java",
-    "Python",
     "DataStructure/List/2023-03-24-List(1).md",
     "DataStructure/List/2023-03-24-List(2).md",
-    "DataStructure/List",
-    "DataStructure",
     "Spring/2023-03-17-Spring Boot Actuator.md"
   ]
 }
