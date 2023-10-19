@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Basic Django/temp 1v models 1 1 1.md",
+                "file": "U_DJango4_Ecommerce/Section4_Setup/2023-05-03-Django4 project setup.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Basic Django/temp 1v models 1 1 1.md",
+                "file": "U_DJango4_Ecommerce/Section4_Setup/2023-05-03-Django4 project setup.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Basic Django/temp 1v models 1 1 1.md",
+                "file": "U_DJango4_Ecommerce/Section4_Setup/2023-05-03-Django4 project setup.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Basic Django/temp 1v models 1 1 1.md"
+                "file": "U_DJango4_Ecommerce/Section4_Setup/2023-05-03-Django4 project setup.md"
               }
             }
           }
@@ -156,6 +156,8 @@
   },
   "active": "0895ca946b97ae38",
   "lastOpenFiles": [
+    "Basic Django/2023-06-01-request.get.md",
+    "Basic Django/temp 1v models 1 1 1.md",
     "U_Django4_upgrade/Section19/2023-05-30-payment.md",
     "U_Django4_upgrade/Section21/temp 1v models 1 1 1.md",
     "U_Django4_upgrade/Section20/temp 1v models 1 1 1.md",
@@ -168,8 +170,6 @@
     "U_DJango4_Ecommerce/Section5_Building models/1)Create a Django app/2023-05-03-Building models.md",
     "U_DJango4_Ecommerce/Section4_Setup/2023-05-03-Django4 project setup.md",
     "U_Django4_upgrade/temp 1v models 1 1.md",
-    "Basic Django/2023-06-01-request.get.md",
-    "Basic Django/temp 1v models 1 1 1.md",
     "U_Django4_upgrade/Section18/2023-05-26-Checkout.md",
     "U_Django4_upgrade/Section17/2023-05-24-cart and check out.md",
     "U_Django4_upgrade/Section16/2023-05-24-reset_password.md",

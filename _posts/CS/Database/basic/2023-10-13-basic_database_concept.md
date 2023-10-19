@@ -4,6 +4,7 @@ title: "[Database] Basic Database Concept"
 categories: Database
 tags:
   - Database
+  - CS
 toc: true
 toc_sticky: true
 author_profile: false
