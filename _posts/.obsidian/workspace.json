@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS/Database/relational data model/2023-10-19-Relational data model.md",
+                "file": "CS/Interview/2023-10-21-xml json yaml.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS/Database/relational data model/2023-10-19-Relational data model.md",
+                "file": "CS/Interview/2023-10-21-xml json yaml.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS/Database/relational data model/2023-10-19-Relational data model.md",
+                "file": "CS/Interview/2023-10-21-xml json yaml.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS/Database/relational data model/2023-10-19-Relational data model.md"
+                "file": "CS/Interview/2023-10-21-xml json yaml.md"
               }
             }
           }
@@ -154,13 +154,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "020d88be96d8b856",
+  "active": "2a9f46dd32fe5bea",
   "lastOpenFiles": [
-    "CS/Database/Database language/2023-10-18-Database language.md",
+    "CS/Network/temp 1.md",
+    "CS/Interview/2023-10-21-xml json yaml.md",
+    "CS/Interview",
+    "CS/Database/temp.md",
+    "CS/Network/2023-10-19-Relational data model 1.md",
     "CS/Database/relational data model/2023-10-19-Relational data model.md",
+    "CS/Network",
+    "CS/Database/Database language/2023-10-18-Database language.md",
     "CS/Database/basic/2023-10-13-basic_database_concept.md",
     "CS",
-    "CS/Database/temp.md",
     "CS/Database/Database language",
     "Untitled 1",
     "CS/Database/relational data model",
@@ -180,8 +185,6 @@
     "English",
     "DeepLearning/Untitled.md",
     "Python/Untitled/Untitled.md",
-    "Python/Untitled",
-    "Java/Section 16 제네릭",
     "Java/2023-04-24-Generic.md",
     "Java/Java/2023-04-24-Generic.md",
     "DataStructure/List/2023-03-24-List(1).md",
