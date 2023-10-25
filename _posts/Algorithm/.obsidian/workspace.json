@@ -1,39 +1,52 @@
 {
   "main": {
-    "id": "fd44002e6dfe483c",
+    "id": "1d63b390de2fb595",
     "type": "split",
     "children": [
       {
-        "id": "4aef5ff73f7c888d",
+        "id": "49320c0e0f0da699",
         "type": "tabs",
         "children": [
           {
-            "id": "020d88be96d8b856",
+            "id": "bfabf6dede5cf71f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS/Database/View concept/2023-10-24-view.md",
+                "file": "boj/Stage/2023-10-19-backjoon_number_1316.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "05842c70386ee459",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "boj/Stage/2023-10-23-backjoon_number_2745.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "db03129490716509",
+    "id": "14c875fa95b341e5",
     "type": "split",
     "children": [
       {
-        "id": "d66575fef7fb7390",
+        "id": "205329259e2c3706",
         "type": "tabs",
         "children": [
           {
-            "id": "2a9f46dd32fe5bea",
+            "id": "89ae1a3675e6ff17",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -43,12 +56,12 @@
             }
           },
           {
-            "id": "a26bdf04f6189b80",
+            "id": "f8605a8049cbd9ac",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:Database",
+                "query": "언팩",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -58,15 +71,7 @@
             }
           },
           {
-            "id": "30cf31d371ec2026",
-            "type": "leaf",
-            "state": {
-              "type": "starred",
-              "state": {}
-            }
-          },
-          {
-            "id": "51fe9a305cf8da81",
+            "id": "3febcc5adfa2d7ef",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -77,23 +82,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 316.50206756591797
+    "width": 300
   },
   "right": {
-    "id": "7b797cdaf6a2516c",
+    "id": "7c8acd969fe999de",
     "type": "split",
     "children": [
       {
-        "id": "4e31ff76c560b918",
+        "id": "497f347faae7f346",
         "type": "tabs",
         "children": [
           {
-            "id": "02808f2cc383ba10",
+            "id": "a21705324b7e0480",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS/Database/View concept/2023-10-24-view.md",
+                "file": "boj/Stage/2023-10-23-backjoon_number_2745.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,19 +110,19 @@
             }
           },
           {
-            "id": "3bee1c79a6dae192",
+            "id": "c192c45df0034a42",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS/Database/View concept/2023-10-24-view.md",
+                "file": "boj/Stage/2023-10-23-backjoon_number_2745.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "85862c1a9748f432",
+            "id": "22014a8c49f56834",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -128,12 +133,12 @@
             }
           },
           {
-            "id": "d78763ee67be343b",
+            "id": "aeabc628ff8ed5ea",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS/Database/View concept/2023-10-24-view.md"
+                "file": "boj/Stage/2023-10-23-backjoon_number_2745.md"
               }
             }
           }
@@ -142,7 +147,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -154,44 +159,32 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "020d88be96d8b856",
+  "active": "05842c70386ee459",
   "lastOpenFiles": [
-    "CS/Database/relational data model/2023-10-19-Relational data model.md",
-    "CS/Database/View concept/2023-10-24-view.md",
-    "CS/Interview/temp 1.md",
-    "CS/temp.md",
-    "Data_pandas/temp 1 1.md",
-    "CS/Network/temp 1.md",
-    "Data_pandas",
-    "CS/Interview/sort.md",
-    "CS/Database/View concept",
-    "CS/Interview/2023-10-21-xml json yaml.md",
-    "CS/Interview",
-    "CS/Database/temp.md",
-    "CS/Network/2023-10-19-Relational data model 1.md",
-    "CS/Network",
-    "CS/Database/Database language/2023-10-18-Database language.md",
-    "CS/Database/basic/2023-10-13-basic_database_concept.md",
-    "CS",
-    "CS/Database/Database language",
-    "Untitled 1",
-    "CS/Database/relational data model",
-    "Pasted image 20231013142040.png",
-    "CS/Database/basic",
-    "Python/temp.md",
-    "English/6 minutes English/2023-09-29-Sounds that make you want to scream.md",
-    "CS/Database",
-    "English/6 minutes English/2023-09-29-How fans talk about their passions.md",
-    "English/6 minutes English/template 1.md",
-    "English/6 minutes English/2023-10-02-Making male friends.md",
-    "English/6 minutes English/template.md",
-    "Python/Untitled/2023-05-09-Iterator and Generator and yield.md",
-    "Spring/Untitled.md",
-    "Django/Django/U_DJango4_Ecommerce/temp.md",
-    "DeepLearning/Untitled.md",
-    "Python/Untitled/Untitled.md",
-    "Java/2023-04-24-Generic.md",
-    "Java/Java/2023-04-24-Generic.md",
-    "DataStructure/List/2023-03-24-List(1).md"
+    "boj/backjoon_number_.md",
+    "boj/Stage/2023-10-23-backjoon_number_2745.md",
+    "Untitled.md",
+    "boj/Stage/2023-10-22-backjoon_number_2563.md",
+    "boj/Stage/2023-10-19-backjoon_number_1316.md",
+    "boj/Gold/backjoon_number_23290.md",
+    "Pasted image 20231019134728.png",
+    "code_test_project_basic/backjoon_number_ 1.md",
+    "Untitled.canvas",
+    "boj/Stage",
+    "code_test_project_basic",
+    "boj/Graph navigation/backjoon_number_1260.md",
+    "boj/Graph navigation/2023-10-13-backjoon_number_1388.md",
+    "boj/Heap/2023-10-02-backjoon_number_11279.md",
+    "boj/Untitled/Untitled",
+    "boj/Gold",
+    "boj/Heap/2023-10-07-backjoon_number_1766.md",
+    "codetree/racing with rabbits.md",
+    "boj/Heap/2023-10-06-backjoon_number_15903.md",
+    "boj/Heap/2023-10-04-backjoon_number_14235.md",
+    "boj/Heap/2023-09-29-backjoon_number_1417.md",
+    "boj/Heap/2023-09-29-backjoon_number_1927.md",
+    "leetcode/2023-09-12-215. Kth Largest Element in an Array.md",
+    "leetcode/373. Find K Pairs with Smallest Sums.md",
+    "boj/Heap"
   ]
 }
