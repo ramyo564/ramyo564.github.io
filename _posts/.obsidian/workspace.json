@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS/Database/View concept/2023-10-24-view.md",
+                "file": "Java/Basic/2023-11-02-multiplication_table.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:Database",
+                "query": "del",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS/Database/View concept/2023-10-24-view.md",
+                "file": "Java/Basic/2023-11-02-multiplication_table.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS/Database/View concept/2023-10-24-view.md",
+                "file": "Java/Basic/2023-11-02-multiplication_table.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS/Database/View concept/2023-10-24-view.md"
+                "file": "Java/Basic/2023-11-02-multiplication_table.md"
               }
             }
           }
@@ -156,8 +156,17 @@
   },
   "active": "020d88be96d8b856",
   "lastOpenFiles": [
-    "CS/Database/relational data model/2023-10-19-Relational data model.md",
+    "Java/template.md",
+    "Java/Basic/2023-11-02-multiplication_table.md",
+    "Java/Basic/2023-04-24-Generic 1.md",
+    "Java/2023-04-24-Generic.md",
+    "Algorithm/Untitled.md",
+    "Java/Basic",
+    "Algorithm/leetcode/2023-08-24-Merge Sorted Array 88번.md",
+    "Algorithm/leetcode/2023-08-08-62.Unique Paths.md",
+    "Algorithm/leetcode/2023-07-10-169. Majority Element.md",
     "CS/Database/View concept/2023-10-24-view.md",
+    "CS/Database/relational data model/2023-10-19-Relational data model.md",
     "CS/Interview/temp 1.md",
     "CS/temp.md",
     "Data_pandas/temp 1 1.md",
@@ -180,18 +189,9 @@
     "CS/Database/basic",
     "Python/temp.md",
     "English/6 minutes English/2023-09-29-Sounds that make you want to scream.md",
-    "CS/Database",
     "English/6 minutes English/2023-09-29-How fans talk about their passions.md",
     "English/6 minutes English/template 1.md",
     "English/6 minutes English/2023-10-02-Making male friends.md",
-    "English/6 minutes English/template.md",
-    "Python/Untitled/2023-05-09-Iterator and Generator and yield.md",
-    "Spring/Untitled.md",
-    "Django/Django/U_DJango4_Ecommerce/temp.md",
-    "DeepLearning/Untitled.md",
-    "Python/Untitled/Untitled.md",
-    "Java/2023-04-24-Generic.md",
-    "Java/Java/2023-04-24-Generic.md",
-    "DataStructure/List/2023-03-24-List(1).md"
+    "English/6 minutes English/template.md"
   ]
 }
