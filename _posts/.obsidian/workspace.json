@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/Basic/2023-11-02-multiplication_table.md",
+                "file": "Python/Structure/python_list.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 316.50206756591797
+    "width": 316.50206756591797,
+    "collapsed": true
   },
   "right": {
     "id": "7b797cdaf6a2516c",
@@ -93,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java/Basic/2023-11-02-multiplication_table.md",
+                "file": "Python/Structure/python_list.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Java/Basic/2023-11-02-multiplication_table.md",
+                "file": "Python/Structure/python_list.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java/Basic/2023-11-02-multiplication_table.md"
+                "file": "Python/Structure/python_list.md"
               }
             }
           }
@@ -142,7 +143,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -156,8 +158,11 @@
   },
   "active": "020d88be96d8b856",
   "lastOpenFiles": [
-    "Java/template.md",
+    "Python/temp.md",
+    "Python/Structure/python_list.md",
+    "Python/Structure",
     "Java/Basic/2023-11-02-multiplication_table.md",
+    "Java/template.md",
     "Java/Basic/2023-04-24-Generic 1.md",
     "Java/2023-04-24-Generic.md",
     "Algorithm/Untitled.md",
@@ -186,12 +191,9 @@
     "Untitled 1",
     "CS/Database/relational data model",
     "Pasted image 20231013142040.png",
-    "CS/Database/basic",
-    "Python/temp.md",
     "English/6 minutes English/2023-09-29-Sounds that make you want to scream.md",
     "English/6 minutes English/2023-09-29-How fans talk about their passions.md",
     "English/6 minutes English/template 1.md",
-    "English/6 minutes English/2023-10-02-Making male friends.md",
-    "English/6 minutes English/template.md"
+    "English/6 minutes English/2023-10-02-Making male friends.md"
   ]
 }
