@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "020d88be96d8b856",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ZeroBase/SSUL.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "53522f2afe2d8744",
             "type": "leaf",
             "state": {
@@ -31,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -90,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 316.50206756591797,
-    "collapsed": true
+    "width": 316.50206756591797
   },
   "right": {
     "id": "7b797cdaf6a2516c",
@@ -156,8 +142,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -171,9 +156,9 @@
   },
   "active": "53522f2afe2d8744",
   "lastOpenFiles": [
-    "ZeroBase/SSUL.md",
     "Untitled.md",
     "ZeroBase/2023-11-09-zero_base_1.md",
+    "ZeroBase/SSUL.md",
     "Python/Structure/python_list.md",
     "Algorithm/Untitled.md",
     "CS/Operating Systems/system_structure_and_program_execution_2.md",
