@@ -41,3 +41,177 @@ Array list 는 Array와 Dynamic array 두 개가 있는데 Array 또한 Dynamic 
 (파이썬은 처음에 2배씩 커지다가 좀 더 작은 배율로 커짐)
 
 
+## Linked list
+
+- Node로 직접 구현해야함 -> 트리로도 만들 수 있음
+	- 노드라는 구조체가 연결되는 형식으로 데이터를 저장하는 자료구조 -> next node의 주소값을 저장 -> 메모리상 비연속적으로 저장이 되지만 각 노드들은 다음 노드의 메모리 주소값을 가리킴으로서 논리적 연속성을 갖게됨
+- 물리적인 메모리 주소는 연속적인게 아님 -> 무조건 노드를 타고 들어가야함 -> 시간복잡도는 **O(n)** 
+
+### 물리적 비연속적, 논리적 연속적
+
+- 각 노드들은 데이터 자장 및 다음 노드의 메모리 주소정보도 갖고 있기 때문에 논리적으로 연속성을 유지하면서 연결된다.
+- Array 같은 경우 연속성을 유지하기 위해 메모리 상에서 순차적으로 데이터를 저장하는 방식을 사용했지만 Linked list 같은 경우 메모리상 연속성을 유지하지 않기 때문에 메모리 사용이 좀 더 자유롭다. 다만 다음 메모리 주소를 저장해야되기 때문에 데이터 하나당 차지하는 메모리가 더 커진다.
+
+### Node
+
+```python
+class Node:
+	def __init__(self, value = 0, next = None):
+		self.value = value
+		self.next = next
+
+first = Node(1)
+second = Node(2)
+third = Node(3)
+first.next = second
+second.next = third
+first.value = 6
+```
+
+- 링크드 리스트는 아래와 같이 헤드 값이 있어야함
+	- 헤드는 첫 번째 노드를 가리켜야함
+	- 그래야지 헤드를 통해서 위에 만들어서 연결한 노드들에 접근이 가능함
+
+```python
+class LinkedList(obj):
+	def __init__(self):
+		self.head = None
+	def append(self, value):
+		pass
+	def get(self, idx):
+		pass
+	def insert(self, idx, value):
+		pass
+	def delete(delf, idx):
+		pass
+```
+
+### append 구현
+
+```python
+class LinkedList(obj):
+	def __init__(self):
+		self.head = None
+	def append(self, value):
+		new_node = Node(value)
+		if self.head in None:
+			self.head = new_node
+		else:
+			current = self.head
+			while(current.next):
+				current = current.next
+			current.next = new_node
+
+li = LinkedList()
+li.append(1)
+li.append(2)
+li.append(3)
+```
+- 시간 복잡도는 O(n) 근데 만들기 나름이라 앞 단에 붙이거나 tail을 만들어서 가장 뒤에 넣을 경우 O(1)
+### get 구현
+
+```python
+class LinkedList(obj):
+	def __init__(self):
+		self.head = None
+	def append(self, value):
+		pass
+	def get(self, idx):
+		current = self.head
+		for _ in range (idx):
+			current = current.next
+		return current.value
+
+li = LinkedList()
+li.append(1)
+li.append(2)
+li.append(3)
+li.get(0)
+li.get(1)
+li.get(2)
+```
+
+
+### insert_at(idx, value) 구현
+
+```python
+class LinkedList(obj):
+	def __init__(self):
+		self.size = 0 # node의 개수
+		self.head = None
+	def append(self, value):
+		pass
+	def insert_at(self, idx, value):
+		new_node = Node(value)
+		if idx == 0:
+			new_node.next = self.head
+			self.head = new_node
+		else:
+			current = self.head
+			for _ in range (idx - 1):
+				current = current.next
+			new_node.next = current.next
+			current.next = new_node
+		self.size +=1
+		
+li = LinkedList()
+li.append(1)
+li.append(2)
+li.append(3)
+li.insert(idx=2, value=9)
+
+```
+
+![](https://i.imgur.com/cPEt9jR.png)
+
+- 1 번부터 연결하면 2번 메모리 주소가 사라지니깐 1번의 next가 새로 삽입하는 new의 next로 오게 하는 걸 첫 번째로 하고 1번의 next 메모리 주소를 new로 바꿔주면 된다.
+
+### remove_at(idx) 구현
+
+```python
+class LinkedList(obj):
+	def __init__(self):
+		self.size = 0 # node의 개수
+		self.head = None
+	def append(self, value):
+		pass
+	def insert_at(self, idx, value):
+		pass
+	def remove_at(self, idx):
+		if idx == 0:
+			self.head = self.head.next
+		else:
+			current = self.head
+			for _ in range(idx-1):
+				current = current.next
+			current.next = current.next.next
+		self.size -= 1
+		
+li = LinkedList()
+li.append(1)
+li.append(2)
+li.append(3)
+li.insert(idx=2, value=9)
+
+```
+
+![](https://i.imgur.com/XT4b6ck.png)
+
+1번의 next를 3번으로 옮긴다 이렇게 될 경우 아무도 2번을 참조하지 않으므로 가비지 컬렉터가 알아서 수거해간다.     
+
+## 코테 적용 방법
+
+- 링크드 리스트의 자유자재 수현 (선형 자료구조 + 중간에 데이터 추가/삭제 용이)
+- Tree or Graph 에 활용
+
+- input, output 확인
+	- input 값의 특징 (정수인가? 값 크기의 범위는? 마이너스도 되는건가? 소수인가? 자료형은 문자열인가? 등등)
+	- output 값의 특징 (내가 어떤 값을 반환해줘야 하는지, 정해진 형식대로 반환하려면 어떻게 구현할지)
+- input size N 확인
+	- 시간복잡도를 계산하기 위한 input size N 또는 M이 무엇인지 확인
+- 제약조건 확인
+	- 시간복잡도가 제한이 있는지 확인
+	- 내가 선택할 수 있는 알고리즘이 무엇이 있는지
+- 예상할 수 있는 오류 파악하기
+	- 상황을 가정하면서 예상할 수 있는 오류를 파악한다.
+	- 입력 값의 범위, stack overflow 등등
