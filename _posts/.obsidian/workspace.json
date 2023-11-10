@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ZeroBase/2023-11-09-zero_base_1.md",
+                "file": "CS/Operating Systems/2023-11-11-system_structure_and_program_execution_2.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ZeroBase/2023-11-09-zero_base_1.md",
+                "file": "CS/Operating Systems/2023-11-11-system_structure_and_program_execution_2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ZeroBase/2023-11-09-zero_base_1.md",
+                "file": "CS/Operating Systems/2023-11-11-system_structure_and_program_execution_2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ZeroBase/2023-11-09-zero_base_1.md"
+                "file": "CS/Operating Systems/2023-11-11-system_structure_and_program_execution_2.md"
               }
             }
           }
@@ -156,32 +156,31 @@
   },
   "active": "53522f2afe2d8744",
   "lastOpenFiles": [
-    "Untitled.md",
+    "CS/Operating Systems/2023-11-03-system_structure_and_program_execution_1.md",
+    "CS/Operating Systems/2023-11-01-operating_systems.md",
+    "CS/Operating Systems/2023-11-11-system_structure_and_program_execution_2.md",
+    "CS/Operating Systems/temp.md",
+    "CS/CS.md",
     "ZeroBase/2023-11-09-zero_base_1.md",
+    "Java/Basic/Lamda.md",
+    "Java/Basic/Stream.md",
     "ZeroBase/SSUL.md",
+    "Java/CollectionFramework.md",
+    "Java/Basic/template 1 Inner Class.md",
+    "Java/Basic/Lamda_Expression.md",
+    "Java/Basic/CollectionFramework.md",
+    "Untitled.md",
     "Python/Structure/python_list.md",
     "Algorithm/Untitled.md",
-    "CS/Operating Systems/system_structure_and_program_execution_2.md",
-    "CS/Operating Systems/2023-11-03-system_structure_and_program_execution_1.md",
-    "CS/Operating Systems/temp.md",
-    "CS/Operating Systems/2023-11-01-operating_systems.md",
     "CS/Operating Systems/Untitled 1.md",
     "CS/Operating Systems/Untitled.md",
-    "CS/CS.md",
     "aws/AWS MYSQL.md",
     "CS/Interview/temp 1.md",
     "CS/Interview/temp.md",
-    "Java/CollectionFramework.md",
     "Java/Basic/Exception.md",
     "Java/Basic/input_output.md",
-    "Java/Basic/template 1 Inner Class.md",
     "Java/Basic/Polymorphism.md",
     "Java/Basic/Interface.md",
-    "Java/Basic/multiplication_table.md",
-    "Java/Basic/Inheritance.md",
-    "Java/Basic/class_and_object.md",
-    "Java/Basic/Abstract Method.md",
-    "Java/2023-04-24-Generic.md",
     "ZeroBase",
     "Python/Structure",
     "Java/Basic",
