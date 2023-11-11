@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithm/leetcode/LinkedList/Design Browser History.md",
+                "file": "Algorithm/leetcode/LinkedList/2023-11-12-Design Browser History.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithm/leetcode/LinkedList/Design Browser History.md",
+                "file": "Algorithm/leetcode/LinkedList/2023-11-12-Design Browser History.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithm/leetcode/LinkedList/Design Browser History.md",
+                "file": "Algorithm/leetcode/LinkedList/2023-11-12-Design Browser History.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithm/leetcode/LinkedList/Design Browser History.md"
+                "file": "Algorithm/leetcode/LinkedList/2023-11-12-Design Browser History.md"
               }
             }
           }
@@ -156,32 +156,34 @@
   },
   "active": "53522f2afe2d8744",
   "lastOpenFiles": [
-    "Algorithm/leetcode/LinkedList/2023-09-08-Linked List.md",
-    "Algorithm/leetcode/LinkedList/Design Browser History.md",
+    "Python/Structure/python_list.md",
     "Algorithm/leetcode/2023-08-08-62.Unique Paths.md",
-    "Algorithm/leetcode/LinkedList/2023-08-30-21. Merge Two Sorted Lists.md",
-    "Algorithm/leetcode/LinkedList/2023-08-29-2. Add Two Numbers.md",
-    "Algorithm/leetcode/LinkedList/2023-08-29-141. Linked List Cycle.md",
-    "Algorithm/leetcode/2023-09-19-198. House Robber.md",
-    "Algorithm/leetcode/Heap/2023-10-02-378. Kth Smallest Element in a Sorted Matrix.md",
-    "Algorithm/leetcode/2023-09-14-133. Clone Graph.md",
-    "Algorithm/leetcode/2023-09-09-208. Implement Trie (Prefix Tree).md",
-    "Algorithm/leetcode/2023-09-10-211. Design Add and Search Words Data Structure.md",
-    "Algorithm/leetcode/2023-09-06-637. Average of Levels in Binary Tree.md",
-    "Algorithm/leetcode/2023-09-06-230. Kth Smallest Element in a BST.md",
-    "Algorithm/leetcode/2023-09-06-199. Binary Tree Right Side View.md",
-    "Algorithm/leetcode/2023-09-04-162.Find Peak Element.md",
-    "Algorithm/leetcode/2023-09-04-148. Sort List.md",
-    "Algorithm/leetcode/2023-08-31-242. Valid Anagram.md",
-    "Algorithm/leetcode/2023-08-30-383. Ransom Note.md",
-    "Algorithm/leetcode/2023-08-30-219. Contains Duplicate II.md",
-    "Algorithm/leetcode/2023-08-30-155. Min Stack.md",
-    "Algorithm/leetcode/2023-08-30-150. Evaluate Reverse Polish Notation.md",
-    "Algorithm/leetcode/2023-08-30-1. Two Sum.md",
-    "Algorithm/leetcode/2023-08-29-167. Two Sum Input Array Is Sorted 2.md",
-    "Algorithm/leetcode/2023-08-29-35. Search Insert Position.md",
-    "Algorithm/leetcode/2023-08-28-209. Minimum Size Subarray Sum.md",
+    "Algorithm/leetcode/LinkedList/2023-11-12-Design Browser History.md",
+    "Algorithm/leetcode/2023-08-26-125 Valid Palindrome.md",
     "Algorithm/leetcode/2023-08-28-3. Longest Substring Without Repeating Characters.md",
+    "Algorithm/leetcode/2023-08-28-209. Minimum Size Subarray Sum.md",
+    "Algorithm/leetcode/2023-08-29-35. Search Insert Position.md",
+    "Algorithm/leetcode/2023-08-29-167. Two Sum Input Array Is Sorted 2.md",
+    "Algorithm/leetcode/2023-08-30-1. Two Sum.md",
+    "Algorithm/leetcode/2023-08-30-219. Contains Duplicate II.md",
+    "Algorithm/leetcode/2023-08-30-383. Ransom Note.md",
+    "Algorithm/leetcode/2023-08-31-242. Valid Anagram.md",
+    "Algorithm/leetcode/2023-09-04-148. Sort List.md",
+    "Algorithm/leetcode/2023-09-04-162.Find Peak Element.md",
+    "Algorithm/leetcode/2023-09-06-230. Kth Smallest Element in a BST.md",
+    "Algorithm/leetcode/2023-09-05-33. Search in Rotated Sorted Array.md",
+    "Algorithm/leetcode/Graph/2023-09-06-199. Binary Tree Right Side View.md",
+    "Algorithm/leetcode/2023-09-06-530. Minimum Absolute Difference in BST.md",
+    "Algorithm/leetcode/Graph/2023-09-10-211. Design Add and Search Words Data Structure.md",
+    "Algorithm/leetcode/Graph/2023-09-09-208. Implement Trie (Prefix Tree).md",
+    "Algorithm/leetcode/Graph/2023-09-14-133. Clone Graph.md",
+    "Algorithm/leetcode/2023-09-19-198. House Robber.md",
+    "Algorithm/leetcode/Graph/2023-09-15-909. Snakes and Ladders.md",
+    "Algorithm/leetcode/Graph",
+    "Algorithm/leetcode/2023-09-06-637. Average of Levels in Binary Tree.md",
+    "Algorithm/leetcode/Stack/2023-08-30-155. Min Stack.md",
+    "Algorithm/leetcode/Stack/2023-08-30-150. Evaluate Reverse Polish Notation.md",
+    "Algorithm/leetcode/Stack",
     "Algorithm/leetcode/Array",
     "Algorithm/leetcode/Heap",
     "Algorithm/leetcode/LinkedList",
@@ -190,8 +192,6 @@
     "Java/Basic",
     "Data_pandas",
     "CS/Database/View concept",
-    "CS/Interview",
-    "CS/Network",
     "Pasted image 20231013142040.png"
   ]
 }
