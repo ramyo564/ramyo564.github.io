@@ -191,7 +191,7 @@ li = LinkedList()
 li.append(1)
 li.append(2)
 li.append(3)
-li.insert(idx=2, value=9)
+li.remove_at(idx=2)
 
 ```
 
@@ -215,3 +215,4 @@ li.insert(idx=2, value=9)
 - 예상할 수 있는 오류 파악하기
 	- 상황을 가정하면서 예상할 수 있는 오류를 파악한다.
 	- 입력 값의 범위, stack overflow 등등
+

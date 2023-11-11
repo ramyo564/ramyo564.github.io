@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS/Operating Systems/2023-11-11-system_structure_and_program_execution_2.md",
+                "file": "Algorithm/leetcode/LinkedList/Design Browser History.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS/Operating Systems/2023-11-11-system_structure_and_program_execution_2.md",
+                "file": "Algorithm/leetcode/LinkedList/Design Browser History.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS/Operating Systems/2023-11-11-system_structure_and_program_execution_2.md",
+                "file": "Algorithm/leetcode/LinkedList/Design Browser History.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS/Operating Systems/2023-11-11-system_structure_and_program_execution_2.md"
+                "file": "Algorithm/leetcode/LinkedList/Design Browser History.md"
               }
             }
           }
@@ -156,31 +156,35 @@
   },
   "active": "53522f2afe2d8744",
   "lastOpenFiles": [
-    "CS/Operating Systems/2023-11-03-system_structure_and_program_execution_1.md",
-    "CS/Operating Systems/2023-11-01-operating_systems.md",
-    "CS/Operating Systems/2023-11-11-system_structure_and_program_execution_2.md",
-    "CS/Operating Systems/temp.md",
-    "CS/CS.md",
-    "ZeroBase/2023-11-09-zero_base_1.md",
-    "Java/Basic/Lamda.md",
-    "Java/Basic/Stream.md",
-    "ZeroBase/SSUL.md",
-    "Java/CollectionFramework.md",
-    "Java/Basic/template 1 Inner Class.md",
-    "Java/Basic/Lamda_Expression.md",
-    "Java/Basic/CollectionFramework.md",
-    "Untitled.md",
-    "Python/Structure/python_list.md",
-    "Algorithm/Untitled.md",
-    "CS/Operating Systems/Untitled 1.md",
-    "CS/Operating Systems/Untitled.md",
-    "aws/AWS MYSQL.md",
-    "CS/Interview/temp 1.md",
-    "CS/Interview/temp.md",
-    "Java/Basic/Exception.md",
-    "Java/Basic/input_output.md",
-    "Java/Basic/Polymorphism.md",
-    "Java/Basic/Interface.md",
+    "Algorithm/leetcode/LinkedList/2023-09-08-Linked List.md",
+    "Algorithm/leetcode/LinkedList/Design Browser History.md",
+    "Algorithm/leetcode/2023-08-08-62.Unique Paths.md",
+    "Algorithm/leetcode/LinkedList/2023-08-30-21. Merge Two Sorted Lists.md",
+    "Algorithm/leetcode/LinkedList/2023-08-29-2. Add Two Numbers.md",
+    "Algorithm/leetcode/LinkedList/2023-08-29-141. Linked List Cycle.md",
+    "Algorithm/leetcode/2023-09-19-198. House Robber.md",
+    "Algorithm/leetcode/Heap/2023-10-02-378. Kth Smallest Element in a Sorted Matrix.md",
+    "Algorithm/leetcode/2023-09-14-133. Clone Graph.md",
+    "Algorithm/leetcode/2023-09-09-208. Implement Trie (Prefix Tree).md",
+    "Algorithm/leetcode/2023-09-10-211. Design Add and Search Words Data Structure.md",
+    "Algorithm/leetcode/2023-09-06-637. Average of Levels in Binary Tree.md",
+    "Algorithm/leetcode/2023-09-06-230. Kth Smallest Element in a BST.md",
+    "Algorithm/leetcode/2023-09-06-199. Binary Tree Right Side View.md",
+    "Algorithm/leetcode/2023-09-04-162.Find Peak Element.md",
+    "Algorithm/leetcode/2023-09-04-148. Sort List.md",
+    "Algorithm/leetcode/2023-08-31-242. Valid Anagram.md",
+    "Algorithm/leetcode/2023-08-30-383. Ransom Note.md",
+    "Algorithm/leetcode/2023-08-30-219. Contains Duplicate II.md",
+    "Algorithm/leetcode/2023-08-30-155. Min Stack.md",
+    "Algorithm/leetcode/2023-08-30-150. Evaluate Reverse Polish Notation.md",
+    "Algorithm/leetcode/2023-08-30-1. Two Sum.md",
+    "Algorithm/leetcode/2023-08-29-167. Two Sum Input Array Is Sorted 2.md",
+    "Algorithm/leetcode/2023-08-29-35. Search Insert Position.md",
+    "Algorithm/leetcode/2023-08-28-209. Minimum Size Subarray Sum.md",
+    "Algorithm/leetcode/2023-08-28-3. Longest Substring Without Repeating Characters.md",
+    "Algorithm/leetcode/Array",
+    "Algorithm/leetcode/Heap",
+    "Algorithm/leetcode/LinkedList",
     "ZeroBase",
     "Python/Structure",
     "Java/Basic",
@@ -188,9 +192,6 @@
     "CS/Database/View concept",
     "CS/Interview",
     "CS/Network",
-    "CS",
-    "CS/Database/Database language",
-    "Untitled 1",
     "Pasted image 20231013142040.png"
   ]
 }
