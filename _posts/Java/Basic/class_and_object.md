@@ -13,6 +13,7 @@ sidebar:
 2023-11-05-
 
 ## 객체와 인스턴스
+
 - 객체 (object)
 	- 실체
 - 인스턴스 (instance)
@@ -23,7 +24,7 @@ sidebar:
 ## 생성자
 
 클래스명 객체명 = new 클래스명();
-이렇게 만들어질 때 자동으로 생성되는 게 생성자
+이렇게 만들어질 때 **자동으로 생성되는 게 생성자**
 
 - 객체가 생성될 때 자동으로 호출됨
 - 생성자 규칙
@@ -31,13 +32,14 @@ sidebar:
 	- 리턴 타입 없음
 ```java
 public class 클래스명 {
-	클래스명(){}
+	클래스명(){} // void 이런거 안 쓰고 그냥 비워둠
 }
 ```
 - 밑에가 생성자인데 이때 클래스명과 이름이 일치해야한다.
 
 
 ## this, this()
+
 - this - 객체 자신을 의미
 - this() - 생성자를 의미
 
@@ -59,6 +61,7 @@ class Car2 {
   
     Car2(String name, String type) {  
         this.name = name;  
+        //this.name 은 바로 위에 String name이고 오른쪽 name은 아래에서 bdc, sedan2 의 데이터를 받아온거임
         this.type = type;  
     }  
   
@@ -86,6 +89,7 @@ public class Main {
 ```
 
 ## 오버로딩
+
 - 한 클래스 내에서 같은 이름의 메소드를 여러 개 정의
 	- 오버라이딩이랑 다름
 - 오버로딩 조건
@@ -96,15 +100,18 @@ public class Main {
 ```java
 public class 클래스명 {
 	클래스명(){}
-	클래스명(String name, String type){
+	클래스명(int a, int b){
 		구현 내용;
 	}
 	// 생성자 오버로딩
 }
 ```
 
+- 예를 들어 sum이란 메소드를 만들었는데 초기에 sum(int a, int b) 로 설정했을 경우 추가로 sum( Double a, Double b ) 이런식으로도 인스턴스를 받고 싶을 때 오버로딩을 이용할 수 있음
+- 위와 같이 생성자를 오버로딩 할 수도 있음
 
 ## 접근제어자
+
 - 클래스의 변수나 메소드의 접근에 제한을 두는 키워드
 - 접근제어자 종류
 	- private : 해당 클래스에서만 접근 가능
@@ -120,8 +127,10 @@ public class 클래스명 {
 	- 즉 static 변수나 메소드는 공유되는 특성을 가짐
 - Static 클래스 변수
 	- 해당 클래스의 각 객체들이 값을 공유
+		- 메모리주소가 같다.
 - Static 클래스 메소드
 	- 객체를 생성하지 않아도 호출 가능
+	- 이미 메모리에 올라가있는 상태라서 변수도 static이어야 함
 
 ```java
 package bread;  

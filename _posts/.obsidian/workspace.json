@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithm/leetcode/LinkedList/2023-11-12-Design Browser History.md",
+                "file": "Algorithm/leetcode/Stack/739_Daily Temperatures.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithm/leetcode/LinkedList/2023-11-12-Design Browser History.md",
+                "file": "Algorithm/leetcode/Stack/739_Daily Temperatures.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithm/leetcode/LinkedList/2023-11-12-Design Browser History.md",
+                "file": "Algorithm/leetcode/Stack/739_Daily Temperatures.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithm/leetcode/LinkedList/2023-11-12-Design Browser History.md"
+                "file": "Algorithm/leetcode/Stack/739_Daily Temperatures.md"
               }
             }
           }
@@ -154,35 +154,73 @@
       "command-palette:Open command palette": false
     }
   },
+  "floating": {
+    "id": "782d0c32e9ae69b6",
+    "type": "floating",
+    "children": [
+      {
+        "id": "82e4f627fb08345f",
+        "type": "window",
+        "children": [
+          {
+            "id": "3be1c2d9d0a76685",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "19b7fadce6c04019",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Python/Structure/python_Queue_Deque.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 2209,
+        "y": 106,
+        "width": 647,
+        "height": 761,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
   "active": "53522f2afe2d8744",
   "lastOpenFiles": [
-    "Python/Structure/python_list.md",
-    "Algorithm/leetcode/2023-08-08-62.Unique Paths.md",
+    "Algorithm/leetcode/Stack/2023-11-14-20_Valid Parentheses.md",
+    "Python/Structure/python_Queue_Deque.md",
+    "Algorithm/leetcode/Stack/739_Daily Temperatures.md",
+    "Algorithm/leetcode/LinkedList/2023-09-08-Linked List.md",
     "Algorithm/leetcode/LinkedList/2023-11-12-Design Browser History.md",
+    "Java/Basic/Polymorphism.md",
+    "Java/Basic/Inheritance.md",
+    "Java/Basic/Exception.md",
+    "Java/Basic/multiplication_table.md",
+    "Java/Basic/Interface.md",
+    "Java/Basic_Math/set.md",
+    "Java/Basic_Math",
+    "Java/2023-04-24-Generic.md",
+    "Java/CollectionFramework.md",
+    "Java/Basic/template 1 Inner Class.md",
+    "Java/Basic/Stream.md",
+    "Java/Basic/class_and_object.md",
+    "Java/template.md",
+    "Python/Structure/2023-11-12-python_list.md",
+    "Python/temp.md",
+    "Algorithm/leetcode/2023-08-08-62.Unique Paths.md",
     "Algorithm/leetcode/2023-08-26-125 Valid Palindrome.md",
     "Algorithm/leetcode/2023-08-28-3. Longest Substring Without Repeating Characters.md",
     "Algorithm/leetcode/2023-08-28-209. Minimum Size Subarray Sum.md",
     "Algorithm/leetcode/2023-08-29-35. Search Insert Position.md",
     "Algorithm/leetcode/2023-08-29-167. Two Sum Input Array Is Sorted 2.md",
     "Algorithm/leetcode/2023-08-30-1. Two Sum.md",
-    "Algorithm/leetcode/2023-08-30-219. Contains Duplicate II.md",
-    "Algorithm/leetcode/2023-08-30-383. Ransom Note.md",
-    "Algorithm/leetcode/2023-08-31-242. Valid Anagram.md",
-    "Algorithm/leetcode/2023-09-04-148. Sort List.md",
-    "Algorithm/leetcode/2023-09-04-162.Find Peak Element.md",
-    "Algorithm/leetcode/2023-09-06-230. Kth Smallest Element in a BST.md",
-    "Algorithm/leetcode/2023-09-05-33. Search in Rotated Sorted Array.md",
-    "Algorithm/leetcode/Graph/2023-09-06-199. Binary Tree Right Side View.md",
-    "Algorithm/leetcode/2023-09-06-530. Minimum Absolute Difference in BST.md",
-    "Algorithm/leetcode/Graph/2023-09-10-211. Design Add and Search Words Data Structure.md",
-    "Algorithm/leetcode/Graph/2023-09-09-208. Implement Trie (Prefix Tree).md",
-    "Algorithm/leetcode/Graph/2023-09-14-133. Clone Graph.md",
-    "Algorithm/leetcode/2023-09-19-198. House Robber.md",
-    "Algorithm/leetcode/Graph/2023-09-15-909. Snakes and Ladders.md",
     "Algorithm/leetcode/Graph",
-    "Algorithm/leetcode/2023-09-06-637. Average of Levels in Binary Tree.md",
-    "Algorithm/leetcode/Stack/2023-08-30-155. Min Stack.md",
-    "Algorithm/leetcode/Stack/2023-08-30-150. Evaluate Reverse Polish Notation.md",
     "Algorithm/leetcode/Stack",
     "Algorithm/leetcode/Array",
     "Algorithm/leetcode/Heap",
@@ -191,7 +229,6 @@
     "Python/Structure",
     "Java/Basic",
     "Data_pandas",
-    "CS/Database/View concept",
     "Pasted image 20231013142040.png"
   ]
 }

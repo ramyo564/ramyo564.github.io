@@ -12,6 +12,7 @@ sidebar:
 # 상속이란?
 2023-11-06-
 ## 상속
+
 - 기존 클래스에 기능 추가 및 재정의하여 새로운 클래스를 정의
 	- 부모 클래스 : 상속 대상이 되는 기존 클래스 = 상위 클래스, 기초 클래스
 	- 자식 클래스 : 기존 클래스를 상속하는 클래스 = 하위 클래스, 파생 클래스
@@ -22,12 +23,54 @@ sidebar:
 
 
 ## super, super()
+
 - super
 	- 부모 클래스와 자식 클래스의 맴버 이름이 같을 때 구분하는 키워드
 - super()
 	- 부모 클래스의 생성자 호출
 
+```java
+ 
+class Animal {  
+    String desc;  
+    Animal() {  
+        this.desc = "동물 클래스.";  
+    }  
+  
+    Animal(String desc) {  
+        this.desc = desc;  
+    }  
+  
+    public void printInfo() {  
+        System.out.println(this.desc);  
+    }  
+}  
+  
+class Cat extends Animal {  
+    String desc;  
+    Cat() {  
+        super.desc = "고양이.";  
+    }  
+  
+}  
+  
+public class Practice1 {  
+    public static void main(String[] args) {  
+        // Test code  
+        Cat cat = new Cat();  
+        cat.printInfo();  
+  
+    }  
+}
+```
+
+class Cat의 경우 만약 생성자 부분이 this.desc일 경우 동물클래스가 출력된다.    왜냐하면 printInfo() 부분은 부모 클래스의 동물클래스를 받아오고 있기 때문이다. 따라서 해당 부분은 super로 이식해주면 고양이가 출력된다.     
+
+
 ## 오버라이딩
+
+오버로딩과는 다름 
+
 - 부모 클래스의 메소드를 자식 클래스에서 재정의
 	- 오버로딩이랑 다름
 - 오버라이딩 조건
@@ -62,7 +105,7 @@ class Person {
 class Student extends Person {  
     Student() {  
         a11 = 1;  
-//        a22 = 2;  
+//        a22 = 2;  private 라서 접근이 안됨
     }  
 }  
   
@@ -112,3 +155,58 @@ public class Main {
     }  
 }
 ```
+
+## 오버로딩 vs 오버라이딩
+
+**오버로딩(Overloading):**
+
+- **정의:** 같은 메서드 이름을 사용하지만 매개변수의 유형, 개수, 또는 순서가 다른 여러 메서드를 정의하는 것을 말한다.
+- **특징:**
+    - 메서드 이름이 동일하면서 매개변수가 달라야 한다.
+    - 리턴 타입이나 접근 제어자 등은 오버로딩에 영향을 주지 않는다.
+- **예시:**
+
+```java
+class Calculator {
+    int add(int a, int b) {
+        return a + b;
+    }
+    
+    double add(double a, double b) {
+        return a + b;
+    }
+}
+
+```
+
+
+- **오버라이딩(Overriding):**
+    
+    - **정의:** 상위 클래스에서 정의된 메서드를 하위 클래스에서 동일한 시그니처(메서드 이름, 매개변수 유형, 리턴 타입)로 다시 구현하는 것을 말한다.
+        
+    - **특징:**
+        - 상속 관계에서 발생한다.
+        - 메서드 시그니처가 동일해야 한다.
+        - 상위 클래스의 메서드를 하위 클래스에서 재정의하여 다른 동작을 구현할 수 있다.
+          
+    - **예시:**
+
+```java
+class Animal {
+    void makeSound() {
+        System.out.println("Some generic sound");
+    }
+}
+
+class Dog extends Animal {
+    @Override
+    void makeSound() {
+        System.out.println("Bark");
+    }
+}
+
+```
+- 위의 예시에서 `Dog` 클래스는 `Animal` 클래스의 `makeSound` 메서드를 오버라이딩하여 자신만의 구현인 "Bark"로 바꿨다.
+
+
+요약하면, 오버로딩은 같은 이름의 메서드를 매개변수의 차이로 여러 개 정의하는 것이고, 오버라이딩은 상위 클래스의 메서드를 하위 클래스에서 다시 구현하는 것이다.

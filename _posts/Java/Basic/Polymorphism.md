@@ -24,7 +24,9 @@ Person p1 = new Student();
 ```
 
 ## Instance of
+
 - 실제 참조하고 있는 인스턴스의 타입 확인
+
 ```java
 class Person{}
 class Student extends Person {}
@@ -32,5 +34,15 @@ class Student extends Person {}
 Person p1 = new Student();
 // Student s1 = new Person();
 System.out.println(p1 instanceof Person)
-
+-> 값이 true 
 ```
+
+
+![](https://i.imgur.com/rIof5VW.png)
+
+1. 스터디 주제 
+2. 스터디 목표
+3. 스터디 운영방식 -> 운영 규칙
+4. 
+
+![](https://i.imgur.com/m6W5tAj.png)

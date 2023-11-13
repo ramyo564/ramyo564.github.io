@@ -7,6 +7,7 @@ tags:
   - Python
   - DoubleLinkedList
   - LinkedList
+  - Basic_Algo
 toc: true
 toc_sticky: true
 author_profile: false
