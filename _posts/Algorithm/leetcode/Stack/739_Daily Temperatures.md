@@ -39,14 +39,12 @@ Given an array of integers `temperatures` represents the daily temperatures, r
 - `1 <= temperatures.length <= 105`
 - `30 <= temperatures[i] <= 100`
 
-## 스스로 고민
 
-### 접근법
-
-### 아는 패턴
-(주먹구구식 ㅇㅋ)
+- 온도 정보가 주어지며 각 온도는 하루 단위다.
+- 현재 온도보다 더 높은 온도가 되기 위해서는 며칠을 기다려야 하는지 반환해주면 된다.
 
 ## 의사코드
+
 
 ## 구현 코드
 

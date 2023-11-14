@@ -29,3 +29,43 @@ abstract class 클래스명 {
 	abstract void print();
 }
 ```
+
+
+```java
+// 추상 클래스 Personabstract class Person {  
+  
+    abstract void printInfo();  
+}  
+  
+// 추상 클래스 상속  
+class Student extends Person {  
+  
+    public void printInfo() {  
+        System.out.println("Student.printInfo");  
+    }  
+}  
+  
+  
+public class Main {  
+  
+    public static void main(String[] args) {  
+  
+//        추상 클래스의 사용  
+//        Person p1 = new Person();  
+        Student s1 = new Student();  
+        s1.printInfo();  
+  
+        Person p2 = new Person() {  
+            @Override  
+            void printInfo() {  
+                System.out.println("Main.printInfo");  
+            }  
+        };  
+        p2.printInfo();  
+  
+    }  
+  
+}
+```
+
+- @Override -> 익명 클래스로도 사용 가능

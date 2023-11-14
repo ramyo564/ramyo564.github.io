@@ -37,12 +37,45 @@ System.out.println(p1 instanceof Person)
 -> 값이 true 
 ```
 
+## 활용
 
-![](https://i.imgur.com/rIof5VW.png)
+```java
+  
+class Car {  
+    Car(){}  
+    public void horn() {  
+        System.out.println("빵빵빵!");  
+    }  
+}  
+  
+class FireTruck extends Car {  
+    public void horn() {  
+        System.out.println("불이야!");  
+    }  
+}  
+  
+class Ambulance extends Car {  
+    public void horn() {  
+        System.out.println("사람살려!");  
+    }  
+}  
+  
+public class Practice {  
+    public static void main(String[] args) {  
+        
+        Car car = new Car();  
+        car.horn();  
+        car = new FireTruck();  
+        car.horn();  
+        car = new Ambulance();  
+        car.horn();  
 
-1. 스터디 주제 
-2. 스터디 목표
-3. 스터디 운영방식 -> 운영 규칙
-4. 
-
-![](https://i.imgur.com/m6W5tAj.png)
+		// 이렇게 배열에 넣고 다형성을 응용해서 사용 가능
+        Car car2[] = {new Car(), new FireTruck(), new Ambulance()};  
+        for (Car item:car2){  
+            item.horn();  
+        }  
+          
+    }  
+}
+```
