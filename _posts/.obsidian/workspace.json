@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/Data_Structure/2023-11-17-Hash_Table_Hash_Map.md",
+                "file": "ZeroBase/2023-11-18-zero_base_3.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 316.50206756591797
+    "width": 316.50206756591797,
+    "collapsed": true
   },
   "right": {
     "id": "7b797cdaf6a2516c",
@@ -93,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java/Data_Structure/2023-11-17-Hash_Table_Hash_Map.md",
+                "file": "ZeroBase/2023-11-18-zero_base_3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Java/Data_Structure/2023-11-17-Hash_Table_Hash_Map.md",
+                "file": "ZeroBase/2023-11-18-zero_base_3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java/Data_Structure/2023-11-17-Hash_Table_Hash_Map.md"
+                "file": "ZeroBase/2023-11-18-zero_base_3.md"
               }
             }
           }
@@ -156,10 +157,13 @@
   },
   "active": "53522f2afe2d8744",
   "lastOpenFiles": [
+    "ZeroBase/2023-11-17-zero_base_2.md",
+    "ZeroBase/2023-11-18-zero_base_3.md",
+    "Java/Data_Structure/2023-11-17-Hash_Table_Hash_Map.md",
+    "Java/Data_Structure/template 1.md",
+    "Python/Structure/2023-11-12-python_list.md",
     "Python/Structure/2023-11-17-Hash_Table.md",
     "Python/Structure/python_Queue_Deque.md",
-    "ZeroBase/2023-11-17-zero_base_2.md",
-    "Java/Data_Structure/2023-11-17-Hash_Table_Hash_Map.md",
     "ZeroBase/SSUL.md",
     "ZeroBase/2023-11-09-zero_base_1.md",
     "ZeroBase/temp 1.md",
@@ -168,7 +172,6 @@
     "ZeroBase/Untitled 1.md",
     "Java/Data_Structure",
     "Java/template.md",
-    "Python/Structure/2023-11-12-python_list.md",
     "Java/Basic/CollectionFramework.md",
     "Java/Basic_Math/set.md",
     "Java/2023-04-24-Generic.md",
@@ -182,8 +185,6 @@
     "Java/Basic/multiplication_table.md",
     "Java/Basic/Interface.md",
     "Java/Basic_Math",
-    "Java/CollectionFramework.md",
-    "Java/Basic/template 1 Inner Class.md",
     "Algorithm/leetcode/Graph",
     "Algorithm/leetcode/Stack",
     "Algorithm/leetcode/Array",
