@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DataStructure/Python/Python_DS/Hash_Table/2023-11-17-Hash_Table.md",
+                "file": "ZeroBase/2023-11-27-zero_base_4.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DataStructure/Python/Python_DS/Hash_Table/2023-11-17-Hash_Table.md",
+                "file": "ZeroBase/2023-11-27-zero_base_4.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DataStructure/Python/Python_DS/Hash_Table/2023-11-17-Hash_Table.md",
+                "file": "ZeroBase/2023-11-27-zero_base_4.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DataStructure/Python/Python_DS/Hash_Table/2023-11-17-Hash_Table.md"
+                "file": "ZeroBase/2023-11-27-zero_base_4.md"
               }
             }
           }
@@ -155,23 +155,28 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2a9f46dd32fe5bea",
+  "active": "53522f2afe2d8744",
   "lastOpenFiles": [
-    "DataStructure/Python/Python_DS/List/2023-04-17-Python List (3).md",
-    "DataStructure/Python/Python_DS/Hash_Table",
+    "ZeroBase/2023-11-18-zero_base_3.md",
+    "ZeroBase/2023-11-17-zero_base_2.md",
+    "ZeroBase/2023-11-09-zero_base_1.md",
+    "DataStructure/Java/Collection/List/2023-03-24-Java List(1).md",
+    "DataStructure/Java/Collection/Heap/2023-11-20-Heap.md",
+    "DataStructure/Java/Collection/Hash/2023-11-17-Hash_Table_Hash_Map.md",
+    "DataStructure/Java/Collection/Hash/2023-03-24-Java Hash(2).md",
+    "DataStructure/Java/Collection/Hash/2023-03-24-Java Hash(1).md",
+    "DataStructure/Python/Python_DS/List/2023-11-12-python_list.md",
     "DataStructure/Python/Python_DS/List/2023-04-17-Python List (2).md",
+    "DataStructure/Python/Python_DS/List/2023-04-17-Python List (3).md",
+    "DataStructure/Python/Python_DS/Hash_Table/2023-11-17-Hash_Table.md",
+    "DataStructure/Python/Python_DS/Hash_Table",
     "DataStructure/Python/Python_DS/List/2023-04-15-Python List (1).md",
     "DataStructure/Python/Python_DS_ALGO/2023-04-15-Greedy.md",
-    "DataStructure/Python/Python_DS/Hash_Table/2023-11-17-Hash_Table.md",
     "Java/2023-04-24-Generic.md",
-    "DataStructure/Java/Collection/Hash/2023-03-24-Java Hash(1).md",
     "Java/Data_Structure/template 1.md",
     "DataStructure/Java/Collection/Heap",
-    "DataStructure/Java/Collection/Hash/2023-11-17-Hash_Table_Hash_Map.md",
-    "DataStructure/Java/Collection/Heap/2023-11-20-Heap.md",
     "DataStructure/Java/Collection/2023-03-06-Java Collection.md",
     "ZeroBase/2023-11-27-zero_base_4.md",
-    "ZeroBase/2023-11-18-zero_base_3.md",
     "ZeroBase/Untitled.md",
     "Java/Basic_Math/recurrence relation.md",
     "Java/Basic_Math/Combination.md",
@@ -180,11 +185,6 @@
     "Java/Basic_Math/NumberOfCase.md",
     "Java/Basic_Math/temp.md",
     "Algorithm/leetcode/Array/2023-08-25-Best Time to Buy and Sell Stock 121번.md",
-    "Algorithm/leetcode/Array/2023-08-25-55. Jump Game.md",
-    "Algorithm/leetcode/Array/2023-08-25-Best Time to Buy and Sell Stock II.md",
-    "Algorithm/leetcode/2023-08-28-3. Longest Substring Without Repeating Characters.md",
-    "Algorithm/leetcode/2023-08-26-125 Valid Palindrome.md",
-    "Algorithm/leetcode/2023-08-08-62.Unique Paths.md",
     "Algorithm/boj/BitMask",
     "Algorithm/programmers/basic",
     "Algorithm/programmers/kakao/HashMap",
