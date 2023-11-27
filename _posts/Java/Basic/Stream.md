@@ -68,6 +68,22 @@ IntStream.range(1,5).min().getAsInt();
 IntStream.range(1,5).max().getAsInt();
 ```
 
+
+## 스트림 예제
+
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120813?language=java)
+
+```java
+import java.util.stream.IntStream;
+
+class Solution {
+    public int[] solution(int n) {
+        return IntStream.rangeClosed(0, n).filter(value -> value % 2 == 1).toArray();
+    }
+}
+```
+
+
 ```java
   
 import java.util.ArrayList;  
@@ -184,3 +200,5 @@ public class Main {
     }  
 }
 ```
+
+

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/Data_Structure/2023-11-20-Heap.md",
+                "file": "ZeroBase/2023-11-18-zero_base_4.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java/Data_Structure/2023-11-20-Heap.md",
+                "file": "ZeroBase/2023-11-18-zero_base_4.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Java/Data_Structure/2023-11-20-Heap.md",
+                "file": "ZeroBase/2023-11-18-zero_base_4.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java/Data_Structure/2023-11-20-Heap.md"
+                "file": "ZeroBase/2023-11-18-zero_base_4.md"
               }
             }
           }
@@ -142,7 +142,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -156,42 +157,42 @@
   },
   "active": "53522f2afe2d8744",
   "lastOpenFiles": [
-    "Java/Data_Structure/2023-11-17-Hash_Table_Hash_Map.md",
-    "Java/Data_Structure/2023-11-20-Heap.md",
     "ZeroBase/2023-11-18-zero_base_3.md",
-    "ZeroBase/2023-11-17-zero_base_2.md",
-    "Java/Data_Structure/template 1.md",
-    "Python/Structure/2023-11-12-python_list.md",
-    "Python/Structure/2023-11-17-Hash_Table.md",
-    "Python/Structure/python_Queue_Deque.md",
-    "ZeroBase/SSUL.md",
-    "ZeroBase/2023-11-09-zero_base_1.md",
-    "ZeroBase/temp 1.md",
-    "Untitled.md",
-    "Python/temp.md",
-    "ZeroBase/Untitled 1.md",
-    "Java/Data_Structure",
-    "Java/template.md",
-    "Java/Basic/CollectionFramework.md",
-    "Java/Basic_Math/set.md",
-    "Java/2023-04-24-Generic.md",
-    "Algorithm/leetcode/Stack/739_Daily Temperatures.md",
+    "ZeroBase/2023-11-18-zero_base_4.md",
+    "ZeroBase/Untitled.md",
+    "Java/Basic_Math/recurrence relation.md",
+    "Java/Basic_Math/Combination.md",
+    "Java/Basic_Math/Set.md",
+    "Java/Basic_Math/Permutation.md",
+    "Java/Basic_Math/NumberOfCase.md",
+    "Java/Basic_Math/temp.md",
+    "Algorithm/leetcode/Array/2023-08-25-Best Time to Buy and Sell Stock 121번.md",
+    "Algorithm/leetcode/Array/2023-08-25-55. Jump Game.md",
+    "Algorithm/leetcode/Array/2023-08-25-Best Time to Buy and Sell Stock II.md",
+    "Algorithm/leetcode/2023-08-28-3. Longest Substring Without Repeating Characters.md",
+    "Algorithm/leetcode/2023-08-26-125 Valid Palindrome.md",
+    "Algorithm/leetcode/2023-08-08-62.Unique Paths.md",
     "Algorithm/leetcode/Stack/2023-11-14-20_Valid Parentheses.md",
-    "Algorithm/leetcode/LinkedList/2023-09-08-Linked List.md",
-    "Algorithm/leetcode/LinkedList/2023-11-12-Design Browser History.md",
-    "Java/Basic/Polymorphism.md",
-    "Java/Basic/Inheritance.md",
-    "Java/Basic/Exception.md",
-    "Java/Basic/multiplication_table.md",
+    "Algorithm/leetcode/Stack/2023-08-30-155. Min Stack.md",
+    "Algorithm/leetcode/Stack/2023-08-30-150. Evaluate Reverse Polish Notation.md",
+    "Algorithm/leetcode/Stack/739_Daily Temperatures.md",
+    "Algorithm/boj/BitMask/backjoon_number_ 1.md",
+    "Algorithm/boj/backjoon_number_.md",
+    "Algorithm/programmers/kakao/HashMap/2023-11-20-num_str_eng.md",
+    "Algorithm/boj/BitMask",
+    "Algorithm/programmers/basic/2023-11-20-noEven.md",
+    "Algorithm/boj/Brute_force/2023-11-15-backjoon_number_ 2798.md",
+    "Java/Basic/Stream.md",
+    "Algorithm/programmers/basic",
+    "Algorithm/programmers/알고리즘 과제 표준 1.md",
+    "Algorithm/programmers/kakao/HashMap",
+    "Java/Data_Structure",
     "Java/Basic_Math",
     "Algorithm/leetcode/Graph",
     "Algorithm/leetcode/Stack",
     "Algorithm/leetcode/Array",
     "Algorithm/leetcode/Heap",
     "Algorithm/leetcode/LinkedList",
-    "ZeroBase",
-    "Python/Structure",
-    "Java/Basic",
     "Pasted image 20231013142040.png"
   ]
 }
