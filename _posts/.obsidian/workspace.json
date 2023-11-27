@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ZeroBase/2023-11-27-zero_base_4.md",
+                "file": "DataStructure/Python/Python_DS/Hash_Table/2023-11-17-Hash_Table.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "del",
+                "query": "뜯어버려",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ZeroBase/2023-11-27-zero_base_4.md",
+                "file": "DataStructure/Python/Python_DS/Hash_Table/2023-11-17-Hash_Table.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ZeroBase/2023-11-27-zero_base_4.md",
+                "file": "DataStructure/Python/Python_DS/Hash_Table/2023-11-17-Hash_Table.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ZeroBase/2023-11-27-zero_base_4.md"
+                "file": "DataStructure/Python/Python_DS/Hash_Table/2023-11-17-Hash_Table.md"
               }
             }
           }
@@ -155,10 +155,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "53522f2afe2d8744",
+  "active": "2a9f46dd32fe5bea",
   "lastOpenFiles": [
-    "ZeroBase/2023-11-18-zero_base_3.md",
+    "DataStructure/Python/Python_DS/List/2023-04-17-Python List (3).md",
+    "DataStructure/Python/Python_DS/Hash_Table",
+    "DataStructure/Python/Python_DS/List/2023-04-17-Python List (2).md",
+    "DataStructure/Python/Python_DS/List/2023-04-15-Python List (1).md",
+    "DataStructure/Python/Python_DS_ALGO/2023-04-15-Greedy.md",
+    "DataStructure/Python/Python_DS/Hash_Table/2023-11-17-Hash_Table.md",
+    "Java/2023-04-24-Generic.md",
+    "DataStructure/Java/Collection/Hash/2023-03-24-Java Hash(1).md",
+    "Java/Data_Structure/template 1.md",
+    "DataStructure/Java/Collection/Heap",
+    "DataStructure/Java/Collection/Hash/2023-11-17-Hash_Table_Hash_Map.md",
+    "DataStructure/Java/Collection/Heap/2023-11-20-Heap.md",
+    "DataStructure/Java/Collection/2023-03-06-Java Collection.md",
     "ZeroBase/2023-11-27-zero_base_4.md",
+    "ZeroBase/2023-11-18-zero_base_3.md",
     "ZeroBase/Untitled.md",
     "Java/Basic_Math/recurrence relation.md",
     "Java/Basic_Math/Combination.md",
@@ -172,27 +185,14 @@
     "Algorithm/leetcode/2023-08-28-3. Longest Substring Without Repeating Characters.md",
     "Algorithm/leetcode/2023-08-26-125 Valid Palindrome.md",
     "Algorithm/leetcode/2023-08-08-62.Unique Paths.md",
-    "Algorithm/leetcode/Stack/2023-11-14-20_Valid Parentheses.md",
-    "Algorithm/leetcode/Stack/2023-08-30-155. Min Stack.md",
-    "Algorithm/leetcode/Stack/2023-08-30-150. Evaluate Reverse Polish Notation.md",
-    "Algorithm/leetcode/Stack/739_Daily Temperatures.md",
-    "Algorithm/boj/BitMask/backjoon_number_ 1.md",
-    "Algorithm/boj/backjoon_number_.md",
-    "Algorithm/programmers/kakao/HashMap/2023-11-20-num_str_eng.md",
     "Algorithm/boj/BitMask",
-    "Algorithm/programmers/basic/2023-11-20-noEven.md",
-    "Algorithm/boj/Brute_force/2023-11-15-backjoon_number_ 2798.md",
-    "Java/Basic/Stream.md",
     "Algorithm/programmers/basic",
-    "Algorithm/programmers/알고리즘 과제 표준 1.md",
     "Algorithm/programmers/kakao/HashMap",
     "Java/Data_Structure",
     "Java/Basic_Math",
     "Algorithm/leetcode/Graph",
     "Algorithm/leetcode/Stack",
     "Algorithm/leetcode/Array",
-    "Algorithm/leetcode/Heap",
-    "Algorithm/leetcode/LinkedList",
     "Pasted image 20231013142040.png"
   ]
 }

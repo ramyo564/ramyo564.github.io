@@ -1,8 +1,9 @@
 ---
 layout: single
-title: "Collection 뜯어버려!"
+title: Collection!
 categories: Data_Structure
-tag: ["Collection"]
+tags:
+  - Collection
 toc: true
 toc_sticky: true
 author_profile: false
@@ -19,6 +20,7 @@ sidebar:
 	- java.util.Set
 	- java.util.List
 	- java.util.Map
+
  | Set | 비순차적 저장, 중복 데이터 불허 |
  | --- | ------------------------------- |
  | Map |           비순차적 저장, 중복 데이터 허용                      |
