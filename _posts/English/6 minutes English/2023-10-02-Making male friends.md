@@ -9,7 +9,9 @@ toc_sticky: true
 author_profile: false
 sidebar:
 ---
-It is often thought that men are much worse than women at making and keeping friends. How true is this? Neil and Beth discuss this and teach you some useful vocabulary.
+# It is often thought that men are much worse than women at making and keeping friends. 
+
+How true is this?   
 
 [링크](https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2023/ep-230914)
 

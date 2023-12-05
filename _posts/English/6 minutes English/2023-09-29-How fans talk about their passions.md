@@ -9,7 +9,7 @@ toc_sticky: true
 author_profile: false
 sidebar:
 ---
-Fandom is more than simply being a fan, and now the world of fandom has started to develop its own language. Beth and Neil discuss this and teach you some useful vocabulary.
+# Fandom is more than simply being a fan, and now the world of fandom has started to develop its own language. 
 
 [링크](https://www.bbc.co.uk/learningenglish/korean/features/6-minute-english_2023/ep-230921)
 

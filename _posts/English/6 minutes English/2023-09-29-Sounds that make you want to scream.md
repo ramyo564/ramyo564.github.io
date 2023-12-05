@@ -9,7 +9,9 @@ toc_sticky: true
 author_profile: false
 sidebar:
 ---
-Fingers down a blackboard, someone chewing, the scrape of a plate - there are lots of sounds people don't like. But for some people, it causes them huge distress. Neil and Phil discuss the medical condition called 'misophonia' and teach you some useful vocabulary.
+# Fingers down a blackboard, someone chewing, the scrape of a plate - there are lots of sounds people don't like. 
+
+But for some people, it causes them huge distress.   
 
 [링크](https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2023/ep-230928)  
 

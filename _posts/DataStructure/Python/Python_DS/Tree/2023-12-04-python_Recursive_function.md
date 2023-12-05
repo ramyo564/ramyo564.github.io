@@ -25,6 +25,7 @@ def factorial(n):
 ![](https://i.imgur.com/q36YWcg.png)
 
 - 나 자신을 계속 호출하는 방식
+
 ### base case
 
 - 더 이상 재귀호출을 하지 않아도 계산 값을 반환할 수 있는 상황(조건)
