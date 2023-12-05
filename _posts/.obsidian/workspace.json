@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ZeroBase/2023-11-27-zero_base_4.md",
+                "file": "CS/Operating Systems/2023-12-05-process_1.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ZeroBase/2023-11-27-zero_base_4.md",
+                "file": "CS/Operating Systems/2023-12-05-process_1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ZeroBase/2023-11-27-zero_base_4.md",
+                "file": "CS/Operating Systems/2023-12-05-process_1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ZeroBase/2023-11-27-zero_base_4.md"
+                "file": "CS/Operating Systems/2023-12-05-process_1.md"
               }
             }
           }
@@ -142,8 +142,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -157,34 +156,35 @@
   },
   "active": "53522f2afe2d8744",
   "lastOpenFiles": [
-    "ZeroBase/2023-11-17-zero_base_2.md",
-    "ZeroBase/2023-11-27-zero_base_4.md",
-    "ZeroBase/2023-11-18-zero_base_3.md",
-    "ZeroBase/2023-11-09-zero_base_1.md",
-    "DataStructure/Java/Collection/List/2023-03-24-Java List(1).md",
-    "DataStructure/Java/Collection/Heap/2023-11-20-Heap.md",
-    "DataStructure/Java/Collection/Hash/2023-11-17-Hash_Table_Hash_Map.md",
-    "DataStructure/Java/Collection/Hash/2023-03-24-Java Hash(2).md",
-    "DataStructure/Java/Collection/Hash/2023-03-24-Java Hash(1).md",
-    "DataStructure/Python/Python_DS/List/2023-11-12-python_list.md",
-    "DataStructure/Python/Python_DS/List/2023-04-17-Python List (2).md",
-    "DataStructure/Python/Python_DS/List/2023-04-17-Python List (3).md",
+    "CS/Operating Systems/2023-11-11-system_structure_and_program_execution_2.md",
+    "CS/Operating Systems/2023-12-05-process_1.md",
+    "CS/Operating Systems/process_2.md",
+    "DataStructure/Python/Python_DS/Tree/python_Tree.md",
+    "English/6 minutes English/2023-12-95-What and where is Little Italy?.md",
+    "English/6 minutes English/2023-10-02-Making male friends.md",
+    "English/6 minutes English/2023-09-29-How fans talk about their passions.md",
+    "English/6 minutes English/template.md",
+    "English/6 minutes English/2023-09-29-Sounds that make you want to scream.md",
+    "DataStructure/Python/Python_DS/Tree/2023-12-04-python_Recursive_function.md",
+    "DataStructure/Python/Python_DS/Tree",
+    "Python/temp.md",
     "DataStructure/Python/Python_DS/Hash_Table/2023-11-17-Hash_Table.md",
-    "DataStructure/Python/Python_DS/Hash_Table",
-    "DataStructure/Python/Python_DS/List/2023-04-15-Python List (1).md",
-    "DataStructure/Python/Python_DS_ALGO/2023-04-15-Greedy.md",
-    "Java/2023-04-24-Generic.md",
-    "Java/Data_Structure/template 1.md",
-    "DataStructure/Java/Collection/Heap",
-    "DataStructure/Java/Collection/2023-03-06-Java Collection.md",
-    "ZeroBase/Untitled.md",
-    "Java/Basic_Math/recurrence relation.md",
+    "DataStructure/Python/Python_DS/2023-04-11-python DS.md",
     "Java/Basic_Math/Combination.md",
+    "Java/Basic_Math/NumberOfCase.md",
     "Java/Basic_Math/Set.md",
     "Java/Basic_Math/Permutation.md",
-    "Java/Basic_Math/NumberOfCase.md",
-    "Java/Basic_Math/temp.md",
-    "Algorithm/leetcode/Array/2023-08-25-Best Time to Buy and Sell Stock 121번.md",
+    "DataStructure/Python/Python_DS/Queue/2023-04-17-python_Queue_Deque.md",
+    "DataStructure/Python/Python_DS/List/2023-11-12-python_list.md",
+    "DataStructure/Python/Python_DS/Stack/2023-04-17-Python Stack (1).md",
+    "DataStructure/Python/Python_DS/List/2023-04-17-Python List (3).md",
+    "DataStructure/Python/Python_DS/Queue/2023-04-17-Python Queue (1).md",
+    "ZeroBase/2023-11-27-zero_base_4.md",
+    "ZeroBase/2023-11-17-zero_base_2.md",
+    "ZeroBase/2023-11-18-zero_base_3.md",
+    "ZeroBase/2023-11-09-zero_base_1.md",
+    "DataStructure/Python/Python_DS/Hash_Table",
+    "DataStructure/Java/Collection/Heap",
     "Algorithm/boj/BitMask",
     "Algorithm/programmers/basic",
     "Algorithm/programmers/kakao/HashMap",
@@ -192,7 +192,6 @@
     "Java/Basic_Math",
     "Algorithm/leetcode/Graph",
     "Algorithm/leetcode/Stack",
-    "Algorithm/leetcode/Array",
     "Pasted image 20231013142040.png"
   ]
 }

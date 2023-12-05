@@ -14,7 +14,7 @@ Fandom is more than simply being a fan, and now the world of fandom has started 
 [링크](https://www.bbc.co.uk/learningenglish/korean/features/6-minute-english_2023/ep-230921)
 
 
-<iframe width="400" height="500" frameborder="0" src="http://www.bbc.co.uk/programmes/p0gfvjb5/player"></iframe>
+<iframe width="400" height="500" frameborder="0" src="https://www.bbc.co.uk/programmes/p0gfvjb5/player"></iframe>
 
 ## Vocabulary
 
@@ -85,4 +85,4 @@ Specifically, an _[acronym](https://www.dictionary.com/browse/acronym)_ is a s
 **Beth**  
 Of course, true fans never CORF. In fact, some football fans take a kind of strange pessimistic pleasure when their team loses week after week.
 
-**pessimistic**: 비관저인
+**pessimistic**: 비관적인

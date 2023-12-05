@@ -42,7 +42,10 @@ def hashFunction(key):
 이 때 시간 복잡도는 O(1)이다.     
 파이썬은 딕셔너리라는 자료구조로 구현되어 있는데 해시테이블의 충돌 과정은 자바에서 좀 더 자세하게 볼 예정!      -> [정리](https://ramyo564.github.io/basic_java/Hash_Table_Hash_Map/)
 
+- Array list를 베이스로 구현 되었다면 Open addressing 으로 해결
+- Array list 랑Linked list로 구현되어 있다면 Seperate chaining 으로 해결
 
 
 
+-> 해시테이블의 활용 -> 메모리를 사용해서 시간 복잡도를 줄일 때 사용
 

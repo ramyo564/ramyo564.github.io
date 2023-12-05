@@ -13,7 +13,7 @@ It is often thought that men are much worse than women at making and keeping fri
 
 [링크](https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2023/ep-230914)
 
-<iframe width="400" height="500" frameborder="0" src="http://www.bbc.co.uk/programmes/p0gc9d2z/player"></iframe>
+<iframe width="400" height="500" frameborder="0" src="https://www.bbc.co.uk/programmes/p0gc9d2z/player"></iframe>
 ## Vocabulary
 
 **times are tough**

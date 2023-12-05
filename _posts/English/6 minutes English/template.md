@@ -13,7 +13,7 @@ sidebar:
 
 [링크](https://www.bbc.co.uk/learningenglish/korean/features/6-minute-english_2023/ep-230921)
 
-<iframe width="400" height="500" frameborder="0" src="http://www.bbc.co.uk/programmes/p0gfvjb5/player"></iframe>
+<iframe width="400" height="500" frameborder="0" src="https://www.bbc.co.uk/programmes/p0gwt6nb/player"></iframe>
 
 ## Vocabulary
 
