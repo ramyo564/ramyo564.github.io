@@ -14,10 +14,12 @@ sidebar:
 - 자신을 정의할 때 자기 자신을 재참조하는 함수
 
 ```python
+
 def factorial(n):
 	if n == 1:
 		return 1
 	return n * factorial(n-1)
+	
 ```
 
 ## 점화식 (recurrence relation)
