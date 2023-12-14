@@ -1,6 +1,6 @@
 ---
 layout: single
-title: " [운영체제] 프로세스의 개념(2)"
+title: " [운영체제] 운영체제 공부 시작"
 categories: CS
 tags:
   - CS
