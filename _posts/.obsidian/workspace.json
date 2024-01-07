@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS/Computer Structure/2023-12-24-CS_note_1.md",
+                "file": "CS/Computer Structure/2024-01-07-CS_note_2.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS/Computer Structure/2023-12-24-CS_note_1.md",
+                "file": "CS/Computer Structure/2024-01-07-CS_note_2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS/Computer Structure/2023-12-24-CS_note_1.md",
+                "file": "CS/Computer Structure/2024-01-07-CS_note_2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS/Computer Structure/2023-12-24-CS_note_1.md"
+                "file": "CS/Computer Structure/2024-01-07-CS_note_2.md"
               }
             }
           }
@@ -157,10 +157,18 @@
   },
   "active": "53522f2afe2d8744",
   "lastOpenFiles": [
-    "CS/Computer Structure/CS temp.md",
     "CS/Computer Structure/2023-12-24-CS_note_1.md",
-    "CS/Computer Structure/CS 1 1.md",
+    "CS/Computer Structure/2024-01-07-CS_note_2.md",
+    "CS/Computer Structure/CS_note_temp 1.md",
+    "CS/Operating Systems/temp 1.md",
     "CS/CS.md",
+    "CS/Operating Systems/process_management.md",
+    "CS/Operating Systems/temp.md",
+    "CS/Operating Systems/2023-12-05-process.md",
+    "CS/Computer Structure/CS temp.md",
+    "CS/Computer Structure/CS 1 1.md",
+    "CS/개발상식/2023-05-21-Basic Computer Science.md",
+    "CS/개발상식/test.md",
     "Algorithm/backjoon_number_ 1.md",
     "CS/Database/Database language/2023-10-18-Database language.md",
     "ZeroBase/temp 1.md",
@@ -168,8 +176,6 @@
     "CS/Computer Structure",
     "English/6 minutes English/2023-12-11-Should we farm octopus.md",
     "English/6 minutes English/temp.md",
-    "CS/Operating Systems/process_management.md",
-    "CS/Operating Systems/2023-12-05-process.md",
     "English/6 minutes English/2023-12-10-Elephant-proof farming.md",
     "English/6 minutes English/2023-12-09-Why don't we eat them.md",
     "English/6 minutes English/2023-12-09-Mystery flying objects.md",
@@ -177,13 +183,7 @@
     "English/6 minutes English/template 1.md",
     "ZeroBase/temp.md",
     "ZeroBase/2023-11-27-zero_base_4.md",
-    "CS/Operating Systems/temp.md",
     "CS/Operating Systems/2023-11-11-system_structure_and_program_execution_2.md",
-    "CS/Operating Systems/2023-11-01-operating_systems.md",
-    "CS/Operating Systems/2023-11-03-system_structure_and_program_execution_1.md",
-    "CS/Operating Systems/temp 1.md",
-    "Java/Basic_Math/Combination.md",
-    "Java/Basic_Math/NumberOfCase.md",
     "DataStructure/Python/Python_DS/Tree",
     "DataStructure/Python/Python_DS/Hash_Table",
     "DataStructure/Java/Collection/Heap",
