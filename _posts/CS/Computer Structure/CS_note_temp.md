@@ -10,5 +10,5 @@ toc_sticky: true
 author_profile: false
 sidebar:
 ---
-# CS
-## 컴퓨터 3대 구성 요소
+# CS 퀴즈 (number 입력)
+## 제목입력
