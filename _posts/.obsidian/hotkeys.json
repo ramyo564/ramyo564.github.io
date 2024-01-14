@@ -1,1 +1,10 @@
-{}
+{
+  "table-editor-obsidian:next-row": [
+    {
+      "modifiers": [
+        "Shift"
+      ],
+      "key": "Enter"
+    }
+  ]
+}
