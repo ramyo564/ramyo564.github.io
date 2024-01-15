@@ -1,6 +1,6 @@
 ---
 layout: single
-title: " [CS 퀴즈] 오답노트 (5)"
+title: " [CS 퀴즈] 오답노트 (6)"
 categories: CS
 tags:
   - CS

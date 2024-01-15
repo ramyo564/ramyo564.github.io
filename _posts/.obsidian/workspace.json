@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS/Computer Structure/2024-01-15-CS_note_4.md",
+                "file": "CS/Computer Structure/CS_note_6.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS/Computer Structure/2024-01-15-CS_note_4.md",
+                "file": "CS/Computer Structure/CS_note_6.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS/Computer Structure/2024-01-15-CS_note_4.md",
+                "file": "CS/Computer Structure/CS_note_6.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS/Computer Structure/2024-01-15-CS_note_4.md"
+                "file": "CS/Computer Structure/CS_note_6.md"
               }
             }
           },
@@ -165,9 +165,10 @@
   },
   "active": "53522f2afe2d8744",
   "lastOpenFiles": [
-    "CS/Computer Structure/CS_note_5.md",
-    "CS/Computer Structure/2024-01-15-CS_note_4.md",
+    "CS/Computer Structure/2024-04-16-CS_note_5.md",
+    "CS/Computer Structure/CS_note_6.md",
     "CS/Computer Structure/CS_note_temp.md",
+    "CS/Computer Structure/2024-01-15-CS_note_4.md",
     "CS/Computer Structure/CS 1 1.md",
     "Algorithm/boj/Brute_force/2023-11-15-backjoon_number_ 2798.md",
     "CS/Computer Structure/2024-01-07-CS_note_3.md",
@@ -191,7 +192,6 @@
     "English/6 minutes English/2023-12-10-Elephant-proof farming.md",
     "English/6 minutes English/2023-12-09-Why don't we eat them.md",
     "English/6 minutes English/2023-12-09-Mystery flying objects.md",
-    "English/6 minutes English/2023-12-07-Social media and teenage health.md",
     "DataStructure/Python/Python_DS/Tree",
     "DataStructure/Python/Python_DS/Hash_Table",
     "DataStructure/Java/Collection/Heap",
