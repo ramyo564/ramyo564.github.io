@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS/Computer Structure/CS_note_6.md",
+                "file": "CS/Computer Structure/2024-04-16-CS_note_5.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS/Computer Structure/CS_note_6.md",
+                "file": "CS/Computer Structure/2024-04-16-CS_note_5.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS/Computer Structure/CS_note_6.md",
+                "file": "CS/Computer Structure/2024-04-16-CS_note_5.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS/Computer Structure/CS_note_6.md"
+                "file": "CS/Computer Structure/2024-04-16-CS_note_5.md"
               }
             }
           },
@@ -165,10 +165,10 @@
   },
   "active": "53522f2afe2d8744",
   "lastOpenFiles": [
+    "CS/Computer Structure/2024-01-15-CS_note_4.md",
     "CS/Computer Structure/2024-04-16-CS_note_5.md",
     "CS/Computer Structure/CS_note_6.md",
     "CS/Computer Structure/CS_note_temp.md",
-    "CS/Computer Structure/2024-01-15-CS_note_4.md",
     "CS/Computer Structure/CS 1 1.md",
     "Algorithm/boj/Brute_force/2023-11-15-backjoon_number_ 2798.md",
     "CS/Computer Structure/2024-01-07-CS_note_3.md",
