@@ -87,7 +87,7 @@ INSTALLED_APPS = [
 
 {% raw %}
 ```python
--{%- load humanize -%}- //- 빼고 사용해야함...
+{$ load humanize $} $대신에 %로 바꿔야함
 {{ product.price|intcomma}}
 ```
 {% endraw %}
