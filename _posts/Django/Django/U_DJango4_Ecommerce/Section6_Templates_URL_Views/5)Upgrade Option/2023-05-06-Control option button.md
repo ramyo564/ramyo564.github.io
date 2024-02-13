@@ -12,7 +12,7 @@ author_profile: false
 sidebar:
 ---
 # Basic templates, URLS's and VIews (5)
-
+render_with_liquid: false
 / 장바구니 옵션 버튼  / 숫자 형식 /
 
 
@@ -85,13 +85,10 @@ INSTALLED_APPS = [
 
 
 {% raw %}
-{% verbatim %}
-
 ```python
 {% load humanize %}
 {{ product.price|intcomma}}
 ```
-{% endverbatim %}
 {% endraw %}
 
 >- settings.py 에 'django.contrib.humanize' 를 추가해주고 해당 포맷이 필요한 템플릿 상단에 {% load humanize %} 를 삽입해준다.
