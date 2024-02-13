@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Django/Django/U_DJango4_Ecommerce/Section7_8_9_10_11/Section7-Cart functionality - Initial build up/2023-05-07-Cart functionality - Initial build up.md",
+                "file": "CS/Computer Structure/CS_note_temp.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Django/Django/U_DJango4_Ecommerce/Section7_8_9_10_11/Section7-Cart functionality - Initial build up/2023-05-07-Cart functionality - Initial build up.md",
+                "file": "CS/Computer Structure/CS_note_temp.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Django/Django/U_DJango4_Ecommerce/Section7_8_9_10_11/Section7-Cart functionality - Initial build up/2023-05-07-Cart functionality - Initial build up.md",
+                "file": "CS/Computer Structure/CS_note_temp.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Django/Django/U_DJango4_Ecommerce/Section7_8_9_10_11/Section7-Cart functionality - Initial build up/2023-05-07-Cart functionality - Initial build up.md"
+                "file": "CS/Computer Structure/CS_note_temp.md"
               }
             }
           },
@@ -165,6 +165,9 @@
   },
   "active": "ace4b61cd3db3f0c",
   "lastOpenFiles": [
+    "CS/Computer Structure/CS 1 1.md",
+    "CS/Computer Structure/CS_note_temp.md",
+    "Django/Django/U_DJango4_Ecommerce/Section7_8_9_10_11/Section7-Cart functionality - Initial build up/2023-05-07-Cart functionality - Initial build up.md",
     "Django/Django/U_DJango4_Ecommerce/Section7_8_9_10_11/Section8-Cart functionality - Sessions/2023-05-07-session.md",
     "Django/Django/U_DJango4_Ecommerce/Section7_8_9_10_11/Section9-Cart functionality Add/2023-05-08-Cart functionality Add.md",
     "Django/Django/U_DJango4_Ecommerce/Section7_8_9_10_11/Section11-Optimaize/2023-05-10-Cart summary template optimization.md",
@@ -187,12 +190,9 @@
     "Spring/BigTraffic/MySQL/2023-04-16-MySQL.md",
     "Spring/Untitled.md",
     "Spring/Book_Spring_Core_Guide",
-    "CS/Computer Structure/CS_note_temp.md",
     "CS/Computer Structure/2024-02-05-CS_note_8.md",
     "CS/Computer Structure/2024-01-19-CS_note_7.md",
     "CS/Computer Structure/2024-01-19-CS_note_6.md",
-    "CS/Computer Structure/CS 1 1.md",
-    "CS/Computer Structure/2024-01-15-CS_note_4.md",
     "CS/Computer Structure",
     "DataStructure/Python/Python_DS/Tree",
     "DataStructure/Python/Python_DS/Hash_Table",
