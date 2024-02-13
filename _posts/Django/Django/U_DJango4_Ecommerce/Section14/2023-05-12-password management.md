@@ -1,14 +1,15 @@
 ---
-
 layout: single
 title: " [Django] password management "
 categories: Django
-tag: [Python,"[BIG][Django] Password management",]
+tags:
+  - Python
+  - Password
+  - management
 toc: true
 toc_sticky: true
 author_profile: false
 sidebar:
-
 ---
 # Password management 
 {% raw %}

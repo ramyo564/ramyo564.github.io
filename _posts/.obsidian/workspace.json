@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/Book_Spring_Core_Guide/2024-02-13-springCore_book_1.md",
+                "file": "Django/Django/U_DJango4_Ecommerce/Section14/2023-05-12-password management.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring/Book_Spring_Core_Guide/2024-02-13-springCore_book_1.md",
+                "file": "Django/Django/U_DJango4_Ecommerce/Section14/2023-05-12-password management.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring/Book_Spring_Core_Guide/2024-02-13-springCore_book_1.md",
+                "file": "Django/Django/U_DJango4_Ecommerce/Section14/2023-05-12-password management.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring/Book_Spring_Core_Guide/2024-02-13-springCore_book_1.md"
+                "file": "Django/Django/U_DJango4_Ecommerce/Section14/2023-05-12-password management.md"
               }
             }
           },
@@ -165,10 +165,10 @@
   },
   "active": "ace4b61cd3db3f0c",
   "lastOpenFiles": [
+    "Spring/Book_Spring_Core_Guide/2024-02-13-springCore_book_1.md",
     "Spring/Book_Spring_Core_Guide/temp.md",
     "CS/Network/temp 1.md",
     "CS/Network/Protocol",
-    "Spring/Book_Spring_Core_Guide/2024-02-13-springCore_book_1.md",
     "CS/Computer Structure/2023-12-24-CS_note_1.md",
     "CS/Computer Structure/2024-01-07-CS_note_2.md",
     "Spring/Chad_Spring_udemy/Section1_QuckStart/Actuator/2023-03-17-Spring Boot Actuator.md",
