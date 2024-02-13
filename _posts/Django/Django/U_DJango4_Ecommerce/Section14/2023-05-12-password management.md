@@ -12,11 +12,11 @@ author_profile: false
 sidebar:
 ---
 # Password management 
-{% raw %}
+
 / 비밀번호 변경 /
 
 ## Creating the password reset urls.py
-
+{% raw %}
 ```python
 from django.urls import path
 from . import views
@@ -42,6 +42,8 @@ path('reset_password_complete', auth_views.PasswordResetCompleteView.as_view(tem
 	, name='password_reset_complete'),
 
 ```
+{% endraw %}
+
 
 >- auth_views 를 통해서 아주 편하게 구현 가능하다.
 >- 이메일 인증과 기본적으로 로직은 비슷하다.
@@ -70,5 +72,3 @@ path('reset_password_complete', auth_views.PasswordResetCompleteView.as_view(tem
 
 
 
-
-{% endraw %}
