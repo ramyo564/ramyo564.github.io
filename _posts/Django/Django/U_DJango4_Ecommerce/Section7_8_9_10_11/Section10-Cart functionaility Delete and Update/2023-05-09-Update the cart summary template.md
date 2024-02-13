@@ -1,17 +1,22 @@
 ---
-
 layout: single
 title: " [Django] Cart functionality Add Summary info "
 categories: Django
-tag: [Python,"[BIG][Django] Cart functionality","[Django] Cart Add info template"]
+tags:
+  - Python
+  - Cart
+  - functionality
+  - Cart
+  - Add
+  - info
+  - template
 toc: true
 toc_sticky: true
 author_profile: false
 sidebar:
-
 ---
 # Cart (4)
-{% raw %}
+
 / 장바구니 정보 페이지 /
 
 ## Update the cart summary template
@@ -37,6 +42,7 @@ def __iter__(self):
 
 
 ### cart-summary.html
+{% raw %}
 ```python
 {% for item in cart %}
 {% with product=item.product %}
@@ -46,7 +52,7 @@ def __iter__(self):
 {% endfor %}
 
 ```
-
+{% endraw %}
 >- with 문으로 객체명을 바꿔준뒤 페이지를 꾸며주면 된다.
 
 ## 장바구니 계산 적용하기
@@ -64,4 +70,4 @@ def __iter__(self):
 
 
 
-{% endraw %}
+

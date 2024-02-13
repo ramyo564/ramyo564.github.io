@@ -1,17 +1,25 @@
 ---
-
 layout: single
 title: " [Django] Cart functionality - Delete and Update "
 categories: Django
-tag: [Python,"[BIG][Django] Cart functionality","[Django] Cart functionality - Delete and Update","파이썬함수del","data-index"]
+tags:
+  - Python
+  - Cart
+  - functionality
+  - Cart
+  - functionality
+  - Delete
+  - and
+  - Update
+  - 파이썬함수del
+  - data-index
 toc: true
 toc_sticky: true
 author_profile: false
 sidebar:
-
 ---
 # Cart (5)
-{% raw %}
+
 / Cart info update  / Cart info delete / del / data-index
 
 ## Cart functionality - Delete and Update
@@ -20,6 +28,7 @@ sidebar:
 - 버튼을 클릭하면 상품을 삭제하도록 만들기
 
 #### cart-summary-html
+{% raw %}
 ```python
 <button type="button" data-index="{{product.id}}"
 class="btn btn-danger btn-sm delete-button">
@@ -48,6 +57,7 @@ $(document).on('click', '.delete-button', function (e) {
 })
 </script>
 ```
+{% endraw %}
 
 >- 아이템이 하나인 경우 장바구니에 넣는 것처럼 데이터 접근을 `value="{{product.id}}"` 로 해도 되지만 현재는 데이터가 여러개가 될 수 있으므로 `data-index` 로 접근해야 편하다.
 >- 어떤 버튼에서 삭제 버튼을 누르는지 알아내려면 index로 갖고오면 value로 갖고 오는 것 보다 훨씬 편하게 할 수 있다.
@@ -56,6 +66,7 @@ $(document).on('click', '.delete-button', function (e) {
 >  그렇지 않으면 따로 새로고침을 하거나 페이지에서 벗어나야지 적용되는걸로 보임
 
 #### cart>views.py
+{% raw %}
 ```python
 def cart_delete(request):
     cart = Cart(request)
@@ -67,6 +78,8 @@ def cart_delete(request):
         response = JsonResponse({'qty':cart_quantity, 'total': cart_total})
         return response
 ```
+{% endraw %}
+
 >- product id로 필터링해서 삭제한 후
 >- 현재 남아있는 장바구니 데이터를 리턴해주면 된다.
 
@@ -85,6 +98,7 @@ class Cart():
 ### Update
 
 #### cart-summary-html
+{% raw %}
 ```python
 <button type="button" data-index="{{product.id}}"
 class="btn btn-primary btn-sm update-button">
@@ -116,6 +130,8 @@ Update
       })
 </script>
 ```
+{% endraw %}
+
 >- 업데이트 된 수량에대해 반영해주는거 이외에는 별로 특별한게 따로 없다.
 
 #### cart>views.py
@@ -144,4 +160,4 @@ class Cart():
 ```
 
 
-{% endraw %}
+

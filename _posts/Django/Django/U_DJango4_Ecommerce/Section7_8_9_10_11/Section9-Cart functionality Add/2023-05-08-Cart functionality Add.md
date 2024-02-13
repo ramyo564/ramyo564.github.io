@@ -1,17 +1,20 @@
 ---
-
 layout: single
 title: " [Django] Cart functionality Add "
 categories: Django
-tag: [Python,"[BIG][Django] Cart functionality","[Django] Cart Add"]
+tags:
+  - Python
+  - Cart
+  - functionality
+  - Cart
+  - Add
 toc: true
 toc_sticky: true
 author_profile: false
 sidebar:
-
 ---
 # Cart (3)
-{% raw %}
+
 / 장바구니 만들기 /
 
 ## AJAX integration - Add
@@ -19,6 +22,7 @@ sidebar:
 - Product-info 에서 장바구니 버튼을 눌렀을 때 value에 상품 id 값을 넣어줌
 
 ### product-info.html
+{% raw %}
 ```python
 <button type="button" id="add-button" value="{{product.id}}" class="btn btn-secondary btn-sm">
 Add to cart
@@ -46,6 +50,7 @@ $(document).on('click', '#add-button', function (e) {
   });
 })
 ```
+{% endraw %}
 
 >- urls.py 에 `path('add/', views.cart_add, name='cart-add'),` 를 추가해주고 name 값 'cart-add' 를 ajax url에 연결해준다.
 >- product_id 는 위에서 지정해준 `product.id` 값을 갖고 온다.
@@ -111,6 +116,7 @@ def add(self, product, product_qty):
 
 
 #### base.html
+{% raw %}
 ```python
 <a type="button" role="button" href="{% url 'cart-summary' %}" class="btn btn-outline-secondary">
 	<i class="fa fa-shopping-cart" aria-hidden="true"> </i>
@@ -120,6 +126,8 @@ def add(self, product, product_qty):
 	</div>
 </a>
 ```
+{% endraw %}
+
 >- ![](https://i.imgur.com/wPE4UpJ.png)
 
 >- 장바구니에 숫자 표시
@@ -176,6 +184,7 @@ def __len__(self):
 >	- 값이 없으면 0으로 리턴
 
 #### base.html
+{% raw %}
 ```python
 <div id="cart-qty" class='d-inline-flex '>
 	{% with qty_amount=cart|length %}
@@ -187,6 +196,8 @@ def __len__(self):
 	{% endwith %}
 </div>
 ```
+{% endraw %}
+
 >- 전역으로 사용할 수 있겠금 TEMPLATES에 cart 를 등록해줬으므로 with 템플릿 태그를 사용해서 length를 호출해준다.
 >- qty_amount 가 0보다 크면 qty_amount를 출력해주고 아니면 0을 출력
 >	- Wtih statement 참고 : https://jinja.palletsprojects.com/en/3.1.x/templates/
@@ -241,4 +252,4 @@ def cart_add(request):
 
 
 
-{% endraw %}
+

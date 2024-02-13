@@ -1,17 +1,18 @@
 ---
-
 layout: single
 title: " [Django] Cart functionality - Initial build up "
 categories: Django
-tag: [Python,"[BIG][Django] Cart functionality",]
+tags:
+  - Python
+  - Cart
+  - functionality
 toc: true
 toc_sticky: true
 author_profile: false
 sidebar:
-
 ---
 # Cart (1)
-{% raw %}
+
 / 장바구니 만들기 /
 
 ## Cart app 만들기
@@ -41,12 +42,15 @@ urlpatterns = [
 >- CRUD 경로 설정
 
 ### base.html 카트 경로 설정
+{% raw %}
 ```html
   
 <a type="button" role="button" href="{% url 'cart-summary' %}" class="btn btn-outline-secondary">
 	<i class="fa fa-shopping-cart" aria-hidden="true"> </i>
 </a>
 ```
+{% endraw %}
+
 >- 카트 아이콘을 클릭하면 urlpatterns 를 통해 views.cart_summary로 연결
 
 
@@ -58,4 +62,4 @@ def cart_summary(request):
 >- cart-summary.html 렌더링
 
 
-{% endraw %}
+

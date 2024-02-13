@@ -1,17 +1,18 @@
 ---
-
 layout: single
 title: " [Django] Control option button "
 categories: Django
-tag: [Python,"[BIG][Django] Basic templates, URLS's and VIews","[Django] 숫자 형식 변환","[Django] 장바구니 클릭 옵션 제어"]
+tags:
+  - Python
+  - Basic
+  - VIews
 toc: true
 toc_sticky: true
 author_profile: false
 sidebar:
-
 ---
 # Basic templates, URLS's and VIews (5)
-{% raw %}
+
 / 장바구니 옵션 버튼  / 숫자 형식 /
 
 
@@ -80,14 +81,17 @@ INSTALLED_APPS = [
 ]
 ```
 
+{% raw %}
 ```python
 {% load humanize %}
 {{ product.price|intcomma}}
 ```
+{% endraw %}
+
 >- settings.py 에 'django.contrib.humanize' 를 추가해주고 해당 포맷이 필요한 템플릿 상단에 {% load humanize %} 를 삽입해준다.
 >- 그리고 포맷 변환이 필요한 곳에 intcomma 를 넣어주면 끝
 >- 참고 : https://velog.io/@joje/django-humanize-%ED%95%84%ED%84%B0-%EC%85%8B-%ED%99%9C%EC%9A%A9, https://kimdoky.github.io/django/2018/05/11/django-1000comma/
 
-{% endraw %}
+
 
 
