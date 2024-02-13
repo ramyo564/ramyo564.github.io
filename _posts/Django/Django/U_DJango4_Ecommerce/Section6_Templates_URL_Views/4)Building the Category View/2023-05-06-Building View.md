@@ -1,17 +1,20 @@
 ---
-
 layout: single
 title: " [Django] Building View "
 categories: Django
-tag: [Python,"[BIG][Django] Basic templates, URL's and VIews","[Django] get_object_or_404","[Django] templates - settings.py","[Django] 장고 전역변수"]
+tags:
+  - Python
+  - Basic
+  - VIews
+  - get_object_or_404
+  - templates
 toc: true
 toc_sticky: true
 author_profile: false
 sidebar:
-
 ---
 # Basic templates, URL's and VIews (4)
-{% raw %}
+
 / get_object_or_404 / templates - settings.py / 장고 Templates 설정
 ## Building the Category View
 
@@ -74,6 +77,7 @@ TEMPLATES = [
 
 참고: https://hwan-hobby.tistory.com/126
 ### ecommerce>store>templates>store>base.html
+{% raw %}
 ```python
 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 	<li>
@@ -88,6 +92,8 @@ TEMPLATES = [
 	
 </ul>
 ```
+{% endraw %}
+
 >- Jinja랑 비슷하다고 생각했는데 Jinja 맞다 ㅋ
 >- 템플릿 엔진 사용법은 대부분 비슷비슷하다.
 >- 키 값으로 받은 all_categories 를 루프로 돌려서 나열해 출력해주면 된다.
@@ -116,6 +122,7 @@ def categories(request):
 ```
 
 ### ecommerce>store>templates>store>store.html
+{% raw %}
 ```python
    <!-- All products section -->
    <div class="album py-5 bg-light">
@@ -146,6 +153,8 @@ def categories(request):
     </div>
   </div>
 ```
+{% endraw %}
+
 >- 뭔가 복잡하지만 처음에 카테고리를 루프로 돌린거랑 원리는 똑같다.
 >- 카드형식의 테마도 부트스트랩에서 취향껏 선탠해서 조정하면 됨
 
@@ -274,6 +283,7 @@ class Category(models.Model):
 ```
 
 ### ecommerce>store>templates>store>base.html
+{% raw %}
 ```python
 {% for category in all_categories %}
 <li>
@@ -283,8 +293,9 @@ class Category(models.Model):
 </li>
 {% endfor %}
 ```
-
+{% endraw %}
 ### ecommerce>store>templates>store>list-category.html
+{% raw %}
 ```python
 {% extends "./base.html" %}
 {% load static %}
@@ -327,8 +338,9 @@ class Category(models.Model):
   </main>
 {% endblock %}
 ```
+{% endraw %}
+
 >- 필터링 된 상품들만 루프를 돌면서 보내준다.
 >- ![](https://i.imgur.com/AhmWElU.png)
 
 
-{% endraw %}

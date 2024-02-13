@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Django/Django/U_DJango4_Ecommerce/Section14/2023-05-12-password management.md",
+                "file": "Django/Django/U_DJango4_Ecommerce/Section6_Templates_URL_Views/4)Building the Category View/2023-05-06-Building View.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Django/Django/U_DJango4_Ecommerce/Section14/2023-05-12-password management.md",
+                "file": "Django/Django/U_DJango4_Ecommerce/Section6_Templates_URL_Views/4)Building the Category View/2023-05-06-Building View.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Django/Django/U_DJango4_Ecommerce/Section14/2023-05-12-password management.md",
+                "file": "Django/Django/U_DJango4_Ecommerce/Section6_Templates_URL_Views/4)Building the Category View/2023-05-06-Building View.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Django/Django/U_DJango4_Ecommerce/Section14/2023-05-12-password management.md"
+                "file": "Django/Django/U_DJango4_Ecommerce/Section6_Templates_URL_Views/4)Building the Category View/2023-05-06-Building View.md"
               }
             }
           },
@@ -165,9 +165,12 @@
   },
   "active": "ace4b61cd3db3f0c",
   "lastOpenFiles": [
+    "Django/Django/U_DJango4_Ecommerce/Section6_Templates_URL_Views/3)Populating database/2023-05-05-Populating database.md",
+    "Django/Django/U_DJango4_Ecommerce/Section6_Templates_URL_Views/1)Configure URL View/2023-05-04-Basic templates.md",
+    "Django/Django/U_DJango4_Ecommerce/Section14/2023-05-12-password management.md",
+    "CS/Network/temp 1.md",
     "Spring/Book_Spring_Core_Guide/2024-02-13-springCore_book_1.md",
     "Spring/Book_Spring_Core_Guide/temp.md",
-    "CS/Network/temp 1.md",
     "CS/Network/Protocol",
     "CS/Computer Structure/2023-12-24-CS_note_1.md",
     "CS/Computer Structure/2024-01-07-CS_note_2.md",
@@ -190,9 +193,6 @@
     "CS/Operating Systems/temp 1.md",
     "CS/CS.md",
     "CS/Operating Systems/process_management.md",
-    "CS/Operating Systems/temp.md",
-    "CS/Operating Systems/2023-12-05-process.md",
-    "CS/개발상식/2023-05-21-Basic Computer Science.md",
     "CS/Computer Structure",
     "DataStructure/Python/Python_DS/Tree",
     "DataStructure/Python/Python_DS/Hash_Table",

@@ -1,17 +1,18 @@
 ---
-
 layout: single
 title: " [Django] Populating database "
 categories: Django
-tag: [Python,"[BIG][Django] Basic templates, URL's and VIews","[Django] Populating database"]
+tags:
+  - Python
+  - Basic
+  - Populating
+  - database
 toc: true
 toc_sticky: true
 author_profile: false
 sidebar:
-
 ---
 # Basic templates, URL's and VIews (3)
-{% raw %}
 / Populating database /
 
 ## Populating database
@@ -34,7 +35,3 @@ class Product(models.Model):
 >- ![](https://i.imgur.com/RW2wQjg.png)
 
 
-
-
-
-{% endraw %}
