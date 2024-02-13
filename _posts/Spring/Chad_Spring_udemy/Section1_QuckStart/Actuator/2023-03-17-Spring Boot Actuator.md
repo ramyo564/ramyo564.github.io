@@ -2,13 +2,13 @@
 layout: single
 title: "[Spring] Spring Boot Actuator?"
 categories: Spring
-tag: [Java,"[Spring] Actuator"]
+tags:
+  - Java
+  - Actuator
 toc: true
 toc_sticky: true
 author_profile: false
 sidebar:
-     
-
 ---
 # Spring Actuator
 / Actuator /
