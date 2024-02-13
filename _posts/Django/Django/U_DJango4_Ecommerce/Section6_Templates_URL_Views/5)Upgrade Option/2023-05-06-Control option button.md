@@ -87,10 +87,10 @@ INSTALLED_APPS = [
 
 {% raw %}
 ```python
-{$ load humanize $} $대신에 %로 바꿔야함
+{% load humanize %} 
 {{ product.price|intcomma}}
 ```
-{% endraw %}
+
 
 
 
@@ -99,5 +99,5 @@ INSTALLED_APPS = [
 >- 참고 : https://velog.io/@joje/django-humanize-%ED%95%84%ED%84%B0-%EC%85%8B-%ED%99%9C%EC%9A%A9, https://kimdoky.github.io/django/2018/05/11/django-1000comma/
 
 
-
+{% endraw %}
 
