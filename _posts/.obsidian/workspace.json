@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS/Computer Structure/CS_note_temp.md",
+                "file": "Django/Django/U_DJango4_Ecommerce/Section6_Templates_URL_Views/5)Upgrade Option/2023-05-06-Control option button.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS/Computer Structure/CS_note_temp.md",
+                "file": "Django/Django/U_DJango4_Ecommerce/Section6_Templates_URL_Views/5)Upgrade Option/2023-05-06-Control option button.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS/Computer Structure/CS_note_temp.md",
+                "file": "Django/Django/U_DJango4_Ecommerce/Section6_Templates_URL_Views/5)Upgrade Option/2023-05-06-Control option button.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS/Computer Structure/CS_note_temp.md"
+                "file": "Django/Django/U_DJango4_Ecommerce/Section6_Templates_URL_Views/5)Upgrade Option/2023-05-06-Control option button.md"
               }
             }
           },
@@ -165,8 +165,8 @@
   },
   "active": "ace4b61cd3db3f0c",
   "lastOpenFiles": [
-    "CS/Computer Structure/CS 1 1.md",
     "CS/Computer Structure/CS_note_temp.md",
+    "CS/Computer Structure/CS 1 1.md",
     "Django/Django/U_DJango4_Ecommerce/Section7_8_9_10_11/Section7-Cart functionality - Initial build up/2023-05-07-Cart functionality - Initial build up.md",
     "Django/Django/U_DJango4_Ecommerce/Section7_8_9_10_11/Section8-Cart functionality - Sessions/2023-05-07-session.md",
     "Django/Django/U_DJango4_Ecommerce/Section7_8_9_10_11/Section9-Cart functionality Add/2023-05-08-Cart functionality Add.md",
