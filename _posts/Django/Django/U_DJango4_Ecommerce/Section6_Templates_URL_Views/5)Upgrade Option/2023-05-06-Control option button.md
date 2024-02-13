@@ -85,14 +85,13 @@ INSTALLED_APPS = [
 
 
 
-{% highlight ruby %} 
 {% raw %}
 ```python
-{% load humanize %}
+-{%- load humanize -%}- //- 빼고 사용해야함...
 {{ product.price|intcomma}}
 ```
 {% endraw %}
- {% endhighlight %}
+
 
 
 >- settings.py 에 'django.contrib.humanize' 를 추가해주고 해당 포맷이 필요한 템플릿 상단에 {% load humanize %} 를 삽입해준다.
