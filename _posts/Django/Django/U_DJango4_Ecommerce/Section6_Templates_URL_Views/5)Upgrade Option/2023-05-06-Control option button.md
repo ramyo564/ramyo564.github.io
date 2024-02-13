@@ -84,12 +84,16 @@ INSTALLED_APPS = [
 
 
 
+
+{% highlight ruby %} 
 {% raw %}
 ```python
 {% load humanize %}
 {{ product.price|intcomma}}
 ```
 {% endraw %}
+ {% endhighlight %}
+
 
 >- settings.py 에 'django.contrib.humanize' 를 추가해주고 해당 포맷이 필요한 템플릿 상단에 {% load humanize %} 를 삽입해준다.
 >- 그리고 포맷 변환이 필요한 곳에 intcomma 를 넣어주면 끝
