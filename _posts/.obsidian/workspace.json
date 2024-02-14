@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Django/Django/U_DJango4_Ecommerce/Section7_8_9_10_11/Section10-Cart functionaility Delete and Update/2023-05-09-Update the cart summary template.md",
+                "file": "Spring/Book_Spring_Core_Guide/2024-02-13-springCore_book_1.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Django/Django/U_DJango4_Ecommerce/Section7_8_9_10_11/Section10-Cart functionaility Delete and Update/2023-05-09-Update the cart summary template.md",
+                "file": "Spring/Book_Spring_Core_Guide/2024-02-13-springCore_book_1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Django/Django/U_DJango4_Ecommerce/Section7_8_9_10_11/Section10-Cart functionaility Delete and Update/2023-05-09-Update the cart summary template.md",
+                "file": "Spring/Book_Spring_Core_Guide/2024-02-13-springCore_book_1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Django/Django/U_DJango4_Ecommerce/Section7_8_9_10_11/Section10-Cart functionaility Delete and Update/2023-05-09-Update the cart summary template.md"
+                "file": "Spring/Book_Spring_Core_Guide/2024-02-13-springCore_book_1.md"
               }
             }
           },
@@ -165,6 +165,7 @@
   },
   "active": "ace4b61cd3db3f0c",
   "lastOpenFiles": [
+    "Django/Django/U_DJango4_Ecommerce/Section7_8_9_10_11/Section10-Cart functionaility Delete and Update/2023-05-09-Update the cart summary template.md",
     "Django/Django/U_DJango4_Ecommerce/Section6_Templates_URL_Views/5)Upgrade Option/2023-05-06-Control option button.md",
     "CS/Computer Structure/CS_note_temp.md",
     "CS/Computer Structure/CS 1 1.md",
@@ -173,7 +174,6 @@
     "Django/Django/U_DJango4_Ecommerce/Section7_8_9_10_11/Section9-Cart functionality Add/2023-05-08-Cart functionality Add.md",
     "Django/Django/U_DJango4_Ecommerce/Section7_8_9_10_11/Section11-Optimaize/2023-05-10-Cart summary template optimization.md",
     "Django/Django/U_DJango4_Ecommerce/Section7_8_9_10_11/Section10-Cart functionaility Delete and Update/2023-05-10-Delete and Update  the cart summary template.md",
-    "Django/Django/U_DJango4_Ecommerce/Section7_8_9_10_11/Section10-Cart functionaility Delete and Update/2023-05-09-Update the cart summary template.md",
     "Django/Django/U_DJango4_Ecommerce/Section6_Templates_URL_Views/2)Base page/2023-05-04-Creating a base page.md",
     "Django/Django/U_DJango4_Ecommerce/Section6_Templates_URL_Views/4)Building the Category View/2023-05-06-Building View.md",
     "Django/Django/U_DJango4_Ecommerce/Section6_Templates_URL_Views/3)Populating database/2023-05-05-Populating database.md",
