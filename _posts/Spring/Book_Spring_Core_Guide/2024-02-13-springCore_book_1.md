@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "[북스터디] 스프링 핵심가이드(1)"
+title: "[북 스터디] 스프링 핵심가이드 (1)"
 categories: Spring
 tags:
   - Spring
@@ -9,7 +9,7 @@ toc_sticky: true
 author_profile: false
 sidebar:
 ---
-# (1) 스프링 부트 
+# (1) 스프링 부트 - 스프링 프레임워크 vs 스프링 부트, 레이어드 아키텍쳐, 디자인 패턴
 
 - 1장 스프링 부트란?
 - 2장 개발에 앞서 앞면 좋은 기초 지식
