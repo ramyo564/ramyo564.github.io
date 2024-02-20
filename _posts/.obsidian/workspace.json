@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/Book_Spring_Core_Guide/2024-02-13-springCore_book_1.md",
+                "file": "Spring/Book_Spring_Core_Guide/2024-02-17-springCore_book_2.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring/Book_Spring_Core_Guide/2024-02-13-springCore_book_1.md",
+                "file": "Spring/Book_Spring_Core_Guide/2024-02-17-springCore_book_2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring/Book_Spring_Core_Guide/2024-02-13-springCore_book_1.md",
+                "file": "Spring/Book_Spring_Core_Guide/2024-02-17-springCore_book_2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring/Book_Spring_Core_Guide/2024-02-13-springCore_book_1.md"
+                "file": "Spring/Book_Spring_Core_Guide/2024-02-17-springCore_book_2.md"
               }
             }
           },
@@ -165,13 +165,16 @@
   },
   "active": "ace4b61cd3db3f0c",
   "lastOpenFiles": [
+    "Spring/Book_Spring_Core_Guide/springCore_book_ 3.md",
     "Spring/Book_Spring_Core_Guide/2024-02-17-springCore_book_2.md",
-    "Spring/Book_Spring_Core_Guide/2024-02-13-springCore_book_1.md",
-    "Spring/Book_Spring_Core_Guide/springCore_book_.md",
-    "Django/Django/U_DJango4_Ecommerce/Section7_8_9_10_11/Section10-Cart functionaility Delete and Update/2023-05-09-Update the cart summary template.md",
-    "Django/Django/U_DJango4_Ecommerce/Section6_Templates_URL_Views/5)Upgrade Option/2023-05-06-Control option button.md",
+    "CS/Network/temp 1 1.md",
+    "CS/Network/temp 1.md",
     "CS/Computer Structure/CS_note_temp.md",
     "CS/Computer Structure/CS 1 1.md",
+    "Spring/Book_Spring_Core_Guide/springCore_book_.md",
+    "Spring/Book_Spring_Core_Guide/2024-02-13-springCore_book_1.md",
+    "Django/Django/U_DJango4_Ecommerce/Section7_8_9_10_11/Section10-Cart functionaility Delete and Update/2023-05-09-Update the cart summary template.md",
+    "Django/Django/U_DJango4_Ecommerce/Section6_Templates_URL_Views/5)Upgrade Option/2023-05-06-Control option button.md",
     "Django/Django/U_DJango4_Ecommerce/Section7_8_9_10_11/Section7-Cart functionality - Initial build up/2023-05-07-Cart functionality - Initial build up.md",
     "Django/Django/U_DJango4_Ecommerce/Section7_8_9_10_11/Section8-Cart functionality - Sessions/2023-05-07-session.md",
     "Django/Django/U_DJango4_Ecommerce/Section7_8_9_10_11/Section9-Cart functionality Add/2023-05-08-Cart functionality Add.md",
@@ -182,7 +185,6 @@
     "Django/Django/U_DJango4_Ecommerce/Section6_Templates_URL_Views/3)Populating database/2023-05-05-Populating database.md",
     "Django/Django/U_DJango4_Ecommerce/Section6_Templates_URL_Views/1)Configure URL View/2023-05-04-Basic templates.md",
     "Django/Django/U_DJango4_Ecommerce/Section14/2023-05-12-password management.md",
-    "CS/Network/temp 1.md",
     "CS/Network/Protocol",
     "CS/Computer Structure/2023-12-24-CS_note_1.md",
     "CS/Computer Structure/2024-01-07-CS_note_2.md",
@@ -191,8 +193,6 @@
     "Spring/BigTraffic/MySQL/2023-04-16-MySQL.md",
     "Spring/Untitled.md",
     "Spring/Book_Spring_Core_Guide",
-    "CS/Computer Structure/2024-02-05-CS_note_8.md",
-    "CS/Computer Structure/2024-01-19-CS_note_7.md",
     "CS/Computer Structure",
     "DataStructure/Python/Python_DS/Tree",
     "DataStructure/Python/Python_DS/Hash_Table",
