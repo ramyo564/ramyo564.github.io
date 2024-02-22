@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/Book_Spring_Core_Guide/2024-02-17-springCore_book_2.md",
+                "file": "Spring/Book_Spring_Core_Guide/2024-02-22-springCore_book_ 3.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 388.5
+    "width": 265.5041313171387
   },
   "right": {
     "id": "7b797cdaf6a2516c",
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring/Book_Spring_Core_Guide/2024-02-17-springCore_book_2.md",
+                "file": "Spring/Book_Spring_Core_Guide/2024-02-22-springCore_book_ 3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring/Book_Spring_Core_Guide/2024-02-17-springCore_book_2.md",
+                "file": "Spring/Book_Spring_Core_Guide/2024-02-22-springCore_book_ 3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring/Book_Spring_Core_Guide/2024-02-17-springCore_book_2.md"
+                "file": "Spring/Book_Spring_Core_Guide/2024-02-22-springCore_book_ 3.md"
               }
             }
           },
@@ -150,7 +150,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 225.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -165,8 +165,8 @@
   },
   "active": "ace4b61cd3db3f0c",
   "lastOpenFiles": [
-    "Spring/Book_Spring_Core_Guide/springCore_book_ 3.md",
     "Spring/Book_Spring_Core_Guide/2024-02-17-springCore_book_2.md",
+    "Spring/Book_Spring_Core_Guide/2024-02-22-springCore_book_ 3.md",
     "CS/Network/temp 1 1.md",
     "CS/Network/temp 1.md",
     "CS/Computer Structure/CS_note_temp.md",
