@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ace4b61cd3db3f0c",
+            "id": "304b488b5a5a9edd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/Book_Spring_Core_Guide/2024-02-22-springCore_book_ 3.md",
+                "file": "Spring/Book_Spring_Core_Guide/2024-03-04-springCore_book_4.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring/Book_Spring_Core_Guide/2024-02-22-springCore_book_ 3.md",
+                "file": "Spring/Book_Spring_Core_Guide/2024-03-04-springCore_book_4.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring/Book_Spring_Core_Guide/2024-02-22-springCore_book_ 3.md",
+                "file": "Spring/Book_Spring_Core_Guide/2024-03-04-springCore_book_4.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring/Book_Spring_Core_Guide/2024-02-22-springCore_book_ 3.md"
+                "file": "Spring/Book_Spring_Core_Guide/2024-03-04-springCore_book_4.md"
               }
             }
           },
@@ -163,16 +163,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "ace4b61cd3db3f0c",
+  "active": "304b488b5a5a9edd",
   "lastOpenFiles": [
-    "Spring/Book_Spring_Core_Guide/2024-02-17-springCore_book_2.md",
     "Spring/Book_Spring_Core_Guide/2024-02-22-springCore_book_ 3.md",
+    "Spring/Book_Spring_Core_Guide/2024-02-13-springCore_book_1.md",
+    "Spring/Book_Spring_Core_Guide/2024-02-17-springCore_book_2.md",
+    "Spring/Book_Spring_Core_Guide/2024-03-04-springCore_book_4.md",
+    "Spring/Book_Spring_Core_Guide/springCore_book_.md",
     "CS/Network/temp 1 1.md",
     "CS/Network/temp 1.md",
     "CS/Computer Structure/CS_note_temp.md",
     "CS/Computer Structure/CS 1 1.md",
-    "Spring/Book_Spring_Core_Guide/springCore_book_.md",
-    "Spring/Book_Spring_Core_Guide/2024-02-13-springCore_book_1.md",
     "Django/Django/U_DJango4_Ecommerce/Section7_8_9_10_11/Section10-Cart functionaility Delete and Update/2023-05-09-Update the cart summary template.md",
     "Django/Django/U_DJango4_Ecommerce/Section6_Templates_URL_Views/5)Upgrade Option/2023-05-06-Control option button.md",
     "Django/Django/U_DJango4_Ecommerce/Section7_8_9_10_11/Section7-Cart functionality - Initial build up/2023-05-07-Cart functionality - Initial build up.md",
@@ -191,7 +192,6 @@
     "Spring/Chad_Spring_udemy/Section1_QuckStart/Actuator/2023-03-17-Spring Boot Actuator.md",
     "Spring/Ranga_Spring_udemy/Ranga_Section2_Start_Spring/2023-04-15-Design Game Runner with Spring Boot (1).md",
     "Spring/BigTraffic/MySQL/2023-04-16-MySQL.md",
-    "Spring/Untitled.md",
     "Spring/Book_Spring_Core_Guide",
     "CS/Computer Structure",
     "DataStructure/Python/Python_DS/Tree",
