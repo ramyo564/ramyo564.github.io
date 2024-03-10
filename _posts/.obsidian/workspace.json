@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/Book_Spring_Core_Guide/2024-03-04-springCore_book_4.md",
+                "file": "Spring/Others/2024-03-07-intellij-1.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 265.5041313171387
+    "width": 384.5072326660156
   },
   "right": {
     "id": "7b797cdaf6a2516c",
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring/Book_Spring_Core_Guide/2024-03-04-springCore_book_4.md",
+                "file": "Spring/Others/2024-03-07-intellij-1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring/Book_Spring_Core_Guide/2024-03-04-springCore_book_4.md",
+                "file": "Spring/Others/2024-03-07-intellij-1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring/Book_Spring_Core_Guide/2024-03-04-springCore_book_4.md"
+                "file": "Spring/Others/2024-03-07-intellij-1.md"
               }
             }
           },
@@ -150,7 +150,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 225.5
+    "width": 321.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -165,11 +165,14 @@
   },
   "active": "304b488b5a5a9edd",
   "lastOpenFiles": [
-    "Spring/Book_Spring_Core_Guide/2024-02-22-springCore_book_ 3.md",
-    "Spring/Book_Spring_Core_Guide/2024-02-13-springCore_book_1.md",
-    "Spring/Book_Spring_Core_Guide/2024-02-17-springCore_book_2.md",
+    "Spring/Others/2023-03-16-@Autowired, @Resource and @Inject.md",
+    "Spring/Others/2024-03-07-intellij-1.md",
+    "Spring/Book_Spring_Core_Guide/springCore_book_5.md",
     "Spring/Book_Spring_Core_Guide/2024-03-04-springCore_book_4.md",
     "Spring/Book_Spring_Core_Guide/springCore_book_.md",
+    "Spring/Book_Spring_Core_Guide/2024-02-22-springCore_book_3.md",
+    "Spring/Book_Spring_Core_Guide/2024-02-13-springCore_book_1.md",
+    "Spring/Book_Spring_Core_Guide/2024-02-17-springCore_book_2.md",
     "CS/Network/temp 1 1.md",
     "CS/Network/temp 1.md",
     "CS/Computer Structure/CS_note_temp.md",
@@ -189,9 +192,6 @@
     "CS/Network/Protocol",
     "CS/Computer Structure/2023-12-24-CS_note_1.md",
     "CS/Computer Structure/2024-01-07-CS_note_2.md",
-    "Spring/Chad_Spring_udemy/Section1_QuckStart/Actuator/2023-03-17-Spring Boot Actuator.md",
-    "Spring/Ranga_Spring_udemy/Ranga_Section2_Start_Spring/2023-04-15-Design Game Runner with Spring Boot (1).md",
-    "Spring/BigTraffic/MySQL/2023-04-16-MySQL.md",
     "Spring/Book_Spring_Core_Guide",
     "CS/Computer Structure",
     "DataStructure/Python/Python_DS/Tree",
