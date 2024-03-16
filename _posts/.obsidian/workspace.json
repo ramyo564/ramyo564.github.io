@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/Others/2024-03-07-intellij-1.md",
+                "file": "Java/Basic/2024-03-16-Constructor.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 384.5072326660156
+    "width": 281.5072326660156
   },
   "right": {
     "id": "7b797cdaf6a2516c",
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring/Others/2024-03-07-intellij-1.md",
+                "file": "Java/Basic/2024-03-16-Constructor.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring/Others/2024-03-07-intellij-1.md",
+                "file": "Java/Basic/2024-03-16-Constructor.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring/Others/2024-03-07-intellij-1.md"
+                "file": "Java/Basic/2024-03-16-Constructor.md"
               }
             }
           },
@@ -165,8 +165,20 @@
   },
   "active": "304b488b5a5a9edd",
   "lastOpenFiles": [
-    "Spring/Others/2023-03-16-@Autowired, @Resource and @Inject.md",
+    "Java/Basic/Lamda.md",
+    "Java/Basic/2024-03-16-Constructor.md",
+    "Java/Basic/CollectionFramework.md",
+    "Java/Basic/Untitled.md",
+    "Java/Basic/class_and_object.md",
+    "Java/Basic/2024-03-15-Stream.md",
+    "Java/Basic/Abstract Method.md",
+    "Java/Basic/Polymorphism.md",
+    "Java/Basic/multiplication_table.md",
+    "Java/Basic/input_output.md",
+    "Java/Basic_Math/NumberOfCase.md",
+    "Java/Basic_Math/Combination.md",
     "Spring/Others/2024-03-07-intellij-1.md",
+    "Spring/Others/2023-03-16-@Autowired, @Resource and @Inject.md",
     "Spring/Book_Spring_Core_Guide/springCore_book_5.md",
     "Spring/Book_Spring_Core_Guide/2024-03-04-springCore_book_4.md",
     "Spring/Book_Spring_Core_Guide/springCore_book_.md",
@@ -179,19 +191,7 @@
     "CS/Computer Structure/CS 1 1.md",
     "Django/Django/U_DJango4_Ecommerce/Section7_8_9_10_11/Section10-Cart functionaility Delete and Update/2023-05-09-Update the cart summary template.md",
     "Django/Django/U_DJango4_Ecommerce/Section6_Templates_URL_Views/5)Upgrade Option/2023-05-06-Control option button.md",
-    "Django/Django/U_DJango4_Ecommerce/Section7_8_9_10_11/Section7-Cart functionality - Initial build up/2023-05-07-Cart functionality - Initial build up.md",
-    "Django/Django/U_DJango4_Ecommerce/Section7_8_9_10_11/Section8-Cart functionality - Sessions/2023-05-07-session.md",
-    "Django/Django/U_DJango4_Ecommerce/Section7_8_9_10_11/Section9-Cart functionality Add/2023-05-08-Cart functionality Add.md",
-    "Django/Django/U_DJango4_Ecommerce/Section7_8_9_10_11/Section11-Optimaize/2023-05-10-Cart summary template optimization.md",
-    "Django/Django/U_DJango4_Ecommerce/Section7_8_9_10_11/Section10-Cart functionaility Delete and Update/2023-05-10-Delete and Update  the cart summary template.md",
-    "Django/Django/U_DJango4_Ecommerce/Section6_Templates_URL_Views/2)Base page/2023-05-04-Creating a base page.md",
-    "Django/Django/U_DJango4_Ecommerce/Section6_Templates_URL_Views/4)Building the Category View/2023-05-06-Building View.md",
-    "Django/Django/U_DJango4_Ecommerce/Section6_Templates_URL_Views/3)Populating database/2023-05-05-Populating database.md",
-    "Django/Django/U_DJango4_Ecommerce/Section6_Templates_URL_Views/1)Configure URL View/2023-05-04-Basic templates.md",
-    "Django/Django/U_DJango4_Ecommerce/Section14/2023-05-12-password management.md",
     "CS/Network/Protocol",
-    "CS/Computer Structure/2023-12-24-CS_note_1.md",
-    "CS/Computer Structure/2024-01-07-CS_note_2.md",
     "Spring/Book_Spring_Core_Guide",
     "CS/Computer Structure",
     "DataStructure/Python/Python_DS/Tree",
