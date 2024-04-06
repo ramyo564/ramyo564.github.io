@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "53a67c6b72670518",
+        "id": "86be7d3dac8bb225",
         "type": "tabs",
         "children": [
           {
@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithm/programmers/Java/basic/2024-04-05-programmers_temp_1.md",
+                "file": "Algorithm/programmers/Java/basic/2024-04-06-programmers_temp_2.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 281.5072326660156,
-    "collapsed": true
+    "width": 281.5072326660156
   },
   "right": {
     "id": "7b797cdaf6a2516c",
@@ -94,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithm/programmers/Java/basic/2024-04-05-programmers_temp_1.md",
+                "file": "Algorithm/programmers/Java/basic/2024-04-06-programmers_temp_2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithm/programmers/Java/basic/2024-04-05-programmers_temp_1.md",
+                "file": "Algorithm/programmers/Java/basic/2024-04-06-programmers_temp_2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithm/programmers/Java/basic/2024-04-05-programmers_temp_1.md"
+                "file": "Algorithm/programmers/Java/basic/2024-04-06-programmers_temp_2.md"
               }
             }
           },
@@ -167,10 +166,14 @@
   },
   "active": "35726fd5171084e7",
   "lastOpenFiles": [
-    "Django/Django/U_DJango4_Ecommerce/Section4_Setup/2023-05-03-Django4 project setup.md",
+    "ZeroBase/temp 1.md",
+    "Pasted image 20240406200010.png",
     "Algorithm/programmers/Java/basic/2024-04-05-programmers_temp_1.md",
-    "Django/Django/U_DJango4_Ecommerce/Section7_8_9_10_11/Section7-Cart functionality - Initial build up/2023-05-07-Cart functionality - Initial build up.md",
+    "Pasted image 20240406200003.png",
+    "Algorithm/programmers/Java/basic/2024-04-06-programmers_temp_2.md",
     "Algorithm/programmers/Java/programmers_temp.md",
+    "Django/Django/U_DJango4_Ecommerce/Section4_Setup/2023-05-03-Django4 project setup.md",
+    "Django/Django/U_DJango4_Ecommerce/Section7_8_9_10_11/Section7-Cart functionality - Initial build up/2023-05-07-Cart functionality - Initial build up.md",
     "Algorithm/backjoon_number_ 1.md",
     "Algorithm/programmers/Java/basic/backjoon_number_ 1 1.md",
     "Algorithm/boj/basic/2023-11-20-noEven.md",
@@ -192,9 +195,6 @@
     "Java/Basic/Abstract Method.md",
     "Java/Basic/Polymorphism.md",
     "Java/Basic/multiplication_table.md",
-    "Java/Basic/input_output.md",
-    "Java/Basic_Math/NumberOfCase.md",
-    "Java/Basic_Math/Combination.md",
     "CS/Network/Protocol",
     "Spring/Book_Spring_Core_Guide",
     "CS/Computer Structure",
