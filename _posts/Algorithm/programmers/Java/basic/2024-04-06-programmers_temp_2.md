@@ -17,7 +17,7 @@ toc_sticky: true
 author_profile: false
 sidebar:
 ---
-https://school.programmers.co.kr/learn/courses/30/lessons/12915
+# https://school.programmers.co.kr/learn/courses/30/lessons/12915
 ## 문제
 
 [문제링크](https://school.programmers.co.kr/learn/courses/30/lessons/12915)
