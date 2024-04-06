@@ -17,10 +17,10 @@ toc_sticky: true
 author_profile: false
 sidebar:
 ---
-# https://school.programmers.co.kr/learn/courses/30/lessons/12915
-## 문제
+# 해시맵 문제
 
 [문제링크](https://school.programmers.co.kr/learn/courses/30/lessons/12915)
+
 ## 풀이 접근
 
 1. 주어진 배열에서 각 단어에서 인덱스 만큼 이동한 철자를 기준으로 정렬한다 -> sun, bed, car / 인덱스는 1 이라고 한다면 u,e,a 기준으로 단어를 정렬
