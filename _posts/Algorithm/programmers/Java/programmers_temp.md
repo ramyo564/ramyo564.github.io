@@ -11,8 +11,8 @@ toc_sticky: true
 author_profile: false
 sidebar:
 ---
-문제주소
-## 문제
+# 문제
+
 
 [문제링크](https://school.programmers.co.kr/learn/courses/30/lessons/12949)
 
