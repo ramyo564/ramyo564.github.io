@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithm/programmers/Java/basic/2024-04-10-programmers_temp_6.md",
+                "file": "Algorithm/programmers/Java/basic/2024-04-11-programmers_temp_7.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 333.5041313171387
+    "width": 436.5072326660156,
+    "collapsed": true
   },
   "right": {
     "id": "7b797cdaf6a2516c",
@@ -93,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithm/programmers/Java/basic/2024-04-10-programmers_temp_6.md",
+                "file": "Algorithm/programmers/Java/basic/2024-04-11-programmers_temp_7.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithm/programmers/Java/basic/2024-04-10-programmers_temp_6.md",
+                "file": "Algorithm/programmers/Java/basic/2024-04-11-programmers_temp_7.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithm/programmers/Java/basic/2024-04-10-programmers_temp_6.md"
+                "file": "Algorithm/programmers/Java/basic/2024-04-11-programmers_temp_7.md"
               }
             }
           },
@@ -164,52 +165,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "floating": {
-    "id": "7dcf91f977fa65a4",
-    "type": "floating",
-    "children": [
-      {
-        "id": "95409e86c0e122b3",
-        "type": "window",
-        "children": [
-          {
-            "id": "4440e4e9df0edeaf",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "35726fd5171084e7",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Algorithm/programmers/Java/basic/2024-04-07-programmers_temp_3.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 115,
-        "y": 82,
-        "width": 1019,
-        "height": 543,
-        "maximize": false,
-        "zoom": -1
-      }
-    ]
-  },
   "active": "aa0734f365cad1e4",
   "lastOpenFiles": [
     "Algorithm/programmers/Java/basic/2024-04-09-programmers_temp_5.md",
+    "Algorithm/programmers/Java/basic/2024-04-11-programmers_temp_7.md",
+    "Algorithm/programmers/Java/basic/2024-04-10-programmers_temp_6.md",
+    "Algorithm/programmers/Java/basic/programmers_temp 1.md",
+    "Spring/Project/Account-z/temp 2.md",
     "Algorithm/programmers/Java/basic/2024-04-08-programmers_temp_4.md",
     "Algorithm/programmers/Java/basic/2024-04-07-programmers_temp_3.md",
     "Algorithm/programmers/Java/basic/2024-04-06-programmers_temp_2.md",
     "Algorithm/programmers/Java/basic/2024-04-05-programmers_temp_1.md",
-    "Algorithm/programmers/Java/basic/2024-04-10-programmers_temp_6.md",
-    "Spring/Project/Account-z/temp 2.md",
     "Algorithm/programmers/Java/programmers_temp.md",
     "ZeroBase/temp.md",
     "ZeroBase/temp 1.md",
@@ -233,8 +199,6 @@
     "Spring/Chad_Spring_udemy/Section3_DatabaseAccessWithHibernate_JPA_CRUD/1) Hibernare_JPA_Overview/2023-03-29-Hibernate JPA Overview.md",
     "Java/Basic/2024-03-16-Constructor.md",
     "Java/Basic/Lamda.md",
-    "Java/Basic/CollectionFramework.md",
-    "Java/Basic/Untitled.md",
     "CS/Network/Protocol",
     "Spring/Book_Spring_Core_Guide",
     "CS/Computer Structure",

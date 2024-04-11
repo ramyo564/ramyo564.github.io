@@ -92,3 +92,15 @@ https://www.inflearn.com/questions/992358/websecuritycustomizer-%EC%99%80-securi
 
 
 https://stackoverflow.com/questions/53539728/how-to-validate-date-in-the-format-mm-dd-yyyy-in-spring-boot
+
+
+//일반적인 예외처리 ㄱㄱ  
+// https://velog.io/@gongmeda/Validation-%EC%98%88%EC%99%B8-%ED%95%B8%EB%93%A4%EB%9F%AC%EB%A1%9C-%EC%9D%91%EB%8B%B5-%ED%8F%AC%EB%A7%B7-%EC%88%98%EC%A0%95%ED%95%98%EA%B8%B0
+
+
+
+```
+jakarta.servlet.ServletException: Handler dispatch failed: java.lang.NoClassDefFoundError: javax/xml/bind/DatatypeConverter
+```
+
+https://devthriver.tistory.com/13
