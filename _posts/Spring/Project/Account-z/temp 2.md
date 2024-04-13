@@ -104,3 +104,17 @@ jakarta.servlet.ServletException: Handler dispatch failed: java.lang.NoClassDefF
 ```
 
 https://devthriver.tistory.com/13
+
+
+## csrf 문제
+
+403 
+https://sedangdang.tistory.com/303
+
+dependencies {
+    testImplementation 'org.springframework.security:spring-security-test'
+}
+
+![](https://i.imgur.com/k7gAIg3.png)
+
+401 에러
