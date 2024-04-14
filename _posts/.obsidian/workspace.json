@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "b1282ae648ce9fff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithm/programmers/Java/basic/2024-04-13-programmers_temp_11.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -77,7 +90,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 340.5072326660156
+    "width": 376.5072326660156
   },
   "right": {
     "id": "7b797cdaf6a2516c",
@@ -93,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithm/programmers/Java/basic/2024-04-13-programmers_temp_10.md",
+                "file": "Algorithm/programmers/Java/basic/2024-04-13-programmers_temp_11.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithm/programmers/Java/basic/2024-04-13-programmers_temp_10.md",
+                "file": "Algorithm/programmers/Java/basic/2024-04-13-programmers_temp_11.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithm/programmers/Java/basic/2024-04-13-programmers_temp_10.md"
+                "file": "Algorithm/programmers/Java/basic/2024-04-13-programmers_temp_11.md"
               }
             }
           },
@@ -164,11 +177,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "aa0734f365cad1e4",
+  "active": "b1282ae648ce9fff",
   "lastOpenFiles": [
-    "Algorithm/programmers/Java/basic/2024-04-12-programmers_temp_9.md",
-    "Algorithm/programmers/Java/basic/2024-04-13-programmers_temp_10.md",
     "Spring/Project/Account-z/temp 2.md",
+    "Algorithm/programmers/Java/basic/2024-04-13-programmers_temp_11.md",
+    "Algorithm/programmers/Java/basic/2024-04-13-programmers_temp_10.md",
+    "Algorithm/programmers/Java/basic/2024-04-12-programmers_temp_9.md",
     "ZeroBase/temp 1.md",
     "Algorithm/programmers/Java/basic/2024-04-11-programmers_temp_7.md",
     "Algorithm/programmers/Java/basic/2024-04-11-programmers_temp_8.md",
@@ -197,7 +211,6 @@
     "CS/Operating Systems/2023-11-11-system_structure_and_program_execution_2.md",
     "CS/Database/View concept/2023-10-24-view.md",
     "CS/Database/basic/2023-10-13-basic_database_concept.md",
-    "Spring/Chad_Spring_udemy/Section3_DatabaseAccessWithHibernate_JPA_CRUD/8) Deleteing Objects with JPA/2023-03-30-Deleteing Objects with JPA.md",
     "CS/Network/Protocol",
     "Spring/Book_Spring_Core_Guide",
     "CS/Computer Structure",

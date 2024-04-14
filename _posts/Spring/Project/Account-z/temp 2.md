@@ -117,4 +117,9 @@ dependencies {
 
 ![](https://i.imgur.com/k7gAIg3.png)
 
-401 에러
+401 에러 
+
+## 테스트 코드
+모르는게 너무 많음 ㅜ 테스트코드 이것도 좀 정리해놔야함
+https://velog.io/@jkijki12/Spring-MockMvc
+https://everydayyy.tistory.com/103
