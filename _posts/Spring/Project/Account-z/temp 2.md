@@ -123,3 +123,9 @@ dependencies {
 모르는게 너무 많음 ㅜ 테스트코드 이것도 좀 정리해놔야함
 https://velog.io/@jkijki12/Spring-MockMvc
 https://everydayyy.tistory.com/103
+
+
+## 토근 근데도 403
+
+role 권한 부여 jwt 필터에서 걸러져도 권한승인이 없음
+permit all 에서 변경
