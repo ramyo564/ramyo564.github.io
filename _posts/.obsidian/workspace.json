@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithm/programmers/Java/basic/2024-04-15-programmers_temp_12.md",
+                "file": "Algorithm/programmers/Java/basic/2024-04-16-programmers_temp_13.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 376.5072326660156
+    "width": 376.5072326660156,
+    "collapsed": true
   },
   "right": {
     "id": "7b797cdaf6a2516c",
@@ -93,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithm/programmers/Java/basic/2024-04-15-programmers_temp_12.md",
+                "file": "Algorithm/programmers/Java/basic/2024-04-16-programmers_temp_13.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithm/programmers/Java/basic/2024-04-15-programmers_temp_12.md",
+                "file": "Algorithm/programmers/Java/basic/2024-04-16-programmers_temp_13.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithm/programmers/Java/basic/2024-04-15-programmers_temp_12.md"
+                "file": "Algorithm/programmers/Java/basic/2024-04-16-programmers_temp_13.md"
               }
             }
           },
@@ -166,11 +167,12 @@
   },
   "active": "b1282ae648ce9fff",
   "lastOpenFiles": [
-    "Algorithm/programmers/Java/basic/programmers_temp_13.md",
+    "Algorithm/programmers/Java/basic/programmers_temp_14.md",
+    "Algorithm/programmers/Java/basic/2024-04-16-programmers_temp_13.md",
     "Algorithm/programmers/Java/basic/2024-04-15-programmers_temp_12.md",
+    "Spring/Project/Account-z/temp 2.md",
     "Algorithm/programmers/Java/basic/2024-04-13-programmers_temp_11.md",
     "Algorithm/programmers/Java/basic/2024-04-13-programmers_temp_10.md",
-    "Spring/Project/Account-z/temp 2.md",
     "Algorithm/programmers/Java/basic/2024-04-12-programmers_temp_9.md",
     "ZeroBase/temp 1.md",
     "Algorithm/programmers/Java/basic/2024-04-11-programmers_temp_7.md",
@@ -197,7 +199,6 @@
     "Algorithm/boj/basic/2023-11-20-noEven.md",
     "Algorithm/programmers/Java/basic",
     "Algorithm/programmers/Java",
-    "CS/Operating Systems/2023-11-11-system_structure_and_program_execution_2.md",
     "CS/Network/Protocol",
     "Spring/Book_Spring_Core_Guide",
     "CS/Computer Structure",

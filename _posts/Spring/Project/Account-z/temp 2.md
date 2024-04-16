@@ -129,3 +129,6 @@ https://everydayyy.tistory.com/103
 
 role 권한 부여 jwt 필터에서 걸러져도 권한승인이 없음
 permit all 에서 변경
+
+
+## equals and hashcode
