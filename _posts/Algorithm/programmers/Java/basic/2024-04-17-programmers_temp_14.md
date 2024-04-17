@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "[알고리즘] 연속된 부분 수열의 합"
+title: "[알고리즘] 전력망을 둘로 나누기"
 categories: Algo
 tags:
   - Java
