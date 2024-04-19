@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "[알고리즘] 신고 결과 받기"
+title: "[알고리즘] 공원 산책"
 categories: Algo
 tags:
   - Java
@@ -17,9 +17,9 @@ toc_sticky: true
 author_profile: false
 sidebar:
 ---
-# 해시셋 문제
+# 문제
 
-[문제링크](https://school.programmers.co.kr/learn/courses/30/lessons/150370?language=java)
+[문제링크](https://school.programmers.co.kr/learn/courses/30/lessons/172928)
 
 ## 풀이 접근
 

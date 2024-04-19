@@ -311,3 +311,48 @@ The `[@WithMockUser](http://twitter.com/WithMockUser)` annotation from Spring Se
 [[Spring Security] 스프링 시큐리티를 적용하고 예외가 발생했을 때 403 Forbidden이 발생하는 원인과 처리 방안 (tistory.com)](https://colabear754.tistory.com/182)
 
 https://velog.io/@shwncho/Spring-security-6-Controller-test-403-Forbidden-%EC%97%90%EB%9F%ACfeat.-csrf
+
+JWT 토큰
+https://csy7792.tistory.com/177
+
+![](https://i.imgur.com/UL2pYcJ.png)
+
+https://wonit.tistory.com/631
+스테틱 메서드는 재정의가 불가능!
+[[Spring] ❌ Static 메소드를 모킹하지 말자 (velog.io)](https://velog.io/@betterfuture4/Static-%EB%A9%94%EC%86%8C%EB%93%9C%EB%A5%BC-mocking%ED%95%98%EC%A7%80-%EB%A7%90%EC%9E%90-feat.-LocalDate.nowclock)
+
+static이 아니라 컴포넌트로 해결
+
+
+## 토큰 예외처리
+object 매퍼로처리하면 해결됨 -> 안됌!
+
+![](https://i.imgur.com/dpzDNX8.png)
+
+https://wonowdaily.tistory.com/75
+
+
+https://jhkimmm.tistory.com/29
+
+
+DTO 사용이유
+https://velog.io/@witwint/Spring-DTO%EC%9D%98-%EC%82%AC%EC%9A%A9%EC%9D%B4%EC%9C%A0
+
+
+
+--------------------------------------------------------
+
+금요일 5시까지 트러블 슈팅써야함
+
+스웨거 쓸지말지
+
+늦어도 수요일까지는 리뷰 요청해야함 -> 늦어도 화요일 -> 
+어떤 프로젝트 만들고 어떤 기능을 만들려고한다 초안 완성되고 꼭 확인받기
+보통 4번 한다고 함 -> 빠르게 실패하자
+
+기획먼저 -> 피드백 받고 erd 작성
+
+슬랙 -> 디스코드? -> 글 정리하기
+
+
+
