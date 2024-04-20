@@ -356,3 +356,8 @@ https://velog.io/@witwint/Spring-DTO%EC%9D%98-%EC%82%AC%EC%9A%A9%EC%9D%B4%EC%9C%
 
 
 
+100만원이 넘을경우 호출을 다르게 어떻게 하지?
+
+
+
+
