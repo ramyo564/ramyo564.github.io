@@ -89,4 +89,6 @@ class Solution {
 ![](https://i.imgur.com/jvIYXev.png)
 
 
+## 정리
 
+1. 구현 문제가 생각보다 어려운데 자바에서 사용하는 기능을 최대한 머리 굴려서 잘 사용해야한다.
