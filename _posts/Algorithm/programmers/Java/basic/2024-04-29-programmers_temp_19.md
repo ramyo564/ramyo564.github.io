@@ -19,7 +19,7 @@ sidebar:
 ---
 # 문제
 
-[문제링크](https://hyunipad.tistory.com/103)
+[문제링크](https://www.acmicpc.net/problem/1018)
 
 ## 풀이 접근
 
