@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "[알고리즘]"
+title: "[알고리즘] 완주하지 못한 선수"
 categories: Algo
 tags:
   - Java
