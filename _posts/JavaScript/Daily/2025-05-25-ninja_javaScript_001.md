@@ -182,6 +182,7 @@ function postsReducer(state = initialState, action) {
 }
 ```
 
+## 🔥출처
 
-출처 : https://academind.com/tutorials/reference-vs-primitive-values
-출처 : https://redux.js.org/usage/structuring-reducers/immutable-update-patterns#immutable-update-patterns
+- [Reference vs Primitive Values - Academind](https://academind.com/tutorials/reference-vs-primitive-values) 
+- [Immutable Update Patterns - Redux](https://redux.js.org/usage/structuring-reducers/immutable-update-patterns)
