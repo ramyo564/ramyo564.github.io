@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript/Daily/2025-05-25-ninja_javaScript_001.md",
+                "file": "Daily/2025-05-14-daily_2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-05-25-ninja_javaScript_001"
+              "title": "2025-05-14-daily_2"
             }
           }
         ]
@@ -150,13 +150,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JavaScript/Daily/2025-05-25-ninja_javaScript_001.md",
+                "file": "Daily/2025-05-14-daily_2.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2025-05-25-ninja_javaScript_001"
+              "title": "Outline of 2025-05-14-daily_2"
             }
           },
           {
@@ -189,14 +189,19 @@
   },
   "active": "b80331bb200f7a3e",
   "lastOpenFiles": [
-    "JavaScript/Daily/2025-05-25-ninja_javaScript_001.md",
-    "CS/Network/temp 2.md",
+    "Daily/2025-05-14-daily_1.md",
+    "Daily/2025-05-14-daily_2.md",
+    "Java/Daily/2025-05-25-ninja_java_002.md",
+    "Daily",
+    "Java/2023-04-24-Generic.md",
     "Java/Daily/2025-05-25-ninja_java_001.md",
+    "Java/Daily/template 1.md",
+    "JavaScript/Daily/2025-05-25-ninja_javaScript_001.md",
     "JavaScript/Daily/template 1.md",
+    "CS/Network/temp 2.md",
     "JavaScript/template 1.md",
     "JavaScript/Daily",
     "Java/template.md",
-    "Java/2023-04-24-Generic.md",
     "JavaScript",
     "Spring/Book_Spring_Core_Guide/2024-02-22-springCore_book_3.md",
     "DeepLearning/ch2_퍼셉트론/2023-03-25-Perceptron.md",
@@ -216,17 +221,12 @@
     "Algorithm/programmers/Java/basic_2/2024-05-04-programmers_temp_29.md",
     "Algorithm/programmers/Java/basic_2/2024-05-09-programmers_temp_30.md",
     "Algorithm/programmers/Java/basic_2/programmers_temp_.md",
-    "Algorithm/programmers/Java/basic_2/2024-05-01-programmers_temp_24.md",
-    "Algorithm/programmers/Java/basic/2024-04-19-programmers_temp_16.md",
-    "Spring/Project/Hoops/-hoops.md",
-    "Spring/Project/Account-z/temp 2.md",
     "Spring/Project/Hoops",
     "Algorithm/programmers/Java/basic_2",
     "Spring/Project/Account-z",
     "Spring/Project",
     "Pasted image 20240406200010.png",
     "Pasted image 20240406200003.png",
-    "Algorithm/programmers/Java/basic",
     "Pasted image 20231013142040.png"
   ]
 }
